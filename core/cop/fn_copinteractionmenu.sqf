@@ -93,6 +93,6 @@ _Btn9 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_revokeLicense;";
 if(FETCH_CONST(life_coplevel) < _seizeRank) then {_Btn8 ctrlEnable false;};
 
 //Check that you are near a place to jail them.
-if(!((player distance (getMarkerPos "police_jail_1") < 50) OR  (player distance (getMarkerPos "police_hq_22") < 30) OR (player distance (getMarkerPos "cop_spawn_32") < 30) OR (player distance (getMarkerPos "cop_spawn_42") < 30) OR (player distance (getMarkerPos "cop_spawn_52") < 30) OR (player distance (getMarkerPos "cop_spawn_62") < 30) OR (player distance (getMarkerPos "cop_spawn_72") < 30))) then  {
+if(!((player distance (getMarkerPos "police_jail_1") < 50) OR  (player distance (getMarkerPos "police_hq_1") < 30) OR (player distance (getMarkerPos "police_hq_2") < 30) OR (player distance (getMarkerPos "police_hq_4") < 30) OR (player distance (getMarkerPos "cop_spawn_1") < 30) OR (player distance (getMarkerPos "cop_spawn_4") < 30) OR (player distance (getMarkerPos "cop_spawn_3") < 30))) then  {
 	_Btn6 ctrlEnable false;
 };
