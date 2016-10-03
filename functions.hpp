@@ -508,6 +508,7 @@ class Ausweis
 		class craft_update {};
 		class craft_updateFilter {};
 		class money {};
+		class revokeLicense {};
 	};
 
 	class Shops	{
