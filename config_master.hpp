@@ -111,8 +111,9 @@ class Life_Settings {
     bank_civ = 5000; //Amount of cash in bank for new civillians
     bank_med = 5000; //Amount of cash in bank for new medics
     bank_adac = 10000; //Amount of cash in bank for new medics
-
-    paycheck_cop = 300; //Payment for cops
+	
+	// Gehaltsanpassung für Cops, da Tickets nicht mehr auf das Polizeikonto gehen
+    paycheck_cop = 1000; //Payment for cops 
     paycheck_civ = 60; //Payment for civillians
     paycheck_med = 200; //Payment for medics
     paycheck_adac = 100; //Payment for medics
