@@ -181,7 +181,7 @@ class Life_Settings {
         {"STR_Crime_487","9500","487"},
         {"STR_Crime_488","4000","488"},
         {"STR_Crime_480","7000","480"},
-        {"STR_Crime_481","7500","481"},
+     //   {"STR_Crime_481","7500","481"}, // Drogenbesitz - auskommentiert bis die automatische Zuteilung gefixt ist.
         {"STR_Crime_482","6500","482"},
         {"STR_Crime_483","11500","483"},
         {"STR_Crime_459","9500","459"},
