@@ -10670,7 +10670,7 @@
 		<Original>You cannot retrieve an item that is in your inventory already!</Original>
 	</Key>
 	</Package>
-	<Package name="Customs">
+	<Package name="Revoke_License">
 	 <Key ID="STR_pInAct_RevokeLicense">
 		<Orignal>Lizenzen entziehen</Orignal>
 	 </Key>
