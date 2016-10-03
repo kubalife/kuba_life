@@ -543,9 +543,11 @@ class CarShops {
     class cop_ship {
         side = "cop";
         vehicles[] = {
-			{ "C_Rubberboat", { "", "", -1 } },
-			{ "C_Boat_Civil_01_police_F", { "", "", -1 } }			
-        };
+			{ "C_Boat_Civil_01_police_F", { "life_coplevel", "SCALAR", 2 } },
+			{ "I_C_Boat_Transport_02_F", { "life_coplevel", "SCALAR", 2 } },
+			{ "CUP_B_Zodiac_USMC", { "life_coplevel", "SCALAR", 2 } }
+        };		
+     
     };
 	
     class adac {
