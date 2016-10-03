@@ -543,7 +543,8 @@ class CarShops {
     class cop_ship {
         side = "cop";
         vehicles[] = {
-
+			{ "C_Rubberboat", { "", "", -1 } },
+			{ "C_Boat_Civil_01_police_F", { "", "", -1 } }			
         };
     };
 	
