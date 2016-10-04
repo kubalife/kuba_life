@@ -107,7 +107,7 @@ if(life_inv_knife > 0) then
 //gag player
 if((_curTarget GVAR["gagged",false])) then {
 	_Btn7 ctrlSetText localize "STR_pInAct_gag";
-	_Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_gagAction; [life_pInact_curTarget] call life_fnc_civInteractionMenu;";
+	_Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_gagAction; closeDialog 0;";
 } else {
 	_Btn7 ctrlSetText localize "STR_pInAct_gagdel";
 	_Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_removeGagAction; closeDialog 0;";
@@ -118,6 +118,15 @@ if((_curTarget GVAR["masked",false])) then {
 } else {
 	_Btn8 ctrlSetText localize "Augenbinde abnehmen";
 	_Btn8 buttonSetAction "[life_pInact_curTarget] call life_fnc_unmaskaction; closeDialog 0;";
+};
+
+if((_curTarget GVAR ["restrained",false])) then
+{
+    _Btn7 ctrlEnable false;
+	_Btn8 ctrlEnable false;
+} else {
+    _Btn7 ctrlEnable true;
+	_Btn8 ctrlEnable true;
 };
 
 
