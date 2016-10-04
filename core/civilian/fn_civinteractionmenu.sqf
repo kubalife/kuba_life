@@ -112,4 +112,12 @@ if((_curTarget GVAR["gagged",false])) then {
 	_Btn7 ctrlSetText localize "STR_pInAct_gagdel";
 	_Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_removeGagAction; closeDialog 0;";
 };
-_Btn8 ctrlShow false;
+if((_curTarget GVAR["masked",false])) then {
+	_Btn8 ctrlSetText "Augenbinde anlegen";
+	_Btn8 buttonSetAction "[life_pInact_curTarget] call life_fnc_maskaction; closeDialog 0;";
+} else {
+	_Btn8 ctrlSetText localize "Augenbinde abnehmen";
+	_Btn8 buttonSetAction "[life_pInact_curTarget] call life_fnc_unmaskaction; closeDialog 0;";
+};
+
+
