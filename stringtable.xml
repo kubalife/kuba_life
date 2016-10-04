@@ -10696,4 +10696,25 @@
 		<Original>Alle deine Fahrlizenzen wurde von der Polizei beschlagnahmt!</Original>
 	 </Key>
 	</Package>
+	<Package name="Gagkit">
+		<Key ID="STR_Item_GagKit">
+			<Original>Gag Kit</Original>
+			<German>Knebel Bausatz</German>
+			<French>Kit de baillonement</French>
+		</Key>
+		<Key ID="STR_pInAct_gag">
+			<Original>Mund knebeln</Original>
+			<German>Mund knebeln</German>
+			<French>Déposer pour le gang</French>
+			<Italian>Deposita alla Gang</Italian>
+			<Portuguese>Depositar para a Gangue</Portuguese>
+		</Key>
+		<Key ID="STR_pInAct_gagdel">
+			<Original>Knebel entfernen</Original>
+			<German>Knebel entfernen</German>
+			<French>Déposer pour le gang</French>
+			<Italian>Deposita alla Gang</Italian>
+			<Portuguese>Depositar para a Gangue</Portuguese>
+		</Key>
+	</Package>
 </Project>

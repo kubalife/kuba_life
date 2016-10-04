@@ -103,6 +103,13 @@ if(life_inv_knife > 0) then
     _Btn6 ctrlEnable false;
 };
 //Button 7 - undefined
-_Btn7 ctrlShow false;
-
+//_Btn7 ctrlShow false;
+//gag player
+if((_curTarget GVAR["gagged",false])) then {
+	_Btn7 ctrlSetText localize "STR_pInAct_gag";
+	_Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_gagAction; [life_pInact_curTarget] call life_fnc_civInteractionMenu;";
+} else {
+	_Btn7 ctrlSetText localize "STR_pInAct_gagdel";
+	_Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_removeGagAction; closeDialog 0;";
+};
 _Btn8 ctrlShow false;

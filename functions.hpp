@@ -102,6 +102,9 @@ class Ausweis
 		class unmask {};
 		class robShops {};
 		class barriers {};
+		class gagAction {};
+		class gagged {};
+		class removeGagAction {};
 	};
 
 	class vAH

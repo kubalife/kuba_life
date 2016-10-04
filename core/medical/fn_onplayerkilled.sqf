@@ -33,6 +33,7 @@ _unit SVAR ["masked",false,true];
 _unit SVAR ["transporting",false,true];
 _unit SVAR ["playerSurrender",false,true];
 _unit SVAR ["steam64id",(getPlayerUID player),true]; //Set the UID.
+_unit SVAR ["tf_unable_to_use_radio", false]; // Funkgerät freischalten
 
 //Setup our camera view
 life_deathCamera  = "CAMERA" camCreate (getPosATL _unit);
