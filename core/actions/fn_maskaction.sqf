@@ -9,4 +9,4 @@ params [
 
 _unit setVariable["masked",true,true];
 [player] remoteExecCall ["life_fnc_masked",_unit];
-hint "Augenbinde wurde angelegt, der Spieler sieht nichts mehr!";
+hint "Du hast dem Spieler einen Sack über den Kopf gestülpt!";
