@@ -11,7 +11,7 @@ _markersMedecin = [];
 _units = [];
 _medics = [];
 
-sleep 0.25;
+sleep 0.5;
 if(visibleMap) then {
 	{if("ItemGPS" in assigneditems _x && side _x == independent) then {_medics pushBack _x;}} foreach playableUnits; //Abfrage ob GPS ausgerüstet und SPielerseite = West (Cops) 
 	{
@@ -23,14 +23,12 @@ if(visibleMap) then {
 	} forEach allDeadMen;
 
 	{
-		if(_x != player) then {
-			_markerss = createMarkerLocal [format["%1_marker",_x],visiblePosition _x];
-			_markerss setMarkerColorLocal "ColorIndependent";
-			_markerss setMarkerTypeLocal "Mil_dot";
-			_markerss setMarkerTextLocal format["%1", _x getVariable["realname",name _x]];
+		_markerss = createMarkerLocal [format["%1_marker",_x],visiblePosition _x];
+		_markerss setMarkerColorLocal "ColorIndependent";
+		_markerss setMarkerTypeLocal "Mil_dot";
+		_markerss setMarkerTextLocal format["%1", _x getVariable["realname",name _x]];
+		_markersMedecin pushBack [_markerss,_x];
 
-			_markersMedecin pushBack [_markerss,_x];
-		};
 	} forEach _medics;
 
 	//Loop through and create markers.

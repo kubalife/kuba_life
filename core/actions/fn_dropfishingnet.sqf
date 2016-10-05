@@ -7,7 +7,7 @@
 */
 private["_fish","_type","_typeName"];
 if(!(vehicle player isKindOf "Ship")) exitWith {};
-_fish = (nearestObjects[getPos vehicle player,["Fish_Base_F"],20]);
+_fish = (nearestObjects[getPos vehicle player,["Fish_Base_F"],30]);
 life_net_dropped = true;
 titleText[localize "STR_NOTF_NetDrop","PLAIN"];
 sleep 5;
