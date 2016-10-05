@@ -7,7 +7,7 @@ StartProgress = false;
 //[] execVM "Custom\gas\teargasGL.sqf";
 //[] execVM "Custom\lift\init.sqf";
 [] execVM "effect.sqf";
-[] execVM "playerMarker.sqf";
+//[] execVM "playerMarker.sqf";
 [] execVM "custom\acd_TB\run.sqf";
 disableRemoteSensors true;
 

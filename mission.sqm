@@ -42073,7 +42073,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_Process_zucker"",life_fnc_processAction,""zucker"",0,false,false,"""",' life_inv_zuckerrohr > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""iron"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""zucker"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""zucker"",0,false,false,"""",' !license_civ_zucker && playerSide == civilian '];";
+				init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_Process_zucker"",life_fnc_processAction,""zucker"",0,false,false,"""",' life_inv_zuckerrohr > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""zucker"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""zucker"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""zucker"",0,false,false,"""",' !license_civ_zucker && playerSide == civilian '];";
 			};
 			id=11758;
 			type="Land_Device_disassembled_F";
