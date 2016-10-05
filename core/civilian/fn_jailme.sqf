@@ -56,7 +56,7 @@ switch (true) do {
 		life_bail_paid = false;
 		hint localize "STR_Jail_Paid";
 		serv_wanted_remove = [player];
-		player setPos (getMarkerPos "jail_release");
+		player setPos (getMarkerPos "jail_marker");
 
 		if(life_HC_isActive) then {
 			[getPlayerUID player] remoteExecCall ["HC_fnc_wantedRemove",HC_Life];
@@ -91,7 +91,7 @@ switch (true) do {
 			[getPlayerUID player] remoteExecCall ["life_fnc_wantedRemove",RSERV];
 		};
 
-		player setPos (getMarkerPos "jail_release");
+		player setPos (getMarkerPos "jail_marker");
 		[5] call SOCK_fnc_updatePartial;
 	};
 };
