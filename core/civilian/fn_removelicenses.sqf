@@ -22,8 +22,8 @@ switch (_state) do {
 	//Jail licenses
 	case 1: {
 		SVAR_MNS [LICENSE_VARNAME("gun","civ"),false];
-		SVAR_MNS [LICENSE_VARNAME("driver","civ"),false];
-		SVAR_MNS [LICENSE_VARNAME("rebel","civ"),false];
+		//SVAR_MNS [LICENSE_VARNAME("driver","civ"),false];
+		//SVAR_MNS [LICENSE_VARNAME("rebel","civ"),false];
 	};
 
 	//Remove motor vehicle licenses
@@ -44,6 +44,14 @@ switch (_state) do {
 			hint localize "STR_Civ_LicenseRemove_2";
 		};
 	};
+	
+	// Jail über 30 Minuten
+	case 4: {
+		SVAR_MNS [LICENSE_VARNAME("gun","civ"),false];
+		//SVAR_MNS [LICENSE_VARNAME("driver","civ"),false];
+		SVAR_MNS [LICENSE_VARNAME("rebel","civ"),false];
+	};
+	
 	// Revoking Licenses
  
 	 // Führerschein Lizenz
