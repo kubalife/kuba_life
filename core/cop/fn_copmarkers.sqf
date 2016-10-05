@@ -11,8 +11,8 @@ _cops = [];
 
 sleep 0.5;
 if(visibleMap) then {
-	if(visibleMap && "ItemGPS" in (assignedItems player)) then {   //Habe ich ein GPS?
-		{if("ItemGPS" in assigneditems _x && side _x == west) then {_cops pushBack _x;}} foreach playableUnits; //Abfrage ob GPS ausgerüstet und SPielerseite = West (Cops) 
+	if(visibleMap && ("ItemGPS" in (assignedItems player) || "B_UavTerminal" in (assignedItems player))) then {   //Habe ich ein GPS?
+		{if(("ItemGPS" in assigneditems _x || "B_UavTerminal" in (assignedItems _x)) && side _x == west) then {_cops pushBack _x;}} foreach playableUnits; //Abfrage ob GPS ausgerüstet und SPielerseite = West (Cops) 
 
 		//Create markers
 		{
