@@ -44,6 +44,8 @@ switch (_state) do {
 			hint localize "STR_Civ_LicenseRemove_2";
 		};
 	};
+<<<<<<< HEAD
+=======
 	
 	// Jail über 30 Minuten
 	case 4: {
@@ -52,6 +54,7 @@ switch (_state) do {
 		SVAR_MNS [LICENSE_VARNAME("rebel","civ"),false];
 	};
 	
+>>>>>>> origin/master
 	// Revoking Licenses
  
 	 // Führerschein Lizenz
