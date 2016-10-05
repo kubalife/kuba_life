@@ -45,7 +45,7 @@ class WeaponShops {
             { "acc_flashlight", "", 100 }
         };
     };
- 
+
     class donator1 {
         name = "Nicht gewollt";
         side = "civ";
@@ -73,7 +73,7 @@ class WeaponShops {
         accs[] = {
         };
     };
- 
+
     class donator3 {
         name = "Nicht gewollt";
         side = "civ";
@@ -87,7 +87,7 @@ class WeaponShops {
         accs[] = {
         };
     };
- 
+
     class rebel {
         name = "Almador's Waffenladen";
         side = "civ";
@@ -139,7 +139,7 @@ class WeaponShops {
             { "acc_flashlight", "", 100 }
         };
     };
- 
+
     class gang {
         name = "Gangversteck Waffenladen";
         side = "civ";
@@ -170,7 +170,7 @@ class WeaponShops {
             { "acc_flashlight", "", 100 }
         };
     };
- 
+
     class bandit {
         name = "Banditen Waffenladen";
         side = "civ";
@@ -201,7 +201,7 @@ class WeaponShops {
             { "acc_flashlight", "", 100 }
         };
     };
-   
+
     //Basic Shops
     class genstore {
         name = "Kubanische Werkzeuge";
@@ -239,7 +239,7 @@ class WeaponShops {
         mags[] = {};
         accs[] = {};
     };
- 
+
     class f_station_store {
         name = "Kuba Fuel Shop";
         side = "";
@@ -272,7 +272,7 @@ class WeaponShops {
         mags[] = {};
         accs[] = {};
     };
- 
+
     //Cop Shops
     class cop_basic {
         name = "Policia Weapon Shop";
@@ -324,6 +324,7 @@ class WeaponShops {
             { "ACE_elasticBandage", "", 0, 0,"" },
             { "ACE_packingBandage", "", 0, 0,"" },
             {""},
+            { "SmokeShell", "", 0, 0,"" },
             { "ACE_HandFlare_White", "", 0, 0,"" },
             { "ACE_HandFlare_Red", "", 0, 0,"" },
             { "ACE_HandFlare_Green", "", 0, 0,"" },
@@ -391,7 +392,7 @@ class WeaponShops {
             { "acc_flashlight", "", 750 }
         };
     };
- 
+
     class cop_sergeant {
         name = "Kuba Detective Shop";
         side = "cop";
@@ -433,7 +434,7 @@ class WeaponShops {
         accs[] = {
         };
     };
- 
+
     class cop_SWAT {
         name = "Kuba SWAT Shop";
         side = "cop";
@@ -444,13 +445,13 @@ class WeaponShops {
             { "1Rnd_SmokeGreen_Grenade_shell", "Tear Gas", 150 }
         };
         mags[] = {
- 
+
         };
         accs[] = {
- 
+
         };
     };
- 
+
     class cop_lieutenant {
         name = "Kuba Seargent Shop";
         side = "cop";
@@ -460,26 +461,26 @@ class WeaponShops {
             { "hgun_ACPC2_F", "", 1750, -1 },
         };
         mags[] = {
- 
+
         };
         accs[] = {
- 
+
         };
     };
- 
+
     class cop_captain {
         name = "Kuba Captain Officer Shop";
         side = "cop";
         license = "";
         level[] = { "life_coplevel", "SCALAR", 5, "You must be a Captain Rank!" };
         items[] = {
- 
+
         };
         mags[] = {
- 
+
         };
         accs[] = {
- 
+
         };
     };
 */
@@ -543,7 +544,7 @@ class WeaponShops {
         accs[] = {
         };
     };
- 
+
     //Adac Shops
     class adac_basic {
         name = "ADAC Fundgrube";
@@ -559,5 +560,5 @@ class WeaponShops {
         };
         mags[] = {};
     };
- 
+
 };
