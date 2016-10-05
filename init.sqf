@@ -2,9 +2,9 @@ StartProgress = false;
 
 [] execVM "briefing.sqf"; //Load Briefing
 [] execVM "KRON_Strings.sqf";
-[] execVM "Custom\asddfg5\s45vbn76.sqf";
-[] execVM "Custom\gas\gasmask.sqf";
-[] execVM "Custom\gas\teargasGL.sqf";
+//[] execVM "Custom\asddfg5\s45vbn76.sqf";
+//[] execVM "Custom\gas\gasmask.sqf";
+//[] execVM "Custom\gas\teargasGL.sqf";
 //[] execVM "Custom\lift\init.sqf";
 [] execVM "effect.sqf";
 [] execVM "playerMarker.sqf";
