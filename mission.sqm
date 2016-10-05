@@ -1355,7 +1355,7 @@ class Mission
 			dataType="Marker";
 			position[]={10119.115,3.1568279e+029,11763.865};
 			name="jail_marker";
-			text="Jail Entlassen";
+			text="";
 			type="Empty";
 			id=98;
 			atlOffset=3.1568279e+029;
@@ -57683,8 +57683,8 @@ class Mission
 			dataType="Marker";
 			position[]={9999.9883,1.1480374e+034,11790.328};
 			name="civ_jail_1";
-			text="civ_jail_1";
-			type="mil_dot";
+			text="";
+			type="empty";
 			id=13316;
 			atlOffset=1.1480374e+034;
 		};
