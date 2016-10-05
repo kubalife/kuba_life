@@ -44,4 +44,54 @@ switch (_state) do {
 			hint localize "STR_Civ_LicenseRemove_2";
 		};
 	};
+	// Revoking Licenses
+ 
+	 // Führerschein Lizenz
+	 case 10:
+	 {
+		 license_civ_driver = false;
+		 hint localize "STR_Civ_RevokeLicense_Driver";
+	 };
+	 // LKW Führerschein Lizenz
+	 case 11:
+	 {
+		 license_civ_truck = false;
+		 hint localize "STR_Civ_RevokeLicense_Truck";
+	 };
+	 // Pilotenschein Lizenz
+	 case 12:
+	 {
+		 license_civ_air = false;
+		 hint localize "STR_Civ_RevokeLicense_Pilot";
+	 };
+	 // Bootsschein Lizenz
+	 case 13:
+	 {
+		 license_civ_boat = false;
+		 hint localize "STR_Civ_RevokeLicense_Boating";
+	 };
+	 // Taucherschein Lizenz
+	 case 14:
+	 {
+		 license_civ_dive = false;
+		 hint localize "STR_Civ_RevokeLicense_Diving";
+	 };
+	 // Taxischein Lizenz
+	 case 15:
+	 {
+		 license_civ_taxi = false;
+		 hint localize "STR_Civ_RevokeLicense_Taxi";
+	 };
+	 // Alle Scheine
+	 case 16:
+	 {
+		 license_civ_driver = false;
+		 license_civ_truck = false;
+		 license_civ_air = false;
+		 license_civ_boat = false;
+		 license_civ_air = false;
+		 license_civ_dive = false;
+		 license_civ_taxi = false;
+		 hint localize "STR_Civ_RevokeLicense_AllMotor";
+	 };
 };

@@ -50,8 +50,9 @@ if (playerSide == civilian && !license_civ_admin) then {
 if((playerside == civilian) && safeZone && (!license_civ_admin)) then {
 	deleteVehicle _projectile;
 };
-
+/*
 //Teargas
-if(_ammoType in ["SmokeShellGreen","G_40mm_SmokeGreen"]) then {
+ if(_ammoType in ["SmokeShellGreen","G_40mm_SmokeGreen"]) then {
 	[_projectile] remoteExec ["life_fnc_teargas",0];
 };
+*/

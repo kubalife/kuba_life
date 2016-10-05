@@ -136,6 +136,16 @@ class pInteraction_Menu {
 			w = 0.4;
 			h = 0.038;
 		};
+		class ButtonNine : life_RscButtonMenu {
+			idc = 37458;
+			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
+			text = "";
+			sizeEx = 0.025;
+			x = BGX + 0.03;
+			y = BGY + 0.47;
+			w = 0.4;
+			h = 0.038;
+		};
 	};
 };
 

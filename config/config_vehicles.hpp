@@ -133,7 +133,7 @@ class CarShops {
             { "C_Kart_01_Vrana_F", { "", "", -1 } }
         };
     };
-	
+
     class civ_sport {
         side = "civ";
         vehicles[] = {
@@ -227,14 +227,14 @@ class CarShops {
 			{ "VVV_Chevrolet_Blazer", { "", "", -1 } }
         };
     };
-	
+
     class civ_faehre {
         side = "civ";
         vehicles[] = {
 			{ "ffaa_ar_lcm", { "", "", -1 } }
         };
     };
-	
+
     class civ_skate {
         side = "civ";
         vehicles[] = {
@@ -486,48 +486,24 @@ class CarShops {
     class cop_car {
         side = "cop";
         vehicles[] = {
-            //{ "B_Quadbike_01_F", { "", "", -1 } },
-            //{ "C_Offroad_01_F", { "", "", -1 } },
-			//{ "GeK_TLC100_Police", { "", "", -1 } },
-            //{ "A3L_CVPIFPBPD", { "life_coplevel", "SCALAR", 1 } },
-			//{ "A3L_CVPIFPBLBPD", { "life_coplevel", "SCALAR", 1 } },
-			//{ "A3L_CVPIFPBCSO", { "life_coplevel", "SCALAR", 1 } },
-			//{ "A3L_CVPIFPBLBCSO", { "life_coplevel", "SCALAR", 1 } },
-			//{ "A3L_CVPIFPBFG", { "life_coplevel", "SCALAR", 1 } },
-			//{ "A3L_CVPIFPBLBFG", { "life_coplevel", "SCALAR", 1 } },
-			//{ "cg_cvpitrooper", { "life_coplevel", "SCALAR", 4 } },
-			{ "DAR_ImpalaPolice", { "life_coplevel", "SCALAR", 1 } },
-			{ "CNP_mercedes_sprinter_UIP_F", { "life_coplevel", "SCALAR", 1 } },
-            //{ "A3L_TahoeLBPB", { "life_coplevel", "SCALAR", 2 } },
-			//{ "DAR_TahoePoliceSlick", { "life_coplevel", "SCALAR", 2 } },
-			//{ "DAR_TahoePolice", { "life_coplevel", "SCALAR", 2 } },
-			{ "A3L_TahoeCSOLBPB", { "life_coplevel", "SCALAR", 2 } },
+ 			{ "DAR_ImpalaPolice", { "life_coplevel", "SCALAR", 1 } },
+            { "GeK_Renault_Trafic_Police", { "life_coplevel", "SCALAR", 1 } },
 			{ "A3L_SuburbanUM", { "life_coplevel", "SCALAR", 2 } },
-			{ "A3L_SuburbanCSO", { "life_coplevel", "SCALAR", 2 } },
 			{ "A3L_Suburban", { "life_coplevel", "SCALAR", 2 } },
 			{ "ivory_wrx_slicktop", { "life_coplevel", "SCALAR", 2 } },
 			{ "ivory_wrx_marked", { "life_coplevel", "SCALAR", 2 } },
-			{ "A3L_jailBus", { "life_coplevel", "SCALAR", 2 } },
-            { "A3L_GMC_Van_Swat", { "life_coplevel", "SCALAR", 3 } },
-			{ "77FuryCop", { "life_coplevel", "SCALAR", 3 } },
-			{ "A3L_CVPIUCBlack", { "life_coplevel", "SCALAR", 3 } }, //Undercover ab hier
-			{ "A3L_CVPIUCWhite", { "life_coplevel", "SCALAR", 3 } },
-			{ "A3L_CVPIUCPink", { "life_coplevel", "SCALAR", 3 } },
-			{ "A3L_CVPIUCBlue", { "life_coplevel", "SCALAR", 3 } },
-			{ "A3L_CVPIUCRed", { "life_coplevel", "SCALAR", 3 } },
-			{ "A3L_CVPIUC", { "life_coplevel", "SCALAR", 3 } },
-			{ "A3L_GrandCaravanUC", { "life_coplevel", "SCALAR", 3 } },
-			{ "A3L_GrandCaravanUCBlack", { "life_coplevel", "SCALAR", 3 } },
-			{ "A3L_TahoeUC", { "life_coplevel", "SCALAR", 3 } },
-			{ "DAR_TahoePoliceDet", { "life_coplevel", "SCALAR", 3 } },
-			{ "ivory_wrx_unmarked", { "life_coplevel", "SCALAR", 6 } },
-			{ "cg_h2_sert", { "life_coplevel", "SCALAR", 6 } },
-			//{ "GeK_GMC_SWAT", { "life_coplevel", "SCALAR", 3 } },
-			//{ "GeK_Yukon_Police", { "life_coplevel", "SCALAR", 3 } },
-			{ "GeK_TLC100_Police", { "life_coplevel", "SCALAR", 6 } },
-			{ "cnp_Iveco_GOIT", { "life_coplevel", "SCALAR", 3 } },
-			{ "GeK_Renault_Trafic_Police", { "life_coplevel", "SCALAR", 1 } },
-			{ "shounka_a3_suburbangign", { "life_coplevel", "SCALAR", 3 } },
+            { "ivory_wrx_unmarked", { "life_coplevel", "SCALAR", 2 } },
+			{ "77FuryCop", { "life_coplevel", "SCALAR", 2 } },
+			{ "A3L_CVPIUCBlack", { "life_coplevel", "SCALAR", 2 } },
+			{ "A3L_CVPIUC", { "life_coplevel", "SCALAR", 2 } },
+			{ "A3L_TahoeUC", { "life_coplevel", "SCALAR", 2 } },
+			{ "DAR_TahoePoliceDet", { "life_coplevel", "SCALAR", 2 } },
+			{ "cg_h2_sert", { "life_coplevel", "SCALAR", 2 } },
+            { "Navara_Policia", { "life_coplevel", "SCALAR", 2 } },
+            { "GeK_Yukon_Police", { "life_coplevel", "SCALAR", 2 } },
+			//{ "GeK_TLC100_Police", { "life_coplevel", "SCALAR", 2 } },
+			{ "cnp_Iveco_GOIT", { "life_coplevel", "SCALAR", 2 } },
+			{ "shounka_a3_suburbangign", { "life_coplevel", "SCALAR", 2 } }
         };
     };
 
@@ -543,10 +519,13 @@ class CarShops {
     class cop_ship {
         side = "cop";
         vehicles[] = {
-
+			{ "C_Boat_Civil_01_police_F", { "life_coplevel", "SCALAR", 2 } },
+			{ "I_C_Boat_Transport_02_F", { "life_coplevel", "SCALAR", 2 } },
+			{ "CUP_B_Zodiac_USMC", { "life_coplevel", "SCALAR", 2 } }
         };
+
     };
-	
+
     class adac {
         side = "med";
         vehicles[] = {
@@ -563,7 +542,7 @@ class CarShops {
 			{ "GeK_TLC100", { "", "", -1 } }
         };
     };
-	
+
     class adacAir {
         side = "med";
         vehicles[] = {
@@ -601,7 +580,7 @@ class LifeCfgVehicles {
     */
 
 	////DLC
-	
+
     /*
     ################################## Gebrauchtwagenhändler ####################################
     */
@@ -744,203 +723,203 @@ class LifeCfgVehicles {
         price = 6000;
         textures[] = {};
     };
-	
+
 	class cl3_civic_vti_yellow {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
     class cl3_civic_vti_black {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
 	class cl3_civic_vti_blue {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
     class cl3_civic_vti_aqua {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
 	class cl3_civic_vti_babyblue {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
     class cl3_civic_vti_babypink {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
 	class cl3_civic_vti_red {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
     class cl3_civic_vti_burgundy {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
 	class cl3_civic_vti_cardinal {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
     class cl3_civic_vti_dark_green {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
 	class cl3_civic_vti_gold {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
     class cl3_civic_vti_green {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
 	class cl3_civic_vti_grey {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
     class cl3_civic_vti_lavender {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
 	class cl3_civic_vti_light_blue {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
     class cl3_civic_vti_light_yellow {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
 	class cl3_civic_vti_lime {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
     class cl3_civic_vti_marina_blue {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
 	class cl3_civic_vti_navy_blue {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
     class cl3_civic_vti_orange {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
 	class cl3_civic_vti_purple {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
     class cl3_civic_vti_sand {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
 	class cl3_civic_vti_silver {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
     class cl3_civic_vti_camo {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
 	class cl3_civic_vti_camo_urban {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
     class cl3_civic_vti_white {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
 	class cl3_civic_vti_violet {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 6000;
         textures[] = {};
     };
-	
+
     class ivory_tractor {
         vItemSpace = 350;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
     class ivory_tractor2 {
         vItemSpace = 260;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -1065,245 +1044,245 @@ class LifeCfgVehicles {
         price = 11000;
         textures[] = {};
     };
-	
+
 	class shounka_harley_a3_noir {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class shounka_harley_a3_bleu {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class shounka_harley_a3_rouge {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class shounka_harley_a3_lolz {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_chopper_gold {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_yellow {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_black {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_blue {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_aqua {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_babyblue {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_babypink {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_red {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_burgundy {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_cardinal {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_dark_green {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_gold {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_green {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_grey {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_lavender {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_light_blue {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_light_yellow {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_lime {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_marina_blue {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_navy_blue {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_orange {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_purple {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_sand {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_silver {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_camo {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_camo_urban {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_white {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_violet {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_flame {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_flame1 {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 11000;
         textures[] = {};
     };
-	
+
 	class cl3_enduro_flame2 {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -1319,105 +1298,105 @@ class LifeCfgVehicles {
         price = 60000;
         textures[] = {};
     };
-	
+
 	class ADM_1969_Camaro {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 60000;
         textures[] = {};
     };
-	
+
 	class ADM_1969_Charger {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 60000;
         textures[] = {};
     };
-	
+
 	class SIG_SuperBeeB {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 70000;
         textures[] = {};
     };
-	
+
 	class SIG_SuperBeeG {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 70000;
         textures[] = {};
     };
-	
+
 	class SIG_SuperBeeL {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 70000;
         textures[] = {};
     };
-	
+
 	class SIG_SuperBeeM {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 70000;
         textures[] = {};
     };
-	
+
 	class SIG_SuperBee {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 70000;
         textures[] = {};
     };
-	
+
 	class SIG_SuperBeeY {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 70000;
         textures[] = {};
     };
-	
+
 	class SIG_Magnums {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 70000;
         textures[] = {};
     };
-	
+
 	class SIG_Hubcaps {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 70000;
         textures[] = {};
     };
-	
+
 	class SIG_Hcode {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 70000;
         textures[] = {};
     };
-	
+
 	class SIG_Roadrunner {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 70000;
         textures[] = {};
     };
-	
+
 	class GeK_Cadillac_Fleetwood_Brougham_85 {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 70000;
         textures[] = {};
     };
-	
+
 	class GeK_ElCamino {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 70000;
         textures[] = {};
     };
-	
+
 	class Jonzie_Datsun_Z432 {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -1577,7 +1556,7 @@ class LifeCfgVehicles {
 	   /*
     ################################## skateladen ####################################
     */
-	
+
 	class cl_skatea {
         vItemSpace = 5;
         licenses[] = { {""}, {""}, {""}, {""} };
@@ -1722,7 +1701,7 @@ class LifeCfgVehicles {
         price = 250;
         textures[] = {};
     };
-	
+
     /*
     ################################## Trucks/Busses ####################################
     */
@@ -1739,63 +1718,63 @@ class LifeCfgVehicles {
         price = 20000;
         textures[] = { };
     };
-	
+
     class ADM_GMC_Vandura {
         vItemSpace = 360;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 26000;
         textures[] = { };
     };
-	
+
     class uns_nvatruck_open {
         vItemSpace = 550;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 44000;
         textures[] = { };
     };
-	
+
     class uns_nvatruck {
         vItemSpace = 550;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 44000;
         textures[] = { };
     };
-	
+
     class C_Truck_02_transport_F {
         vItemSpace = 600;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 50000;
         textures[] = { };
     };
-	
+
     class C_Truck_02_covered_F {
         vItemSpace = 600;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 50000;
         textures[] = { };
     };
-	
+
     class I_Truck_02_transport_F {
         vItemSpace = 600;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 50000;
         textures[] = { };
     };
-	
+
     class I_Truck_02_covered_F {
         vItemSpace = 600;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 50000;
         textures[] = { };
     };
-	
+
     class I_Truck_02_ammo_F {
         vItemSpace = 600;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 50000;
         textures[] = { };
     };
-	
+
     class I_Truck_02_fuel_F {
         vItemSpace = 600;
         vFuelSpace = 9999099;
@@ -1803,7 +1782,7 @@ class LifeCfgVehicles {
         price = 50000;
         textures[] = { };
     };
-	
+
     class O_T_Truck_03_transport_ghex_F {
         vItemSpace = 800;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
@@ -1816,7 +1795,7 @@ class LifeCfgVehicles {
         price = 90000;
         textures[] = { };
     };
-	
+
     class O_T_Truck_03_ammo_ghex_F {
         vItemSpace = 800;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
@@ -1829,7 +1808,7 @@ class LifeCfgVehicles {
         price = 90000;
         textures[] = { };
     };
-	
+
     class O_T_Truck_03_covered_ghex_F {
         vItemSpace = 800;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
@@ -1842,7 +1821,7 @@ class LifeCfgVehicles {
         price = 90000;
         textures[] = { };
     };
-	
+
     class O_T_Truck_03_fuel_ghex_F {
         vItemSpace = 800;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
@@ -1855,147 +1834,147 @@ class LifeCfgVehicles {
         price = 90000;
         textures[] = { };
     };
-	
+
     class O_T_Truck_03_device_ghex_F {
         vItemSpace = 500;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 240000;
         textures[] = { };
     };
-	
+
     class B_Truck_01_transport_F {
         vItemSpace = 900;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 120000;
         textures[] = { };
     };
-	
+
     class B_Truck_01_ammo_F {
         vItemSpace = 900;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 120000;
         textures[] = { };
     };
-	
+
     class B_Truck_01_covered_F {
         vItemSpace = 900;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 120000;
         textures[] = { };
     };
-	
+
     class B_Truck_01_box_F {
         vItemSpace = 900;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 120000;
         textures[] = { };
     };
-	
+
     class B_Truck_01_fuel_F {
         vItemSpace = 900;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 120000;
         textures[] = { };
     };
-	
+
     class A3L_Dumptruck {
         vItemSpace = 1050;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 140000;
         textures[] = { };
     };
-	
+
     class shounka_a3_mantgs_2_2_in {
         vItemSpace = 1200;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 85000;
         textures[] = { };
     };
-	
+
     class Jonzie_Box_Truck {
         vItemSpace = 1350;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 95000;
         textures[] = { };
     };
-	
+
     class Jonzie_Tanker_Truck {
         vItemSpace = 1350;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 95000;
         textures[] = { };
     };
-	
+
     class Jonzie_Log_Truck {
         vItemSpace = 1350;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 95000;
         textures[] = { };
     };
-	
+
     class cl3_mackr_del_american {
         vItemSpace = 1500;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 120000;
         textures[] = { };
     };
-	
+
     class cl3_mackr_del_green_white {
         vItemSpace = 1500;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 120000;
         textures[] = { };
     };
-	
+
     class cl3_mackr_del_forest_camo {
         vItemSpace = 1500;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 120000;
         textures[] = { };
     };
-	
+
     class cl3_mackr_del_black_gold {
         vItemSpace = 1500;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 120000;
         textures[] = { };
     };
-	
+
     class max_bus2 {
         vItemSpace = 525;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 27500;
         textures[] = { };
     };
-	
+
     class max_bus {
         vItemSpace = 525;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 27500;
         textures[] = { };
     };
-	
+
     class max_bus3 {
         vItemSpace = 525;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 27500;
         textures[] = { };
     };
-	
+
     class A3L_SchoolBus {
         vItemSpace = 525;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 27500;
         textures[] = { };
     };
-	
+
     class A3L_Bus {
         vItemSpace = 525;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 27500;
         textures[] = { };
     };
-	
+
 	class pop_camionbasura {
         vItemSpace = 525;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
@@ -2149,7 +2128,7 @@ class LifeCfgVehicles {
         price = 20000;
         textures[] = { };
     };
-	
+
 	class C_Offroad_02_unarmed_F_black {
         vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2170,7 +2149,7 @@ class LifeCfgVehicles {
         price = 20000;
         textures[] = { };
     };
-	
+
 	class C_Offroad_02_unarmed_F_blue {
         vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2247,7 +2226,7 @@ class LifeCfgVehicles {
         price = 12000;
         textures[] = { };
     };
-	
+
 	class I_mas_cars_UAZ_Unarmed {
         vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2261,28 +2240,28 @@ class LifeCfgVehicles {
         price = 20000;
         textures[] = { };
     };
-	
+
 	class cl3_range_rover_black {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 26000;
         textures[] = { };
     };
-	
+
 	class cl3_range_rover_blue {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 26000;
         textures[] = { };
     };
-	
+
 	class cl3_range_rover_violet {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 26000;
         textures[] = { };
     };
-	
+
 	class cl3_range_rover_dark_green {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2296,70 +2275,70 @@ class LifeCfgVehicles {
         price = 26000;
         textures[] = { };
     };
-	
+
 	class cl3_range_rover_camo_urban {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 26000;
         textures[] = { };
     };
-	
+
 	class Mrshounka_hummer_civ_grise {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 28000;
         textures[] = { };
     };
-	
+
 	class Mrshounka_hummer_civ_bleufonce {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 28000;
         textures[] = { };
     };
-	
+
 	class Mrshounka_hummer_civ {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 28000;
         textures[] = { };
     };
-	
+
 	class Mrshounka_hummer_civ_noir {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 28000;
         textures[] = { };
     };
-	
+
 	class Mrshounka_hummer_civ_jaune {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 28000;
         textures[] = { };
     };
-	
+
 	class Mrshounka_hummer_civ_violet {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 28000;
         textures[] = { };
     };
-	
+
 	class Mrshounka_hummer_civ_rose {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 28000;
         textures[] = { };
     };
-	
+
 	class shounka_h2_grise {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 32000;
         textures[] = { };
     };
-	
+
 	class shounka_h2_bleufonce {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2373,63 +2352,63 @@ class LifeCfgVehicles {
         price = 32000;
         textures[] = { };
     };
-	
+
 	class shounka_h2_noir {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 32000;
         textures[] = { };
     };
-	
+
 	class shounka_h2_jaune {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 32000;
         textures[] = { };
     };
-	
+
 	class shounka_h2_violet {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 32000;
         textures[] = { };
     };
-	
+
 	class shounka_h2_rose {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 32000;
         textures[] = { };
     };
-	
+
 	class max_H3_black {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 32000;
         textures[] = { };
     };
-	
+
 	class max_H3_urbancamo {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 22000;
         textures[] = { };
     };
-	
+
 	class max_H3_vegeta {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 22000;
         textures[] = { };
     };
-	
+
 	class B_mas_cars_LR_Unarmed {
         vItemSpace = 300;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 35000;
         textures[] = { };
     };
-	
+
 	class I_mas_cars_LR_soft_Unarmed {
         vItemSpace = 300;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2494,21 +2473,21 @@ class LifeCfgVehicles {
         price = 20000;
         textures[] = { };
     };
-	
+
 	class A3L_F350Black {
         vItemSpace = 480;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 27000;
         textures[] = { };
     };
-	
+
 	class A3L_F350Blue {
         vItemSpace = 480;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 27000;
         textures[] = { };
     };
-	
+
 	class A3L_F350Red {
         vItemSpace = 480;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2522,7 +2501,7 @@ class LifeCfgVehicles {
         price = 27000;
         textures[] = { };
     };
-	
+
 	class Jonzie_Raptor {
         vItemSpace = 480;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2538,7 +2517,7 @@ class LifeCfgVehicles {
         price = 40000;
         textures[] = { };
     };
-	
+
 	class shounka_buggy_bleufonce {
         vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2552,21 +2531,21 @@ class LifeCfgVehicles {
         price = 40000;
         textures[] = { };
     };
-	
+
 	class shounka_buggy_violet {
         vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 40000;
         textures[] = { };
     };
-	
+
 	class shounka_buggy_grise {
         vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 40000;
         textures[] = { };
     };
-	
+
 	class shounka_buggy_noir {
         vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2580,84 +2559,84 @@ class LifeCfgVehicles {
         price = 40000;
         textures[] = { };
     };
-	
+
 	class cg_jeep_blinde_rouge {
         vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 55000;
         textures[] = { };
     };
-	
+
 	class cg_jeep_blinde_rose {
         vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 55000;
         textures[] = { };
     };
-	
+
 	class cg_jeep_blinde_orange {
         vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 55000;
         textures[] = { };
     };
-	
+
 	class cg_jeep_blinde_noir {
         vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 55000;
         textures[] = { };
     };
-	
+
 	class cg_jeep_blinde_bleu {
         vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 55000;
         textures[] = { };
     };
-	
+
 	class cg_jeep_blinde_bleufonce {
         vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 55000;
         textures[] = { };
     };
-	
+
 	class cg_jeep_blinde_violet {
         vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 55000;
         textures[] = { };
     };
-	
+
 	class cg_jeep_blinde_white {
         vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 55000;
         textures[] = { };
     };
-	
+
 	class cg_jeep_blinde_vert {
         vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 55000;
         textures[] = { };
     };
-	
+
 	class cg_jeep_blinde_grise {
         vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 55000;
         textures[] = { };
     };
-	
+
 	class max_AJ {
         vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 50000;
         textures[] = { };
     };
-	
+
 	class max_suv_armored {
         vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2673,161 +2652,161 @@ class LifeCfgVehicles {
         price = 800;
         textures[] = { };
     };
-	
+
 	class UNS_Sampan_Transport {
         vItemSpace = 100;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 1200;
         textures[] = { };
     };
-	
+
 	class UNS_sampan_village {
         vItemSpace = 120;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 1200;
         textures[] = { };
     };
-	
+
 	class UNS_sampan_supply {
         vItemSpace = 150;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 1200;
         textures[] = { };
     };
-	
+
 	class UNS_sampan_cargo {
         vItemSpace = 170;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 1600;
         textures[] = { };
     };
-	
+
 	class UNS_sampan_fish1 {
         vItemSpace = 170;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 2000;
         textures[] = { };
     };
-	
+
 	class UNS_sampan_large {
         vItemSpace = 200;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 1400;
         textures[] = { };
     };
-	
+
 	class C_Scooter_Transport_01_F {
         vItemSpace = 50;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 13000;
         textures[] = { };
     };
-	
+
 	class A3L_JetSki_Yellow {
         vItemSpace = 50;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 13000;
         textures[] = { };
     };
-	
+
 	class C_Rubberboat {
         vItemSpace = 150;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 15000;
         textures[] = { };
     };
-	
+
 	class C_Boat_Civil_01_F {
         vItemSpace = 200;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 24000;
         textures[] = { };
     };
-	
+
 	class CL3_Basic_Fishing_green {
         vItemSpace = 350;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 30000;
         textures[] = { };
     };
-	
+
 	class CL3_Basic_Fishing_grey {
         vItemSpace = 350;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 30000;
         textures[] = { };
     };
-	
+
 	class CL3_Basic_Fishing_blue {
         vItemSpace = 350;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 30000;
         textures[] = { };
     };
-	
+
 	class CUP_C_Fishing_Boat_Chernarus {
         vItemSpace = 450;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 38000;
         textures[] = { };
     };
-	
+
 	class A3L_Tug {
         vItemSpace = 300;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 25000;
         textures[] = { };
     };
-	
+
 	class D41_Trawler {
         vItemSpace = 700;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 85000;
         textures[] = { };
     };
-	
+
 	class A3L_Ship {
         vItemSpace = 100;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 205000;
         textures[] = { };
     };
-	
+
 	class A3L_SpeedYacht {
         vItemSpace = 100;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 305000;
         textures[] = { };
     };
-	
+
 	class cl3_phoenixyacht {
         vItemSpace = 100;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 305000;
         textures[] = { };
     };
-	
+
 	class POP_Speed_yatch {
         vItemSpace = 100;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 250000;
         textures[] = { };
     };
-	
+
 	class A3L_CarCarrier {
         vItemSpace = 100;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 350000;
         textures[] = { };
     };
-	
+
 	class A3PL_Yacht {
         vItemSpace = 100;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 650000;
         textures[] = { };
     };
-	
+
 	class A3PL_Yacht_pirate {
         vItemSpace = 100;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
@@ -2838,168 +2817,168 @@ class LifeCfgVehicles {
     /*
     ################################## Luftfahrzeuge Helis ####################################
     */
-	
+
 	class uns_H13_medevac_CAV {
         vItemSpace = 30;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 30000;
         textures[] = { };
     };
-	
+
 	class uns_H13_amphib_CAV {
         vItemSpace = 30;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 30000;
         textures[] = { };
     };
-	
+
 	class C_Heli_Light_01_civil_F {
         vItemSpace = 50;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 50000;
         textures[] = { };
     };
-	
+
 	class civ_black_mh9 {
         vItemSpace = 50;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 50000;
         textures[] = { };
     };
-	
+
 	class civ_blue_mh9 {
         vItemSpace = 50;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 50000;
         textures[] = { };
     };
-	
+
 	class civ_blueline_mh9 {
         vItemSpace = 50;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 50000;
         textures[] = { };
     };
-	
+
 	class civ_elliptical_mh9 {
         vItemSpace = 50;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 50000;
         textures[] = { };
     };
-	
+
 	class civ_jeans_mh9 {
         vItemSpace = 50;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 50000;
         textures[] = { };
     };
-	
+
 	class civ_green_mh9 {
         vItemSpace = 50;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 50000;
         textures[] = { };
     };
-	
+
 	class civ_sunset_mh9 {
         vItemSpace = 50;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 50000;
         textures[] = { };
     };
-	
+
 	class civ_wave_mh9 {
         vItemSpace = 50;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 50000;
         textures[] = { };
     };
-	
+
 	class ivory_b206 {
         vItemSpace = 80;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 80000;
         textures[] = { };
     };
-	
+
 	class ivory_b206_news {
         vItemSpace = 80;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 80000;
         textures[] = { };
     };
-	
+
 	class civ_blue_po30 {
         vItemSpace = 120;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 120000;
         textures[] = { };
     };
-	
+
 	class civ_black_po30 {
         vItemSpace = 120;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 120000;
         textures[] = { };
     };
-	
+
 	class uns_ch34_sog {
         vItemSpace = 160;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 160000;
         textures[] = { };
     };
-	
+
 	class uns_ch34_army {
         vItemSpace = 160;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 160000;
         textures[] = { };
     };
-	
+
 	class UH1C {
         vItemSpace = 200;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 210000;
         textures[] = { };
     };
-	
+
 	class UH1Y_FFV {
         vItemSpace = 250;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 260000;
         textures[] = { };
     };
-	
+
 	class I_mas_MI8 {
         vItemSpace = 300;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 320000;
         textures[] = { };
     };
-	
+
 	class I_Heli_Transport_02_F {
         vItemSpace = 350;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 420000;
         textures[] = { };
     };
-	
+
 	class SCmod_cougar_civ {
         vItemSpace = 400;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 500000;
         textures[] = { };
     };
-	
+
 	class SCmod_cougar_civ1 {
         vItemSpace = 400;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 500000;
         textures[] = { };
     };
-	
+
 	class SCmod_cougar_civ2 {
         vItemSpace = 400;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
@@ -3015,224 +2994,224 @@ class LifeCfgVehicles {
         price = 25000;
         textures[] = { };
     };
-	
+
 	class sab_FAAllegro_4 {
         vItemSpace = 60;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 60000;
         textures[] = { };
     };
-	
+
 	class sab_FAAllegro {
         vItemSpace = 60;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 60000;
         textures[] = { };
     };
-	
+
 	class sab_FAAllegro_3 {
         vItemSpace = 60;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 60000;
         textures[] = { };
     };
-	
+
 	class sab_FAAllegro_5 {
         vItemSpace = 60;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 60000;
         textures[] = { };
     };
-	
+
 	class sab_RobinDR400 {
         vItemSpace = 80;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 80000;
         textures[] = { };
     };
-	
+
 	class sab_RobinDR400_4 {
         vItemSpace = 80;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 80000;
         textures[] = { };
     };
-	
+
 	class sab_RobinDR400_2 {
         vItemSpace = 80;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 80000;
         textures[] = { };
     };
-	
+
 	class sab_RobinDR400_3 {
         vItemSpace = 80;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 80000;
         textures[] = { };
     };
-	
+
 	class sab_RobinDR400_5 {
         vItemSpace = 80;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 80000;
         textures[] = { };
     };
-	
+
 	class sab_piper5 {
         vItemSpace = 100;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 100000;
         textures[] = { };
     };
-	
+
 	class sab_piper4 {
         vItemSpace = 100;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 100000;
         textures[] = { };
     };
-	
+
 	class sab_piper2 {
         vItemSpace = 100;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 100000;
         textures[] = { };
     };
-	
+
 	class sab_piper {
         vItemSpace = 100;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 100000;
         textures[] = { };
     };
-	
+
 	class sab_piper3 {
         vItemSpace = 100;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 100000;
         textures[] = { };
     };
-	
+
 	class uns_skymaster_civ_yellow {
         vItemSpace = 130;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 130000;
         textures[] = { };
     };
-	
+
 	class uns_skymaster_civ_red {
         vItemSpace = 130;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 130000;
         textures[] = { };
     };
-	
+
 	class uns_skymaster_civ_gold {
         vItemSpace = 130;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 130000;
         textures[] = { };
     };
-	
+
 	class uns_skymaster_civ {
         vItemSpace = 130;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 130000;
         textures[] = { };
     };
-	
+
 	class uns_skymaster_civ_blue {
         vItemSpace = 130;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 130000;
         textures[] = { };
     };
-	
+
 	class IVORY_T6A_1 {
         vItemSpace = 130;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 130000;
         textures[] = { };
     };
-	
+
 	class GNT_C185 {
         vItemSpace = 150;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 155000;
         textures[] = { };
     };
-	
+
 	class GNT_C185F {
         vItemSpace = 150;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 155000;
         textures[] = { };
     };
-	
+
 	class sab_curtissjn4_9 {
         vItemSpace = 180;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 180000;
         textures[] = { };
     };
-	
+
 	class sab_do228_3 {
         vItemSpace = 220;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 220000;
         textures[] = { };
     };
-	
+
 	class sab_do228_3_1 {
         vItemSpace = 220;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 220000;
         textures[] = { };
     };
-	
+
 	class sab_do228_3_2 {
         vItemSpace = 220;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 220000;
         textures[] = { };
     };
-	
+
 	class Sab_Sikorsky38_3 {
         vItemSpace = 350;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 350000;
         textures[] = { };
     };
-	
+
 	class Sab_Sikorsky38_2 {
         vItemSpace = 350;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 350000;
         textures[] = { };
     };
-	
+
 	class uns_c1a2cargo {
         vItemSpace = 500;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 500000;
         textures[] = { };
     };
-	
+
 	class CUP_C_C47_CIV {
         vItemSpace = 600;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 600000;
         textures[] = { };
     };
-	
+
 	class IVORY_ERJ135_1 {
         vItemSpace = 1000;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 1000000;
         textures[] = { };
     };
-	
+
 	class ivory_yak42d_1 {
         vItemSpace = 1500;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
@@ -3251,9 +3230,9 @@ class LifeCfgVehicles {
         price = 1300000;
         textures[] = { };
     };
-	
-	
-	
+
+
+
     /*
     ################################## Copcars ####################################
     */
@@ -3461,8 +3440,8 @@ class LifeCfgVehicles {
         price = 5000;
         textures[] = { };
     };
-	
-	
+
+
 //##############################################
 
 	class A3L_Towtruck {
@@ -3499,7 +3478,7 @@ class LifeCfgVehicles {
         price = 5000;
         textures[] = { };
     };
-	
+
 	class B_Truck_01_mover_F {
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {"adac"}, {""} };
@@ -3536,7 +3515,7 @@ class LifeCfgVehicles {
         price = 5000;
         textures[] = { };
     };
-	
+
 //################## Craftbare #######################
 
 	class VVV_Aston_Martin_1964_DB5 {
@@ -3635,7 +3614,7 @@ class LifeCfgVehicles {
         price = 50000;
         textures[] = { };
     };
-	
+
 //####################################################
 
 	class SC_412 {
@@ -3644,7 +3623,7 @@ class LifeCfgVehicles {
         price = 5000;
         textures[] = {};
     };
-	
+
 	class SCmod_cougar {
         vItemSpace = 350;
         licenses[] = { {""}, {""}, {"mAir"}, {""} };

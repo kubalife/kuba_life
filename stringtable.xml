@@ -10670,4 +10670,51 @@
 		<Original>You cannot retrieve an item that is in your inventory already!</Original>
 	</Key>
 	</Package>
+	<Package name="Revoke_License">
+	 <Key ID="STR_pInAct_RevokeLicense">
+		<Orignal>Lizenzen entziehen</Orignal>
+	 </Key>
+	 <Key ID="STR_Civ_RevokeLicense_Driver">
+		<Original>Dein Führerschein wurde von der Polizei beschlagnahmt!</Original>
+	 </Key>
+	 <Key ID="STR_Civ_RevokeLicense_Truck">
+		<Original>Dein LKW Führerschein wurde von der Polizei beschlagnahmt!</Original>
+	 </Key>
+	 <Key ID="STR_Civ_RevokeLicense_Pilot">
+		<Original>Dein Flugschein wurde von der Polizei beschlagnahmt!</Original>
+	 </Key>
+	 <Key ID="STR_Civ_RevokeLicense_Boating">
+		<Original>Dein Bootsschein wurde von der Polizei beschlagnahmt!</Original>
+	 </Key>
+	 <Key ID="STR_Civ_RevokeLicense_Diving">
+		<Original>Deine Taucherlizez wurde von der Polizei beschlagnahmt!</Original>
+	 </Key>
+	 <Key ID="STR_Civ_RevokeLicense_Taxi">
+		<Original>Dein Taxischein wurde von der Polizei beschlagnahmt!</Original>
+	 </Key>
+	 <Key ID="STR_Civ_RevokeLicense_AllMotor">
+		<Original>Alle deine Fahrlizenzen wurde von der Polizei beschlagnahmt!</Original>
+	 </Key>
+	</Package>
+	<Package name="Gagkit">
+		<Key ID="STR_Item_GagKit">
+			<Original>Gag Kit</Original>
+			<German>Knebel Bausatz</German>
+			<French>Kit de baillonement</French>
+		</Key>
+		<Key ID="STR_pInAct_gag">
+			<Original>Mund knebeln</Original>
+			<German>Mund knebeln</German>
+			<French>Déposer pour le gang</French>
+			<Italian>Deposita alla Gang</Italian>
+			<Portuguese>Depositar para a Gangue</Portuguese>
+		</Key>
+		<Key ID="STR_pInAct_gagdel">
+			<Original>Knebel entfernen</Original>
+			<German>Knebel entfernen</German>
+			<French>Déposer pour le gang</French>
+			<Italian>Deposita alla Gang</Italian>
+			<Portuguese>Depositar para a Gangue</Portuguese>
+		</Key>
+	</Package>
 </Project>

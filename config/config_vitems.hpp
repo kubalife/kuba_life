@@ -37,7 +37,7 @@ class VirtualShops {
 		side = "civ";
 		license = "rebel";
 		level[] = { "", "", -1, "" };
-		items[] = { "waterBottle", "rabbit", "apple", "peach", "redgull", "beer", "whiskey", "moonshine", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "zipties", "knife", "pliers", "blastingcharge" };
+		items[] = { "waterBottle", "rabbit", "apple", "peach", "redgull", "beer", "whiskey", "moonshine", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "zipties", "knife", "pliers", "blastingcharge", "gagkit" };
 	};
 	
 	class bandit {
@@ -45,7 +45,7 @@ class VirtualShops {
 		side = "civ";
 		license = "bandit";
 		level[] = { "", "", -1, "" };
-		items[] = { "waterBottle", "rabbit", "apple", "peach", "redgull", "beer", "whiskey", "moonshine", "tbacon", "lockpick", "knife", "pickaxe", "toolkit", "fuelFull", "zipties", "pliers" };
+		items[] = { "waterBottle", "rabbit", "apple", "peach", "redgull", "beer", "whiskey", "moonshine", "tbacon", "lockpick", "knife", "pickaxe", "toolkit", "fuelFull", "zipties", "pliers", "gagkit" };
 	};
 
 	class gang {
@@ -53,7 +53,7 @@ class VirtualShops {
 		side = "civ";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "waterBottle", "rabbit", "apple", "peach", "redgull", "beer", "whiskey", "moonshine", "tbacon", "lockpick", "pickaxe", "knife", "toolkit", "fuelFull" };
+		items[] = { "waterBottle", "rabbit", "apple", "peach", "redgull", "beer", "whiskey", "moonshine", "tbacon", "lockpick", "pickaxe", "knife", "toolkit", "fuelFull", "gagkit" };
 	};
 
 	class wongs {
@@ -157,7 +157,7 @@ class VirtualShops {
 		side = "cop";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "donuts", "coffee", "spikeStrip", "gpstracker", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "defibrillator" };
+		items[] = { "donuts", "coffee", "spikeStrip", "gpstracker", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "defibrillator", "gagkit" };
 	};
 
     class adac {
@@ -1750,5 +1750,17 @@ class VirtualItems {
 			edible = -1;
 			icon = "icons\craft\elektroteile.paa";
 	};
+//################################################## Mundknebel ##################################################
+	class gagkit {
+			variable = "gagkit";
+			displayName = "STR_Item_Gagkit";
+			weight = 0.5;
+			buyPrice = 1000;
+			sellPrice = 500;
+			illegal = true;
+			edible = -1;
+			icon = "";
+	};
+
 };
 //ommsen

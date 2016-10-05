@@ -111,8 +111,9 @@ class Life_Settings {
     bank_civ = 5000; //Amount of cash in bank for new civillians
     bank_med = 5000; //Amount of cash in bank for new medics
     bank_adac = 10000; //Amount of cash in bank for new medics
-
-    paycheck_cop = 300; //Payment for cops
+	
+	// Gehaltsanpassung für Cops, da Tickets nicht mehr auf das Polizeikonto gehen
+    paycheck_cop = 1000; //Payment for cops 
     paycheck_civ = 60; //Payment for civillians
     paycheck_med = 200; //Payment for medics
     paycheck_adac = 100; //Payment for medics
@@ -181,7 +182,7 @@ class Life_Settings {
         {"STR_Crime_487","9500","487"},
         {"STR_Crime_488","4000","488"},
         {"STR_Crime_480","7000","480"},
-        {"STR_Crime_481","7500","481"},
+     //   {"STR_Crime_481","7500","481"}, // Drogenbesitz - auskommentiert bis die automatische Zuteilung gefixt ist.
         {"STR_Crime_482","6500","482"},
         {"STR_Crime_483","11500","483"},
         {"STR_Crime_459","9500","459"},

@@ -102,6 +102,9 @@ class Ausweis
 		class unmask {};
 		class robShops {};
 		class barriers {};
+		class gagAction {};
+		class gagged {};
+		class removeGagAction {};
 	};
 
 	class vAH
@@ -508,6 +511,7 @@ class Ausweis
 		class craft_update {};
 		class craft_updateFilter {};
 		class money {};
+		class revokeLicense {};
 	};
 
 	class Shops	{
