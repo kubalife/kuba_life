@@ -36,7 +36,7 @@ for "_i" from 0 to 1 step 0 do {
 		hintSilent parseText format[(localize "STR_Jail_Time")+ "<br/> <t size='2'><t color='#FF0000'>%1</t></t><br/><br/>" +(localize "STR_Jail_Pay")+ " %3<br/>" +(localize "STR_Jail_Price")+ " $%2",_countDown,[life_bail_amount] call life_fnc_numberText,if(isNil "life_canpay_bail") then {"Yes"} else {"No"}];
 	};
 
-	if(player distance (getMarkerPos "jail_marker") > 140) exitWith {
+	if(player distance (getMarkerPos "civ_jail_1") > 140) exitWith {
 		_esc = true;
 	};
 
