@@ -9,14 +9,14 @@ private["_markers","_members"];
 _markers = [];
 _members = [];
 
-for "_i" from 0 to 1 step 0 do {
+
 	sleep 0.5;
 	if(visibleMap) then {
-		if(!("ItemGPS" in (assignedItems  player))) then
+		if(visibleMap && "ItemGPS" in (assignedItems player)) then {
 		{
 			_members = units (group player);
 			{
-				if(_x != player) then {
+				if(("ItemGPS" in (assignedItems  player)) then {
 					_marker = createMarkerLocal [format["%1_marker",_x],visiblePosition _x];
 					_marker setMarkerColorLocal "ColorCivilian";
 					_marker setMarkerTypeLocal "Mil_dot";
@@ -44,4 +44,3 @@ for "_i" from 0 to 1 step 0 do {
 			_members = [];
 		};
 	};
-};
