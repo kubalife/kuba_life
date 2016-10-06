@@ -326,6 +326,7 @@ class Clothing {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
 			{ "cnp_vest_reflec", "", 0, { "", "", -1 } },
 			{ "uip_vest_pol", "", 0, { "", "", -1 } },
+			{ "policia_vest", "", 0, { "", "", -1 } },
 			{ "V_RebreatherB", "", 0, { "", "", -1 } }
         };
         backpacks[] = {
@@ -754,7 +755,7 @@ class Clothing {
 			{ "B_Bergen_tna_F", "", 750, { "", "", -1 } }
         };
     };
-	
+
     class reb {
         title = "STR_Shops_C_Rebel";
         license = "rebel";
@@ -953,7 +954,7 @@ class Clothing {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } }
         };
     };
-	
+
     class adac {
         title = "STR_MAR_adac_clothing";
         license = "";
