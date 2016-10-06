@@ -26,7 +26,7 @@ class Life_Settings {
     "sight","trigger","engine","plans","blastingcharge","boltcutter","nitro","beer","whiskey","moonshine","gpstracker","blindfold","wood","plank","woodaxe","zigarre","kohle","tabak","zuckerrohr","orangensaft",
 	"grapefruitsaft","rum","tempestdevice","reifen","autoglas","elektroteile","karosserie","sturmgewehrbauplan","gewehrbauplan","mpbauplan","pistolenbauplan","schrott","geodreieck","papier","hemtttransport","uh1c",
 	"orcaschwarz","silizium","shounkafordgt","supratuned","mtvr_4X4","mtvr_MK23","mtvr_MK27","mtvr_MK27T","holz","aluminium","plastik","as532blue","as532red","baumstamm","am1964","belair","corvettec1",
-	"cadieldorado","suprasecret","mv22","mv22cargo","mi6camo","mi17camo","c130black","c130green","c130greencargo","aw159","sa330","hmmwv","merlinhc3","chinook","c47skytrain","ch53"}; //Array of virtual items that can be saved on your player.
+	"cadieldorado","suprasecret","mv22","mv22cargo","mi6camo","mi17camo","c130black","c130green","c130greencargo","aw159","sa330","hmmwv","merlinhc3","chinook","c47skytrain","ch53","gagkit"}; //Array of virtual items that can be saved on your player.
 
     save_playerStats = true; //Save food, water and damage (all sides)?
     save_civilian_weapons = true; //Allow civilians to save weapons on them?
@@ -45,7 +45,7 @@ class Life_Settings {
     "sight","trigger","engine","plans","blastingcharge","boltcutter","nitro","beer","whiskey","moonshine","gpstracker","blindfold","wood","plank","woodaxe","zigarre","kohle","tabak","zuckerrohr","orangensaft",
 	"grapefruitsaft","rum","tempestdevice","reifen","autoglas","elektroteile","karosserie","sturmgewehrbauplan","gewehrbauplan","mpbauplan","pistolenbauplan","schrott","geodreieck","papier","hemtttransport","uh1c",
 	"orcaschwarz","silizium","shounkafordgt","supratuned","mtvr_4X4","mtvr_MK23","mtvr_MK27","mtvr_MK27T","holz","aluminium","plastik","as532blue","as532red","baumstamm","am1964","belair","corvettec1",
-	"cadieldorado","suprasecret","mv22","mv22cargo","mi6camo","mi17camo","c130black","c130green","c130greencargo","aw159","sa330","hmmwv","merlinhc3","chinook","c47skytrain","ch53"}; //Array of virtual items that can be saved on your player.
+	"cadieldorado","suprasecret","mv22","mv22cargo","mi6camo","mi17camo","c130black","c130green","c130greencargo","aw159","sa330","hmmwv","merlinhc3","chinook","c47skytrain","ch53","gagkit"}; //Array of virtual items that can be saved on your player.
 
     save_vehicle_inventory = true; //Save Arma inventory of vehicle to the database
     save_vehicle_fuel = true; //Save vehicle fuel level to the database (Impounded/Garaged).
@@ -111,9 +111,9 @@ class Life_Settings {
     bank_civ = 5000; //Amount of cash in bank for new civillians
     bank_med = 5000; //Amount of cash in bank for new medics
     bank_adac = 10000; //Amount of cash in bank for new medics
-	
+
 	// Gehaltsanpassung für Cops, da Tickets nicht mehr auf das Polizeikonto gehen
-    paycheck_cop = 1000; //Payment for cops 
+    paycheck_cop = 1000; //Payment for cops
     paycheck_civ = 60; //Payment for civillians
     paycheck_med = 200; //Payment for medics
     paycheck_adac = 100; //Payment for medics
