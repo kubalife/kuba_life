@@ -349,6 +349,23 @@ class WeaponShops {
             { "acc_flashlight", "", 0 }
         };
     };
+/*	
+	class cop_jungle {
+        name = "Dschungelpolizei";
+        side = "cop";
+        license = "dschungellizens";
+        level[] = { "", "", -1, "" };
+        items[] = {
+            { "Dschungelwaffe", "", 0, 0, { "life_coplevel", 4 } },           //Private First Class     
+        };
+        mags[] = {
+            { "dschungelmagazin", "", 0 },
+        };
+        accs[] = {
+            { "dschungellampe", "", 0 }
+        };
+    };
+*/
 /*
     class cop_patrol {
         name = "Kuba Officer Shop";
