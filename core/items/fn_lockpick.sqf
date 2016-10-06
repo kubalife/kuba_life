@@ -24,7 +24,7 @@ if(!_isVehicle && !(_curTarget GVAR ["restrained",false])) exitWith {};
 if(_curTarget getVariable "NPC") exitWith {hint localize "STR_NPC_Protected"};
 
 if (safezone) exitWith {
-	hint "You cannot lockpick within a safezone!";
+	hint "In einer Safezone ist das nicht moeglich!";
 };
 
 

@@ -58,6 +58,7 @@ life_bloodActionPlaying = false;
 life_isSuicide = false;
 masked = false;
 life_request_timer = false;
+gagged = false;
 
 
 if(_medics > 0) then { //-- Medic anwesend

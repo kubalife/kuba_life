@@ -15,8 +15,8 @@ if(!alive _medic) exitWith {};
 if (life_drug > 0) then
 {
 life_drug = 0;
-hint "You have been successfully treated by the medic!";
+hint "Du wurdest erfolgreich behandelt!";
 }else{
-hint "uhh idk what this means!";
+hint "Oh... Sorry da weiss ich auch nicht weiter.!";
 
 };

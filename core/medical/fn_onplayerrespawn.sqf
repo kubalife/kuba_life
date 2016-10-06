@@ -23,7 +23,7 @@ _unit SVAR ["masked",false,true];
 _unit SVAR ["playerSurrender",false,true];
 _unit SVAR ["steam64id",steamid,true]; //Reset the UID.
 _unit SVAR ["realname",profileName,true]; //Reset the players name.
-_unit SVAR ["tf_unable_to_use_radio", false];
+_unit SVAR ["tf_unable_to_use_radio", false]; // Funkgerät einschalten
 
 _unit addRating 1e12; //Set our rating to a high value, this is for a ARMA engine thing.
 player playMoveNow "AmovPpneMstpSrasWrflDnon";

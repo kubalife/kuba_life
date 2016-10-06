@@ -11,7 +11,7 @@ _InfoMenus = ((findDisplay 41500) displayCtrl 2300);
 lbClear _InfoMenus;
 
 _InfoMenus lbAdd "General";lbSetColor[2300,(lbSize _InfoMenus)-1,[1,0.694,0.141,1]];
-_InfoMenus lbAdd "Informationnen"; lbSetValue [2300, (lbSize _InfoMenus)-1, 1];
+_InfoMenus lbAdd "Informationen"; lbSetValue [2300, (lbSize _InfoMenus)-1, 1];
 _InfoMenus lbAdd "Serverregeln"; lbSetValue [2300, (lbSize _InfoMenus)-1, 2];
 _InfoMenus lbAdd "Steuerung"; lbSetValue [2300, (lbSize _InfoMenus)-1, 3];
 _InfoMenus lbAdd "Listenpreise"; lbSetValue [2300, (lbSize _InfoMenus)-1, 4];
@@ -66,7 +66,7 @@ Um euch einen besseren Überblick beim Bandagieren zu verschaffen,<br/>
 solltet ihr am besten das Medical Menu benutzen.<br/>
 Um es zu aktivieren, geht unter ESC->Ace Options->Benutze Sanitätsmenü auswählen -><br/>
 aktivieren.<br/><br/>
-Um euch die Interaktion zu erleichtern, und damit ihr nicht immer auf die aktion<br/>
+Um euch die Interaktion zu erleichtern, und damit ihr nicht immer auf die Aktion<br/>
 zielen müsst die ihr ausführen wollt, könnt ihr das ganze auch vereinfachen<br/><br/>
 Geht unter Ace Optionen->Wählt Interaktionsmenü im Reiter; <br/>
 -> Zeige Mauszeiger bei Selbstinteraktion -> Ja<br/>
@@ -86,7 +86,7 @@ Geht unter Ace Optionen->Wählt Interaktionsmenü im Reiter; <br/>
 <br/>
 <t size='1.2px' align='left' color='#FF0000'>Cop</t><br/>
 <br/>
-<t color='#0099ff'>Shift+R</t> Person fesseln (NUR IM JAIL!)<br/>
+//<t color='#0099ff'>Shift+R</t> Person fesseln (NUR IM JAIL!)<br/>
 ";
 
 };
@@ -169,7 +169,7 @@ Gehe dort hin und pflücke ein paar um diese am Markt zu verkaufen<br/>
 
 if(_index isEqualTo 6) exitWith {
 "
-<t size='1.2px' align='left' color='#FF0000'>Developement</t><br/>
+<t size='1.2px' align='left' color='#FF0000'>Development</t><br/>
 <br/>
 <t size='1.2px' align='left' color='#0099ff'>Changelog #07.09.2016</t><br/>
 <br/>
@@ -511,12 +511,12 @@ damit das Skript das Haus erkennt und es reibungslos funktioniert.<br/>
 <br/>
 Jede Storagebox hat ihr eigenes I und T Inventar!<br/>
 Es wird immer das T Inventar von der Kiste geöffnet wo ihr am<br/>
-nähsten dran steht!<br/>
+nächsten dran steht!<br/>
 <br/>
 Ihr könnt platzierte Storageboxen auch wieder entfernen, bedenkt<br/>
 aber das diese komplett gelöscht wird samt dem Inhalt!<br/>
 Einfach die Box anvisieren und Interaktionstaste drücken,<br/>
-dort sollte nun stehen Lagerbox entfernen oder Remove Contaier.<br/>
+dort sollte nun stehen Lagerbox entfernen oder Remove Container.<br/>
 <br/>
 Bedenkt Waffen immer vorher zu zerlegen und lagert die Einzelteile<br/>
 in eure Kiste, da sonst Scopes, Schalldämpfer etc nach Restart weg sind<br/>
@@ -536,7 +536,7 @@ if(_index isEqualTo 8) exitWith {
 <t size='1.05px' align='left' color='#0099ff'>Allgemeine Infos</t><br/>
 <br/>
 Auf unserem Server könnt/müsst ihr viele Sachen craften, da es gewisse<br/>
-Sachen nicht am Markt nicht zum Kauf angeboten werden.<br/>
+Sachen am Markt nicht zu kaufen sind.<br/>
 Es soll die Interaktion unter den Spielern steigern, natürlich soll<br/>
 dadurch auch die Vielfalt ein wenig gesteigert werden damit euch<br/>
 nicht nach 2 tagen langweilig wird ;)<br/>
@@ -545,7 +545,7 @@ Crafting ist nur bei den 3 Fabriken möglich (Nord, Center, Süd)<br/>
 Um zu craften müsst ihr in einer dieser Zones euer Handy rausholen<br/>
 und auf Crafting drücken, nun sollte sich das Crafting Menü öffnen<br/>
 <br/>
-Bedenkt das ihr für Gewisse Waffen/Fahrzeuge erst andere Teile wieder<br/>
+Bedenkt, dass ihr für gewisse Waffen/Fahrzeuge erst andere Teile wie<br/>
 Reifen, Motor, Waffenlauf etc benötigt ;)
 ";
 };
@@ -578,7 +578,7 @@ if(_index isEqualTo 9) exitWith {
 <t color='#0099ff' align='left'>Rum = Zuckerrohr + Wasserflasche</t><br/>
 <br/>
 ";
-}; 
+};
 
 
 

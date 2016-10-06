@@ -17,7 +17,7 @@ switch (true) do {
 			life_thirst = 100;
 			[player,"drink"] remoteExec ["life_fnc_say3D",RANY];
 			if(EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),1)) then {player setFatigue 0;};
-			if(EQUAL(_item,"redgull") && {EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),1)}) then {
+			if(EQUAL(_item,"redgull") || (EQUAL(_item,"coffee")) && {EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),1)}) then {
 				[] spawn {
 					life_redgull_effect = time;
 					titleText[localize "STR_ISTR_RedGullEffect","PLAIN"];
@@ -179,7 +179,7 @@ switch (true) do {
 	};
 
 /*
-  	case (EQUAL(_item,"tempestdevice")): 
+  	case (EQUAL(_item,"tempestdevice")):
 	{
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
@@ -192,13 +192,13 @@ switch (true) do {
 	};
 
 	case (EQUAL(_item,"blindfold")): {
-		if(playerSide in [independent]) exitWith {hint "You cannot use this item!"};
-		if(vehicle player != player) exitWith {hint "You cannot use this item whilst in a vehicle!"};
+		if(playerSide in [independent]) exitWith {hint "Du kannst das nicht benutzen!"};
+		if(vehicle player != player) exitWith {hint "In einem Fahrzeug funktioniert das nicht!"};
 		_unit = cursorTarget;
 		if(isNull _unit) exitWith {};
-		if((player distance _unit > 3)) exitWith {hint "You are too far away!";};
-		if(!(_unit getVariable "civrestrained")) exitWith {hint "The person must be tied up!";};
-		if((_unit getVariable "masked")) exitWith {hint "This person is already blindfolded!";};
+		if((player distance _unit > 3)) exitWith {hint "Du bist zu weit weg!";};
+		if(!(_unit getVariable "civrestrained")) exitWith {hint "Die Person muss schon gefesselt sein!";};
+		if((_unit getVariable "masked")) exitWith {hint "Die Person hat doch schon einen Sack auf dem Kopf!";};
 		if(player == _unit) exitWith {};
 		if(!isPlayer _unit) exitWith {};
 		if(([false,_item,1]call life_fnc_handleInv)) then
