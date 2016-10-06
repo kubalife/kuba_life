@@ -11,7 +11,7 @@ _adacs = [];
 
 sleep 0.5;
 if(visibleMap && "ItemGPS" in (assignedItems player)) then {   //Habe ich ein GPS?
-	{if("ItemGPS" in assigneditems _x && side _x == east) then {_adacs pushBack _x;}} foreach playableUnits; //Abfrage ob GPS ausgerüstet und SPielerseite = West (Cops) 
+	{if("ItemGPS" in assigneditems _x && side _x == east) then {_adacs pushBack _x;}} foreach playableUnits; //Abfrage ob GPS ausgerüstet und SPielerseite = east (ADAC)
 
 	//Create markers
 	{

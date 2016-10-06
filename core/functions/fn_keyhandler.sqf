@@ -82,7 +82,7 @@ switch (_code) do {
 /*
     //F Key
     case 33:
-    {      
+    {
         // Shift + C für Ansage auf 50m Entfernung.
         if(_shift && !_ctrlKey && !_alt) then
         {
@@ -125,14 +125,9 @@ switch (_code) do {
             hint"Du hast einen Gerichtsbeschluss ausgestellt!";
 			life_inv_gerichtsbeschluss = life_inv_gerichtsbeschluss +1;
 		};
-		if (!_shift && _alt && !_ctrlKey && life_doj) then
-		{
-			//[0,format["Section D Info: %1 hat einen Gerichsbeschluss ausgestellt!",_player getVariable["realname",name _player]]]    remoteExecCall ["life_fnc_broadcast",west];
-            hint"Du hast Dir 10 Goldstuecke in den Rucksack gezaubert!";
-			life_inv_goldbar = life_inv_goldbar +10;
-		};
 	};
-
+//############# Keine funktion durch ACE #############
+/*
 	case 210:{	if(_shift) then {
 		switch (player GVAR["Earplugs",0]) do {
 				case 0: {hintSilent "Ohrenstöpsel 90%"; 1 fadeSound 0.1; player setVariable ["Earplugs", 10];
@@ -146,7 +141,7 @@ switch (_code) do {
 			};
 		};
 	};
-
+*/
 
 	case 24:
 	{

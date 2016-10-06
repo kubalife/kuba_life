@@ -13,7 +13,7 @@ _medics = [];
 
 sleep 0.5;
 if(visibleMap) then {
-	{if("ItemGPS" in assigneditems _x && side _x == independent) then {_medics pushBack _x;}} foreach playableUnits; //Abfrage ob GPS ausgerüstet und SPielerseite = West (Cops) 
+	{if("ItemGPS" in assigneditems _x && side _x == independent) then {_medics pushBack _x;}} foreach playableUnits; //Abfrage ob GPS ausgerüstet und SPielerseite = Independant (Medics)
 	{
 		_name = _x getVariable "name";
 		_down = _x getVariable ["Revive",false];

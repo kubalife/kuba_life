@@ -19,7 +19,7 @@ if(!isNull _source) then {
 		if (_unit getVariable["Revive",false]) exitWith {};
 		_curWep = currentWeapon _source;
 		if(_projectile in ["DDOPP_B_Taser"] && _curWep in ["DDOPP_X26","DDOPP_X26_b"]) then {
-			if(side _source == west && playerSide == west OR playerSide == independent OR playerSide == civilian) then {
+			//if(side _source == west && playerSide == west OR playerSide == independent OR playerSide == civilian) then {
 				private["_distance"];
 				_distance = if(_projectile == "DDOPP_B_Taser") then {100} else {35};
 				_damage = false;
@@ -35,7 +35,7 @@ if(!isNull _source) then {
 						};
 					};
 				};
-			};
+			//};
 
 			//Temp fix for super tasers on cops.
 			if(side _source == west && (playerSide == west OR playerSide == independent)) then {

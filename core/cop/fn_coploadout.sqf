@@ -34,8 +34,8 @@ player addMagazine "DDOPP_6Rnd_X26";
 player addMagazine "DDOPP_6Rnd_X26";
 player addMagazine "DDOPP_6Rnd_X26";
 
-player addItem "NVGoggles_OPFOR";
-player assignItem "NVGoggles_OPFOR";
+player addItem "pmc_earpiece";
+player assignItem "pmc_earpiece";
 player addItem "Rangefinder";
 player assignItem "Rangefinder";
 
@@ -48,11 +48,17 @@ player assignItem "ItemWatch";
 player addItem "ItemGPS";
 player assignItem "ItemGPS";
 
-[true,"toolkit",2] call life_fnc_handleInv;
-[true,"spikeStrip",2] call life_fnc_handleInv;
-[true,"donuts",10] call life_fnc_handleInv;
-[true,"waterBottle",10] call life_fnc_handleInv;
+//Funkgerät
+player addItem "tf_anprc152";
+player assignItem "tf_anprc152";
 
+// Virtuelle Items
+[true,"toolkit",2] call life_fnc_handleInv;
+[true,"spikeStrip",4] call life_fnc_handleInv;
+[true,"donuts",10] call life_fnc_handleInv;
+[true,"coffee",10] call life_fnc_handleInv;
+
+//Altes Cop-Gear laden
 {
 	player addWeaponItem [primaryWeapon player,_x];
 } foreach _primaryWeaponItems;
