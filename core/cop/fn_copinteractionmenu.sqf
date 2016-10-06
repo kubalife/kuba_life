@@ -15,9 +15,10 @@
 #define Btn7 37456
 #define Btn8 37457
 #define Btn9 37458
+#define Btn10 37459
 #define Title 37401
 
-private["_display","_curTarget","_seizeRank","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn7","_Btn8","_Btn9"];
+private["_display","_curTarget","_seizeRank","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn7","_Btn8","_Btn9","_Btn10"];
 
 disableSerialization;
 _curTarget = param [0,objNull,[objNull]];
@@ -43,10 +44,11 @@ _Btn6 = _display displayCtrl Btn6;
 _Btn7 = _display displayCtrl Btn7;
 _Btn8 = _display displayCtrl Btn8;
 _Btn9 = _display displayCtrl Btn9;
+_Btn10 = _dispaly displayCtrl Btn10;
 life_pInact_curTarget = _curTarget;
 
 if((player getVariable["isEscorting",false])) then {
-	{ _x ctrlShow false; } forEach [_Btn1,_Btn2,_Btn3,_Btn5,_Btn6,_Btn7,_Btn8,_Btn9];
+	{ _x ctrlShow false; } forEach [_Btn1,_Btn2,_Btn3,_Btn5,_Btn6,_Btn7,_Btn8,_Btn9,_Btn10];
 };
 
 //Set Unrestrain Button
@@ -89,6 +91,11 @@ _Btn8 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_seizePlayerAction;
 //Revoke Licenses
 _Btn9 ctrlSetText localize "STR_pInAct_RevokeLicense";
 _Btn9 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_revokeLicense;";
+
+// Kontostand überprüfen
+_Btn10 ctrlSetText "Kontostand checken";
+_Btn10 buttonSetAction "[life_pInact_curTarget] call life_fnc_kontoCheck; closeDialog 0;";
+
 
 if(FETCH_CONST(life_coplevel) < _seizeRank) then {_Btn8 ctrlEnable false;};
 
