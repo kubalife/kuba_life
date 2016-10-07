@@ -17,7 +17,9 @@ switch (true) do {
 			life_thirst = 100;
 			[player,"drink"] remoteExec ["life_fnc_say3D",RANY];
 			if(EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),1)) then {player setFatigue 0;};
-			if(EQUAL(_item,"redgull") || (EQUAL(_item,"coffee")) && {EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),1)}) then {
+			//if(EQUAL(_item,"redgull") || EQUAL(_item,"coffee") && {EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),1)}) then {
+			// Item = Redgull oder Kaffee
+			if(_item in ["redgull","coffee"] && {EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),1)}) then {
 				[] spawn {
 					life_redgull_effect = time;
 					titleText[localize "STR_ISTR_RedGullEffect","PLAIN"];

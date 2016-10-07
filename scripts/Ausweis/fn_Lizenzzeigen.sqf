@@ -2,9 +2,9 @@ if(isServer)exitWith{};
 private["_ziel", "_rang", "_marke", "_org", "_message","_headgear","_goggles"];
 if(vehicle player != player )exitWith{};
 _ziel = cursorTarget;
-if(isNull _ziel) then {_ziel = player;};    
-if(!(_ziel isKindOf "Man")) then {_ziel = player;};  
-if(!(alive _ziel)) then {_ziel = player;};     
+if(isNull _ziel) then {_ziel = player;};
+if(!(_ziel isKindOf "Man")) then {_ziel = player;};
+if(!(alive _ziel)) then {_ziel = player;};
 
 // Mit welchem Item bin ich "anonym"?
 _headgear = ["A3L_gangster_hat","H_Shemag_olive","H_ShemagOpen_tan","TRYK_Kio_Balaclava"];
@@ -13,15 +13,15 @@ _goggles = ["UNS_Scarf_ARVN","UNS_Scarf_Blue","UNS_Scarf_Red","UNS_Scarf_OD","UN
 switch(playerSide)do{
  case west:{
   switch (call life_coplevel) do{
-   case 1: { _rang = "Policia Cadet"; };
-   case 2: { _rang = "Policia Officer"; };
-   case 3: { _rang = "Policia Detective"; };
-   case 4: { _rang = "Policia Seargent"; };
-   case 5: { _rang = "Policia Lieutenant"; };
-   case 6: { _rang = "Policia Captain"; };
-   case 7: { _rang = "Policia Major"; };
-   case 8: { _rang = "Policia Assistant Chief"; };
-   case 9: { _rang = "Policia Chief"; };
+   case 1: { _rang = "Policia"; };
+   case 2: { _rang = "Policia"; };
+   case 3: { _rang = "Policia"; };
+   case 4: { _rang = "Policia"; };
+   case 5: { _rang = "Policia"; };
+   case 6: { _rang = "Policia"; };
+   case 7: { _rang = "Policia"; };
+   case 8: { _rang = "Policia"; };
+   case 9: { _rang = "Policia"; };
    default { _rank =  "Error";};
   };
   _marke = "marke_cop";
@@ -47,11 +47,11 @@ switch(playerSide)do{
 	case 2: { _rang = "Emergency Medical Technician"; };
 	case 3: { _rang = "Emergency Care Assistant"; };
 	case 4: { _rang = "Paramedic"; };
-	case 5: { _rang = "Advanced Paramedic"; };   
-	case 6: { _rang = "Medical Instructor"; };  
-	case 7: { _rang = "Medical Instructor Director"; };  
-	case 8: { _rang = "Medical Co. Director"; }; 
-	case 9: { _rang = "Medical Director"; };    
+	case 5: { _rang = "Advanced Paramedic"; };
+	case 6: { _rang = "Medical Instructor"; };
+	case 7: { _rang = "Medical Instructor Director"; };
+	case 8: { _rang = "Medical Co. Director"; };
+	case 9: { _rang = "Medical Director"; };
    default { _rank =  "Error";};
   };
   _marke = "marke_ziv";
@@ -66,7 +66,7 @@ switch(playerSide)do{
    _rang = "Zivilist";
    _marke = "marke_abi";
    _org = "Republica de Cuba";
-  };  
+  };
  };
 };
 // Hab ich ein Item was mich anonym macht?

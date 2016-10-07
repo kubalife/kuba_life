@@ -84,6 +84,10 @@ class CfgRemoteExec {
 		F(life_fnc_lizenzzeigen,CLIENT)
 		F(life_fnc_lizenzsehen,CLIENT)
 		F(life_fnc_automessages,CLIENT) //Automessage
+        F(life_fnc_kontoCheckDefines,CLIENT)
+        F(life_fnc_kontoCheckFeedback,CLIENT)
+        F(life_fnc_kontoCheck,CLIENT)
+
 
         /* Server only functions */
         F(BIS_fnc_execVM,SERVER)

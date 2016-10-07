@@ -40,7 +40,7 @@ class Ausweis
         class Lizenzsehen {};
         class Lizenzzeigen {};
     };
-	
+
 	class Master_Directory {
 		file = "core";
 		class initCiv {};
@@ -265,6 +265,9 @@ class Ausweis
 		class copEnter {};
 		class copOpener {};
 		class copLoadoutRekrut {};
+		class kontoCheck {};
+		class kontoCheckDefines {};
+		class kontoCheckFeedback {};
 	};
 
 
@@ -275,7 +278,7 @@ class Ausweis
 		class adacLoadout {};
     };
 
-	
+
 	class Dialog_Controls {
 		file = "dialog\function";
 		class bankDeposit {};
@@ -301,7 +304,7 @@ class Ausweis
 		class vehicleGarage {};
 		class wireTransfer {};
 	};
-	
+
 	class Functions	{
 		file = "core\functions";
 		class accType {};
