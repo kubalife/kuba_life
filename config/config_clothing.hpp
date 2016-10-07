@@ -280,19 +280,18 @@ class Clothing {
 			{ "Sheriff_rang5", "Lieutenant", 0, { "life_coplevel", "SCALAR", 5 } }, //Lieutenent
 			{ "Sheriff_rang6", "Captain", 0, { "life_coplevel", "SCALAR", 6 } }, //Captain
 			{ "Sheriff_rang7", "Major", 0, { "life_coplevel", "SCALAR", 7 } }, //Major
-			//{ "Sheriff_rang8", "", 250, { "life_coplevel", "SCALAR", 8 } }, //Major
 			{ "Sheriff_rang9", "Ass. Chief", 0, { "life_coplevel", "SCALAR", 8 } }, //Ass. Chief
 			{ "Sheriff_rang10", "Chief", 0, { "life_coplevel", "SCALAR", 9 } }, //Chief
-			{ "U_B_Wetsuit", "Chief", 0, { "life_coplevel", "SCALAR", 1 } }
+			{ "policia_geo_man_uniform", "", 0, { "life_coplevel", "SCALAR", 1 } },
+			{ "U_B_Wetsuit", "Taucheranzug", 0, { "life_coplevel", "SCALAR", 1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
-            { "H_Beret_gen_F", "", 0, { "", "", -1 } }
+            { "H_Beret_gen_F", "", 0, { "", "", -1 } },
+            { "casco_cnp_protec", "", 0, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
-            { "G_Balaclava_TI_G_tna_F", "SWAT", 0, { "life_coplevel", "SCALAR", 5 } },
-            { "G_Balaclava_TI_blk_F", "Basic", 0, { "life_coplevel", "SCALAR", 5 } },
             { "G_Shades_Black", "", 0, { "", "", -1 } },
             { "G_Shades_Blue", "", 0, { "", "", -1 } },
             { "G_Shades_Green", "", 0, { "", "", -1 } },
@@ -315,24 +314,33 @@ class Clothing {
             { "UNS_Peace", "", 0, { "", "", -1 } },
             { "EWK_Cig4", "", 0, { "", "", -1 } },
             { "EWK_Cig1", "", 0, { "", "", -1 } },
-            { "Mask_M40", "", 0, { "life_coplevel", "SCALAR", 4 } },
             { "EWK_Shemag_NB", "", 0, { "", "", -1 } },
             { "G_B_Diving", "", 0, { "", "", -1 } },
             { "G_Diving", "", 0, { "", "", -1 } },
             { "G_Spectacles", "", 0, { "", "", -1 } },
             { "G_Spectacles_Tinted", "", 0, { "", "", -1 } }
+			{ "Mask_M40", "", 0, { "life_coplevel", "SCALAR", -1 } },
+            { "G_Balaclava_TI_G_tna_F", "", 0, { "life_coplevel", "SCALAR", -1 } },
+            { "G_Balaclava_TI_blk_F", "", 0, { "life_coplevel", "SCALAR", -1 } },
+            { "TRYK_US_ESS_Glasses_BLK", "", 0, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
+			{ "policia_vest", "", 0, { "", "", -1 } },
+			{ "policia_sniper_vest", "", 0, { "", "", -1 } },
 			{ "cnp_vest_reflec", "", 0, { "", "", -1 } },
 			{ "uip_vest_pol", "", 0, { "", "", -1 } },
+<<<<<<< HEAD
+			{ "policia_geo_vest", "", 0, { "", "", -1 } },
+=======
 			{ "policia_vest", "", 0, { "", "", -1 } },
+>>>>>>> d2249095c1d19b31dab91c438c8ddcf2853e1925
 			{ "V_RebreatherB", "", 0, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
             { "AM_PoliceBelt", "", 0, { "", "", -1 } },
-		    { "B_CNP_Drone_bolsa_F", "", 1000, { "life_coplevel", "SCALAR", 4 } }
+		    { "B_CNP_Drone_bolsa_F", "Drone", 1000, { "life_coplevel", "SCALAR", -1 } }
         };
     };
 
@@ -499,28 +507,28 @@ class Clothing {
         side = "med";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
+            { "CUP_U_C_Rescuer_01", "Medic Uniform", 0, { "", "", -1 } },
+            { "CUP_U_C_Fireman_01", "Fire Uniform", 0, { "", "", -1 } },
             { "U_C_Scientist", "EMS Uniform", 0, { "", "", -1 } },
-            { "rds_uniform_doctor", "Doktor Uniform", 0, { "", "", -1 } },
-            { "RR_EMS_Uniforms_1_obj", "EMS ", 0, { "", "", -1 } },
-            { "RR_EMS_Uniforms_2", "EMS ", 0, { "", "", -1 } },
-            { "RR_EMS_Uniforms_3", "EMS ", 0, { "", "", -1 } },
-            { "RR_EMS_Uniforms_4", "EMS ", 0, { "", "", -1 } },
-            { "RR_EMS_Uniforms_5", "EMS ", 0, { "", "", -1 } },
-            { "CG_EMS1", "", 0, { "", "", -1 } },
-            { "CG_EMS2", "", 0, { "", "", -1 } },
-            { "CG_EMS3", "", 0, { "", "", -1 } },
-            { "CG_EMS4", "", 0, { "", "", -1 } },
-            { "CG_EMS5", "", 0, { "", "", -1 } },
-            { "CG_EMS6", "", 0, { "", "", -1 } },
-            { "CG_EMS7", "", 0, { "", "", -1 } },
-            { "CG_EMS8", "", 0, { "", "", -1 } },
-            { "CG_EMS9", "", 0, { "", "", -1 } },
-            { "CG_EMS10", "", 0, { "", "", -1 } },
-            { "A3L_EMT2", "", 0, { "", "", -1 } },
-			{ "U_B_Wetsuit", "", 0, { "", "", -1 } }
+            //{ "RR_EMS_Uniforms_3", "EMS ", 0, { "", "", -1 } },
+            //{ "RR_EMS_Uniforms_4", "EMS ", 0, { "", "", -1 } },
+            //{ "RR_EMS_Uniforms_5", "EMS ", 0, { "", "", -1 } },
+            //{ "CG_EMS1", "", 0, { "", "", -1 } },
+            //{ "CG_EMS2", "", 0, { "", "", -1 } },
+            //{ "CG_EMS3", "", 0, { "", "", -1 } },
+            //{ "CG_EMS4", "", 0, { "", "", -1 } },
+            //{ "CG_EMS5", "", 0, { "", "", -1 } },
+            //{ "CG_EMS6", "", 0, { "", "", -1 } },
+            //{ "CG_EMS7", "", 0, { "", "", -1 } },
+            //{ "CG_EMS8", "", 0, { "", "", -1 } },
+            //{ "CG_EMS9", "", 0, { "", "", -1 } },
+            //{ "CG_EMS10", "", 0, { "", "", -1 } },
+            //{ "A3L_EMT2", "", 0, { "", "", -1 } },
+            { "rds_uniform_doctor", "Doktor Uniform", 0, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
+			{ "NONE", "", 0, { "", "", -1 } },
             { "firehat", "", 0, { "", "", -1 } },
             { "a3l_medic_helmet", "", 0, { "", "", -1 } },
             { "H_Beret_Gen_F", "", 0, { "", "", -1 } },
@@ -583,13 +591,16 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "on_vests_config_i", "", 0, { "", "", -1 } },
-            { "RR_EMS_Vests_RideAlong", "Trainee Weste", 0, { "", "", -1 } },
-            { "RR_EMS_Vests_Probie", "Care Assistant Weste", 0, { "", "", -1 } },
-            { "RR_EMS_Vests_EMT", "Adv. Paramedic Weste", 0, { "", "", -1 } },
-            { "RR_EMS_Vests_Paramedic", "Paramedic Weste", 0, { "", "", -1 } },
-            { "RR_EMS_Vests_SearchRescue", "Standart Weste", 0, { "", "", -1 } },
-            { "RR_EMS_Vests_Command", "Direktionsweste", 0, { "", "", -1 } }
+			{ "CUP_V_B_LHOVest_Red", "", 0, { "", "", -1 } },
+			{ "CUP_V_B_LHOVest_Yellow", "", 0, { "", "", -1 } },
+            //{ "on_vests_config_i", "", 0, { "", "", -1 } },
+            //{ "RR_EMS_Vests_RideAlong", "Trainee Weste", 0, { "", "", -1 } },
+            //{ "RR_EMS_Vests_Probie", "Care Assistant Weste", 0, { "", "", -1 } },
+            //{ "RR_EMS_Vests_EMT", "Adv. Paramedic Weste", 0, { "", "", -1 } },
+            //{ "RR_EMS_Vests_Paramedic", "Paramedic Weste", 0, { "", "", -1 } },
+            //{ "RR_EMS_Vests_SearchRescue", "Standart Weste", 0, { "", "", -1 } },
+            //{ "RR_EMS_Vests_Command", "Direktionsweste", 0, { "", "", -1 } }
+			{ "V_RebreatherB", "", 0, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
