@@ -45,11 +45,13 @@ if(life_HC_isActive) then {
 
 _messages = player getVariable "cellphone_messages";
 
-if(life_HC_isActive) then
-{
-	[getPlayerUid player, _messages] remoteExecCall ["HC_fnc_saveCellPhone",HC_Life];
-}
-else
-{
-	[getPlayerUid player, _messages] remoteExecCall ["DB_fnc_saveCellPhone",2];
+if(count _messages > 0) then {    //hab ich überhaupt Nachrichten?
+	if(life_HC_isActive) then
+	{
+		[getPlayerUid player, _messages] remoteExecCall ["HC_fnc_saveCellPhone",HC_Life];
+	}
+	else
+	{
+		[getPlayerUid player, _messages] remoteExecCall ["DB_fnc_saveCellPhone",2];
+	};
 };
