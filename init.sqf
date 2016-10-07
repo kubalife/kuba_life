@@ -13,6 +13,7 @@ disableRemoteSensors true;
 
 
 //no fog please
+/* Performanceschonendere Methode in mission.sqm (Line 747-750)
 [] spawn {
 	while{true} do {
 		sleep 20;
@@ -20,7 +21,7 @@ disableRemoteSensors true;
 		sleep 600;
 	};
 };
-
+*/
 
 StartProgress = true;
 
