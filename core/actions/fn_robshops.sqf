@@ -11,7 +11,7 @@ if(side _robber == independent) exitWith { hint "Geh Leute wiederbeleben und las
 if(_robber distance _shop > 20) exitWith { hint "Du musst innerhalb von 5 Meter bleiben!" };
 if (vehicle player != _robber) exitWith { hint "Raus aus deinem Fahrzeug!" };
 
-if (currentWeapon _robber == "") exitWith { hint "Womit willst du mich erpressen? Mit 'nem Schokoriegel?" };
+if (currentWeapon _robber == "" || currentWeapon _robber in["Binocular","Rangefinder"]) exitWith { hint "Womit willst du mich erpressen? Mit 'nem Schokoriegel?" };
 
 if !(alive _robber) exitWith {};
 
