@@ -129,13 +129,13 @@ class Ausweis
 		class deleteMessage {};
 		class replyMessage {};
 	};
-
+/*
 	class xzfsad3
   {
       file = "Custom\asddfg5";
       class xzfsad3 {};
   };
-
+*/
 	class statusbar
 	{
 			file = "Custom";
