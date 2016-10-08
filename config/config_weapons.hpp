@@ -52,7 +52,7 @@ class WeaponShops {
         license = "rebel";
         level[] = { "life_donorlevel", "SCALAR", 1, "Gibt es nicht!" };
         items[] = {
-            { "FirstAidKit", "", 250, 65,"" },
+            { "FirstAidKit", "", 250, 65,"" }
         };
         mags[] = {
         };
@@ -66,7 +66,7 @@ class WeaponShops {
         license = "rebel";
         level[] = { "life_donorlevel", "SCALAR", 2, "Gibt es nicht!" };
         items[] = {
-            { "FirstAidKit", "", 250, 65,"" },
+            { "FirstAidKit", "", 250, 65,"" }
         };
         mags[] = {
         };
@@ -80,7 +80,7 @@ class WeaponShops {
         license = "rebel";
         level[] = { "life_donorlevel", "SCALAR", 3, "Gibt es nicht!" };
         items[] = {
-            { "FirstAidKit", "", 250, 65,"" },
+            { "FirstAidKit", "", 250, 65,"" }
         };
         mags[] = {
         };
