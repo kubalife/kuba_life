@@ -1,0 +1,328 @@
+class FSM {
+	fsmName = "initPlayer";
+	initState = "Init";
+	finalStates[] = {"End"};
+
+	class States {
+		class Init {
+			name =	"Init";
+			init =	"private[""_server_is_ready"",""_extDB_notLoaded"",""_timeStamp"",""_handle""];" \n
+					"life_session_completed	= false;" \n
+					"life_firstSpawn		= true;" \n
+					"enableSentences false;";
+
+			class Links {
+				class Server {
+					to = "End";
+					priority = 2.0000;
+					condition = "isServer";
+					action = "";
+				};
+
+				class HasRun {
+					to = "End";
+					priority = 1.0000;
+					condition = "life_session_completed";
+					action = "";
+				};
+
+				class Client {
+					to = "FadeOut";
+					priority = 0.0000;
+					condition = "true";
+					action = "";
+				};
+			};
+		};
+
+		class FadeOut {
+			name = 	"FadeOut";
+			init = 	"0 cutText[""Bereite Client vor, wenn es zu lange dauert neu versuchen, NICHT RESPAWNEN!!!"",""BLACK FADED""];" \n
+					"0 cutFadeOut 9999999;" \n
+					"_timeStamp = diag_tickTime;";
+
+			class Links {
+				class ToValidateClient {
+					to = "Clientvalidator";
+					priority = 0.0000;
+					condition = "!(isNull player) && (player isEqualTo player)";
+					action = "";
+				};
+			};
+		};
+
+		class Clientvalidator {
+			name = "Clientvalidator";
+			init = "[] call copmile preprocessFileLineNumbers ""core\Clientvalidator""; ";
+
+			class Links {
+				class ToHeadlessCheck {
+					to = "HeadlessCheck";
+					priority = 0.0000;
+					condition = "true";
+					action = "";
+				}
+			};
+		};
+
+		class HeadlessCheck {
+			name =	"HeadlessCheck";
+			init =	"if( life_HC_isActive ) {" \n
+					"	_server_is_ready = life_HC_server_is_Ready;" \n
+					"	_extDB_notLoaded = life_HC_server_extDB_notLoaded;" \n
+					"} else {" \n
+					"	_server_is_ready = life_server_isReady;" \n
+					"	_extDB_notLoaded = life_server_extDB_notLoaded;" \n
+					"};";
+
+			class Links {
+				class ToCheckServerStatus {
+					to = "CheckServerStatus";
+					priority = 0.0000;
+					condition = "true";
+					action = "";
+				}
+			};
+		};
+
+		class CheckServerStatus {
+			name = 	"CheckServerStatus";
+			init = 	"";
+
+			class Links {
+				class NoDatabase {
+					to = "End";
+					priority = 1.0000;
+					condition = "(!isNil ""life_server_extDB_notLoaded"" && {life_server_extDB_notLoaded isEqualType []})";
+					action = "999999 cutText [""Fehler mit der Datenbankverbindung!"",""BLACK FADED""];" \n
+							 "999999 cutFadeOut 99999999;";
+				};
+
+				class ServerReady {
+					to = "InitConfiguration";
+					priority = 0.0000;
+					condition = "_server_is_ready";
+					action = "";
+				};
+			};
+		};
+
+		class InitConfiguration {
+			name = "InitConfiguration";
+			init = "[] call compile preprocessFileLineNumbers ""core\configuration.sqf""; ";
+
+			class Links {
+				class SetPaycheckData {
+					to = "SetPaycheckData";
+					priority = 0.0000;
+					condition = "true";
+					action = "";
+				};
+			};
+		};
+
+		class SetPaycheckData {
+			name =	"SetPaycheckData";
+			init =	"switch( playerSide ) do {" \n
+					"	case west: { life_paycheck			= getNumber(missionConfigFile >> ""Life_Settings"" >> ""paycheck_cop""); };" \n
+					"	case east: { life_paycheck			= getNumber(missionConfigFile >> ""Life_Settings"" >> ""paycheck_adac""); };" \n
+					"	case independent: { life_paycheck	= getNumber(missionConfigFile >> ""Life_Settings"" >> ""paycheck_med""); };" \n
+					"	case civilian: { life_paycheck		= getNumber(missionConfigFile >> ""Life_Settings"" >> ""paycheck_civ""); };" \n
+					"};"
+
+			class Links {
+				class ToGetPlayerData {
+					to = "GetPlayerData";
+					priority = 0.0000;
+					condition = "true";
+					action = "compileFinal( if( life_paycheck isEqualType "" ) then {life_paycheck} else {str(life_paycheck)} );";
+				};
+			};
+		};
+
+		class GetPlayerData {
+			name = "GetPlayerData";
+			init = "[] call SOCK_fnc_dataQuery;";
+
+			class Links {
+				class ToCheckGangstatus {
+					to = "Gangstatus";
+					priority = 0.0000;
+					condition = "life_session_completed";
+					action = "";
+				};
+			};
+		};
+
+		class Gangstatus {
+			name = "Gangstatus";
+			init = "";
+
+			class Links {
+				class ToSetVariables {
+					to = "SetVariables";
+					priority = 0.0000;
+					condition = "true";
+					action = "";
+				};
+			};
+		};
+
+		class SetVariables {
+			name =	"SetVariables";
+			init =	"player setVariable[""restrained"", false, true];" \n
+					"player setVariable[""Escorting"", false, true];" \n
+					"player setVariable[""transporting"", false, true];" \n
+					"player setVariable[""masked"", false,true];" \n
+					"player setVariable[""playerSurrender"", false, true];" \n
+					"player setVariable[""steam64ID"", steamid, true];" \n
+					"player setVariable[""realname"", profileName, true];" \n
+					"player addRating 99999999;" \n
+					"life_fnc_RequestClientId = player;" \n
+					"publicVariableServer ""life_fnc_RequestClientId"";" \n
+					"if( (getNumber(missionConfigFile >> ""Life_Settings"" >> ""enable_fatigue"")) isEqualTo 0 ) then {player enableFatigue false;};" \n
+					"DYNAMICMARKET_boughtItems = [];";
+
+			class Links {
+				class ToCallSetups {
+					to = "CallSetups";
+					priority = 0.0000;
+					condition = "!isNil {TON_fnc_clientGangLeader}";
+					action = "";
+				};
+			};
+		};
+
+		class CallSetups {
+			name =	"CallSetups";
+			init =	"[] call life_fnc_setupEVH;" \n
+					"[] call life_fnc_cellPhoneCheck;" \n
+					"[] call life_fnc_setupActions;" \n
+					"[player, life_settings_enableSidechannel, playerSide] remoteExecCall [""TON_fnc_managesc"", 2];" \n
+					"[] execFSM ""core\fsm\client.fsm"";" \n
+					"[] spawn life_fnc_escInterupt;" \n
+					"[] spawn life_fnc_survival;" \n
+					"[] spawn life_fnc_autoSave;" \n
+					"[player] remoteExec [""TON_fnc_playerLogged"", 2];" \n
+					"if( (getNumber(missionConfigFile >> ""Life_Settings"" >> ""pump_service"")) isEqualTo 1 ) then { [] execVM ""core\fn_setupStationService.sqf""; };";
+
+			class Links {
+				class ToHandleSideInit {
+					to = "HandleSideInit";
+					priority = 0.0000;
+					condition = "true";
+					action = "";
+				};
+			};
+		};
+
+		class HandleSideInit {
+			name =	"HandleSideInit";
+			init =	"switch( playerSide ) do {" \n
+					"	case west: { _handle = [] spawn life_fnc_initCop; };" \n
+					"	case east: {_handle = [] spawn life_fnc_initAdac;};" \n
+					"	case independent: {_handle = [] spawn life_fnc_initMedic;};" \n
+					"	case civilian: {_handle = [] spawn life_fnc_initCiv;};" \n
+					"};";
+
+			class Links {
+				class AddStackedEventhandlers {
+					to = "StackedEventhandlers";
+					priority = 0.0000;
+					condition = "scriptDone _handle";
+					action = "";
+				};
+			};
+		};
+
+		class StackedEventhandlers {
+			name =	"StackedEventhandlers";
+			init =	"LIFE_ID_PlayerTags		= [""LIFE_PlayerTags"",""onEachFrame"",""life_fnc_playerTags""] call BIS_fnc_addStackedEventHandler;" \n
+					"LIFE_ID_RevealObjects	= [""LIFE_RevealObjects"",""onEachFrame"",""life_fnc_revealObjects""] call BIS_fnc_addStackedEventHandler;";
+
+			class Links {
+				class ToCompileFunctions {
+					to = "CompileFunctions";
+					priority = 0.0000;
+					condition = "true";
+					action = "0 cutText[""Beende Client initialisierung"",""BLACK FADED""];";
+				};
+			};
+		};
+
+		class CompileFunctions {
+			name = "CompileFunctions";
+			init = "life_fnc_moveIn = compileFinal ""life_disable_getIn = false; player moveInCargo (_this select 0); life_disable_getOut = true;"" ";
+
+			class Links {
+				class ToBlockDupingThread {
+					to = "BlockDupingThread";
+					priority = 0.0000;
+					condition = "true";
+					action = "";
+				};
+			};
+		};
+
+		class BlockDupingThread {
+			name =	"BlockDupingThread";
+			init =	"[] spawn {" \n
+					"	while{ true } do {" \n
+					"		waitUntil{ (!isNull (findDisplay 49)) && (!isNull (findDisplay 602)) };" \n
+					"		(findDisplay 49) closeDisplay 2;" \n
+					"		(findDisplay 602) closeDisplay 2;" \n
+					"	};" \n
+					"}";
+
+			class Links {
+				class ToFinishSetup {
+					to = "FinishSetup";
+					priority = 0.0000;
+					condition = "!(isNull (findDisplay 46))";
+					action = "";
+				};
+			};
+		};
+
+		class FinishSetup {
+			name =	"FinishSetup";
+			init =	"(findDisplay 46) displayAddEventHandler [""KeyDown"", ""_this call life_fnc_keyHandler""];" \n
+					"0 cutText ["""",""BLACK IN""];" \n
+					"[] spawn life_fnc_statusBar;" \n
+					"[] call life_fnc_hudSetup;" \n
+					"if( life_HC_isActive ) then {" \n
+					"	[getPlayerUID player, player getVariable[""realname"", name player]] remoteExec [""HC_fnc_wantedProfUpdate"",HC_Life];" \n
+					"} else {" \n
+					"	[getPlayerUID player,player getVariable[""realname"",name player]] remoteExec [""life_fnc_wantedProfUpdate"", 2];" \n
+					"};";
+
+			class Links {
+				class ToSaveNow {
+					to = "SaveNow";
+					priority = 0.0000;
+					condition = "true";
+					action = "diag_log format[""Client initialisiert in %1 Sekunden"",(diag_tickTime) - _timeStamp];";
+				};
+			};
+		};
+
+		class SaveNow {
+			name = "SaveNow";
+			init = "[1] call SOCK_fnc_updatePartial;";
+
+			class Links {
+				class ToEnd {
+					to = "End";
+					priority = 0.0000;
+					condition = "true";
+					action = "";
+				};
+			};
+		};
+
+		class End {
+			name = "End";
+			init = "";
+		};
+	};
+};
