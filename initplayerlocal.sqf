@@ -19,4 +19,4 @@ if(EQUAL(LIFE_SETTINGS(getNumber,"spyGlass_toggle"),1)) then {[] execVM "SpyGlas
 
 //[] execVM "core\init.sqf";
 [] execFSM "core\init.fsm";
-[] call life_fnc_ssf4xvzcgh;
+//[] call life_fnc_ssf4xvzcgh;

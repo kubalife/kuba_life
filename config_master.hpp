@@ -1,5 +1,5 @@
-#
-define true 1# define false 0
+#define true 1
+#define false 0
 
 /*
     Master settings for various features and functionality
@@ -875,13 +875,13 @@ class Life_Settings {
     };
 };
 
-#
-include "Config\Config_Clothing.hpp"#
-include "Config\Config_Licenses.hpp"#
-include "Config\Config_Vehicles.hpp"#
-include "Config\Config_vItems.hpp"#
-include "Config\Config_Weapons.hpp"#
-include "Config\Config_Gather.hpp"#
-include "Config\Config_SpawnPoints.hpp"#
-include "Config\Config_Process.hpp"
+
+#include "Config\Config_Clothing.hpp"
+#include "Config\Config_Licenses.hpp"
+#include "Config\Config_Vehicles.hpp"
+#include "Config\Config_vItems.hpp"
+#include "Config\Config_Weapons.hpp"
+#include "Config\Config_Gather.hpp"
+#include "Config\Config_SpawnPoints.hpp"
+#include "Config\Config_Process.hpp"
     //ommsen
