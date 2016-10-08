@@ -84,7 +84,7 @@ class VirtualShops {
 		name = "STR_Shops_DrugDealer";
 		side = "civ";
 		license = "";
-		level[] = { "", "", -1, "" };
+		level[] = { "", "", -1, "drug" };
 		items[] = { "cocaine_processed", "heroin_processed", "marijuana" };
 	};
 
