@@ -19,6 +19,10 @@ _levelMsg = SEL(_levelAssert,3);
 life_shop_type = SEL(_this,3);
 life_shop_npc = SEL(_this,0);
 
+//Cop Abfrage für Drogendealer
+_cop = (west countSide playableUnits);
+if(_levelMsg == "drug" && _cop < 1) exitWith {hint "Es muss mindestens ein Cop im Dienst sein!";};
+
 if(!(EQUAL(_shopSide,""))) then {
 	_flag = switch(playerSide) do {case west: {"cop"}; case independent: {"med"}; default {"civ"};};
 	if(!(EQUAL(_flag,_shopSide))) then {_exit = true;};

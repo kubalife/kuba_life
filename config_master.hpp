@@ -142,7 +142,13 @@ class Life_Settings {
     /* Vehicle System Configurations */
     chopShop_vehicles[] = { "Car", "Air" }; //Vehicles that can be chopped. (Can add: "Ship" and possibly more -> look at the BI wiki...)
     vehicle_infiniteRepair = false; //Set to true for unlimited repairs with 1 toolkit. False will remove toolkit upon use.
-    vehicleShop_rentalOnly[] = { "B_MRAP_01_hmg_F", "B_Boat_Armed_01_minigun_F", "O_MRAP_02_hmg_F" }; //Vehicles that can only be rented and not purchased. (Last only for the session)
+    vehicleShop_rentalOnly[] = { "DAR_ImpalaPolice", "GeK_Renault_Trafic_Police", "A3L_SuburbanUM", "A3L_Suburban", "ivory_wrx_slicktop", "ivory_wrx_marked", "ivory_wrx_unmarked", "77FuryCop", 
+	"A3L_CVPIUCBlack", "A3L_CVPIUC", "A3L_TahoeUC", "DAR_TahoePoliceDet", "cg_h2_sert", "Navara_Policia", "GeK_Yukon_Police", "GeK_TLC100_Police", "cnp_Iveco_GOIT", "shounka_a3_suburbangign", 
+	"B_Heli_Light_01_F", "I_Heli_light_03_unarmed_F", "B_Heli_Transport_01_F","C_Boat_Civil_01_police_F","I_C_Boat_Transport_02_F","CUP_B_Zodiac_USMC","A3L_Towtruck","Jonzie_Tow_Truck",
+	"shouka_a3_spr_civ_orange","B_Truck_01_mover_F","B_Truck_01_ammo_F","O_Truck_03_repair_F","O_Truck_03_fuel_F","A3L_GMC_Van_Yellow","Shounka_a3_spr_civ_jaune","A3L_EvoX","GeK_TLC100",
+	"C_Offroad_01_F","C_SUV_01_F","A3L_CVPILBFD","Jonzie_Ambulance","mrshounka_vsav_smur","cnp_Defender","gek_s60_medic","GeK_TLC100_Medic","DAR_ExplorerMedic","mercedes_sprinter_ambulancia_F",
+	"DAR_TahoeEMS","O_Truck_03_medical_F","Mrshounka_corbillard_c","A3L_Stretcher_F","sfp_wheelchair","A3L_LadderTruck","A3PL_Engine","RR_Firetruck","cg_merc_atego_firetruck_reg","daf_firetruck" //Vehicles that can only be rented and not purchased. (Last only for the session)
+
 
         /* Vehicle Purchase Prices */
         vehicle_purchase_multiplier_CIVILIAN = 1; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier

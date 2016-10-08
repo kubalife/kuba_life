@@ -547,6 +547,7 @@ class CarShops {
     class adacAir {
         side = "med";
         vehicles[] = {
+			{ "B_Heli_Light_01_F", { "", "", -1 } },
 			{ "ASL_AS350_1", { "", "", -1 } }
         };
     };

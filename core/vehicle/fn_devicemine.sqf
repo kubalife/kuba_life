@@ -36,7 +36,7 @@ _resourceCfg = missionConfigFile >> "CfgGather" >> "Resources";
 for "_i" from 0 to count(_resourceCfg)-1 do {
 	_curConfig = (_resourceCfg select _i);
 	_resource = configName(_curConfig);
-	_resourceZones = getArray(_curConfig >> "zones");
+	_resourceZones = ["sulfur_1","wood_1","wood_2","nitroamine_1","silizium_mine","copper_mine","sand_mine","Kohle_1","rock_quarry","iron_mine","diamond_mine","oil_field_1","oil_field_2"];
 	_amount = getNumber(_curConfig >> "amount");
 
 	{
