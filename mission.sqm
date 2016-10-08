@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={10062.467,463.38351,11740.573};
-		dir[]={-0.50768125,-0.54063052,0.67080927};
-		up[]={-0.32625675,0.84125996,0.43108937};
-		aside[]={0.79738659,2.8405339e-007,0.60347688};
+		pos[]={473.98056,25,251.47919};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -110,14 +110,13 @@ addons[]=
 	"A3_Structures_F_Ind_Factory",
 	"A3_Structures_F_Ind_Shed",
 	"A3_Structures_F_Exp_Industrial_SurfaceMine_01",
-	"plp_urban_barriers",
-	"units"
+	"plp_urban_barriers"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=51;
+		items=50;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -437,11 +436,6 @@ class AddonsMetaData
 			className="plp_urban_barriers";
 			name="plp_urban_barriers";
 		};
-		class Item50
-		{
-			className="units";
-			name="units";
-		};
 	};
 };
 randomSeed=2639488;
@@ -755,7 +749,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1512;
+		items=1511;
 		class Item0
 		{
 			dataType="Marker";
@@ -1882,7 +1876,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=358.77527;
 			id=155;
-			atlOffset=327.06567;
+			atlOffset=330.46921;
 		};
 		class Item103
 		{
@@ -1910,7 +1904,7 @@ class Mission
 			position[]={11799.772,4.0535827,2280.5288};
 			name="cop_car_5";
 			type="Empty";
-			angle=314.9754;
+			angle=314.97537;
 			id=160;
 			atlOffset=2.2035828;
 		};
@@ -17455,7 +17449,7 @@ class Mission
 			position[]={11785.95,4.0535831,2274.01};
 			name="cop_spawn_9";
 			type="Empty";
-			angle=284.43851;
+			angle=284.43848;
 			id=9052;
 			atlOffset=1.5791945;
 		};
@@ -17548,6 +17542,7 @@ class Mission
 				angles[]={0,1.6108155,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -17556,7 +17551,7 @@ class Mission
 			};
 			id=9303;
 			type="Land_CargoBox_V1_F";
-			atlOffset=0.73651361;
+			atlOffset=0.0015375614;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -28574,7 +28569,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=0.17255655;
 			id=10246;
-			atlOffset=346.86761;
+			atlOffset=349.78644;
 		};
 		class Item506
 		{
@@ -28600,6 +28595,7 @@ class Mission
 					};
 					id=10248;
 					type="C_man_1";
+					atlOffset=0.10826731;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -28648,6 +28644,7 @@ class Mission
 			{
 			};
 			id=10247;
+			atlOffset=0.10826731;
 		};
 		class Item507
 		{
@@ -33128,6 +33125,7 @@ class Mission
 					};
 					id=1073;
 					type="C_Nikos_aged";
+					atlOffset=-4.7683716e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -57661,44 +57659,15 @@ class Mission
 		class Item1510
 		{
 			dataType="Marker";
-			position[]={11793.693,43504.922,2263.5249};
+			position[]={11793.693,4.3251422e+029,2263.5249};
 			name="marker_347";
 			text="Policia Lijnhaven";
 			type="A3L_PD_Icon";
 			colorName="ColorWEST";
+			a=0.5;
+			b=0.5;
 			id=13327;
-			atlOffset=43503.07;
-		};
-		class Item1511
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={10015.86,409.87158,11769.12};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						isPlayer=1;
-					};
-					id=13329;
-					type="LC_Cadet";
-					atlOffset=0.00015258789;
-				};
-			};
-			class Attributes
-			{
-			};
-			id=13328;
-			atlOffset=0.00015258789;
+			atlOffset=4.3251422e+029;
 		};
 	};
 };
