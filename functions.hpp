@@ -206,13 +206,13 @@ class Ausweis
 		class weed {};
 		class addicted {};
 	};
-
+/*
 	class gas
 	{
 		file = "Custom\gas";
 		class teargas {};
 	};
-
+*/
 	class nitro
 	{
 		file = "Custom\nitro";
