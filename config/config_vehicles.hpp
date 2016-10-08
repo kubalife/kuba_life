@@ -4677,7 +4677,7 @@ class CarShops {
 			{ "CUP_B_MTVR_USMC", { "", "", -1 } },
 			{ "CUP_B_MTVR_Ammo_USMC", { "", "", -1 } },
 			{ "CUP_B_MTVR_Refuel_USMC", { "", "", -1 } },
-			{ "CUP_B_MTVR_Repair_USMC", { "", "", -1 } },
+			{ "CUP_B_MTVR_Repair_USMC", { "", "", -1 } }
             //{ "O_T_Truck_03_transport_ghex_F", { "", "", -1 } },
             //{ "O_T_Truck_03_covered_ghex_F", { "", "", -1 } },
             //{ "O_T_Truck_03_ammo_ghex_F", { "", "", -1 } },
@@ -4787,7 +4787,7 @@ class CarShops {
 			{ "A3L_SpeedYacht", { "", "", -1 } },
 			{ "cl3_phoenixyacht", { "", "", -1 } },
 			{ "POP_Speed_yatch", { "", "", -1 } },
-			{ "A3L_CarCarrier", { "", "", -1 } },
+			{ "A3L_CarCarrier", { "", "", -1 } }
 			//{ "A3PL_Yacht", { "", "", -1 } },
 			//{ "A3PL_Yacht_Pirate", { "", "", -1 } }
         };
