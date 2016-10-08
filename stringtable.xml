@@ -2094,11 +2094,11 @@
 			<Polish>Wyciągnij pojazd:</Polish>
 		</Key>
 		<Key ID="STR_Garage_SellVehicle">
-			<Original>Sell Vehicle</Original>
+			<Original>SELL Vehicle</Original>
 			<Czech>Navrhujeme Vehicle</Czech>
 			<Spanish>Vender Vehículo</Spanish>
 			<Russian></Russian>
-			<German>Fahrzeug verkaufen</German>
+			<German>Fahrzeug !VERKAUFEN!</German>
 			<French>Vendre</French>
 			<Italian>Vendi Veicolo</Italian>
 			<Portuguese>Vender Veículo</Portuguese>

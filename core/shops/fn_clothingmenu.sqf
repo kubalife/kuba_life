@@ -7,9 +7,13 @@
 	Opens and initializes the clothing store menu.
 	Started clean, finished messy.
 */
-private["_list","_clothes","_pic","_filter","_pos","_oldPos","_oldDir","_oldBev","_flag","_shopTitle","_license","_shopSide","_exit","_testLogic","_nearVeh","_ut1","_ut2","_ut3","_ut4","_ut5","_light"];
+private["_list","_clothes","_pic","_filter","_pos","_oldPos","_oldDir","_oldBev","_flag","_shopTitle","_license","_shopSide","_exit","_testLogic","_nearVeh","_ut1","_ut2","_ut3","_ut4","_ut5","_light","_acecheck"];
 if(player != vehicle player) exitWith {titleText[localize "STR_NOTF_ActionInVehicle","PLAIN"];};
 _exit = false;
+
+// ACE items
+_acecheck = ["ACE_Wheel","ACE_key_lockpick","ACE_atropine","ACE_EarPlugs","ACE_optic_Arco_PIP","ACE_optic_LRPS_PIP","ACE_optic_SOS_PIP","ACE_optic_MRCO_2D","ACE_optic_Hamr_PIP","ACE_fieldDressing","ACE_packingBandage","ACE_elasticBandage","ACE_morphine","ACE_epinephrine","ACE_bloodIV","ACE_bloodIV_500","ACE_salineIV","ACE_salineIV_500","ACE_bodyBag","ACE_quikclot","ACE_surgicalKit","ACE_tourniquet","ACE_personalAidKit","ACE_SpraypaintGreen","ACE_SpraypaintRed","ACE_SpraypaintBlack","ACE_SpraypaintBlue","ACE_salineIV_250","ACE_Sandbag_empty","ACE_CableTie","ACE_wirecutter"];
+
 
 /* License check & config validation */
 if(!isClass(missionConfigFile >> "Clothing" >> (SEL(_this,3)))) exitWith {}; //Bad config entry.
@@ -147,11 +151,34 @@ _filter lbAdd localize "STR_Shop_UI_Backpack";
 _filter lbSetCurSel 0;
 
 life_oldClothes = uniform player;
-life_olduniformItems = uniformItems player;
+
+// Uniform Items speichern
+life_olduniformItems = [];
+{
+	if(!(_x in _acecheck)) then
+	{
+		life_olduniformItems pushBack _x;
+	};
+}foreach uniformItems player;
 life_oldBackpack = backpack player;
 life_oldVest = vest player;
-life_oldVestItems = vestItems player;
-life_oldBackpackItems = backpackItems player;
+
+// Weste Items speichern
+life_oldVestItems = [];
+{
+	if(!(_x in _acecheck)) then
+	{
+		life_oldVestItems pushBack _x;
+	};
+}foreach vestItems player;
+// Rucksack Items speichern
+life_oldBackpackItems = [];
+{
+	if(!(_x in _acecheck)) then
+	{
+		life_oldBackpackItems pushBack _x;
+	};
+}foreach backpackItems player;
 life_oldGlasses = goggles player;
 life_oldHat = headgear player;
 
