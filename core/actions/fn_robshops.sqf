@@ -6,12 +6,12 @@ _action = [_this,2] call BIS_fnc_param;//Action name
 _cops = (west countSide playableUnits);
 
 if(_cops < 3) exitWith {hint "Es müssen mindestens 3 Polizisten im Dienst sein zum Überfallen";};
-if(side _robber == west) exitWith { hint "Meinst du nicht das du das Gegenteil tun solltest?" };
-if(side _robber == independent) exitWith { hint "Geh Leute wiederbeleben und lass mich in Ruhe!" };
-if(_robber distance _shop > 20) exitWith { hint "Du musst innerhalb von 5 Meter bleiben!" };
-if (vehicle player != _robber) exitWith { hint "Raus aus deinem Fahrzeug!" };
+if(side _robber == west) exitWith { hint "Meinst du nicht das du das Gegenteil tun solltest?";};
+if(side _robber == independent) exitWith { hint "Geh Leute wiederbeleben und lass mich in Ruhe!";};
+if(_robber distance _shop > 20) exitWith { hint "Du musst innerhalb von 5 Meter bleiben!";};
+if (vehicle player != _robber) exitWith { hint "Raus aus deinem Fahrzeug!";};
 
-if (currentWeapon _robber == "" || currentWeapon _robber in["Binocular","Rangefinder"]) exitWith { hint "Womit willst du mich erpressen? Mit 'nem Schokoriegel?" };
+if (currentWeapon _robber == "" || currentWeapon _robber in["Binocular","Rangefinder"]) exitWith { hint "Womit willst du mich erpressen? Mit 'nem Schokoriegel?";};
 
 if !(alive _robber) exitWith {};
 
