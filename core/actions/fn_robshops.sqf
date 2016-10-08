@@ -74,6 +74,6 @@ while{true} do
 [getPlayerUID _robber,name _robber,"15"] remoteExec ["life_fnc_wantedAdd",2];
 
 
-uiSleep 600;
+uiSleep 1200;
 _action = _shop addAction["Rob Shop",life_fnc_robShops];
 _shop switchMove "";
