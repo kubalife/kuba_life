@@ -1759,7 +1759,7 @@ class VirtualItems {
 			sellPrice = 500;
 			illegal = true;
 			edible = -1;
-			icon = "";
+			icon = "icons\nitro.paa";
 	};
 
 };

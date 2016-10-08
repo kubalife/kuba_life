@@ -318,7 +318,7 @@ class Clothing {
             { "G_B_Diving", "", 0, { "", "", -1 } },
             { "G_Diving", "", 0, { "", "", -1 } },
             { "G_Spectacles", "", 0, { "", "", -1 } },
-            { "G_Spectacles_Tinted", "", 0, { "", "", -1 } }
+            { "G_Spectacles_Tinted", "", 0, { "", "", -1 } },
 			{ "Mask_M40", "", 0, { "life_coplevel", "SCALAR", -1 } },
             { "G_Balaclava_TI_G_tna_F", "", 0, { "life_coplevel", "SCALAR", -1 } },
             { "G_Balaclava_TI_blk_F", "", 0, { "life_coplevel", "SCALAR", -1 } },
@@ -330,11 +330,8 @@ class Clothing {
 			{ "policia_sniper_vest", "", 0, { "", "", -1 } },
 			{ "cnp_vest_reflec", "", 0, { "", "", -1 } },
 			{ "uip_vest_pol", "", 0, { "", "", -1 } },
-<<<<<<< HEAD
 			{ "policia_geo_vest", "", 0, { "", "", -1 } },
-=======
 			{ "policia_vest", "", 0, { "", "", -1 } },
->>>>>>> d2249095c1d19b31dab91c438c8ddcf2853e1925
 			{ "V_RebreatherB", "", 0, { "", "", -1 } }
         };
         backpacks[] = {
@@ -972,7 +969,7 @@ class Clothing {
         side = "med";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_C_Scientist", "", 0, { "", "", -1 } },
+            { "U_C_Scientist", "", 0, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },

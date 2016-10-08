@@ -71,7 +71,10 @@ while{true} do
 	if!(alive _robber) exitWith {};
 [0,format["Policia News: Ein Räuber erbeutet $%3 nach Tankstellenüberfall!",name _robber, _shop, [_kassa] call life_fnc_numberText]] remoteExec ["life_fnc_broadcast",west];
 [0,format["Policia News: Eine Tankstelle wurde überfallen: Beute: $%3!, zeugen bei der Policia melden!",name _robber, _shop, [_kassa] call life_fnc_numberText]] remoteExec ["life_fnc_broadcast",civilian];
-[getPlayerUID _robber,name _robber,"15"] remoteExec ["life_fnc_wantedAdd",2];
+//[getPlayerUID _robber,name _robber,"211"] remoteExec ["life_fnc_wantedAdd",2];
+//[getPlayerUID _robber,name _robber,"211",_val] remoteExecCall ["life_fnc_wantedAdd",RSERV];
+[getPlayerUID _robber,_robber GVAR ["realname",name _robber],"211"] remoteExecCall ["life_fnc_wantedAdd",RSERV];
+
 
 
 uiSleep 1200;
