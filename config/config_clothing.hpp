@@ -318,7 +318,7 @@ class Clothing {
             { "G_B_Diving", "", 0, { "", "", -1 } },
             { "G_Diving", "", 0, { "", "", -1 } },
             { "G_Spectacles", "", 0, { "", "", -1 } },
-            { "G_Spectacles_Tinted", "", 0, { "", "", -1 } }
+            { "G_Spectacles_Tinted", "", 0, { "", "", -1 } },
 			{ "Mask_M40", "", 0, { "life_coplevel", "SCALAR", -1 } },
             { "G_Balaclava_TI_G_tna_F", "", 0, { "life_coplevel", "SCALAR", -1 } },
             { "G_Balaclava_TI_blk_F", "", 0, { "life_coplevel", "SCALAR", -1 } },
@@ -969,7 +969,7 @@ class Clothing {
         side = "med";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_C_Scientist", "", 0, { "", "", -1 } },
+            { "U_C_Scientist", "", 0, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
