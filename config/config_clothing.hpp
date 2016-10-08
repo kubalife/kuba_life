@@ -330,11 +330,8 @@ class Clothing {
 			{ "policia_sniper_vest", "", 0, { "", "", -1 } },
 			{ "cnp_vest_reflec", "", 0, { "", "", -1 } },
 			{ "uip_vest_pol", "", 0, { "", "", -1 } },
-<<<<<<< HEAD
 			{ "policia_geo_vest", "", 0, { "", "", -1 } },
-=======
 			{ "policia_vest", "", 0, { "", "", -1 } },
->>>>>>> d2249095c1d19b31dab91c438c8ddcf2853e1925
 			{ "V_RebreatherB", "", 0, { "", "", -1 } }
         };
         backpacks[] = {

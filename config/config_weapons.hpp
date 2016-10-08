@@ -546,7 +546,6 @@ class WeaponShops {
             { "ACE_Wheel", "", 0, 0,"" },
             { "ACE_TacticalLadder_Pack", "", 0, 0,"" },
             { "ACE_key_lockpick", "", 0, 0,"" },
-            {""},
             { "Chemlight_red", "", 0, -1,"" },
             { "Chemlight_yellow", "", 0, 0,"" },
             { "Chemlight_green", "", 0, 0,"" },
