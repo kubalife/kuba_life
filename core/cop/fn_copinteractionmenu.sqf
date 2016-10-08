@@ -34,6 +34,41 @@ if(!dialog) then {
 	createDialog "pInteraction_Menu";
 };
 
+if(_curTarget isKindOf "House_F") exitWith {
+	if((nearestObject [[5553.5,7736.9,0],"Land_Dome_Small_F"]) == _curTarget OR (nearestObject [[5547.5,7735.9,0],"Land_Cargo_House_V1_F"]) == _curTarget) then {
+		_display = findDisplay 37400;
+		_Btn1 = _display displayCtrl Btn1;
+		_Btn2 = _display displayCtrl Btn2;
+		_Btn3 = _display displayCtrl Btn3;
+		_Btn4 = _display displayCtrl Btn4;
+		_Btn5 = _display displayCtrl Btn5;
+		_Btn6 = _display displayCtrl Btn6;
+		_Btn7 = _display displayCtrl Btn7;
+		_Btn8 = _display displayCtrl Btn8;
+		_Btn9 = _display displayCtrl Btn9;
+		_Btn10 = _dispaly displayCtrl Btn10;
+		life_pInact_curTarget = _curTarget;
+		
+		_Btn1 ctrlSetText localize "STR_pInAct_Repair";
+		_Btn1 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_repairDoor;";
+		
+		_Btn2 ctrlSetText localize "STR_pInAct_CloseOpen";
+		_Btn2 buttonSetAction "[life_pInact_curTarget] call life_fnc_doorAnimate;";
+		_Btn3 ctrlShow false;
+		_Btn4 ctrlShow false;
+		_Btn5 ctrlShow false;
+		_Btn6 ctrlShow false;
+		_Btn7 ctrlShow false;
+		_Btn8 ctrlShow false;
+		_Btn9 ctrlShow false;
+		_Btn10 ctrlShow false;
+	} else {
+		closeDialog 0;
+	};
+};
+
+
+
 _display = findDisplay 37400;
 _Btn1 = _display displayCtrl Btn1;
 _Btn2 = _display displayCtrl Btn2;
