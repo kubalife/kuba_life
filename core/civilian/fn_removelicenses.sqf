@@ -14,9 +14,9 @@ switch (_state) do {
 	case 0: {
 		SVAR_MNS [LICENSE_VARNAME("rebel","civ"),false];
 		SVAR_MNS [LICENSE_VARNAME("driver","civ"),false];
-		SVAR_MNS [LICENSE_VARNAME("heroin","civ"),false];
+		/*SVAR_MNS [LICENSE_VARNAME("heroin","civ"),false];
 		SVAR_MNS [LICENSE_VARNAME("marijuana","civ"),false];
-		SVAR_MNS [LICENSE_VARNAME("cocaine","civ"),false];
+		SVAR_MNS [LICENSE_VARNAME("cocaine","civ"),false];*/
 	};
 
 	//Jail licenses
@@ -44,7 +44,7 @@ switch (_state) do {
 			hint localize "STR_Civ_LicenseRemove_2";
 		};
 	};
-	
+
 	// Jail über 30 Minuten
 	case 4: {
 		SVAR_MNS [LICENSE_VARNAME("gun","civ"),false];
@@ -53,53 +53,52 @@ switch (_state) do {
 	};
 
 	// Revoking Licenses
- 
+
 	 // Führerschein Lizenz
 	 case 10:
 	 {
-		 license_civ_driver = false;
-		 hint localize "STR_Civ_RevokeLicense_Driver";
+		SVAR_MNS [LICENSE_VARNAME("driver","civ"),false];
+		hint localize "STR_Civ_RevokeLicense_Driver";
 	 };
 	 // LKW Führerschein Lizenz
 	 case 11:
 	 {
-		 license_civ_truck = false;
-		 hint localize "STR_Civ_RevokeLicense_Truck";
+		SVAR_MNS [LICENSE_VARNAME("trucking","civ"),false];
+		hint localize "STR_Civ_RevokeLicense_Truck";
 	 };
 	 // Pilotenschein Lizenz
 	 case 12:
 	 {
-		 license_civ_air = false;
-		 hint localize "STR_Civ_RevokeLicense_Pilot";
+		SVAR_MNS [LICENSE_VARNAME("pilot","civ"),false];
+		hint localize "STR_Civ_RevokeLicense_Pilot";
 	 };
 	 // Bootsschein Lizenz
 	 case 13:
 	 {
-		 license_civ_boat = false;
-		 hint localize "STR_Civ_RevokeLicense_Boating";
+		SVAR_MNS [LICENSE_VARNAME("boat","civ"),false];
+		hint localize "STR_Civ_RevokeLicense_Boating";
 	 };
 	 // Taucherschein Lizenz
 	 case 14:
 	 {
-		 license_civ_dive = false;
-		 hint localize "STR_Civ_RevokeLicense_Diving";
+		SVAR_MNS [LICENSE_VARNAME("dive","civ"),false];
+		hint localize "STR_Civ_RevokeLicense_Diving";
 	 };
-	 // Taxischein Lizenz
+	 // Waffenschein Lizenz
 	 case 15:
 	 {
-		 license_civ_taxi = false;
-		 hint localize "STR_Civ_RevokeLicense_Taxi";
+		SVAR_MNS [LICENSE_VARNAME("gun","civ"),false];
+		hint localize "STR_Civ_RevokeLicense_Taxi";
 	 };
 	 // Alle Scheine
 	 case 16:
 	 {
-		 license_civ_driver = false;
-		 license_civ_truck = false;
-		 license_civ_air = false;
-		 license_civ_boat = false;
-		 license_civ_air = false;
-		 license_civ_dive = false;
-		 license_civ_taxi = false;
-		 hint localize "STR_Civ_RevokeLicense_AllMotor";
+		SVAR_MNS [LICENSE_VARNAME("driver","civ"),false];
+		SVAR_MNS [LICENSE_VARNAME("trucking","civ"),false];
+		SVAR_MNS [LICENSE_VARNAME("pilot","civ"),false];
+		SVAR_MNS [LICENSE_VARNAME("boat","civ"),false];
+		SVAR_MNS [LICENSE_VARNAME("dive","civ"),false];
+		SVAR_MNS [LICENSE_VARNAME("gun","civ"),false];
+		hint localize "STR_Civ_RevokeLicense_AllMotor";
 	 };
 };

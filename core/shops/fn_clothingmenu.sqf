@@ -152,6 +152,7 @@ _filter lbSetCurSel 0;
 
 life_oldClothes = uniform player;
 
+// ACE Items werden temporär entfernt bis besserer Fix vorhanden
 // Uniform Items speichern
 life_olduniformItems = [];
 {
