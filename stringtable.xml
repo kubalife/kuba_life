@@ -10690,10 +10690,10 @@
 		<Original>Deine Taucherlizez wurde von der Polizei beschlagnahmt!</Original>
 	 </Key>
 	 <Key ID="STR_Civ_RevokeLicense_Taxi">
-		<Original>Dein Taxischein wurde von der Polizei beschlagnahmt!</Original>
+		<Original>Dein Waffenschein wurde von der Polizei beschlagnahmt!</Original>
 	 </Key>
 	 <Key ID="STR_Civ_RevokeLicense_AllMotor">
-		<Original>Alle deine Fahrlizenzen wurde von der Polizei beschlagnahmt!</Original>
+		<Original>Alle deine Fahrlizenzen/Waffenscheine wurden von der Polizei beschlagnahmt!</Original>
 	 </Key>
 	</Package>
 	<Package name="Gagkit">
