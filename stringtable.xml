@@ -2690,11 +2690,11 @@
 			<Original>Zahlen</Original>
 		</Key>
 		<Key ID="STR_Ticket_RefuseTicket">
-			<Original>Refuse Ticket</Original>
+			<Original>Ablehnen</Original>
 			<Czech>odmítnout Ticket</Czech>
 			<Spanish>Denegar Tiquete</Spanish>
 			<Russian></Russian>
-			<German>Ticket ablehnen</German>
+			<German>Ablehnen</German>
 			<French>Contester l'amende</French>
 			<Italian>Rifiuta Multa</Italian>
 			<Portuguese>Recusar Multa</Portuguese>

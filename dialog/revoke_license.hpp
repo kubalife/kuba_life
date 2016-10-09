@@ -6,9 +6,9 @@ class revokeLicense_Menu
  idd = 41000;
  movingEnable = false;
  enableSimulation = true;
- 
+
  class controlsBackground {
- class RscTitleBackground:life_RscText 
+ class RscTitleBackground:life_RscText
  {
  colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
  idc = -1;
@@ -17,7 +17,7 @@ class revokeLicense_Menu
  w = BGW;
  h = (1 / 25);
  };
- 
+
  class MainBackground : life_RscText
  {
  idc = -1;
@@ -27,21 +27,21 @@ class revokeLicense_Menu
  w = BGW;
  h = 0.6 - (22 / 250);
  };
- 
+
  class Title : life_RscTitle
  {
  colorBackground[] = {0,0,0,0};
  idc = 41001;
- text = "Dpt. of Motor Vehicles";
+ text = "Policia de Kuba - Lizenzen";
  x = BGX;
  y = BGY;
  w = BGW;
  h = (1 / 25);
  };
  };
- 
+
  class controls {
- class ButtonClose : life_RscButtonMenu 
+ class ButtonClose : life_RscButtonMenu
  {
  idc = -1;
  text = "Close";
@@ -62,7 +62,7 @@ class revokeLicense_Menu
  w = 0.24;
  h = 0.038;
  };
- 
+
  class ButtonTwo : life_RscButtonMenu
  {
  idc = 41003;
@@ -74,7 +74,7 @@ class revokeLicense_Menu
  w = 0.24;
  h = 0.038;
  };
- 
+
  class ButtonThree : life_RscButtonMenu
  {
  idc = 41004;
@@ -86,7 +86,7 @@ class revokeLicense_Menu
  w = 0.24;
  h = 0.038;
  };
- 
+
  class ButtonFour : life_RscButtonMenu
  {
  idc = 41005;
@@ -98,7 +98,7 @@ class revokeLicense_Menu
  w = 0.24;
  h = 0.038;
  };
- 
+
  class ButtonFive : life_RscButtonMenu
  {
  idc = 41006;
@@ -110,24 +110,24 @@ class revokeLicense_Menu
  w = 0.24;
  h = 0.038;
  };
- 
+
  class ButtonSix : life_RscButtonMenu
  {
  idc = 41007;
  colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
- text = "Taxi-Lizenz";
+ text = "Waffenschein";
  sizeEx = 0.025;
  x = BGX + 0.03;
  y = BGY + 0.32;
  w = 0.24;
  h = 0.038;
  };
- 
+
  class ButtonSeven : life_RscButtonMenu
  {
  idc = 41008;
  colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
- text = "Alle Scheine";
+ text = "Alle von Oben";
  sizeEx = 0.025;
  x = BGX + 0.03;
  y = BGY + 0.37;
