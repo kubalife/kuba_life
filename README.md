@@ -3,7 +3,7 @@
 -----------------
 Kuba Life Mission
 -----------------
-Stand: 03.10.2016
+Ausgangspunkt: 03.10.2016
 
 
 > Moskau stinkt <
