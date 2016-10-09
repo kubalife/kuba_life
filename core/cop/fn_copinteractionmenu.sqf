@@ -79,7 +79,7 @@ _Btn6 = _display displayCtrl Btn6;
 _Btn7 = _display displayCtrl Btn7;
 _Btn8 = _display displayCtrl Btn8;
 _Btn9 = _display displayCtrl Btn9;
-_Btn10 = _dispaly displayCtrl Btn10;
+_Btn10 = _display displayCtrl Btn10;
 life_pInact_curTarget = _curTarget;
 
 if((player getVariable["isEscorting",false])) then {
