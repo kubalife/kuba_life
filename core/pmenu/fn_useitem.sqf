@@ -74,6 +74,14 @@ switch (true) do {
 		[] spawn life_fnc_lockpick;
 	};
 
+	case (EQUAL(_item,"gagkit")): {
+		[] spawn life_fnc_gagAction;
+	};
+
+	case (EQUAL(_item,"blindfold")): {
+		[] spawn life_fnc_maskaction;
+	};
+
 	case (_item == "marijuana"):
 	{
 		if(([false,_item,1] call life_fnc_handleInv)) then

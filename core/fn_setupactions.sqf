@@ -18,6 +18,12 @@ switch (playerSide) do {
 			'vest player == "V_HarnessOGL_brn" && alive player && playerSide == civilian && !life_istazed && !life_isSuicide && !(player getVariable "restrained") && !(player getVariable "Escorting") && !(player getVariable "transporting")']];
 		//Ausweis
 			life_actions = life_actions + [player addAction["Ausweis zeigen",life_fnc_Lizenzzeigen,"",1,false,true,"",'!isNull cursorTarget && cursorTarget isKindOf "Man" && player distance cursorObject < 3']];
+		//Blindfold
+		life_actions = life_actions + [player addAction["Remove blindfold",life_fnc_unmask,"",0,false,false,"",'
+		!isNull cursorTarget && player distance cursorTarget < 2.5 && isPlayer cursorTarget && (cursorTarget getVariable ["blindfolded", false]) ']];
+		//Gagkit
+		life_actions = life_actions + [player addAction["<t color = '#d02b2b'>Entferne Mundknebel</t>",life_fnc_removegagaction,"",0,false,false,"",'
+		!isNull cursorTarget && player distance cursorTarget < 4 && isPlayer cursorTarget && (cursorTarget getVariable ["gagged", false])  && (!life_action_inUse) ']];
 	};
 	case west:
 		{

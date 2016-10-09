@@ -48,10 +48,10 @@ if(_curTarget isKindOf "House_F") exitWith {
 		_Btn9 = _display displayCtrl Btn9;
 		_Btn10 = _dispaly displayCtrl Btn10;
 		life_pInact_curTarget = _curTarget;
-		
+
 		_Btn1 ctrlSetText localize "STR_pInAct_Repair";
 		_Btn1 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_repairDoor;";
-		
+
 		_Btn2 ctrlSetText localize "STR_pInAct_CloseOpen";
 		_Btn2 buttonSetAction "[life_pInact_curTarget] call life_fnc_doorAnimate;";
 		_Btn3 ctrlShow false;
@@ -87,8 +87,9 @@ if((player getVariable["isEscorting",false])) then {
 };
 
 //Set Unrestrain Button
-_Btn1 ctrlSetText localize "STR_pInAct_Unrestrain";
-_Btn1 buttonSetAction "[life_pInact_curTarget] call life_fnc_unrestrain; closeDialog 0;";
+//_Btn1 ctrlSetText localize "STR_pInAct_Unrestrain";
+//_Btn1 buttonSetAction "[life_pInact_curTarget] call life_fnc_unrestrain; closeDialog 0;";
+_Btn1 ctrlEnable false;
 
 //Set Check Licenses Button
 _Btn2 ctrlSetText localize "STR_pInAct_checkLicenses";
@@ -99,13 +100,14 @@ _Btn3 ctrlSetText localize "STR_pInAct_SearchPlayer";
 _Btn3 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_searchAction; closeDialog 0;";
 
 //Set Escort Button
-if((player getVariable["isEscorting",false])) then {
+/*if((player getVariable["isEscorting",false])) then {
 	_Btn4 ctrlSetText localize "STR_pInAct_StopEscort";
 	_Btn4 buttonSetAction "[] call life_fnc_stopEscorting; closeDialog 0;";
 } else {
 	_Btn4 ctrlSetText localize "STR_pInAct_Escort";
 	_Btn4 buttonSetAction "[life_pInact_curTarget] call life_fnc_escortAction; closeDialog 0;";
-};
+};*/
+_Btn4 ctrlEnable false;
 
 //Set Ticket Button
 _Btn5 ctrlSetText localize "STR_pInAct_TicketBtn";
@@ -116,8 +118,9 @@ _Btn6 ctrlSetText localize "STR_pInAct_Arrest";
 _Btn6 buttonSetAction "[life_pInact_curTarget] call life_fnc_arrestAction; closeDialog 0;";
 
 //Put in car
-_Btn7 ctrlSetText localize "STR_pInAct_PutInCar";
-_Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar; closeDialog 0;";
+/*_Btn7 ctrlSetText localize "STR_pInAct_PutInCar";
+_Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar; closeDialog 0;";*/
+_Btn7 ctrlEnable false;
 
 //SeizeWeapons Button
 _Btn8 ctrlSetText localize "STR_pInAct_Seize";
