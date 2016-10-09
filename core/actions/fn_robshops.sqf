@@ -49,7 +49,7 @@ while{true} do
 	if(_robber distance _shop > 5.1) exitWith { };
 	if((_robber getVariable["restrained",false])) exitWith {};
 	if(life_istazed) exitWith {} ;
-	if(life_interrupted) exitWith {};
+//	if(life_interrupted) exitWith {};
 };
 
 

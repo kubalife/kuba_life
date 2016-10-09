@@ -16,7 +16,7 @@ _members = [];
 		{
 			_members = units (group player);
 			{
-				if(("ItemGPS" in (assignedItems  player)) then {
+				if(("ItemGPS" in (assignedItems _x)) then {
 					_marker = createMarkerLocal [format["%1_marker",_x],visiblePosition _x];
 					_marker setMarkerColorLocal "ColorCivilian";
 					_marker setMarkerTypeLocal "Mil_dot";
