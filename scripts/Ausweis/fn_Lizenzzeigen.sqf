@@ -70,10 +70,10 @@ switch(playerSide)do{
  };
 };
 // Hab ich ein Item was mich anonym macht?
-if(_headgear in (headgear _x) || _goggles in (goggles _x))then{
+/*if(_headgear in (headgear _x) || _goggles in (goggles _x))then{
 	_message = format["<img size='10' color='#FFFFFF' image='icons\%1.paa'/><br/><br/><t size='2.5'>Anonym</t><br/><t size='1.8'>%2</t><br/><t size='1'>%3</t>",_marke, _rang, _org];
 	[player, _message] remoteExec ["life_fnc_Lizenzsehen",_ziel];
-}else{
+}else{*/
 	_message = format["<img size='10' color='#FFFFFF' image='icons\%1.paa'/><br/><br/><t size='2.5'>%2</t><br/><t size='1.8'>%3</t><br/><t size='1'>%4</t>",_marke, name player, _rang, _org];
 	[player, _message] remoteExec ["life_fnc_Lizenzsehen",_ziel];
-};
+//};
