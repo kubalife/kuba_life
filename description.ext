@@ -62,7 +62,7 @@ class CfgSounds {
 		sound[] = {"\sounds\ansage.ogg", 1.0, 1};
 		titles[] = {};
 	}
-	
+
 	class purge
 	{
 		name = "purge";
@@ -292,7 +292,7 @@ class CfgNotifications {
 		duration = 10;
 		priority = 5;
 	};
-	
+
 
     class AdacMessage {
 		title = "Notruf";
@@ -318,4 +318,13 @@ class CfgNotifications {
 		duration = 10;
 		priority = 7;
 	};
+
+	class PolizeiRundfunk
+ 	{
+		 title = "Polizei Rundfunk";
+		 iconPicture = "icons\ico_messagePolice.paa";
+		 description = "%1";
+		 duration = 10;
+		 priority = 5;
+ 	};
 };

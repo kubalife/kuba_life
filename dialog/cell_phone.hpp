@@ -145,7 +145,20 @@ class Life_cell_phone {
 			colorText[] = {1,1,1,1};
 			colorBackground[] = {0,0,0,0.6};
 		};
-		
+
+		class PoliceMsgAllButton : life_RscButtonMenu
+		{
+			idc = 3023;
+			text = "Rundfunk";
+			onButtonClick = "[] call TON_fnc_cell_polizeimsgall";
+			x = 0.325;
+			y = 0.45;
+			w = 0.2;
+			h = 0.04;
+			colorText[] = {1,1,1,1};
+			colorBackground[] = {0,0,0,0.6};
+		};
+
 		/*
 		class AdacRequest : life_RscButtonMenu {
 			idc = 3023;
