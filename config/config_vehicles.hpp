@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class CarShops {
     /*
     *    ARRAY FORMAT:
