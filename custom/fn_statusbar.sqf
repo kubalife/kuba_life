@@ -45,7 +45,7 @@ disableSerialization;
 	while {true} do
 	{
 
-		uiSleep 1;
+		uiSleep 2;
 
 
 		if(isNull ((uiNamespace getVariable "osefStatusBarAdmin")displayCtrl 55554)) then
