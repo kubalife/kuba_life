@@ -1,9 +1,10 @@
+#include "..\..\script_macros.hpp"
 /*
 	File: fn_masked.sqf
 	Author: Larry aka. Tim
 */
 
-if((player getVariable "masked")) then {
+if((player GVAR["masked",true])) then {
 	hint "Dir wurde ein Sack über den Kopf gestülpt. Gute Nacht!";
 	"colorCorrections" ppEffectEnable true;			
 	"colorCorrections" ppEffectAdjust [1, 1, -0.003, [0.0, 0.0, 0.0, 0.0], [1, 1, 1, 0.01],  [0, 0, 0, 0.0]]; 
