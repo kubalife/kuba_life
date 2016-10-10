@@ -21,22 +21,22 @@ if !(alive _robber) exitWith {};
 
 if (isNil "_alrdyrobbed") then  //ist die variable vorhanden?
 {
-	_shop setVariable ["_alreadyrobbed", false]; //wenn nicht vorhanden initialisiere
+	_shop setVariable ["_alreadyrobbed", false, true]; //wenn nicht vorhanden initialisiere
 	_alrdyrobbed=false; //wird nicht ausgeraubt da die variable nicht vorhanden war
 };
 
 
 if!(isNil "_robstamp") then {
 	_timdif=servertime-_robstamp;
-	if(timedif<1200) then {_nomoney=true;}; 
+	if(_timedif<1200) then {_nomoney=true;}; 
 }else {
-	_shop setVariable ["_robtimestamp", servertime];
+	_shop setVariable ["_robtimestamp", servertime, true];
 	_nomoney=false;
 };
 if(_alrdyrobbed && _timedif<1200) exitWith {hint "Ich werde gerade ausgeraubt!";};
 if(_nomoney) exitWith {hint "Die Kasse ist noch leer vom letzten Raub";};
 
-_shop setVariable ["alreadyrobbed", true];
+_shop setVariable ["alreadyrobbed", true, true];
 _kassa = 3000 + round(random 7000);
 _shop removeAction _action;
 _shop switchMove "AmovPercMstpSsurWnonDnon";
@@ -67,10 +67,10 @@ while{true} do
 	_progress progressSetPosition _cP;
 	_pgText ctrlSetText format["Überfall läuft, bleib in der Nähe (%1%2)...",round(_cP * 100),"%"];
 
-	if(_cP >= 1 OR !alive _robber) exitWith {_shop setVariable ["_alreadyrobbed", false];_shop setVariable ["_robtimestamp", nil];};
-	if(_robber distance _shop > 5.1) exitWith {_shop setVariable ["_alreadyrobbed", false];_shop setVariable ["_robtimestamp", nil]; };
-	if((_robber getVariable["restrained",false])) exitWith {_shop setVariable ["_alreadyrobbed", false];_shop setVariable ["_robtimestamp", nil];};
-	if(life_istazed) exitWith {_shop setVariable ["_alreadyrobbed", false];_shop setVariable ["_robtimestamp", nil];} ;
+	if(_cP >= 1 OR !alive _robber) exitWith {_shop setVariable ["_alreadyrobbed", false, true];_shop setVariable ["_robtimestamp", nil, true];};
+	if(_robber distance _shop > 5.1) exitWith {_shop setVariable ["_alreadyrobbed", false, true];_shop setVariable ["_robtimestamp", nil, true]; };
+	if((_robber getVariable["restrained",false])) exitWith {_shop setVariable ["_alreadyrobbed", false, true];_shop setVariable ["_robtimestamp", nil, true];};
+	if(life_istazed) exitWith {_shop setVariable ["_alreadyrobbed", false, true];_shop setVariable ["_robtimestamp", nil, true];} ;
 //	if(life_interrupted) exitWith {};
 };
 
@@ -100,6 +100,6 @@ while{true} do
 
 
 uiSleep 1200;
-_shop setVariable ["_alreadyrobbed", false];			//ich werde nicht mehr ausgeraubt
+_shop setVariable ["_alreadyrobbed", false, true];			//ich werde nicht mehr ausgeraubt
 _action = _shop addAction["Rob Shop",life_fnc_robShops];
 _shop switchMove "";
