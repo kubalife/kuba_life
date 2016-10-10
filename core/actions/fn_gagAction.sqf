@@ -6,16 +6,19 @@
         Description:
         Gags the target.
 */
-private["_unit"];
+private["_unit", "_state"];
 _unit = cursorTarget;
+_state = animationState _unit;
 if(isNull _unit) exitWith {}; // Not Valid
 if(life_inv_gagkit < 1) exitWith {hint "Du hast keinen Mundknebel!";};
 if((player distance _unit > 3)) exitWith {hint "Die Person ist zu weit entfernt";};
-if((_unit GVAR["gagged",true])) exitWith {hint "Die Person hat schon einen Mundknebel";};
-//if(side _unit == west) exitWith {hint "Du bist ein Polizist. Lass das!";};
+//if((_unit GVAR["gagged",true])) exitWith {hint "Die Person hat schon einen Mundknebel";};
+//if(playerSide == west) exitWith {hint "Du bist ein Polizist. Lass das!";};
 if(player == _unit) exitWith {};
 if(!isPlayer _unit) exitWith {};
 
+
+if((_state == "ACE_AmovPercMstpSsurWnonDnon") || (_state == "ACE_AmovPercMstpScapWnonDnon")) then {
 _unit SVAR["gagged",true,true];
 
 //Make the unit (cursorTarget) call this script which will hint them they have been gagged, do the gagging etc.
@@ -29,3 +32,6 @@ hint format["Du hast %1 ruhig gestellt.", _unit GVAR["realname",_unit]];
 
 //Remove the gagkit from the player
 life_inv_gagkit = life_inv_gagkit - 1;
+}else{
+exitWith {hint "Die Person muss gefesselt sein oder sich ergeben!"};
+};
