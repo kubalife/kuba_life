@@ -157,7 +157,7 @@ class VirtualShops {
 		side = "cop";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "donuts", "coffee", "spikeStrip", "gpstracker", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit" };
+		items[] = { "donuts", "coffee", "spikeStrip", "gpstracker", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "boltcutter" };
 	};
 
     class adac {
