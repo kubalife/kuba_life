@@ -9,7 +9,7 @@ _robstamp=_shop getVariable "_robtimestamp"; //Zeitstempel wann der shop das let
 _nomoney=false;
 _timedif=0;
 
-if(_cops < 3) exitWith {hint "Es müssen mindestens 3 Polizisten im Dienst sein zum Überfallen";};
+//if(_cops < 3) exitWith {hint "Es müssen mindestens 3 Polizisten im Dienst sein zum Überfallen";}; //nur für test auskommentieren
 if(side _robber == west) exitWith { hint "Meinst du nicht das du das Gegenteil tun solltest?";};
 if(side _robber == independent) exitWith { hint "Geh Leute wiederbeleben und lass mich in Ruhe!";};
 if(_robber distance _shop > 20) exitWith { hint "Du musst innerhalb von 5 Meter bleiben!";};
