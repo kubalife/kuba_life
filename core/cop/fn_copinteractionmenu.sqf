@@ -18,11 +18,12 @@
 #define Btn10 37459
 #define Title 37401
 
-private["_display","_curTarget","_seizeRank","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn7","_Btn8","_Btn9","_Btn10"];
+private["_display","_curTarget","_seizeRank","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn7","_Btn8","_Btn9","_Btn10","_state"];
 
 disableSerialization;
 _curTarget = param [0,objNull,[objNull]];
 _seizeRank = LIFE_SETTINGS(getNumber,"seize_minimum_rank");
+_state = animationState _curTarget;
 
 if(player GVAR ["Escorting", false]) then {
 	if(isNull _curTarget) exitWith {closeDialog 0;}; //Bad target
@@ -96,7 +97,7 @@ _Btn2 ctrlSetText localize "STR_pInAct_checkLicenses";
 _Btn2 buttonSetAction "[player] remoteExecCall [""life_fnc_licenseCheck"",life_pInact_curTarget]; closeDialog 0;";
 
 //Set Search Button
-if((_curTarget GVAR["isHandcuffed",false]) || (_curTarget GVAR["isSurrendering",false])) then {
+if((_state == "ACE_AmovPercMstpSsurWnonDnon") || (_state == "ACE_AmovPercMstpScapWnonDnon")) then {
 _Btn3 ctrlEnable false;
 }else{
 _Btn3 ctrlSetText localize "STR_pInAct_SearchPlayer";
@@ -118,7 +119,7 @@ _Btn5 ctrlSetText localize "STR_pInAct_TicketBtn";
 _Btn5 buttonSetAction "[life_pInact_curTarget] call life_fnc_ticketAction;";
 
 // Arrest
-if((_curTarget GVAR["isHandcuffed",false]) || (_curTarget GVAR["isSurrendering",false])) then {
+if((_state == "ACE_AmovPercMstpSsurWnonDnon") || (_state == "ACE_AmovPercMstpScapWnonDnon")) then {
 _Btn6 ctrlEnable false;
 }else{
 _Btn6 ctrlSetText localize "STR_pInAct_Arrest";
@@ -131,7 +132,7 @@ _Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar; closeDial
 _Btn7 ctrlEnable false;
 
 //SeizeWeapons Button
-if((_curTarget GVAR["isHandcuffed",false]) || (_curTarget GVAR["isSurrendering",false])) then {
+if((_state == "ACE_AmovPercMstpSsurWnonDnon") || (_state == "ACE_AmovPercMstpScapWnonDnon")) then {
 _Btn8 ctrlEnable false;
 }else{
 _Btn8 ctrlSetText localize "STR_pInAct_Seize";
