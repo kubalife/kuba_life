@@ -21,7 +21,8 @@ _unit SVAR["gagged",true,true];
 //Make the unit (cursorTarget) call this script which will hint them they have been gagged, do the gagging etc.
 //Player added to [] so that we can bring it over to the gagged script with _VARNAME = _this select 0;
 //This will selec the player of this script which is the gagger and we can define it in the gagged script.
-[[player],"life_fnc_gagged",_unit,false] spawn life_fnc_MP;
+//[[player],"life_fnc_gagged",_unit,false] spawn life_fnc_MP;
+[player] remoteExecCall ["life_fnc_gagged",_unit];
 
 //Hint the player thats gagging the person that they have gagged the name of the unit.
 hint format["Du hast %1 ruhig gestellt.", _unit GVAR["realname",_unit]];
