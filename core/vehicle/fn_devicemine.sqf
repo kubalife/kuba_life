@@ -5,7 +5,7 @@
 	Modified: Devilfloh
 	Description:
 	Starts automated mining of resource from the tempest device. Not integrated with percents.
-*/
+
 private["_vehicle","_resourceZones","_zone","_weight","_resource","_vInv","_itemIndex","_items","_sum","_itemWeight","_amount","_isMineral"];
 _vehicle = param [0,ObjNull,[ObjNull]];
 _isMineral = true;
