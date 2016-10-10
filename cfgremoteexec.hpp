@@ -79,7 +79,8 @@ class CfgRemoteExec {
         F(life_fnc_ticketPaidmedic,CLIENT)
         F(life_fnc_teargas,CLIENT)
         F(life_fnc_nitro,CLIENT)
-        F(life_fnc_masked,CLIENT)
+        F(life_fnc_masked,CLIENT) // Augenbinde
+		F(life_fnc_gagged,CLIENT) // Mundknebel
 		F(TON_fnc_generateAirdrop,CLIENT)
 		F(life_fnc_lizenzzeigen,CLIENT)
 		F(life_fnc_lizenzsehen,CLIENT)
