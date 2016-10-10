@@ -98,10 +98,10 @@ _Btn2 buttonSetAction "[player] remoteExecCall [""life_fnc_licenseCheck"",life_p
 
 //Set Search Button
 if((_state == "ACE_AmovPercMstpSsurWnonDnon") || (_state == "ACE_AmovPercMstpScapWnonDnon")) then {
-_Btn3 ctrlEnable false;
-}else{
 _Btn3 ctrlSetText localize "STR_pInAct_SearchPlayer";
 _Btn3 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_searchAction; closeDialog 0;";
+}else{
+_Btn3 ctrlEnable false;
 };
 
 //Set Escort Button
@@ -120,10 +120,10 @@ _Btn5 buttonSetAction "[life_pInact_curTarget] call life_fnc_ticketAction;";
 
 // Arrest
 if((_state == "ACE_AmovPercMstpSsurWnonDnon") || (_state == "ACE_AmovPercMstpScapWnonDnon")) then {
-_Btn6 ctrlEnable false;
-}else{
 _Btn6 ctrlSetText localize "STR_pInAct_Arrest";
 _Btn6 buttonSetAction "[life_pInact_curTarget] call life_fnc_arrestAction; closeDialog 0;";
+}else{
+_Btn6 ctrlEnable false;
 };
 
 //Put in car
@@ -133,10 +133,10 @@ _Btn7 ctrlEnable false;
 
 //SeizeWeapons Button
 if((_state == "ACE_AmovPercMstpSsurWnonDnon") || (_state == "ACE_AmovPercMstpScapWnonDnon")) then {
-_Btn8 ctrlEnable false;
-}else{
 _Btn8 ctrlSetText localize "STR_pInAct_Seize";
 _Btn8 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_seizePlayerAction; closeDialog 0;";
+}else{
+_Btn8 ctrlEnable false;
 };
 
 //Revoke Licenses
