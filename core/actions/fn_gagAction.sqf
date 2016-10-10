@@ -11,7 +11,7 @@ _unit = cursorTarget;
 if(isNull _unit) exitWith {}; // Not Valid
 if(life_inv_gagkit < 1) exitWith {hint "Du hast keinen Mundknebel!";};
 if((player distance _unit > 3)) exitWith {hint "Die Person ist zu weit entfernt";};
-if((_unit GVAR "gagged")) exitWith {hint "Die Person hat schon einen Mundknebel";};
+if((_unit GVAR["gagged",true])) exitWith {hint "Die Person hat schon einen Mundknebel";};
 if(side _unit == west) exitWith {hint "Du bist ein Polizist. Lass das!";};
 if(player == _unit) exitWith {};
 if(!isPlayer _unit) exitWith {};

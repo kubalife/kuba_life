@@ -37,7 +37,7 @@ class VirtualShops {
 		side = "civ";
 		license = "rebel";
 		level[] = { "", "", -1, "" };
-		items[] = { "waterBottle", "rabbit", "apple", "peach", "redgull", "beer", "whiskey", "moonshine", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "zipties", "knife", "pliers", "blastingcharge", "gagkit" };
+		items[] = { "waterBottle", "rabbit", "apple", "peach", "redgull", "beer", "whiskey", "moonshine", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "zipties", "knife", "pliers", "blastingcharge", "gagkit","blindfold" };
 	};
 	
 	class bandit {
@@ -45,7 +45,7 @@ class VirtualShops {
 		side = "civ";
 		license = "bandit";
 		level[] = { "", "", -1, "" };
-		items[] = { "waterBottle", "rabbit", "apple", "peach", "redgull", "beer", "whiskey", "moonshine", "tbacon", "lockpick", "knife", "pickaxe", "toolkit", "fuelFull", "zipties", "pliers", "gagkit" };
+		items[] = { "waterBottle", "rabbit", "apple", "peach", "redgull", "beer", "whiskey", "moonshine", "tbacon", "lockpick", "knife", "pickaxe", "toolkit", "fuelFull", "zipties", "pliers", "gagkit", "blindfold" };
 	};
 
 	class gang {
@@ -53,7 +53,7 @@ class VirtualShops {
 		side = "civ";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "waterBottle", "rabbit", "apple", "peach", "redgull", "beer", "whiskey", "moonshine", "tbacon", "lockpick", "pickaxe", "knife", "toolkit", "fuelFull", "gagkit" };
+		items[] = { "waterBottle", "rabbit", "apple", "peach", "redgull", "beer", "whiskey", "moonshine", "tbacon", "lockpick", "pickaxe", "knife", "toolkit", "fuelFull", "gagkit", "blindfold" };
 	};
 
 	class wongs {
@@ -157,7 +157,7 @@ class VirtualShops {
 		side = "cop";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "donuts", "coffee", "spikeStrip", "gpstracker", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "defibrillator" };
+		items[] = { "donuts", "coffee", "spikeStrip", "gpstracker", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit" };
 	};
 
     class adac {
