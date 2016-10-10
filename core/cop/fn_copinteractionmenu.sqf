@@ -96,8 +96,12 @@ _Btn2 ctrlSetText localize "STR_pInAct_checkLicenses";
 _Btn2 buttonSetAction "[player] remoteExecCall [""life_fnc_licenseCheck"",life_pInact_curTarget]; closeDialog 0;";
 
 //Set Search Button
+if((_curTarget GVAR["isHandcuffed",false]) || (_curTarget GVAR["isSurrendering",false])) then {
+_Btn3 ctrlEnable false;
+}else{
 _Btn3 ctrlSetText localize "STR_pInAct_SearchPlayer";
 _Btn3 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_searchAction; closeDialog 0;";
+};
 
 //Set Escort Button
 /*if((player getVariable["isEscorting",false])) then {
@@ -114,8 +118,12 @@ _Btn5 ctrlSetText localize "STR_pInAct_TicketBtn";
 _Btn5 buttonSetAction "[life_pInact_curTarget] call life_fnc_ticketAction;";
 
 // Arrest
+if((_curTarget GVAR["isHandcuffed",false]) || (_curTarget GVAR["isSurrendering",false])) then {
+_Btn6 ctrlEnable false;
+}else{
 _Btn6 ctrlSetText localize "STR_pInAct_Arrest";
 _Btn6 buttonSetAction "[life_pInact_curTarget] call life_fnc_arrestAction; closeDialog 0;";
+};
 
 //Put in car
 /*_Btn7 ctrlSetText localize "STR_pInAct_PutInCar";
@@ -123,8 +131,12 @@ _Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar; closeDial
 _Btn7 ctrlEnable false;
 
 //SeizeWeapons Button
+if((_curTarget GVAR["isHandcuffed",false]) || (_curTarget GVAR["isSurrendering",false])) then {
+_Btn8 ctrlEnable false;
+}else{
 _Btn8 ctrlSetText localize "STR_pInAct_Seize";
 _Btn8 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_seizePlayerAction; closeDialog 0;";
+};
 
 //Revoke Licenses
 _Btn9 ctrlSetText localize "STR_pInAct_RevokeLicense";
