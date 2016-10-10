@@ -33,7 +33,7 @@ if!(isNil "_robstamp") then {
 	_shop setVariable ["_robtimestamp", servertime];
 	_nomoney=false;
 };
-if(_alrdyrobbed && timedif<1200) exitWith {hint "Ich werde gerade ausgeraubt!";};
+if(_alrdyrobbed && _timedif<1200) exitWith {hint "Ich werde gerade ausgeraubt!";};
 if(_nomoney) exitWith {hint "Die Kasse ist noch leer vom letzten Raub";};
 
 _shop setVariable ["alreadyrobbed", true];
