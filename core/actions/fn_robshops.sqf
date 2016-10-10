@@ -67,10 +67,10 @@ while{true} do
 	_progress progressSetPosition _cP;
 	_pgText ctrlSetText format["Überfall läuft, bleib in der Nähe (%1%2)...",round(_cP * 100),"%"];
 
-	if(_cP >= 1 OR !alive _robber) exitWith {_shop setVariable ["_alreadyrobbed", false, true];_shop setVariable ["_robtimestamp", nil, true];};
-	if(_robber distance _shop > 5.1) exitWith {_shop setVariable ["_alreadyrobbed", false, true];_shop setVariable ["_robtimestamp", nil, true]; };
-	if((_robber getVariable["restrained",false])) exitWith {_shop setVariable ["_alreadyrobbed", false, true];_shop setVariable ["_robtimestamp", nil, true];};
-	if(life_istazed) exitWith {_shop setVariable ["_alreadyrobbed", false, true];_shop setVariable ["_robtimestamp", nil, true];} ;
+	if(_cP >= 1 OR !alive _robber) exitWith {_shop setVariable ["_alreadyrobbed", false, true];_shop setVariable ["_robtimestamp", nil, true];_action = _shop addAction["Rob Shop",life_fnc_robShops];_shop switchMove "";};
+	if(_robber distance _shop > 5.1) exitWith {_shop setVariable ["_alreadyrobbed", false, true];_shop setVariable ["_robtimestamp", nil, true];_action = _shop addAction["Rob Shop",life_fnc_robShops];_shop switchMove ""; };
+	if((_robber getVariable["restrained",false])) exitWith {_shop setVariable ["_alreadyrobbed", false, true];_shop setVariable ["_robtimestamp", nil, true];_action = _shop addAction["Rob Shop",life_fnc_robShops];_shop switchMove "";};
+	if(life_istazed) exitWith {_shop setVariable ["_alreadyrobbed", false, true];_shop setVariable ["_robtimestamp", nil, true];_action = _shop addAction["Rob Shop",life_fnc_robShops];_shop switchMove "";};
 //	if(life_interrupted) exitWith {};
 };
 
