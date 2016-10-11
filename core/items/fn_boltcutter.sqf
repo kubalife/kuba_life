@@ -8,6 +8,8 @@
 */
 private["_building","_door","_doors","_cpRate","_title","_progressBar","_titleText","_cp","_ui"];
 _building = param [0,ObjNull,[ObjNull]];
+private _home = false;
+private _ownerName = "";
 
 if(isNull _building) exitWith {};
 if(!(_building isKindOf "House_F")) exitWith {hint localize "STR_ISTR_Bolt_NotNear";};
@@ -37,7 +39,27 @@ if((nearestObject [[5553.5,7736.9,0],"Land_Dome_Small_F"]) == _building OR (near
 	[0,"STR_ISTR_Bolt_AlertHouse",true,[profileName]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
 };
 
+//Haus raid
+private _ownerUid = (_building getVariable ["house_owner",["",""]]) select 0;
+if (_ownerUid != "") then {_home = true};
+if (_home && (!([_ownerUid] call life_fnc_isUIDActive))) exitWith {hint localize "STR_ISTR_Bolt_Offline"};
+private _copsNeeded = LIFE_SETTINGS(getNumber,"copsHouseRaid");
+if (({side _x isEqualTo west} count playableUnits < _copsNeeded) && _home) exitWith {hint format[localize "STR_Civ_NotEnoughCops",_copsNeeded]};
+//Haus Raid
+
 life_action_inUse = true;
+
+if (_home) then {
+    private _unitsToNotify = [];
+    {
+        if (_uid isEqualTo (getPlayerUID _x) || side _x isEqualTo west) then {_unitsToNotify pushBack _x};
+        if (_uid isEqualTo (getPlayerUID _x)) then {_ownerName = name _x};
+    } forEach playableUnits;
+    if (count _unitsToNotify isEqualTo 0) exitWith {};
+    [1,[_building,60,"Mil_dot","Ein Haus wird aufgebrochen!"]] remoteExec ["life_fnc_markers",_unitsToNotify];
+    [1,format[localize "STR_ISTR_Bolt_Notify",_ownerName]] remoteExec ["life_fnc_broadcast",_unitsToNotify];
+};
+
 //Setup the progress bar
 disableSerialization;
 _title = localize "STR_ISTR_Bolt_Process";

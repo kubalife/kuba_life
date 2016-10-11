@@ -88,6 +88,7 @@ class CfgRemoteExec {
         F(life_fnc_kontoCheckDefines,CLIENT)
         F(life_fnc_kontoCheckFeedback,CLIENT)
         F(life_fnc_kontoCheck,CLIENT)
+		F(life_fnc_markers,CLIENT) //Haus Raid
 
 
         /* Server only functions */

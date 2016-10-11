@@ -7035,15 +7035,14 @@
 			<Polish>Przecinam zabezpieczenia domu</Polish>
 		</Key>
 		<Key ID="STR_ISTR_Bolt_Exploit">
-			<Original>You must open the outside doors before opening it!</Original>
-			<Czech>Je nutné otevřít venkovní dveře před otevřením!</Czech>
-			<French>Vous devez ouvrir les portes extérieures avant de l'ouvrir!</French>
-			<Spanish>Debes abrir las puertas de afuera antes de abrir esta!</Spanish>
-			<Italian>È necessario aprire le porte esterne prima di aprirlo!</Italian>
-			<Russian></Russian>
-			<Portuguese>Você deve abrir as portas externas antes de abrir essa!</Portuguese>
-			<German>Sie müssen die Außentüren öffnen, bevor es zu öffnen!</German>
+			<Original>Sie müssen die Außentüren öffnen, bevor es zu öffnen!</German>
 		</Key>
+		<Key ID="STR_ISTR_Bolt_Offline">
+            <Original>Da der Besitzer nicht mehr online ist, kann in dieses Haus nicht eingebrochen werden!</German>
+        </Key>  
+        <Key ID="STR_ISTR_Bolt_Notify">
+            <Original>In %1's Haus wurde eingebrochen!</German>
+        </Key>  
 		<Key ID="STR_ISTR_defuseKit_NotNear">
 			<Original>You are not looking at a vault.</Original>
 			<Czech>Nejste při pohledu na klenbu.</Czech>

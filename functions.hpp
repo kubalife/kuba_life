@@ -360,6 +360,7 @@ class Ausweis
 		class abortAction {};
 		class seizeObjects {};
 		class masked {};
+		class markers {};
 	};
 
 	class Gangs	{
