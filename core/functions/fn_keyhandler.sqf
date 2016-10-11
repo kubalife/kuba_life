@@ -145,7 +145,7 @@ switch (_code) do {
 
 	case 24:
 	{
-		if (!_shift && !_alt && !_ctrlKey && [(playerSide == west) || (playerSide == independent)] && (vehicle player != player)) then {
+		if (!_shift && !_alt && !_ctrlKey && ((playerSide == west) || (playerSide == independent)) && (vehicle player != player)) then {
 		[] call life_fnc_copOpener;
 		};
 	};
