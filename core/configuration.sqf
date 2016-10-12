@@ -66,11 +66,11 @@ if(_medics > 0) then { //-- Medic anwesend
 } else { //-- Kein Medic anwesend
     life_respawn_timer = 3;
 };
-
+/*
 CHVD_allowNoGrass = false;
 CHVD_maxView = 4000;
 CHVD_maxObj = 4000;
-
+*/
 //Settings
 life_settings_enableSidechannel = GVAR_PNAS["life_enableSidechannel",true];
 life_settings_tagson = GVAR_PNAS["life_settings_tagson",true];
