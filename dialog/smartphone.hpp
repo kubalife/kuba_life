@@ -397,7 +397,7 @@ class smartphone {
 	
 	class Life_RscButtonInvisible_2413: Life_RscButtonInvisible{
 		idc = 2413;
-		onButtonClick = "[] spawn CHVD_fnc_openDialog;";
+		onButtonClick = "[] spawn life_fnc_settingsmenu;";
 		tooltip = "Modify your view settings";
 		x = 0.3375;
 		y = 0.8;
