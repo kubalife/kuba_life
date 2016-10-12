@@ -5,9 +5,11 @@
 	Description:
 	Drops a virtual fishing net from the boat.
 */
-private["_fish","_type","_typeName"];
-if(!(vehicle player isKindOf "Ship")) exitWith {};
-_fish = (nearestObjects[getPos vehicle player,["Fish_Base_F"],30]);
+private["_fish","_type","_typeName","_posWaterSurf","_boat"];
+_boat=vehicle player;
+if(!(_boat isKindOf "Ship")) exitWith {};
+_posWaterSurf=[(getPosATL _boat) select 0,(getPosATL _boat) select 1,((getPosATL _boat) select 2)-((getPosASL _boat) select 2)]; //berechnet die Position direkt auf der Wasseroberfläche, damit alle Boote die gleichen Fangquoten haben
+_fish = (nearestObjects[_posWaterSurf,["Fish_Base_F"],30]);
 life_net_dropped = true;
 titleText[localize "STR_NOTF_NetDrop","PLAIN"];
 sleep 5;
