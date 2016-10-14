@@ -506,7 +506,7 @@ class Clothing {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
             { "CUP_U_C_Rescuer_01", "Medic Uniform", 0, { "", "", -1 } },
             { "CUP_U_C_Fireman_01", "Fire Uniform", 0, { "", "", -1 } },
-            { "U_C_Scientist", "EMS Uniform", 0, { "", "", -1 } },
+            //{ "U_C_Scientist", "EMS Uniform", 0, { "", "", -1 } },//Was auch immer das ist
             //{ "RR_EMS_Uniforms_3", "EMS ", 0, { "", "", -1 } },
             //{ "RR_EMS_Uniforms_4", "EMS ", 0, { "", "", -1 } },
             //{ "RR_EMS_Uniforms_5", "EMS ", 0, { "", "", -1 } },
@@ -518,7 +518,7 @@ class Clothing {
             //{ "CG_EMS6", "", 0, { "", "", -1 } },
             //{ "CG_EMS7", "", 0, { "", "", -1 } },
             //{ "CG_EMS8", "", 0, { "", "", -1 } },
-            //{ "CG_EMS9", "", 0, { "", "", -1 } },
+            { "CG_EMS9", "", 0, { "", "", -1 } },//Taucheranzug! Drinnen lassen!
             //{ "CG_EMS10", "", 0, { "", "", -1 } },
             //{ "A3L_EMT2", "", 0, { "", "", -1 } },
             { "rds_uniform_doctor", "Doktor Uniform", 0, { "", "", -1 } }
@@ -577,19 +577,19 @@ class Clothing {
             { "UNS_Peace", "", 0, { "", "", -1 } },
             { "EWK_Cig4", "", 0, { "", "", -1 } },
             { "EWK_Cig1", "", 0, { "", "", -1 } },
-            { "Mask_M40", "", 0, { "life_medicLevel", "SCALAR", 4 } },
             { "Masque_Chirurgical", "", 0, { "", "", -1 } },
             { "EWK_Shemag_NB", "", 0, { "", "", -1 } },
-            { "EWK_Shemag_LULZ", "", 0, { "life_medicLevel", "SCALAR", 7 } },
             { "G_B_Diving", "", 0, { "", "", -1 } },
             { "G_Diving", "", 0, { "", "", -1 } },
             { "G_Spectacles", "", 0, { "", "", -1 } },
-            { "G_Spectacles_Tinted", "", 0, { "", "", -1 } }
+            { "G_Spectacles_Tinted", "", 0, { "", "", -1 } }, //neu Sortiert
+            { "Mask_M40", "", 0, { "life_medicLevel", "SCALAR", 4 } },
+            { "EWK_Shemag_LULZ", "", 0, { "life_medicLevel", "SCALAR", 7 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-			{ "CUP_V_B_LHOVest_Red", "", 0, { "", "", -1 } },
-			{ "CUP_V_B_LHOVest_Yellow", "", 0, { "", "", -1 } },
+			{ "CUP_V_B_LHDVest_Red", "", 0, { "", "", -1 } },
+			{ "CUP_V_B_LHDVest_Yellow", "", 0, { "", "", -1 } },
             //{ "on_vests_config_i", "", 0, { "", "", -1 } },
             //{ "RR_EMS_Vests_RideAlong", "Trainee Weste", 0, { "", "", -1 } },
             //{ "RR_EMS_Vests_Probie", "Care Assistant Weste", 0, { "", "", -1 } },
