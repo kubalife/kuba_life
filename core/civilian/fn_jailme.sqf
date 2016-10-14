@@ -53,6 +53,7 @@ for "_i" from 0 to 1 step 0 do {
 switch (true) do {
 	case (_bail): {
 		life_is_arrested = false;
+		life_wanted = false;
 		life_bail_paid = false;
 		hint localize "STR_Jail_Paid";
 		serv_wanted_remove = [player];
@@ -84,7 +85,7 @@ switch (true) do {
 	case (alive player && !_esc && !_bail): {
 		life_is_arrested = false;
 		hint localize "STR_Jail_Released";
-
+		life_wanted = false;	
 		if(life_HC_isActive) then {
 			[getPlayerUID player] remoteExecCall ["HC_fnc_wantedRemove",HC_Life];
 		} else {

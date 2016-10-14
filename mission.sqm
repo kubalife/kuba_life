@@ -2545,6 +2545,7 @@ class Mission
 			{
 				skill=0.60000002;
 				init="this allowDamage false; this enableSimulation false;";
+				name="straftat";
 			};
 			id=276;
 			type="Land_cmp_Hopper_F";

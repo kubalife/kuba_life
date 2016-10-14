@@ -107,6 +107,21 @@ class Ausweis
 		class removeGagAction {};
 	};
 
+	class computer //Polizeicomputer
+    {
+        file = "core\cop\computer";
+        class pcinit {};
+        class spielerinfo {};
+        class playerQuery {};
+        class initdatabase {};
+        class straftaten {};
+        class berichtverfassen {};
+        class dropdown {};
+        class deletebericht {};
+        class wirdgesucht {};
+        class berichtedit {};
+    };
+	
 	class vAH
 	{
 		file = "core\vAH";

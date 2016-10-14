@@ -43,4 +43,5 @@
 #include "dynmarket_changeprice.hpp"
 #include "dynmarket_prices.hpp"
 #include "revoke_license.hpp"
+#include "polizeicomputer.hpp"
 

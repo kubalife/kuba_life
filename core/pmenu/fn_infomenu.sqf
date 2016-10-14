@@ -47,7 +47,7 @@ Wenn dies dein erster Besuch bei uns ist, schau dich ein wenig hier im Infoboard
 };
 
 //Regeln
-if(_index isEqualTo 2) exitWith {"Die Regeln sind im Forum zu finden<br/><a color='#0099ff' href='http://www.kuba-life.de/index.php?thread/2-serverregeln-von-kuba/'>zu den Regeln</a>"};
+if(_index isEqualTo 2) exitWith {"Die Regeln sind im Forum zu finden<br/><a color='#0099ff' href='http://s634676499.online.de/wbb4/index.php?thread/2-serverregeln/'>zu den Regeln</a>"};
 
 //Steuerung
 if(_index isEqualTo 3) exitWith {
@@ -98,7 +98,7 @@ if(_index isEqualTo 4) exitWith {
 <br/>
 <t color='#0099ff'>Führerschein</t><t align='right' >100$--</t><br/>
 <t color='#0099ff'>Tauscherschein</t><t align='right' >500$--</t><br/>
-<t color='#0099ff'>Bootsführerschein</t><t align='right' >1.500$--</t><br/>
+<t color='#0099ff'>Bootsführerschein</t><t align='right' >15.00$--</t><br/>
 <t color='#0099ff'>LKW-Führerschein</t><t align='right' >5.000$--</t><br/>
 <t color='#0099ff'>Pilotenschein</t><t align='right' >5.500$--</t><br/>
 <t color='#0099ff'>Waffenschein</t><t align='right' >20.000$--</t><br/>
@@ -125,8 +125,7 @@ if(_index isEqualTo 4) exitWith {
 <t color='#0099ff'>Heroin Lizenz</t><t align='right' >37.500$--</t><br/>
 <t color='#0099ff'>Kokain Lizenz</t><t align='right' >50.000$--</t><br/>
 <br/>
-<t color='#0099ff'>Banditenlizenz</t><t align='right' >75.000$-</t><br/>
-<t color='#0099ff'>Rebellenlizenz</t><t align='right' >175.000$-</t><br/>
+<t color='#0099ff'>Rebellenlizenz</t><t align='right' >145.000$-</t><br/>
 <br/>
 <t size='1.2px' align='left' color='#FF0000'>Rohstoffpreise</t><br/>
 <br/>
@@ -171,9 +170,6 @@ Gehe dort hin und pflücke ein paar um diese am Markt zu verkaufen<br/>
 if(_index isEqualTo 6) exitWith {
 "
 <t size='1.2px' align='left' color='#FF0000'>Development</t><br/>
-<br/>
-<t size='1.2px' align='left' color='#FF0000'>Alle Infos im Forum!</t><br/>
-<br/>
 <br/>
 <t size='1.2px' align='left' color='#0099ff'>Changelog #07.09.2016</t><br/>
 <br/>

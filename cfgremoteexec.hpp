@@ -139,7 +139,9 @@ class CfgRemoteExec {
 		F(TON_fnc_playerLogged,SERVER) //DynMarket
 		F(TON_fnc_getUpdate,SERVER) //DynMarket
 		F(life_fnc_automessages,SERVER) //Automessage
-
+		F(TON_fnc_insertbericht,SERVER) //Computer
+		F(TON_fnc_deleteb,SERVER)		
+		F(life_fnc_update,SERVER)
 
         /* HeadlessClient only functions */
         F(HC_fnc_addContainer,HC)
@@ -173,6 +175,7 @@ class CfgRemoteExec {
         F(HC_fnc_wantedFetch,HC)
         F(HC_fnc_wantedProfUpdate,HC)
         F(HC_fnc_wantedRemove,HC)
+		F(HC_fnc_insertbericht,HC) //Computer
 
         /* Functions for everyone */
         F(BIS_fnc_effectKilledAirDestruction,ANYONE)
@@ -194,6 +197,10 @@ class CfgRemoteExec {
         F(SPY_fnc_notifyAdmins,ANYONE)
         F(life_fnc_clientSound,ANYONE)
 		F(life_fnc_globalSoundClient,ANYONE)
+		F(TON_fnc_pcplayer_query,ANYONE) //Computer
+        F(life_fnc_spielerinfo,ANYONE)
+        F(life_fnc_initdatabase,ANYONE)		
+		F(life_fnc_wirdgesucht,ANYONE)
     };
 
     class Commands {

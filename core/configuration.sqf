@@ -13,6 +13,7 @@
 */
 _medics = (independent countSide playableUnits);
 
+life_wanted =false;
 life_query_time = time;
 life_action_delay = time;
 life_trunk_vehicle = Objnull;

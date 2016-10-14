@@ -5,4 +5,4 @@ if(!(_this select 0)) exitWith {}; //Not server
 [] call compile preprocessFileLineNumbers "\life_server\init.sqf";
 
 //Restart
-[] spawn life_fnc_restartEarthquake;
+//[] spawn life_fnc_restartEarthquake;

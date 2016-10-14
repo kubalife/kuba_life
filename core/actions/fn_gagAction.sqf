@@ -33,5 +33,5 @@ hint format["Du hast %1 ruhig gestellt.", _unit GVAR["realname",_unit]];
 //Remove the gagkit from the player
 life_inv_gagkit = life_inv_gagkit - 1;
 }else{
-exitWith {hint "Die Person muss gefesselt sein oder sich ergeben!"};
+hint "Die Person muss gefesselt sein oder sich ergeben!";
 };

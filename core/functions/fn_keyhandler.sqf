@@ -142,6 +142,14 @@ switch (_code) do {
 		};
 	};
 */
+	
+	// Taste C
+	case 46: {
+        if((isNull (findDisplay 6000)) && (isNull (findDisplay 6025)) && (isNull (findDisplay 6050)) && (isNull (findDisplay 6075)) && (isNull (findDisplay 6100)) && playerSide == west ) then {
+            closedialog 0;
+            createdialog "life_hauptmenu";
+        };
+    };
 
 	case 24:
 	{

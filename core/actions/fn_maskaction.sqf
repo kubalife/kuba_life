@@ -23,5 +23,5 @@ _unit SVAR["masked",true,true];
 hint "Du hast dem Spieler einen Sack über den Kopf gestülpt!";
 
 }else{
-exitWith {hint "Die Person muss gefesselt sein oder sich ergeben!"};
+hint "Die Person muss gefesselt sein oder sich ergeben!";
 };
