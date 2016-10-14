@@ -121,7 +121,7 @@ _Btn5 buttonSetAction "[life_pInact_curTarget] call life_fnc_ticketAction;";
 // Arrest
 if((_state == "ACE_AmovPercMstpSsurWnonDnon") || (_state == "ACE_AmovPercMstpScapWnonDnon")) then {
 _Btn6 ctrlSetText localize "STR_pInAct_Arrest";
-_Btn6 buttonSetAction "[life_pInact_curTarget] call life_fnc_arrestAction; closeDialog 0;";
+_Btn6 buttonSetAction "[life_pInact_curTarget] call life_fnc_jailTimeAction;";
 }else{
 _Btn6 ctrlEnable false;
 };

@@ -283,6 +283,7 @@ class Ausweis
 		class kontoCheck {};
 		class kontoCheckDefines {};
 		class kontoCheckFeedback {};
+		class jailTime {}; //Jailtime
 	};
 
 
@@ -318,6 +319,7 @@ class Ausweis
 		class unimpound {};
 		class vehicleGarage {};
 		class wireTransfer {};
+		class jailTimeAction {};
 	};
 
 	class Functions	{
