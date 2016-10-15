@@ -282,13 +282,13 @@ class Clothing {
 			{ "Sheriff_rang7", "Major", 0, { "life_coplevel", "SCALAR", 7 } }, //Major
 			{ "Sheriff_rang9", "Ass. Chief", 0, { "life_coplevel", "SCALAR", 8 } }, //Ass. Chief
 			{ "Sheriff_rang10", "Chief", 0, { "life_coplevel", "SCALAR", 9 } }, //Chief
-			{ "policia_geo_man_uniform", "", 0, { "life_coplevel", "SCALAR", 1 } },
-			{ "U_B_Wetsuit", "Taucheranzug", 0, { "life_coplevel", "SCALAR", 1 } }
+			{ "U_B_Wetsuit", "Taucheranzug", 0, { "life_coplevel", "SCALAR", 1 } }.
+			{ "policia_geo_man_uniform", "", 0, { "life_coplevel", "SCALAR", 4 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
             { "H_Beret_gen_F", "", 0, { "", "", -1 } },
-            { "casco_cnp_protec", "", 0, { "", "", -1 } }
+            { "casco_cnp_protec", "", 0, { "", "", 4 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -330,14 +330,13 @@ class Clothing {
 			{ "policia_sniper_vest", "", 0, { "", "", -1 } },
 			{ "cnp_vest_reflec", "", 0, { "", "", -1 } },
 			{ "uip_vest_pol", "", 0, { "", "", -1 } },
-			{ "policia_geo_vest", "", 0, { "", "", -1 } },
-			{ "policia_vest", "", 0, { "", "", -1 } },
-			{ "V_RebreatherB", "", 0, { "", "", -1 } }
+			{ "V_RebreatherB", "", 0, { "", "", -1 } },
+			{ "policia_geo_vest", "", 0, { "", "", 4 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
             { "AM_PoliceBelt", "", 0, { "", "", -1 } },
-		    { "B_CNP_Drone_bolsa_F", "Drone", 1000, { "life_coplevel", "SCALAR", -1 } }
+		    { "B_CNP_Drone_bolsa_F", "Drone", 1000, { "life_coplevel", "SCALAR", 3 } }
         };
     };
 
