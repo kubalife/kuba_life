@@ -486,25 +486,22 @@ class CarShops {
     class cop_car {
         side = "cop";
         vehicles[] = {
- 			{ "DAR_ImpalaPolice", { "life_coplevel", "SCALAR", 1 } }, // Impala
-			{ "A3L_CVPIFPBLBPD", { "life_coplevel", "SCALAR", 1 } }, // CVPI Copskin
-            { "GeK_Renault_Trafic_Police", { "life_coplevel", "SCALAR", 1 } }, // Renault kleinbus
-			{ "A3L_SuburbanUM", { "life_coplevel", "SCALAR", 2 } }, // Suburban
-			{ "A3L_Suburban", { "life_coplevel", "SCALAR", 2 } }, // Suburban
-			{ "ivory_wrx_slicktop", { "life_coplevel", "SCALAR", 2 } }, // Impreza ohne Lightbar
-			{ "ivory_wrx_marked", { "life_coplevel", "SCALAR", 2 } }, // Impreza mit Lightbar
-            { "ivory_wrx_unmarked", { "life_coplevel", "SCALAR", 2 } }, // Impreza ohne Lightbar
-			{ "77FuryCop", { "life_coplevel", "SCALAR", 2 } },
-			{ "A3L_CVPIUCBlack", { "life_coplevel", "SCALAR", 2 } }, // CVPI Undercover Black
-			{ "A3L_CVPIUC", { "life_coplevel", "SCALAR", 2 } }, // CVPI Undercover
-			{ "A3L_TahoeUC", { "life_coplevel", "SCALAR", 2 } }, // Tahoe Undercover
-			{ "DAR_TahoePoliceDet", { "life_coplevel", "SCALAR", 2 } }, // Tahoe Undercover
-			{ "cg_h2_sert", { "life_coplevel", "SCALAR", 2 } }, // Hummer H2
-            { "Navara_Policia", { "life_coplevel", "SCALAR", 2 } }, // Navara
-            { "GeK_Yukon_Police", { "life_coplevel", "SCALAR", 2 } },
-			//{ "GeK_TLC100_Police", { "life_coplevel", "SCALAR", 2 } },
-			{ "cnp_Iveco_GOIT", { "life_coplevel", "SCALAR", 2 } },
-			{ "shounka_a3_suburbangign", { "life_coplevel", "SCALAR", 2 } }
+ 			{ "DAR_ImpalaPolice", { "life_coplevel", "SCALAR", 1 } },            // Impala
+			{ "A3L_CVPIFPBLBPD", { "life_coplevel", "SCALAR", 1 } },             // CVPI Copskin
+            //{ "GeK_Renault_Trafic_Police", { "life_coplevel", "SCALAR", 1 } }, // Renault kleinbus Lightbar geht nicht
+			{ "A3L_SuburbanUM", { "life_coplevel", "SCALAR", 2 } },              // Suburban
+			//{ "A3L_Suburban", { "life_coplevel", "SCALAR", 2 } },      	     // Suburban Lightbar geht nicht
+			{ "ivory_wrx_slicktop", { "life_coplevel", "SCALAR", 2 } },          // Impreza ohne Lightbar
+			{ "ivory_wrx_marked", { "life_coplevel", "SCALAR", 2 } },            // Impreza mit Lightbar
+            { "ivory_wrx_unmarked", { "life_coplevel", "SCALAR", 2 } },          // Impreza ohne Lightbar
+			{ "A3L_CVPIUCBlack", { "life_coplevel", "SCALAR", 2 } }, 	         // CVPI Undercover Black
+			{ "DAR_TahoePoliceDet", { "life_coplevel", "SCALAR", 2 } },          // Tahoe Undercover
+			{ "cg_h2_sert", { "life_coplevel", "SCALAR", 2 } }, 		         // Hummer H2
+            { "Navara_Policia", { "life_coplevel", "SCALAR", 2 } },		         // Navara
+            { "GeK_Yukon_Police", { "life_coplevel", "SCALAR", 2 } },	         // GMC Yukon Lightbar geht nicht
+			//{ "GeK_TLC100_Police", { "life_coplevel", "SCALAR", 2 } },         // TLC100 kein Skin
+			{ "cnp_Iveco_GOIT", { "life_coplevel", "SCALAR", 2 } },				 // Iveco Truck
+			{ "shounka_a3_suburbangign", { "life_coplevel", "SCALAR", 2 } }		 // Suburban Leiterwagen
         };
     };
 
@@ -512,8 +509,8 @@ class CarShops {
         side = "cop";
         vehicles[] = {
             { "B_Heli_Light_01_F", { "life_coplevel", "SCALAR", 2 } },
-            { "I_Heli_light_03_unarmed_F", { "life_coplevel", "SCALAR", 6 } },
-            { "B_Heli_Transport_01_F", { "life_coplevel", "SCALAR", 7 } }
+            //{ "I_Heli_light_03_unarmed_F", { "life_coplevel", "SCALAR", 6 } },  // Helcat kein Skin
+            //{ "B_Heli_Transport_01_F", { "life_coplevel", "SCALAR", 7 } }	      // GhostHawk kein Skin
         };
     };
 
@@ -4375,7 +4372,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 30000;
         textures[] = {};
     };
-	
+
 	// Subaru Impreza - Cop
 	class ivory_wrx_marked {
 		vItemSpace = 50;
@@ -4384,7 +4381,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 		price = 0;
 		textures[] = {
 			{ "Cop", "cop", {
-				"\ivory_wrx\data\st.paa"
+				"\ivory_wrx\data\wrx_police.paa"
 			} }
 		};
 	};
