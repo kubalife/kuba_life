@@ -4373,15 +4373,15 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
     };
 
-	// Subaru Impreza - Cop
+
 	class ivory_wrx_marked {
 		vItemSpace = 50;
 		vFuelSpace = 999999;
 		licenses[] = { {""}, {""}, {""}, {""} };
-		price = 0;
+		price = 1;
 		textures[] = {
 			{ "Cop", "cop", {
-				"\ivory_wrx\data\wrx_police.paa"
+				"\ivory_wrx\data\st.paa"
 			} }
 		};
 	};
