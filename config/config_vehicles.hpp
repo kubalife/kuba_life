@@ -508,7 +508,7 @@ class CarShops {
     class cop_air {
         side = "cop";
         vehicles[] = {
-            { "B_Heli_Light_01_F", { "life_coplevel", "SCALAR", 2 } },
+            { "B_Heli_Light_01_F", { "life_coplevel", "SCALAR", 2 } }
             //{ "I_Heli_light_03_unarmed_F", { "life_coplevel", "SCALAR", 6 } },  // Helcat kein Skin
             //{ "B_Heli_Transport_01_F", { "life_coplevel", "SCALAR", 7 } }	      // GhostHawk kein Skin
         };
