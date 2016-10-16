@@ -3,296 +3,99 @@
 	<Package name="Shop_Names">
 		<Key ID="STR_Shops_C_Bruce">
 			<Original>Bruce's Outback Outfits</Original>
-			<Czech>Bruceovy Outback Oblečení</Czech>
-			<French>Friperie de Bruce</French>
-			<Spanish>Tienda de Ropa</Spanish>
-			<Russian></Russian>
-			<Portuguese>Loja de Roupas</Portuguese>
-			<Polish>Sklep odzieżowy</Polish>
-			<Italian>Emporio di Bruce</Italian>
-			<German>Bruce Outback Outfits</German>
 		</Key>
 		<Key ID="STR_Shops_C_Police">
 			<Original>Policia de Cuba Shop</Original>
-			<Czech>Altis policejní oddělení Shop</Czech>
-			<French>Boutique de la police</French>
-			<Spanish>Tienda del Departamento de Policía</Spanish>
-			<Russian></Russian>
-			<Portuguese>Loja de Roupas Policiais</Portuguese>
-			<Polish>Sklep Policyjny</Polish>
-			<Italian>Altis Police Department negozio</Italian>
-			<German>Policia de Cuba Shop</German>
 		</Key>
 		<Key ID="STR_Shops_C_Rebel">
 			<Original>Mohammed's Jihadi Shop</Original>
-			<Czech>Mohamedův džihád Shop</Czech>
-			<French>Magasin Rebel de Mohammed</French>
-			<Spanish>Tienda Jihadi de Mohamed</Spanish>
-			<Italian>Jihad negozio di Maometto</Italian>
-			<Russian></Russian>
-			<Portuguese>Loja de Roupas Rebeldes</Portuguese>
-			<Polish>Sklep samobójców AKBAR</Polish>
-			<German>Mohammeds Jihad-Shop</German>
 		</Key>
 		<Key ID="STR_Shops_C_Bandit">
 			<Original>Mohammed's Jihadi Shop</Original>
 		</Key>
 		<Key ID="STR_Shops_C_Diving">
 			<Original>Steve's Diving Shop</Original>
-			<Czech>Steve je potápění obchod</Czech>
-			<French>Magasin de plongé Steven</French>
-			<Spanish>Tienda de Buceo</Spanish>
-			<Italian>di Steve Diving negozio</Italian>
-			<Russian></Russian>
-			<German>Steve's Taucherequipment</German>
-			<Portuguese>Loja de equipamentos para Mergulho</Portuguese>
-			<Polish>Sklep dla nurków</Polish>
 		</Key>
 		<Key ID="STR_Shops_C_Supporter">
 			<Original>Supporter Laden</Original>
 		</Key>
 		<Key ID="STR_Shops_C_Gun">
 			<Original>Billy Joe's Clothing</Original>
-			<Czech>Billy Joe oblečení</Czech>
-			<Spanish>Tienda de Ropa de Billy Joe</Spanish>
-			<Russian></Russian>
-			<German>Billy Joe Bekleidung</German>
-			<Italian>Abbigliamento di Billy Joe</Italian>
-			<French>Friperie de Billy Joe</French>
-			<Portuguese>Roupa Billy Joe</Portuguese>
-			<Polish>Billy Joe Odzież</Polish>
 		</Key>
 		<Key ID="STR_Shops_W_Gun">
 			<Original>Billy Joe's Firearms</Original>
-			<Czech>Billy Joe Střelné zbraně</Czech>
-			<Spanish>Tienda de Armas de Billy Joe</Spanish>
-			<Russian></Russian>
-			<German>Billy Joe Schusswaffen</German>
-			<Italian>Armeria di Billy Joe</Italian>
-			<French>Les armes de Billy Joe</French>
-			<Portuguese>Armas de fogo Billy Joe</Portuguese>
-			<Polish>Broń palna Billy Joe</Polish>
 		</Key>
 		<Key ID="STR_Shops_C_Kart">
 			<Original>Bobby's Kart-Racing Outfits</Original>
-			<Czech>Billy Joe Střelné zbraně</Czech>
-			<French>Tenues de Bobby</French>
-			<Spanish>Tienda de Trajes de Carreras</Spanish>
-			<Italian>Kart-Racing Outfits di Bobby</Italian>
-			<Russian></Russian>
-			<German>Bobby's Go-Kart Rennklamotten</German>
-			<Portuguese>Loja de equipamentos para Kart</Portuguese>
-			<Polish>Sklep Kartingowy</Polish>
 		</Key>
 		<Key ID="STR_Shops_Market">
 			<Original>Kuba Market</Original>
-			<Czech>Altis Market</Czech>
-			<Spanish>Mercado de Altis</Spanish>
-			<Russian></Russian>
-			<German>Kuba Markt</German>
-			<Italian>Mercato</Italian>
-			<French>Marché</French>
-			<Portuguese>Mercado</Portuguese>
-			<Polish>Market Altis</Polish>
 		</Key>
 		<Key ID="STR_Shops_Plank">
 			<Original>Holzankauf</Original>
 		</Key>
 		<Key ID="STR_Shops_Rebel">
 			<Original>Rebel Market</Original>
-			<German>Rebellen Markt</German>
 		</Key>
 		<Key ID="STR_Shops_Bandit">
 			<Original>Banditenshop</Original>
 		</Key>
 		<Key ID="STR_Shops_Gang">
-			<Original>Gang Market</Original>
-			<Czech>gang Market</Czech>
-			<Spanish>Mercado Pandillero</Spanish>
-			<Russian></Russian>
-			<German>Gang Markt</German>
-			<Italian>Mercato Gang</Italian>
-			<French>Marché de Gang</French>
-			<Portuguese>Mercado da Gangue</Portuguese>
-			<Polish>Market Gangu</Polish>
+			<Original>Gang Markt</Original>
 		</Key>
 		<Key ID="STR_Shops_C_Gang">
-			<Original>Gang Clothing</Original>
-			<Czech>gang Oblečení</Czech>
-			<Spanish>Ropa Pandillera</Spanish>
-			<Russian></Russian>
-			<German>Gang Kleidung</German>
-			<Italian>Gang Abbigliamento</Italian>
-			<French>Vêtements de Gang</French>
-			<Portuguese>Roupa Gang</Portuguese>
-			<Polish>Gang Odzież</Polish>
+			<Original>Gang Klamotten</Original>
 		</Key>
 		<Key ID="STR_Shops_Wongs">
-			<Original>Wong's Food Cart</Original>
-			<Czech>Wongova Food košík</Czech>
-			<Spanish>Kiosko de Wong</Spanish>
-			<Russian></Russian>
-			<German>Wong's Spezialitäten</German>
-			<Italian>Alimentari</Italian>
-			<French>Alimentation de Wong</French>
-			<Portuguese>Praça de Alimentação</Portuguese>
-			<Polish>Przysmaki Wonga</Polish>
+			<Original>Wong's Spezialitäten</Original>
 		</Key>
 		<Key ID="STR_Shops_Coffee">
 			<Original>Gyro's Coffee</Original>
-			<Czech>gyros Coffee</Czech>
-			<Spanish>Cafetería de Gyro</Spanish>
-			<Russian></Russian>
-			<German>Gyro's Café</German>
-			<Italian>Caffè</Italian>
-			<French>Café de Gyro</French>
-			<Portuguese>Café do Gyro</Portuguese>
-			<Polish>Kawiarnia</Polish>
 		</Key>
 		<Key ID="STR_Shops_DrugDealer">
-			<Original>Selods's Narcotics</Original>
-			<Czech>Selods je narkotika</Czech>
-			<Spanish>Narcotraficante</Spanish>
-			<Russian></Russian>
-			<German>Drogendealer</German>
-			<Italian>Spacciatore</Italian>
-			<French>Dealer de Drogue</French>
-			<Portuguese>Traficante</Portuguese>
-			<Polish>Sprzedawca 'Trawy'</Polish>
+			<Original>Drogendealer</Original>
 		</Key>
 		<Key ID="STR_Shops_Oil">
-			<Original>Oil Trader</Original>
-			<Czech>olej Trader</Czech>
-			<Spanish>Comerciante de Petroleo</Spanish>
-			<Russian></Russian>
-			<German>Ölhändler</German>
-			<Italian>Vendita Petrolio</Italian>
-			<French>Acheteur de Pétrole</French>
-			<Portuguese>Comprador de Petróleo</Portuguese>
-			<Polish>Skup Ropy</Polish>
+			<Original>Ölhändler</Original>
 		</Key>
 		<Key ID="STR_Shops_FishMarket">
-			<Original>Local Fish Market</Original>
-			<Czech>Místní Fish Market</Czech>
-			<Spanish>Mercado Local del Pescado</Spanish>
-			<Russian></Russian>
-			<German>Fischmarkt</German>
-			<Italian>Pescivendolo</Italian>
-			<French>Marché de Poissons</French>
-			<Portuguese>Mercado de Peixes</Portuguese>
-			<Polish>Sklep Rybny</Polish>
+			<Original>Summer's Fischmarkt</Original>
 		</Key>
 		<Key ID="STR_Shops_Glass">
-			<Original>Glass Trader</Original>
-			<Czech>sklo Trader</Czech>
-			<Spanish>Comerciante de Vidrio</Spanish>
-			<Russian></Russian>
-			<German>Glashändler</German>
-			<Italian>Vendita Vetro</Italian>
-			<French>Acheteur de Verre</French>
-			<Portuguese>Comprador de Vidro</Portuguese>
-			<Polish>Skup Szkła</Polish>
+			<Original>Glas Händler</Original>
 		</Key>
 		<Key ID="STR_Shops_Minerals">
-			<Original>Altis Industrial Trader</Original>
-			<Czech>Altis Industrial Trader</Czech>
-			<Spanish>Comerciante Industrial</Spanish>
-			<Russian></Russian>
-			<German>Altis Industriehandel</German>
-			<Italian>Vendita materiali industriali</Italian>
-			<French>Acheteur Industriel</French>
-			<Portuguese>Comprador de Material Indústrial</Portuguese>
-			<Polish>Skup materiałów przemysłowych</Polish>
+			<Original>Kuba Industriehändler</Original>
 		</Key>
 		<Key ID="STR_Shops_Cop">
-			<Original>APD Item Shop</Original>
-			<Czech>APD Item Shop</Czech>
-			<Spanish>Equipamiento Policial</Spanish>
-			<Russian></Russian>
-			<German>APD Gegenstände</German>
-			<Italian>Negozio Polizia</Italian>
-			<French>Equipement de Police</French>
-			<Portuguese>Equipamentos da Polícia</Portuguese>
-			<Polish>Zbrojownia Policji</Polish>
+			<Original>Policia Gegenstände</Original>
 		</Key>
 		<Key ID="STR_Shops_Adac">
 			<Original>TAC Item Shop</Original>
-			<German>TAC Gegenstände</German>
-			<Italian>articoli ADAC</Italian>
-			<French>articles ADAC</French>
-			<Portuguese>itens ADAC</Portuguese>
-			<Polish>szt ADAC</Polish>
 		</Key>
 		<Key ID="STR_Shops_Cement">
 			<Original>Juan's Cement Laying</Original>
-			<Czech>Juanovo Cement Pokládka</Czech>
-			<Spanish>Fabrica de Cemento de Juan</Spanish>
-			<Russian></Russian>
-			<German>Juan's Zementleger</German>
-			<Italian>Vendita Cemento</Italian>
-			<French>Poseur de Ciment</French>
-			<Portuguese>Comprador de Cimento</Portuguese>
-			<Polish>Wytwórnia cementu</Polish>
 		</Key>
 		<Key ID="STR_Shops_Gold">
-			<Original>Cash 4 Gold</Original>
-			<Czech>Peněžní 4 Gold</Czech>
-			<Spanish>Comprador de Oro</Spanish>
-			<Russian></Russian>
-			<German>Goldhändler</German>
-			<Italian>Vendita Oro</Italian>
-			<French>Acheteur d'Or</French>
-			<Portuguese>Comprador de Ouro</Portuguese>
-			<Polish>Skup złota</Polish>
+			<Original>Goldhändler</Original>
 		</Key>
 		<Key ID="STR_Shops_Diamond">
-			<Original>Diamond Dealer</Original>
-			<Czech>Diamond Dealer</Czech>
-			<Spanish>Comerciante de Diamantes</Spanish>
-			<Russian></Russian>
-			<German>Juwelier</German>
-			<Italian>Gioielleria</Italian>
-			<French>Bijouterie</French>
-			<Portuguese>Comprador de Diamante</Portuguese>
-			<Polish>Skup Diamentów</Polish>
+			<Original>Diamanten Händler</Original>
 		</Key>
 		<Key ID="STR_Shops_Salt">
-			<Original>Salt Trader</Original>
-			<Czech>sůl Trader</Czech>
-			<Spanish>Comerciante de Sal</Spanish>
-			<Russian></Russian>
-			<German>Salzhändler</German>
-			<Italian>Vendita Sale</Italian>
-			<French>Acheteur de Sel</French>
-			<Portuguese>Comprador de Sal</Portuguese>
-			<Polish>Skup soli</Polish>
+			<Original>Salzhändler</Original>
 		</Key>
 		<Key ID="STR_Shop_Station_Coffee">
-			<Original>Fuel Station Coffee</Original>
-			<Czech>Palivo Coffee Station</Czech>
-			<French>Fuel Station Coffee</French>
-			<Spanish>Cafeteria de Gasolinera</Spanish>
-			<Italian>Fuel Coffee Station</Italian>
-			<Russian></Russian>
-			<German>Tankstellen Café</German>
-			<Portuguese>Loja de Conveniência</Portuguese>
-			<Polish>Caffe OLLEN</Polish>
+			<Original>Café</Original>
 		</Key>
 	</Package>
 	<Package name="Global">
 		<Key ID="STR_Global_Close">
 			<Original>Close</Original>
-			<Czech>Zavřít</Czech>
-			<Spanish>Cerrar</Spanish>
-			<Russian></Russian>
 			<German>Schließen</German>
-			<French>Fermer</French>
-			<Italian>Chiudi</Italian>
-			<Portuguese>Fechar</Portuguese>
-			<Polish>Zamknij</Polish>
 		</Key>
 		<Key ID="STR_Global_Accept2">
-			<Original>Accept</Original>
+			<Original>Annehmen</Original>
 		</Key>
 		<Key ID="STR_Global_Sell">
 			<Original>Sell</Original>
@@ -10715,5 +10518,60 @@
 			<Italian>Deposita alla Gang</Italian>
 			<Portuguese>Depositar para a Gangue</Portuguese>
 		</Key>
+		<Key ID="STR_Jail_Text">
+            <Original>Jail time</Original>
+            <Czech></Czech>
+            <French></French>
+            <Spanish>Tiempo de carcel</Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese></Portuguese>
+            <Russian></Russian>
+            <German></German>
+        </Key>
+        <Key ID="STR_Jail_seTime">
+            <Original>Minutes: </Original>
+            <Czech></Czech>
+            <French></French>
+            <Spanish>Minutos: </Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese></Portuguese>
+            <Russian></Russian>
+            <German></German>
+        </Key>
+        <Key ID="STR_Cop_Jail_Time_Number">
+            <Original>This is not a number</Original>
+            <Czech></Czech>
+            <French></French>
+            <Spanish>Eso no es un número</Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese></Portuguese>
+            <Russian></Russian>
+            <German></German>
+        </Key>
+        <Key ID="STR_Cop_Jail_Time_Limits">
+            <Original>Minimun 5 and maximun 60</Original>
+            <Czech></Czech>
+            <French></French>
+            <Spanish>Mínimo 5 and maximo 60</Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese></Portuguese>
+            <Russian></Russian>
+            <German></German>
+        </Key>
+        <Key ID="STR_Jail_Time_Failed">
+            <Original>Failed on dialog creation</Original>
+            <Czech></Czech>
+            <French></French>
+            <Spanish>El diálogo no se pudo crear</Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese></Portuguese>
+            <Russian></Russian>
+            <German></German>
+        </Key>
 	</Package>
 </Project>
