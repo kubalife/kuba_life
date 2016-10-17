@@ -2,7 +2,7 @@
 
 /*
 	File: fn_craftCfg.sqf
-	Author: EdgeKiller / Andi Ommsen
+	Author: EdgeKiller
 
 	Description:
 	Master configuration file for the crafting menu.
@@ -140,9 +140,9 @@ switch(_craft) do
 		["sturmgewehrbauplan",["papier",20,"geodreieck",2]],
 		["NULL",[""]],
 		["reifen",["steel",5,"rubber",20]],
-		["karosserie",["steel",40,"plastik",20,"elektroteile",20,"cloth",40,"aluminium",10]],
+		["karosserie",["steel",20,"plastik",10,"elektroteile",10,"cloth",20,"aluminium",5]],
 		["engine",["steel",30,"oil_processed",15,"rubber",10]],
-		["autoglas",["glass",10]],
+		["autoglas",["glass",5]],
 		["elektroteile",["copper_refined",10,"silizium",15]],
 		["NULL",[""]],
 		["shounkafordgt",["reifen",4,"engine",1,"karosserie",6,"autoglas",5,"elektroteile",15]],		//Autos
@@ -167,11 +167,11 @@ switch(_craft) do
 		["as532blue",["reifen",8,"engine",6,"karosserie",30,"autoglas",15,"elektroteile",60]],
 		["mi17camo",["reifen",8,"engine",10,"karosserie",40,"autoglas",18,"elektroteile",70]],
 		["chinook",["reifen",8,"engine",12,"karosserie",60,"autoglas",20,"elektroteile",90]],
-		//["mi6camo",["reifen",8,"engine",15,"karosserie",70,"autoglas",30,"elektroteile",110]],
+		["mi6camo",["reifen",8,"engine",15,"karosserie",70,"autoglas",30,"elektroteile",110]],
 		["NULL",[""]],
 		["c47skytrain",["reifen",8,"engine",15,"karosserie",80,"autoglas",40,"elektroteile",120]],		//Flugzeuge
-		//["mv22",["reifen",8,"engine",6,"karosserie",80,"autoglas",50,"elektroteile",140]],
-		//["mv22cargo",["reifen",8,"engine",6,"karosserie",80,"autoglas",50,"elektroteile",140]],
+		["mv22",["reifen",8,"engine",6,"karosserie",80,"autoglas",50,"elektroteile",140]],
+		["mv22cargo",["reifen",8,"engine",6,"karosserie",80,"autoglas",50,"elektroteile",140]],
 		["c130green",["reifen",14,"engine",12,"karosserie",80,"autoglas",50,"elektroteile",150]],
 		["c130greencargo",["reifen",14,"engine",12,"karosserie",80,"autoglas",50,"elektroteile",150]],
 		["c130black",["reifen",14,"engine",12,"karosserie",80,"autoglas",50,"elektroteile",150]]
@@ -214,29 +214,29 @@ switch(_craft) do
     case "ammo":
     {
         _return = [
-        ["uns_ppkmag",["steel",5,"gunpowder",2]],
-		["uns_6Rnd_czak",["steel",5,"gunpowder",2]],
-		["uns_makarovmag",["steel",5,"gunpowder",2]],
-		["uns_coltcmdrmag",["steel",5,"gunpowder",2]],
-		["uns_m1911mag",["steel",5,"gunpowder",2]],
-		["uns_20Rnd_APS",["steel",5,"gunpowder",2]],
-		["uns_tokarevmag",["steel",5,"gunpowder",2]],
-		["uns_25rnd_pm",["steel",10,"gunpowder",5]],
-		["uns_32rnd_uzi",["steel",10,"gunpowder",5]],
-		["uns_stenmag_T",["steel",10,"gunpowder",5]],
-		["uns_mk4mag_T",["steel",10,"gunpowder",5]],
-		["uns_thomsonmag_30_T",["steel",10,"gunpowder",5]],
-		["uns_m3a1mag_T",["steel",10,"gunpowder",5]],
-		["uns_m45mag_T",["steel",10,"gunpowder",5]],
-		["uns_mat49mag_T",["steel",10,"gunpowder",5]],
-		["uns_k50mag_T",["steel",10,"gunpowder",5]],
-		["uns_30rnd_kurtz_stg",["steel",15,"gunpowder",8]],
-		["uns_m1garandmag_T",["steel",20,"gunpowder",10]],
-		["und_mosinmag_T",["steel",20,"gunpowder",10]],
-		["uns_mas36mag_T",["steel",20,"gunpowder",10]],
-		["uns_ak47mag_T",["steel",20,"gunpowder",10]],
-		["uns_sa58mag_T",["steel",20,"gunpowder",10]],
-		["uns_20rnd_556x45_Stanag_T",["steel",20,"gunpowder",10]]
+        ["uns_ppkmag",["steel",1,"gunpowder",1]],
+		["uns_6Rnd_czak",["steel",1,"gunpowder",1]],
+		["uns_makarovmag",["steel",1,"gunpowder",1]],
+		["uns_coltcmdrmag",["steel",1,"gunpowder",1]],
+		["uns_m1911mag",["steel",1,"gunpowder",1]],
+		["uns_20Rnd_APS",["steel",1,"gunpowder",1]],
+		["uns_tokarevmag",["steel",1,"gunpowder",1]],
+		["uns_25rnd_pm",["steel",2,"gunpowder",1]],
+		["uns_32rnd_uzi",["steel",3,"gunpowder",2]],
+		["uns_stenmag_T",["steel",3,"gunpowder",2]],
+		["uns_mk4mag_T",["steel",3,"gunpowder",2]],
+		["uns_thomsonmag_30_T",["steel",3,"gunpowder",2]],
+		["uns_m3a1mag_T",["steel",3,"gunpowder",2]],
+		["uns_m45mag_T",["steel",3,"gunpowder",2]],
+		["uns_mat49mag_T",["steel",3,"gunpowder",2]],
+		["uns_k50mag_T",["steel",3,"gunpowder",2]],
+		["uns_30rnd_kurtz_stg",["steel",3,"gunpowder",2]],
+		["uns_m1garandmag_T",["steel",3,"gunpowder",2]],
+		["und_mosinmag_T",["steel",3,"gunpowder",2]],
+		["uns_mas36mag_T",["steel",3,"gunpowder",2]],
+		["uns_ak47mag_T",["steel",3,"gunpowder",2]],
+		["uns_sa58mag_T",["steel",3,"gunpowder",2]],
+		["uns_20rnd_556x45_Stanag_T",["steel",3,"gunpowder",2]]
       	];
     };
 

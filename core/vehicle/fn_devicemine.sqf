@@ -5,7 +5,7 @@
 	Modified: Devilfloh
 	Description:
 	Starts automated mining of resource from the tempest device. Not integrated with percents.
-
+*/
 private["_vehicle","_resourceZones","_zone","_weight","_resource","_vInv","_itemIndex","_items","_sum","_itemWeight","_amount","_isMineral"];
 _vehicle = param [0,ObjNull,[ObjNull]];
 _isMineral = true;
@@ -31,12 +31,12 @@ if((_weight select 1) >= (_weight select 0)) exitWith {
 //check if we are in the resource zone for any of the resources
 _zone = "";
 _zoneSize = (getNumber(missionConfigFile >> "CfgGather" >> "zoneSize"));
-
+/*
 _resourceCfg = missionConfigFile >> "CfgGather" >> "Resources";
 for "_i" from 0 to count(_resourceCfg)-1 do {
 	_curConfig = (_resourceCfg select _i);
 	_resource = configName(_curConfig);
-	_resourceZones = ["sulfur_1","wood_1","wood_2","nitroamine_1","silizium_mine","copper_mine","sand_mine","Kohle_1","rock_quarry","iron_mine","diamond_mine","oil_field_1","oil_field_2"];
+	_resourceZones = getArray(_curConfig >> "zones");
 	_amount = getNumber(_curConfig >> "amount");
 
 	{
@@ -47,7 +47,7 @@ for "_i" from 0 to count(_resourceCfg)-1 do {
 
 	if(_zone != "") exitWith {_isMineral = false;};
 };
-
+*/
 _resourceCfg = missionConfigFile >> "CfgGather" >> "Minerals";
 for "_i" from 0 to count(_resourceCfg)-1 do {
 	private ["_curConfig","_resourceZones","_resources","_mined"];

@@ -19,36 +19,61 @@ _lightleft setLightColor _lightRed;
 _lightleft setLightBrightness 0.2;  
 _lightleft setLightAmbient [0.1,0.1,1];
 
+//DAR_ImpalaPolice
+
 switch (typeOf _vehicle) do
 {
-	case "C_Offroad_01_F":
-	{
-		_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];
-	};
-	
-	case "B_MRAP_01_F":
-	{
-		_lightleft lightAttachObject [_vehicle, [-0.37, -1.9, 0.7]];
-	};
-	
-	case "C_SUV_01_F":
-	{
-		_lightleft lightAttachObject [_vehicle, [-0.37,-1.2,0.42]];
-	};
-	
-	case "C_Hatchback_01_sport_F":
-	{
-		_lightleft lightAttachObject [_vehicle, [-0.35,-0.2,0.25]];
-	};
-	
 	case "B_Heli_Light_01_F":
 	{
 		_lightleft lightAttachObject [_vehicle,[-0.37, 0.0, -0.80]];
 	};
-	
 	case "B_Heli_Transport_01_F":
 	{			
 		_lightleft lightAttachObject [_vehicle, [-0.5, 0.0, 0.81]];
+ 	};
+	case "77FuryCop":
+	{			
+		_lightleft lightAttachObject [_vehicle, [0.0,0.0,0.0]];
+ 	};
+	case "A3L_CVPIFPBLBPD":
+	{			
+		_lightleft lightAttachObject [_vehicle, [-0.35,-0.2,0.0]];
+ 	};
+	case "GeK_Renault_Trafic_Police":
+	{			
+		_lightleft lightAttachObject [_vehicle, [-0.35,-0.2,0.85]];
+ 	};
+	case "DAR_ImpalaPolice":
+	{			
+		_lightleft lightAttachObject [_vehicle, [0.35,-0.2,0.0]]; // Breite, Tiefe, Höhe des Lichtes
+ 	};
+	case "cg_h2_sert":
+	{			
+		_lightleft lightAttachObject [_vehicle, [0.35,-0.2,0.85]];
+ 	};
+	case "Navara_Policia":
+	{			
+		_lightleft lightAttachObject [_vehicle, [-0.35,-0.2,0.45]];
+ 	};
+	case "A3L_SuburbanUM":
+	{			
+		_lightleft lightAttachObject [_vehicle, [-0.35,-0.2,0.45]];
+ 	};
+	case "A3L_Suburban":
+	{			
+		_lightleft lightAttachObject [_vehicle, [-0.35,-0.2,0.45]];
+ 	};
+	case "ivory_wrx_slicktop":
+	{			
+		_lightleft lightAttachObject [_vehicle, [-0.35,-0.2,0.45]];
+ 	};
+	case "ivory_wrx_marked":
+	{			
+		_lightleft lightAttachObject [_vehicle, [-0.35,-0.2,0.45]];
+ 	};
+	case "ivory_wrx_unmarked":
+	{			
+		_lightleft lightAttachObject [_vehicle, [-0.35,-0.2,0.45]];
  	};
 };
 
@@ -66,34 +91,57 @@ _lightright setLightAmbient [0.1,0.1,1];
 
 switch (typeOf _vehicle) do
 {
-	case "C_Offroad_01_F":
-	{
-		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
-	};
-	
-	case "B_MRAP_01_F":
-	{
-		_lightright lightAttachObject [_vehicle, [0.37, -1.9, 0.7]];
-	};
-	
-	case "C_SUV_01_F":
-	{
-		_lightright lightAttachObject [_vehicle, [0.37,-1.2,0.42]];
-	};
-	
-	case "C_Hatchback_01_sport_F":
-	{
-		_lightright lightAttachObject [_vehicle, [0.35,-0.2,0.25]];
-	};
-	
 	case "B_Heli_Light_01_F":
 	{
 		_lightright lightAttachObject [_vehicle,[0.37, 0.0, -0.80]];
 	};
-	
 	case "B_Heli_Transport_01_F":
 	{			
 		_lightright lightAttachObject [_vehicle, [0.5, 0.0, 0.81]];
+ 	};
+	case "77FuryCop":
+	{
+		_lightright lightAttachObject [_vehicle, [0.0,0.0,0.0]];
+ 	};
+	case "A3L_CVPIFPBLBPD":
+	{			
+		_lightright lightAttachObject [_vehicle, [0.35,-0.2,0.0]]; 
+ 	};
+	case "GeK_Renault_Trafic_Police":
+	{			
+		_lightright lightAttachObject [_vehicle, [0.35,-0.2,0.85]]; 
+ 	};
+	case "DAR_ImpalaPolice":
+	{			
+		_lightright lightAttachObject [_vehicle, [0.35,-0.2,0.0]]; // Breite, Tiefe, Höhe des Lichtes
+ 	};
+	case "cg_h2_sert":
+	{
+		_lightright lightAttachObject [_vehicle, [0.35,-0.2,0.85]];
+ 	};
+	case "Navara_Policia":
+	{
+		_lightright lightAttachObject [_vehicle, [-0.35,-0.2,0.45]];
+ 	};
+	case "A3L_SuburbanUM":
+	{			
+		_lightright lightAttachObject [_vehicle, [-0.35,0.0,0.45]];
+ 	};
+	case "A3L_Suburban":
+	{
+		_lightright lightAttachObject [_vehicle, [-0.35,-0.2,0.45]];
+ 	};
+	case "ivory_wrx_slicktop":
+	{			
+		_lightright lightAttachObject [_vehicle, [-0.35,-0.2,0.45]];
+ 	};
+	case "ivory_wrx_marked":
+	{			
+		_lightright lightAttachObject [_vehicle, [-0.35,-0.2,0.45]];
+ 	};
+	case "ivory_wrx_unmarked":
+	{			
+		_lightright lightAttachObject [_vehicle, [-0.35,-0.2,0.45]];
  	};
 };
   

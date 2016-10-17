@@ -181,7 +181,7 @@ Example 2:
 			amount = 2;
 			zones[] = { "schrott_1" };
 			item = "pickaxe";
-			mined[] = { {"schrott",0,90},{"iron_unrefined",90,98},{"geodreieck",98,100} }; //95% Schrott, 4% Iron, 1% Geodreieck/Zirkel
+			mined[] = { {"schrott",0,90},{"iron_unrefined",90,98},{"geodreieck",98,100} }; //90% Schrott, 8% Iron, 2% Geodreieck/Zirkel
 		};
 		class nitroamine //Bauxit
 		{

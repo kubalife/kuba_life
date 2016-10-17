@@ -44,6 +44,5 @@
 #include "dynmarket_prices.hpp"
 #include "revoke_license.hpp"
 #include "polizeicomputer.hpp"
-#include "newsStation.hpp"
 #include "jailTime.hpp"
 

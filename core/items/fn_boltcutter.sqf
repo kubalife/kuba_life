@@ -75,7 +75,7 @@ _cP = 0.050;
 switch (typeOf _building) do {
 	case "Land_Dome_Small_F": {_cpRate = 0.002;};
 	case "Land_Cargo_House_V1_F": {_cpRate = 0.002;};
-	default {_cpRate = 0.0004;}
+	default {_cpRate = 0.04;}
 };
 
 for "_i" from 0 to 1 step 0 do {
@@ -119,6 +119,11 @@ _dice = random(100);
 		_building SVAR [format["bis_disabled_Door_%1",_door],0,true]; //Unlock the door.
 		_building setVariable["locked",false,true];
 	}else{
+		if(playerSide == civilian) then {
+		exitWith {hint localize "Du kannst momentan in keine Häuser einbrechen!";};
+	;}
+	
+/*
 		if(_dice < 20) then {
 			titleText[localize "STR_ISTR_Lock_Success","PLAIN"];
 			_building SVAR [format["bis_disabled_Door_%1",_door],0,true]; //Unlock the door.
@@ -127,7 +132,7 @@ _dice = random(100);
 			titleText[localize "STR_ISTR_Lock_Failed","PLAIN"];
 		};
 	};
-
+*/
 if(life_HC_isActive) then {
 	[getPlayerUID player,profileName,"459"] remoteExecCall ["HC_fnc_wantedAdd",HC_Life];
 } else {

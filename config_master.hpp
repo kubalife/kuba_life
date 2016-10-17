@@ -320,7 +320,7 @@ class Life_Settings {
     minimum_cops = 6; //Minimum cops required online to rob the Federal Reserve
 
     /* House Robberies */
-    copsHouseRaid = 2; //Cops needed to be online for robbing houses
+    copsHouseRaid = 0; //Cops needed to be online for robbing houses
     
 	
     /* Basic System Configurations */

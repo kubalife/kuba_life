@@ -168,22 +168,13 @@ if(_itemFilter == "attach") then{
 };
 
 if(_itemFilter == "item") then{
-    _handledItem = M_CONFIG(getText,"VirtualItems",_newitem,"variable");
+	_handledItem = M_CONFIG(getText,"VirtualItems",_newitem,"variable");
     if(_newitem == "elektroteile") then {
-        [true,"elektroteile",5] call life_fnc_handleInv;
-	}else{
-		if(_newitem == "karosserie") then {
-			[true,"karosserie",2] call life_fnc_handleInv;
-		}else{
-			if(_newitem == "autoglas") then {
-				[true,"autoglas",2] call life_fnc_handleInv;
-			}else{
-				[true,_handledItem,1] call life_fnc_handleInv;
-			};
-		};
+        [true,_handledItem,2] call life_fnc_handleInv;
+    } else {
+        [true,_handledItem,1] call life_fnc_handleInv;
     };
 };
-
 if(_itemFilter == "uniform") then{
 	if(uniform player == "") then{
 		player addUniform _newItem;
