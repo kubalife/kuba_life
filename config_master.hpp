@@ -155,7 +155,8 @@ class Life_Settings {
         "chinook",
         "c47skytrain",
         "ch53",
-        "gagkit"
+        "gagkit",
+		"krabbenkaefig"
     }; //Array of virtual items that can be saved on your player.
 
     save_playerStats = true; //Save food, water and damage (all sides)?
@@ -304,7 +305,8 @@ class Life_Settings {
         "chinook",
         "c47skytrain",
         "ch53",
-        "gagkit"
+        "gagkit",
+		"krabbenkaefig"
     }; //Array of virtual items that can be saved on your player.
 
     save_vehicle_inventory = true; //Save Arma inventory of vehicle to the database

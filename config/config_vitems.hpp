@@ -1790,7 +1790,7 @@ class VirtualItems {
 			displayName = "STR_Item_koenigskrabbe";
 			weight = 1;
 			buyPrice = -1;
-			sellPrice = 68;
+			sellPrice = 85;
 			illegal = false;
 			edible = -1;
 			icon = "icons\koenigskrabbe.paa";
