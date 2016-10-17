@@ -159,6 +159,10 @@ switch (_code) do {
 		[] call life_fnc_crabsonar;
 		};
 	};
+	case 33: {
+		if(playerside == civilian && vehicle player isKindOf "CUP_C_Fishing_Boat_Chernarus") then {
+		[] call life_fnc_crabgather;
+	};
 
 	case 24:
 	{
