@@ -105,6 +105,9 @@ class Ausweis
 		class gagAction {};
 		class gagged {};
 		class removeGagAction {};
+		class crabdeploy {};
+		class crabgather {};
+		class sonar {};
 	};
 
 	class computer //Polizeicomputer
