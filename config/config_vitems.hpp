@@ -1771,7 +1771,7 @@ class VirtualItems {
 			sellPrice = 30;
 			illegal = false;
 			edible = -1;
-			icon = "icons\craft\elektroteile.paa";
+			icon = "icons\blaukrabbe.paa";
 	};
 
 	class schneekrabbe {
@@ -1782,7 +1782,7 @@ class VirtualItems {
 			sellPrice = 45;
 			illegal = false;
 			edible = -1;
-			icon = "icons\craft\elektroteile.paa";
+			icon = "icons\schneekrabbe.paa";
 	};
 
 	class koenigskrabbe {
@@ -1793,7 +1793,7 @@ class VirtualItems {
 			sellPrice = 80;
 			illegal = false;
 			edible = -1;
-			icon = "icons\craft\elektroteile.paa";
+			icon = "icons\koenigskrabbe.paa";
 	};
 
 	class krabbenkaefig {
@@ -1804,7 +1804,7 @@ class VirtualItems {
 			sellPrice = 450;
 			illegal = false;
 			edible = -1;
-			icon = "icons\craft\elektroteile.paa";
+			icon = "icons\krabbenkaefig.paa";
 	};
 
 };
