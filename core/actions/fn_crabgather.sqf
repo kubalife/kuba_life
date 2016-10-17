@@ -15,8 +15,9 @@ if(typeOf _boje == "Land_BuoyBig_F" && (player distance2D _boje) < 15) then
 	_rope1 = (ropes _boje) select 0;
 	_pot = (ropeAttachedObjects vehicle _boje) select 0;
 	_timedif=servertime-_timeboje;
-	_krabben=round (_timedif / 10);
-	if(_krabben>25)then{_krabben=25}; //anzahl der krabben (cap ist auf 50 gesetzt)
+	_krabben=round (_timedif / 20);
+	if(_krabben>20)then{_krabben=20}; //anzahl der krabben (cap ist auf 50 gesetzt)
+	_krabben=_krabben + round(random(20));
 	if(life_carryWeight < (life_maxWeight-_krabben-1))then {
 		ropeDestroy _rope1;
 		deleteVehicle _boje;
