@@ -156,7 +156,7 @@ switch (_code) do {
 	//Taste X
 	case 45: {
 		if(playerside == civilian && vehicle player isKindOf "CUP_C_Fishing_Boat_Chernarus") then {
-		[] call life_fnc_sonar;
+		[] call life_fnc_crabsonar;
 		};
 	};
 

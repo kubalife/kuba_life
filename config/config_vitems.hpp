@@ -1761,10 +1761,9 @@ class VirtualItems {
 			edible = -1;
 			icon = "icons\nitro.paa";
 	};
-
-};
-//################################################# Krabben #####################################################
-class blaukrabbe {
+	
+	//################################################# Krabben #####################################################
+	class blaukrabbe {
 			variable = "blaukrabbe";
 			displayName = "STR_Item_blaukrabbe";
 			weight = 1;
@@ -1775,7 +1774,7 @@ class blaukrabbe {
 			icon = "icons\craft\elektroteile.paa";
 	};
 
-class schneekrabbe {
+	class schneekrabbe {
 			variable = "schneekrabbe";
 			displayName = "STR_Item_schneekrabbe";
 			weight = 1;
@@ -1786,7 +1785,7 @@ class schneekrabbe {
 			icon = "icons\craft\elektroteile.paa";
 	};
 
-class koenigskrabbe {
+	class koenigskrabbe {
 			variable = "koenigskrabbe";
 			displayName = "STR_Item_koenigskrabbe";
 			weight = 1;
@@ -1797,7 +1796,7 @@ class koenigskrabbe {
 			icon = "icons\craft\elektroteile.paa";
 	};
 
-class krabbenkaefig {
+	class krabbenkaefig {
 			variable = "krabbenkaefig";
 			displayName = "STR_Item_krabbenkaefig";
 			weight = 1;
@@ -1807,5 +1806,8 @@ class krabbenkaefig {
 			edible = -1;
 			icon = "icons\craft\elektroteile.paa";
 	};
+
+};
+
 
 //ommsen
