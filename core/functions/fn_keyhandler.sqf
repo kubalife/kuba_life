@@ -149,7 +149,7 @@ switch (_code) do {
             closedialog 0;
             createdialog "life_hauptmenu";
         };
-		if(playerside == civilian && vehicle player isKindOf "CUP_C_Fishing_Boat_Chernarus") then {
+		if(playerside == civilian && vehicle player isKindOf "CUP_C_Fishing_Boat_Chernarus" && life_net_dropped==false) then {
 		[] call life_fnc_crabdeploy;
 		};
     };
@@ -161,7 +161,7 @@ switch (_code) do {
 	};
 	//Taste F
 	case 33: { 
-		if(playerside == civilian && vehicle player isKindOf "CUP_C_Fishing_Boat_Chernarus") then {
+		if(playerside == civilian && vehicle player isKindOf "CUP_C_Fishing_Boat_Chernarus" && life_net_dropped==false) then {
 		[] spawn life_fnc_crabgather;
 		};
 	};
