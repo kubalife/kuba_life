@@ -26,9 +26,11 @@ if(typeOf _boje == "Land_BuoyBig_F" && (player distance2D _boje) < 15) then
 	_krabben=round (_timedif / 10);
 	if(_krabben>50)then{_krabben=50}; //anzahl der krabben (cap ist auf 50 gesetzt)
 	_krabbensorte="mysticcrab";  //BI will das ich den mist deklariere ob wohl es schon deklariert ist -.- myticcrab existiert nicht :(
-	if(_depthboje<20)then{_krabbensorte="Blaukrabbe"};
-	if(_depthboje>=20 && _depthboje<35)then{_krabbensorte="Schneekrabbe"};
-	if(_depthboje>=35 )then{_krabbensorte="Koenigskrabbe"};
+	if(_depthboje<20)then{_krabbensorte="blaukrabbe"};
+	if(_depthboje>=20 && _depthboje<35)then{_krabbensorte="schneekrabbe"};
+	if(_depthboje>=35 )then{_krabbensorte="koenigskrabbe"};
+	[true,"krabbenkaefig",1] call life_fnc_handleInv;
+	[true,_krabbensorte,_krabben] call life_fnc_handleInv;
 	hint format ["Zeit:%1 Sekunden Tiefe:%2 Meter Owner:%3 Krabben:%4 Krabbensorte:%5",_timedif,_depthboje,_ownerboje,_krabben,_krabbensorte];	
 	life_net_dropped = true;
 }
