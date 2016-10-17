@@ -5,7 +5,7 @@ disableChannels[]={0,1,2};
 #include "dialog\MasterHandler.hpp"
 #include "Config_Master.hpp"
 #include "infiSTAR_AdminMenu.hpp"
-#include "Custom\CHVD\dialog.hpp"
+//#include "Custom\CHVD\dialog.hpp"
 #include "dialog\statusBar.hpp"
 
 enableDebugConsole = 1;
