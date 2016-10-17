@@ -18,7 +18,7 @@ if(surfaceIsWater position _boat && _depth > 5)then
 			_rope = ropeCreate [_boje, [0,0,-3.52], _pot,[0,0,+0.6], (_depth+15)];
 			_boje setVariable ["_timestamp",servertime]; //evtl servertime benutzen
 			_boje setVariable ["_waterdepth",_depth];
-			_boje setVariable ["_owner",(getPlayerUID player)];
+			_boje setVariable ["_meins",true];
 			//_boje addAction ["Krabbenpot einholen",life_fnc_crabgather,nil,6,true,true,"",'vehicle player isKindOf "CUP_C_Fishing_Boat_Chernarus"&& life_carryWeight < (life_maxWeight-51)',30,false];
 			life_net_dropped = false;
 		}else{

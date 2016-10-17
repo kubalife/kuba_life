@@ -162,7 +162,7 @@ switch (_code) do {
 	//Taste F
 	case 33: { 
 		if(playerside == civilian && vehicle player isKindOf "CUP_C_Fishing_Boat_Chernarus") then {
-		[] call life_fnc_crabgather;
+		[] spawn life_fnc_crabgather;
 		};
 	};
 

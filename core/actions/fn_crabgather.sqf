@@ -1,12 +1,13 @@
-private ["_boje","_boat","_timeboje","_depthboje","_ownerboje","_rope1","_rope2","_pot","_timedif","_meter","_krabben","_krabbensorte"];
+private ["_boje","_boat","_timeboje","_depthboje","_ownerboje","_rope1","_rope2","_pot","_timedif","_meter","_krabben","_krabbensorte","_meinebo"];
 _boje=cursorObject;
+_meinebo=_boje getVariable "_meins";
+if (isNil "_meinebo") exitWith {hint "Die gehoert dir nicht!";};
 if(typeOf _boje == "Land_BuoyBig_F" && (player distance2D _boje) < 15) then
 {
 	life_net_dropped = true;
 	_boat = vehicle player;
 	_timeboje=_boje getVariable "_timestamp";
 	_depthboje=_boje getVariable "_waterdepth";
-	_ownerboje=_boje getVariable "_owner";
 	_rope1 = (ropes _boje) select 0;
 	_pot = (ropeAttachedObjects vehicle _boje) select 0;
 	ropeDestroy _rope1;
@@ -31,6 +32,6 @@ if(typeOf _boje == "Land_BuoyBig_F" && (player distance2D _boje) < 15) then
 	if(_depthboje>=35 )then{_krabbensorte="koenigskrabbe"};
 	[true,"krabbenkaefig",1] call life_fnc_handleInv;
 	[true,_krabbensorte,_krabben] call life_fnc_handleInv;
-	hint format ["Zeit:%1 Sekunden Tiefe:%2 Meter Owner:%3 Krabben:%4 Krabbensorte:%5",_timedif,_depthboje,_ownerboje,_krabben,_krabbensorte];	
+	hint format ["Zeit:%1 Sekunden Tiefe:%2 Meter Krabben:%3 Krabbensorte:%4",_timedif,_depthboje,_krabben,_krabbensorte];	
 	life_net_dropped = false;
 }
