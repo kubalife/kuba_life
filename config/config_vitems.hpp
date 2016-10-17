@@ -1768,7 +1768,7 @@ class VirtualItems {
 			displayName = "STR_Item_blaukrabbe";
 			weight = 1;
 			buyPrice = -1;
-			sellPrice = 30;
+			sellPrice = 45;
 			illegal = false;
 			edible = -1;
 			icon = "icons\blaukrabbe.paa";
@@ -1779,7 +1779,7 @@ class VirtualItems {
 			displayName = "STR_Item_schneekrabbe";
 			weight = 1;
 			buyPrice = -1;
-			sellPrice = 45;
+			sellPrice = 68;
 			illegal = false;
 			edible = -1;
 			icon = "icons\schneekrabbe.paa";
@@ -1790,7 +1790,7 @@ class VirtualItems {
 			displayName = "STR_Item_koenigskrabbe";
 			weight = 1;
 			buyPrice = -1;
-			sellPrice = 80;
+			sellPrice = 68;
 			illegal = false;
 			edible = -1;
 			icon = "icons\koenigskrabbe.paa";
@@ -1802,6 +1802,17 @@ class VirtualItems {
 			weight = 1;
 			buyPrice = 500;
 			sellPrice = 450;
+			illegal = false;
+			edible = -1;
+			icon = "icons\krabbenkaefig.paa";
+	};
+	
+	class hummer {
+			variable = "hummer";
+			displayName = "STR_Item_hummer";
+			weight = 1;
+			buyPrice = -1;
+			sellPrice = 115;
 			illegal = false;
 			edible = -1;
 			icon = "icons\krabbenkaefig.paa";

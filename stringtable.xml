@@ -6433,6 +6433,9 @@
 		<Key ID="STR_Item_krabbenkaefig">
 		<Original>Krabbenkaefig</Original>
 		</Key>
+		<Key ID="STR_Item_hummer">
+		<Original>Hummer</Original>
+		</Key>
 	</Package>
 	<Package name="Life_License">
 		<Key ID="STR_License_Driver">

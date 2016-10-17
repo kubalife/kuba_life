@@ -12,7 +12,7 @@ if(typeOf _boje == "Land_BuoyBig_F" && (player distance2D _boje) < 15) then
 	_pot = (ropeAttachedObjects vehicle _boje) select 0;
 	_timedif=servertime-_timeboje;
 	_krabben=round (_timedif / 10);
-	if(_krabben>50)then{_krabben=50}; //anzahl der krabben (cap ist auf 50 gesetzt)
+	if(_krabben>25)then{_krabben=25}; //anzahl der krabben (cap ist auf 50 gesetzt)
 	if(life_carryWeight < (life_maxWeight-_krabben-1))then {
 		ropeDestroy _rope1;
 		deleteVehicle _boje;
@@ -30,7 +30,8 @@ if(typeOf _boje == "Land_BuoyBig_F" && (player distance2D _boje) < 15) then
 		_krabbensorte="mysticcrab";  //BI will das ich den mist deklariere ob wohl es schon deklariert ist -.- myticcrab existiert nicht :(
 		if(_depthboje<20)then{_krabbensorte="blaukrabbe"};
 		if(_depthboje>=20 && _depthboje<35)then{_krabbensorte="schneekrabbe"};
-		if(_depthboje>=35 )then{_krabbensorte="koenigskrabbe"};
+		if(_depthboje>=35 && _depthboje<45)then{_krabbensorte="koenigskrabbe"};
+		if(_depthboje>=45 && _depthboje<70)then{_krabbensorte="hummer"};
 		[true,"krabbenkaefig",1] call life_fnc_handleInv;
 		[true,_krabbensorte,_krabben] call life_fnc_handleInv;
 		hint format ["Zeit:%1 Sekunden Tiefe:%2 Meter Krabben:%3 Krabbensorte:%4",_timedif,_depthboje,_krabben,_krabbensorte];	
