@@ -19,9 +19,17 @@ _lightleft setLightColor _lightRed;
 _lightleft setLightBrightness 0.2;  
 _lightleft setLightAmbient [0.1,0.1,1];
 
-switch (typeOf _vehicle) do
+switch (typeOf _vehicle) do //"A3L_CVPILBFD","Jonzie_Ambulance"
 {
 	case "C_Offroad_01_F":
+	{
+		_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];
+	};
+	case "A3L_CVPILBFD":
+	{
+		_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];
+	};
+	case "Jonzie_Ambulance":
 	{
 		_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];
 	};
@@ -39,9 +47,17 @@ _lightright setLightColor _lightBlue;
 _lightright setLightBrightness 0.2;  
 _lightright setLightAmbient [0.1,0.1,1]; 
 
-switch (typeOf _vehicle) do
+switch (typeOf _vehicle) do //"A3L_CVPILBFD","Jonzie_Ambulance"
 {
 	case "C_Offroad_01_F":
+	{
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+	};
+	case "A3L_CVPILBFD":
+	{
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+	};
+	case "Jonzie_Ambulance":
 	{
 		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
