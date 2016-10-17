@@ -17,7 +17,7 @@ if(!(typeOf _vehicle in [
 "ivory_wrx_slicktop","ivory_wrx_marked","ivory_wrx_unmarked","77FuryCop","cg_h2_sert",
 "Navara_Policia",
 //Medics
-"A3L_CVPILBFD","Jonzie_Ambulance"])
+"A3L_CVPILBFD","Jonzie_Ambulance"
 ])) 
 exitWith {}; //Last chance check to prevent something from defying humanity and creating a monster.
 
