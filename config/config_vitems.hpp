@@ -101,7 +101,7 @@ class VirtualShops {
 		side = "civ";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "salema_raw", "salema", "ornate_raw", "ornate", "mackerel_raw", "mackerel", "tuna_raw", "tuna", "mullet_raw", "mullet", "catshark_raw", "catshark" };
+		items[] = { "salema_raw", "salema", "ornate_raw", "ornate", "mackerel_raw", "mackerel", "tuna_raw", "tuna", "mullet_raw", "mullet", "catshark_raw", "catshark", "blaukrabbe", "schneekrabbe", "koenigskrabbe", "krabbenkaefig" };
 	};
 
 	class glass {
@@ -1763,4 +1763,49 @@ class VirtualItems {
 	};
 
 };
+//################################################# Krabben #####################################################
+class blaukrabbe {
+			variable = "blaukrabbe";
+			displayName = "STR_Item_blaukrabbe";
+			weight = 1;
+			buyPrice = -1;
+			sellPrice = 30;
+			illegal = false;
+			edible = -1;
+			icon = "icons\craft\elektroteile.paa";
+	};
+
+class schneekrabbe {
+			variable = "schneekrabbe";
+			displayName = "STR_Item_schneekrabbe";
+			weight = 1;
+			buyPrice = -1;
+			sellPrice = 45;
+			illegal = false;
+			edible = -1;
+			icon = "icons\craft\elektroteile.paa";
+	};
+
+class koenigskrabbe {
+			variable = "koenigskrabbe";
+			displayName = "STR_Item_koenigskrabbe";
+			weight = 1;
+			buyPrice = -1;
+			sellPrice = 80;
+			illegal = false;
+			edible = -1;
+			icon = "icons\craft\elektroteile.paa";
+	};
+
+class krabbenkaefig {
+			variable = "krabbenkaefig";
+			displayName = "STR_Item_krabbenkaefig";
+			weight = 1;
+			buyPrice = 500;
+			sellPrice = 450;
+			illegal = false;
+			edible = -1;
+			icon = "icons\craft\elektroteile.paa";
+	};
+
 //ommsen
