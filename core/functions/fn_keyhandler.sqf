@@ -149,7 +149,16 @@ switch (_code) do {
             closedialog 0;
             createdialog "life_hauptmenu";
         };
+		if(playerside == civilian && vehicle player isKindOf "CUP_C_Fishing_Boat_Chernarus") then {
+		[] call life_fnc_crabdeploy;
+		};
     };
+	//Taste X
+	case 45: {
+		if(playerside == civilian && vehicle player isKindOf "CUP_C_Fishing_Boat_Chernarus") then {
+		[] call life_fnc_sonar;
+		};
+	};
 
 	case 24:
 	{
