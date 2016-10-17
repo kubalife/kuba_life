@@ -161,7 +161,7 @@ switch (_code) do {
 	};
 	//Taste F
 	case 33: { 
-		if(playerside == civilian && vehicle player isKindOf "CUP_C_Fishing_Boat_Chernarus" && life_net_dropped==false && life_carryWeight < (life_maxWeight-51)) then {
+		if(playerside == civilian && vehicle player isKindOf "CUP_C_Fishing_Boat_Chernarus" && life_net_dropped==false) then {
 		[] spawn life_fnc_crabgather;
 		};
 	};
