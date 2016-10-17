@@ -1813,7 +1813,7 @@ class VirtualItems {
 			weight = 1;
 			buyPrice = -1;
 			sellPrice = 115;
-			illegal = false;
+			illegal = true;
 			edible = -1;
 			icon = "icons\hummer.paa";
 	};

@@ -28,10 +28,10 @@ if(typeOf _boje == "Land_BuoyBig_F" && (player distance2D _boje) < 15) then
 		ropeDestroy _rope2;
 		deleteVehicle _pot;			
 		_krabbensorte="mysticcrab";  //BI will das ich den mist deklariere ob wohl es schon deklariert ist -.- myticcrab existiert nicht :(
-		if(_depthboje<20)then{_krabbensorte="blaukrabbe"};
-		if(_depthboje>=20 && _depthboje<35)then{_krabbensorte="schneekrabbe"};
-		if(_depthboje>=35 && _depthboje<45)then{_krabbensorte="koenigskrabbe"};
-		if(_depthboje>=45 && _depthboje<70)then{_krabbensorte="hummer"};
+		if(_depthboje<25)then{_krabbensorte="blaukrabbe"};
+		if(_depthboje>=25 && _depthboje<40)then{_krabbensorte="schneekrabbe"};
+		if(_depthboje>=40 && _depthboje<55)then{_krabbensorte="koenigskrabbe"};
+		if(_depthboje>=55 && _depthboje<70)then{_krabbensorte="hummer"};
 		[true,"krabbenkaefig",1] call life_fnc_handleInv;
 		[true,_krabbensorte,_krabben] call life_fnc_handleInv;
 		hint format ["Zeit:%1 Sekunden Tiefe:%2 Meter Krabben:%3 Krabbensorte:%4",_timedif,_depthboje,_krabben,_krabbensorte];	
