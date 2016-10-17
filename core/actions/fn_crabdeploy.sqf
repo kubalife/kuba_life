@@ -1,3 +1,7 @@
+/*
+	File: crabgather.sqf
+	Author: Paini
+*/
 private ["_boat","_depth","_nextboje","_nextships","_posboje","_pospot","_boje","_pot","_rope","_boatname"];
 
 _boat = vehicle player;

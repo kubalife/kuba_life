@@ -1,3 +1,7 @@
+/*
+	File: crabgather.sqf
+	Author: Paini
+*/
 private ["_boje","_boat","_timeboje","_depthboje","_ownerboje","_rope1","_rope2","_pot","_timedif","_meter","_krabben","_krabbensorte","_meinebo"];
 _boje=cursorObject;
 _meinebo=_boje getVariable "_meins";
