@@ -10,7 +10,7 @@ class Socket_Reciever {
 		class updateRequest {};
 	};
 };
-
+/*
 class CHVD
 {
 	tag = "CHVD";
@@ -30,7 +30,7 @@ class CHVD
 		class init {postInit = 1;};
 	};
 };
-
+*/
 class Life_Client_Core {
 	tag = "life";
 
