@@ -6421,6 +6421,18 @@
 		<Key ID="STR_Item_belair">
 		<Original>'Bauplan' Chevrolet Bel Air</Original>
 		</Key>
+		<Key ID="STR_Item_schneekrabbe">
+		<Original>Schneekrabbe</Original>
+		</Key>
+		<Key ID="STR_Item_blaukrabbe">
+		<Original>Blaukrabbe</Original>
+		</Key>
+		<Key ID="STR_Item_koenigskrabbe">
+		<Original>Koenigskrabbe</Original>
+		</Key>
+		<Key ID="STR_Item_krabbenkaefig">
+		<Original>Krabbenkaefig</Original>
+		</Key>
 	</Package>
 	<Package name="Life_License">
 		<Key ID="STR_License_Driver">
