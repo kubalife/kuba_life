@@ -32,5 +32,5 @@ if(typeOf _boje == "Land_BuoyBig_F" && (player distance2D _boje) < 15) then
 	[true,"krabbenkaefig",1] call life_fnc_handleInv;
 	[true,_krabbensorte,_krabben] call life_fnc_handleInv;
 	hint format ["Zeit:%1 Sekunden Tiefe:%2 Meter Owner:%3 Krabben:%4 Krabbensorte:%5",_timedif,_depthboje,_ownerboje,_krabben,_krabbensorte];	
-	life_net_dropped = true;
+	life_net_dropped = false;
 }
