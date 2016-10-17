@@ -282,6 +282,7 @@ class WeaponShops {
         items[] = {
             { "DDOPP_X26", "Tazer Gelb", 0, 0"" },
             { "DDOPP_X26_b", "Tazer Schwarz", 0, 0,"" },
+			{ "Radar_Gun", "Radar Pistole", 0, 0,"" },
             { "uns_m1911", "", 0, 0,"" },
             { "SMG_05_F", "", 0, 0, { "life_coplevel", 1 } },           //Rekrut
             {""},
