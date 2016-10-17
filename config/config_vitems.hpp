@@ -61,7 +61,7 @@ class VirtualShops {
 		side = "civ";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "turtle_soup", "turtle_raw" };
+		items[] = { "turtle_soup", "turtle_raw", "hummer" };
 	};
 
 	class coffee {
@@ -1815,7 +1815,7 @@ class VirtualItems {
 			sellPrice = 115;
 			illegal = false;
 			edible = -1;
-			icon = "icons\krabbenkaefig.paa";
+			icon = "icons\hummer.paa";
 	};
 
 };
