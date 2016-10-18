@@ -3772,29 +3772,6 @@ class LifeCfgVehicles {
         textures[] = { };
     };
 
-    class I_Heli_light_03_unarmed_F {
-        vItemSpace = 100;
-        licenses[] = { {""}, {"cAir"}, {""}, {""} };
-        price = 14000;
-        textures[] = {
-            { "Police", "cop", {
-              "textures\Cop\Vehicles\copHellcat.paa"
-            } }
-        };
-    };
-
-    class B_Heli_Transport_01_F {
-        vItemSpace = 300;
-        licenses[] = { {""}, {"cAir"}, {""}, {""} };
-        price = 35000;
-        textures[] = {
-            { "Police", "cop", {
-              "textures\Cop\Vehicles\CopGhostBody.jpg",
-              "textures\Cop\Vehicles\CopGhostTail.jpg"
-            } }
-        };
-    };
-
     class B_MRAP_01_hmg_F {
         vItemSpace = 100;
         licenses[] = { {""}, {"swat"}, {""}, {""} };
