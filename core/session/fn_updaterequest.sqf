@@ -44,7 +44,7 @@ if(life_HC_isActive) then {
 	_packet remoteExecCall ["DB_fnc_updateRequest",RSERV];
 };
 
-_messages = player getVariable "cellphone_messages";
+private _messages = player getVariable "cellphone_messages";
 
 if(life_HC_isActive) then
 {
