@@ -9,7 +9,7 @@
 private["_valueindex"];
 _valueindex = lbValue[6012,(lbCurSel 6012)]; 
 
-//if((FETCH_CONST(life_coplevel) < 3)) exitwith {};      mind. level zum löschen
+if((FETCH_CONST(life_coplevel) < 9)) exitwith {};  //    mind. level zum löschen
 
 
 if(life_HC_isActive) then {

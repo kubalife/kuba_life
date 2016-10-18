@@ -7,4 +7,9 @@
 	Ein Polizeicomputer. Geschrieben von ohhnice 
 */
 
-life_wanted = true;
+if (life_wanted) then
+{
+	life_wanted = false;
+} else {
+	life_wanted = true;
+};
