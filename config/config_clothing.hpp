@@ -224,7 +224,6 @@ class Clothing {
             { "G_Combat", "", 125, { "", "", -1 } },
             { "G_Lady_Mirror", "", 150, { "", "", -1 } },
             { "G_Lady_Dark", "", 150, { "", "", -1 } },
-
             { "EWK_Cigar2", "", 150, { "", "", -1 } },
             { "EWK_Glasses_Cig2", "", 150, { "", "", -1 } },
             { "EWK_Glasses_Cig5", "", 150, { "", "", -1 } },
