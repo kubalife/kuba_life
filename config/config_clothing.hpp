@@ -851,7 +851,7 @@ class Clothing {
             { "CUP_U_O_CHDKZ_Kam_05", "", 1000, { "", "", -1 } },
             { "B_Fem_SPEC_Tyler", "", 1000, { "", "", -1 } },
             { "U_B_CTRG_Soldier_urb_1_F", "", 1000, { "", "", -1 } },  
-            { "U_B_CTRG_Soldier_urb_3_F", "", 1000, { "", "", -1 } }
+            { "U_B_CTRG_Soldier_urb_3_F", "", 1000, { "", "", -1 } },
             { "U_B_CTRG_Soldier_urb_2_F", "", 1000, { "", "", -1 } },
             { "U_B_CTRG_Soldier_F", "", 1000, { "", "", -1 } },
             { "U_B_CTRG_Soldier_3_F", "", 1000, { "", "", -1 } },  
