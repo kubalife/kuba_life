@@ -271,6 +271,9 @@ case 19: {
 					};
 				};
 			};
+			if(cursorTarget isKindOf "Land_WoodenCrate_01_stack_x3_F") then {
+				[cursorTarget] spawn life_fnc_openInventory;
+			};
 		};
 	};
 
