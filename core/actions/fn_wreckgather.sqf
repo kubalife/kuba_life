@@ -8,7 +8,7 @@ if(_left==0) exitWith {hint "Nix mehr da!";};
 if(life_carryWeight > (life_maxWeight-_weight))exitWith {hint "So viel kannst du nicht tragen!";};
 life_action_inUse=true;
 _left=_left-1;
-_wreck setVariable [left,_left,true];					//nimmt 1 aus dem wrack
+_wreck setVariable ["left",_left,true];					//nimmt 1 aus dem wrack
 [true,_loot,1] call life_fnc_handleInv;
 hint "Du durchsuchst die Kisten!";
 for "_i" from 0 to 4 do
