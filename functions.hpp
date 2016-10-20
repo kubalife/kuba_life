@@ -108,6 +108,7 @@ class Ausweis
 		class crabdeploy {};
 		class crabgather {};
 		class crabsonar {};
+		class wreckgather {};
 	};
 
 	class computer //Polizeicomputer
