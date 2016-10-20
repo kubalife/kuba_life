@@ -125,3 +125,6 @@ if(isPlayer _curObject && _curObject isKindOf "Man") then {
 		};
 	};
 };
+if(playerside == civilian && curObject isKindOf "Land_WoodenCrate_01_stack_x3_F" && {player distance _curObject < 5}) then {
+	[] spawn life_fnc_wreckgather;
+};
