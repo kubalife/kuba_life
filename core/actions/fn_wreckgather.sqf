@@ -4,7 +4,7 @@ _wreck=cursorObject;
 _loot=_wreck getVariable "loot";
 _left=_wreck getVariable "left";
 _weight=[_loot] call life_fnc_itemWeight;
-if(_left=0) exitWith {hint "Nix mehr da!";};
+if(_left==0) exitWith {hint "Nix mehr da!";};
 if(life_carryWeight > (life_maxWeight-_weight))exitWith {hint "So viel kannst du nicht tragen!";};
 life_action_inUse=true;
 _left=_left-1;
