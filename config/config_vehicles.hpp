@@ -4362,5 +4362,11 @@ will modify the virtual space and the price of the vehicle, but other informatio
 			} }
 		};
 	};
+	class Land_WoodenCrate_01_stack_x3_F {
+        vItemSpace = 1000;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = -1;
+        textures[] = {};
+    };
 };
 //ommsen
