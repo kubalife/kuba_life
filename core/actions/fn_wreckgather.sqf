@@ -9,6 +9,7 @@ _found=false;
 _empty=false;
 _count= _wreck getVariable "lcount";
 if (isNil "_count") exitWith {hint "Was ist das?";};
+life_action_inUse=true;
 _ind=0;
 while{!_found && !_empty}do{
 	if(_ind==_count)then {_empty=true;} else {
