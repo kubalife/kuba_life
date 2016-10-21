@@ -2,7 +2,7 @@
 	File: fn_wreckgather.sqf
 	Author: Paini
 */
-private["_wreck","_loot","_left","_weight","_found","_empty","_cntloot","_fndloot","_search"];
+private["_wreck","_loot","_left","_weight","_found","_empty","_cntloot","_fndloot","_search","_ind"];
 if (life_action_inUse) exitWith {};
 _wreck=cursorObject;
 _found=false;
@@ -21,7 +21,7 @@ if(_found)then{
 	_fndloot=_wreck getVariable (format["loot%1",_ind]);
 	_weight=[_fndloot] call life_fnc_itemWeight;
 	if(life_carryWeight > (life_maxWeight-_weight))then {
-	hint "So viel kannst du nicht tragen";
+		hint "So viel kannst du nicht tragen";
 	}else {		
 		_wreck setVariable [_search,(_cntloot-1),true];
 		[true,_fndloot,1] call life_fnc_handleInv;
