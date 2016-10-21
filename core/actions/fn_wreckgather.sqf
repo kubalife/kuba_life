@@ -2,7 +2,7 @@
 	File: fn_wreckgather.sqf
 	Author: Paini
 */
-private["_wreck","_loot","_left","_weight","_found","_empty","_cntloot","_fndloot","_search","_ind"];
+private["_wreck","_left","_weight","_found","_empty","_cntloot","_fndloot","_search","_ind"];
 if (life_action_inUse) exitWith {};
 _wreck=cursorObject;
 _found=false;
@@ -34,4 +34,5 @@ if(_found)then{
 		};
 	};
 };
+if(_empty) then {hint "Die Kisten sind leer.";};
 life_action_inUse=false;
