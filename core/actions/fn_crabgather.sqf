@@ -39,7 +39,7 @@ if(typeOf _boje == "Land_BuoyBig_F" && (player distance2D _boje) < 15) then
 		if(_depthboje>=55)then{_krabbensorte="hummer"};
 		[true,"krabbenkaefig",1] call life_fnc_handleInv;
 		[true,_krabbensorte,_krabben] call life_fnc_handleInv;
-		hint format ["<t color='#e32828' size='1.5'>Zeit: %1 Sekunden</t><br/><t color='#e32828' size='1.5'>Tiefe:%2 Meter</t><br/><t color='#e32828' size='1.5'>Krabben:%3</t><br/><t color='#e32828' size='1.5'>Krabbensorte:%4</t><br/>",_timedif,_depthboje,_krabben,_krabbensorte];	
+		hint parseText format ["<t color='#e32828' size='1.5'>Zeit: %1 Sekunden</t><br/><t color='#e32828' size='1.5'>Tiefe:%2 Meter</t><br/><t color='#e32828' size='1.5'>Krabben:%3</t><br/><t color='#e32828' size='1.5'>Krabbensorte:%4</t><br/>",_timedif,_depthboje,_krabben,_krabbensorte];	
 		
 	}else{
 		hint "So viel kanst du nicht tragen!";

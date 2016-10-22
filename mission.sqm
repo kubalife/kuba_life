@@ -8,11 +8,11 @@ class EditorData
 	toggles=138;
 	class ItemIDProvider
 	{
-		nextID=13792;
+		nextID=13826;
 	};
 	class MarkerIDProvider
 	{
-		nextID=353;
+		nextID=355;
 	};
 	class Camera
 	{
@@ -796,7 +796,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1778;
+		items=1803;
 		class Item0
 		{
 			dataType="Marker";
@@ -990,7 +990,6 @@ class Mission
 			type="c_car";
 			colorName="ColorBlue";
 			id=21;
-			atlOffset=0.094920158;
 		};
 		class Item18
 		{
@@ -29453,7 +29452,7 @@ class Mission
 			type="loc_Fuelstation";
 			colorName="ColorWhite";
 			id=10475;
-			atlOffset=1992.6598;
+			atlOffset=1986.4336;
 		};
 		class Item525
 		{
@@ -33112,7 +33111,6 @@ class Mission
 					};
 					id=1073;
 					type="C_Nikos_aged";
-					atlOffset=-4.7683716e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -67328,128 +67326,478 @@ class Mission
 		class Item1769
 		{
 			dataType="Marker";
-			position[]={3812.228,-1.3112066e-034,10202.115};
+			position[]={3812.228,-2.2599627e-017,10202.115};
 			name="wreckmarker_0";
 			markerType="ELLIPSE";
 			type="ellipse";
 			colorName="ColorRed";
 			alpha=0;
+			fillName="Border";
 			a=200;
 			b=200;
+			drawBorder=1;
 			id=13781;
 			atlOffset=25.734701;
 		};
 		class Item1770
 		{
 			dataType="Marker";
-			position[]={4606.7939,-1.3112066e-034,6935.437};
+			position[]={3808.501,-2.2599627e-017,10202.226};
+			name="wreckmarker2_0";
+			text="Wrack";
+			type="mil_box";
+			colorName="ColorBlue";
+			alpha=0;
+			id=13793;
+			atlOffset=25.876066;
+		};
+		class Item1771
+		{
+			dataType="Marker";
+			position[]={3350.2859,-2.2599627e-017,8391.1143};
 			name="wreckmarker_1";
 			markerType="ELLIPSE";
 			type="ellipse";
 			colorName="ColorRed";
 			alpha=0;
+			fillName="Border";
 			a=200;
 			b=200;
-			id=13782;
-			atlOffset=21.92569;
+			drawBorder=1;
+			id=13794;
+			atlOffset=24.500956;
 		};
-		class Item1771
+		class Item1772
 		{
 			dataType="Marker";
-			position[]={7375.5981,-1.3112066e-034,2888.677};
+			position[]={3346.5591,-2.2594333e-017,8391.2246};
+			name="wreckmarker2_1";
+			text="Wrack";
+			type="mil_box";
+			colorName="ColorBlue";
+			alpha=0;
+			id=13795;
+			atlOffset=24.535004;
+		};
+		class Item1773
+		{
+			dataType="Marker";
+			position[]={9537.8232,-2.2599627e-017,4725.4131};
 			name="wreckmarker_2";
 			markerType="ELLIPSE";
 			type="ellipse";
 			colorName="ColorRed";
 			alpha=0;
+			fillName="Border";
 			a=200;
 			b=200;
-			id=13783;
-			atlOffset=24.812756;
+			drawBorder=1;
+			id=13796;
+			atlOffset=7.1500635;
 		};
-		class Item1772
+		class Item1774
 		{
 			dataType="Marker";
-			position[]={14010.36,-1.3112066e-034,6278.1768};
+			position[]={9534.0967,-2.2594333e-017,4725.5229};
+			name="wreckmarker2_2";
+			text="Wrack";
+			type="mil_box";
+			colorName="ColorBlue";
+			alpha=0;
+			id=13797;
+			atlOffset=7.3073425;
+		};
+		class Item1775
+		{
+			dataType="Marker";
+			position[]={6166.7578,-2.2599627e-017,13323.737};
 			name="wreckmarker_3";
 			markerType="ELLIPSE";
 			type="ellipse";
 			colorName="ColorRed";
 			alpha=0;
+			fillName="Border";
 			a=200;
 			b=200;
-			id=13784;
-			atlOffset=33.581898;
+			drawBorder=1;
+			id=13798;
+			atlOffset=24.429714;
 		};
-		class Item1773
+		class Item1776
 		{
 			dataType="Marker";
-			position[]={13225.903,-1.3112066e-034,13205.072};
+			position[]={6163.0298,-2.2599627e-017,13323.848};
+			name="wreckmarker2_3";
+			text="Wrack";
+			type="mil_box";
+			colorName="ColorBlue";
+			alpha=0;
+			id=13799;
+			atlOffset=24.427883;
+		};
+		class Item1777
+		{
+			dataType="Marker";
+			position[]={3348.1531,-2.2599627e-017,4500.501};
 			name="wreckmarker_4";
 			markerType="ELLIPSE";
 			type="ellipse";
 			colorName="ColorRed";
 			alpha=0;
+			fillName="Border";
 			a=200;
 			b=200;
-			id=13785;
-			atlOffset=30.028553;
+			drawBorder=1;
+			id=13800;
+			atlOffset=27.167568;
 		};
-		class Item1774
+		class Item1778
 		{
 			dataType="Marker";
-			position[]={5723.9058,-1.3112066e-034,13750.942};
+			position[]={3344.426,-2.2594333e-017,4500.6108};
+			name="wreckmarker2_4";
+			text="Wrack";
+			type="mil_box";
+			colorName="ColorBlue";
+			alpha=0;
+			id=13801;
+			atlOffset=27.032156;
+		};
+		class Item1779
+		{
+			dataType="Marker";
+			position[]={6137.7969,-2.2599627e-017,6547.4341};
 			name="wreckmarker_5";
 			markerType="ELLIPSE";
 			type="ellipse";
 			colorName="ColorRed";
 			alpha=0;
+			fillName="Border";
 			a=200;
 			b=200;
-			id=13786;
-			atlOffset=35.139629;
+			drawBorder=1;
+			id=13802;
+			atlOffset=14.143537;
 		};
-		class Item1775
+		class Item1780
 		{
 			dataType="Marker";
-			position[]={9609.2275,-1.3112066e-034,14232.926};
+			position[]={6134.0698,-2.2599627e-017,6547.5439};
+			name="wreckmarker2_5";
+			text="Wrack";
+			type="mil_box";
+			colorName="ColorBlue";
+			alpha=0;
+			id=13803;
+			atlOffset=14.084303;
+		};
+		class Item1781
+		{
+			dataType="Marker";
+			position[]={13461.222,-2.2599627e-017,6192.1812};
 			name="wreckmarker_6";
 			markerType="ELLIPSE";
 			type="ellipse";
 			colorName="ColorRed";
 			alpha=0;
+			fillName="Border";
 			a=200;
 			b=200;
-			id=13787;
-			atlOffset=20.043732;
+			drawBorder=1;
+			id=13804;
+			atlOffset=23.988852;
 		};
-		class Item1776
+		class Item1782
 		{
 			dataType="Marker";
-			position[]={7679.167,-1.3112066e-034,5513.4668};
+			position[]={13457.495,-2.2594333e-017,6192.291};
+			name="wreckmarker2_6";
+			text="Wrack";
+			type="mil_box";
+			colorName="ColorBlue";
+			alpha=0;
+			id=13805;
+			atlOffset=23.566025;
+		};
+		class Item1783
+		{
+			dataType="Marker";
+			position[]={13640.038,-2.2599627e-017,12770.215};
 			name="wreckmarker_7";
 			markerType="ELLIPSE";
 			type="ellipse";
 			colorName="ColorRed";
 			alpha=0;
+			fillName="Border";
 			a=200;
 			b=200;
-			id=13788;
-			atlOffset=29.339987;
+			drawBorder=1;
+			id=13806;
+			atlOffset=29.819183;
 		};
-		class Item1777
+		class Item1784
 		{
 			dataType="Marker";
-			position[]={3323.094,-1.3112066e-034,4762.2441};
+			position[]={13636.312,-2.2599627e-017,12770.325};
+			name="wreckmarker2_7";
+			text="Wrack";
+			type="mil_box";
+			colorName="ColorBlue";
+			alpha=0;
+			id=13807;
+			atlOffset=29.648935;
+		};
+		class Item1785
+		{
+			dataType="Marker";
+			position[]={7549.6299,-2.2599627e-017,2751.553};
 			name="wreckmarker_8";
 			markerType="ELLIPSE";
 			type="ellipse";
 			colorName="ColorRed";
 			alpha=0;
+			fillName="Border";
 			a=200;
 			b=200;
-			id=13789;
-			atlOffset=25.015842;
+			drawBorder=1;
+			id=13808;
+			atlOffset=29.59531;
+		};
+		class Item1786
+		{
+			dataType="Marker";
+			position[]={7545.9019,-2.2594333e-017,2751.6631};
+			name="wreckmarker2_8";
+			text="Wrack";
+			type="mil_box";
+			colorName="ColorBlue";
+			alpha=0;
+			id=13809;
+			atlOffset=29.475393;
+		};
+		class Item1787
+		{
+			dataType="Marker";
+			position[]={4345.8691,-2.2599627e-017,13087.857};
+			name="wreckmarker_9";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			alpha=0;
+			fillName="Border";
+			a=200;
+			b=200;
+			drawBorder=1;
+			id=13810;
+			atlOffset=17.376526;
+		};
+		class Item1788
+		{
+			dataType="Marker";
+			position[]={4342.1431,-2.2599627e-017,13087.968};
+			name="wreckmarker2_9";
+			text="Wrack";
+			type="mil_box";
+			colorName="ColorBlue";
+			alpha=0;
+			id=13811;
+			atlOffset=16.977859;
+		};
+		class Item1789
+		{
+			dataType="Marker";
+			position[]={13489.683,-2.2599627e-017,3496.5879};
+			name="wreckmarker_10";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			alpha=0;
+			fillName="Border";
+			a=200;
+			b=200;
+			drawBorder=1;
+			id=13812;
+			atlOffset=15.485529;
+		};
+		class Item1790
+		{
+			dataType="Marker";
+			position[]={13485.956,-2.2599627e-017,3496.698};
+			name="wreckmarker2_10";
+			text="Wrack";
+			type="mil_box";
+			colorName="ColorBlue";
+			alpha=0;
+			id=13813;
+			atlOffset=15.346756;
+		};
+		class Item1791
+		{
+			dataType="Marker";
+			position[]={11299.592,-2.2599627e-017,13493.606};
+			name="wreckmarker_11";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			alpha=0;
+			fillName="Border";
+			a=200;
+			b=200;
+			drawBorder=1;
+			id=13814;
+			atlOffset=23.65691;
+		};
+		class Item1792
+		{
+			dataType="Marker";
+			position[]={11295.865,-2.2594333e-017,13493.717};
+			name="wreckmarker2_11";
+			text="Wrack";
+			type="mil_box";
+			colorName="ColorBlue";
+			alpha=0;
+			id=13815;
+			atlOffset=23.52421;
+		};
+		class Item1793
+		{
+			dataType="Marker";
+			position[]={8463.9043,-2.2599627e-017,14828.957};
+			name="wreckmarker_12";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			alpha=0;
+			fillName="Border";
+			a=200;
+			b=200;
+			drawBorder=1;
+			id=13816;
+			atlOffset=2.6500001;
+		};
+		class Item1794
+		{
+			dataType="Marker";
+			position[]={8460.1777,-2.2599627e-017,14829.067};
+			name="wreckmarker2_12";
+			text="Wrack";
+			type="mil_box";
+			colorName="ColorBlue";
+			alpha=0;
+			id=13817;
+			atlOffset=2.5965819;
+		};
+		class Item1795
+		{
+			dataType="Marker";
+			position[]={4728.127,-2.2599627e-017,7120.3008};
+			name="wreckmarker_13";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			alpha=0;
+			fillName="Border";
+			a=200;
+			b=200;
+			drawBorder=1;
+			id=13818;
+			atlOffset=20.496504;
+		};
+		class Item1796
+		{
+			dataType="Marker";
+			position[]={4724.3989,-2.2594333e-017,7120.4111};
+			name="wreckmarker2_13";
+			text="Wrack";
+			type="mil_box";
+			colorName="ColorBlue";
+			alpha=0;
+			id=13819;
+			atlOffset=20.135126;
+		};
+		class Item1797
+		{
+			dataType="Marker";
+			position[]={4484.0801,-2.2599627e-017,11529.97};
+			name="wreckmarker_14";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			alpha=0;
+			fillName="Border";
+			a=200;
+			b=200;
+			drawBorder=1;
+			id=13820;
+			atlOffset=22.016773;
+		};
+		class Item1798
+		{
+			dataType="Marker";
+			position[]={4480.354,-2.2599627e-017,11530.08};
+			name="wreckmarker2_14";
+			text="Wrack";
+			type="mil_box";
+			colorName="ColorBlue";
+			alpha=0;
+			id=13821;
+			atlOffset=21.969151;
+		};
+		class Item1799
+		{
+			dataType="Marker";
+			position[]={1185.02,-2.2599627e-017,5177.3252};
+			name="wreckmarker_15";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			alpha=0;
+			fillName="Border";
+			a=200;
+			b=200;
+			drawBorder=1;
+			id=13822;
+			atlOffset=33.262894;
+		};
+		class Item1800
+		{
+			dataType="Marker";
+			position[]={1181.293,-2.2594333e-017,5177.4351};
+			name="wreckmarker2_15";
+			text="Wrack";
+			type="mil_box";
+			colorName="ColorBlue";
+			alpha=0;
+			id=13823;
+			atlOffset=33.340977;
+		};
+		class Item1801
+		{
+			dataType="Marker";
+			position[]={7623.998,-2.2599627e-017,5388.1411};
+			name="wreckmarker_16";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			alpha=0;
+			fillName="Border";
+			a=200;
+			b=200;
+			drawBorder=1;
+			id=13824;
+			atlOffset=27.660616;
+		};
+		class Item1802
+		{
+			dataType="Marker";
+			position[]={7620.27,-2.2599627e-017,5388.251};
+			name="wreckmarker2_16";
+			text="Wrack";
+			type="mil_box";
+			colorName="ColorBlue";
+			alpha=0;
+			id=13825;
+			atlOffset=27.681704;
 		};
 	};
 };
