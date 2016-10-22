@@ -714,22 +714,7 @@ class Clothing {
 			{ "TRYK_U_B_PCUGs_BLK", "", 200, { "", "", -1 } },
 			{ "TRYK_U_B_PCUGs_gry", "", 200, { "", "", -1 } },
 			{ "CUP_H_C_Ushanka_02", "", 200, { "", "", -1 } },
-			{ "U_I_C_Soldier_Para_5_F", "", 200, { "", "", -1 } },
-			{ "UNS_DCCR_BTS", "", 1000, { "", "", -1 } },
-            { "UNS_DCCR_B", "", 1000, { "", "", -1 } },
-			{ "UNS_DCCR_G", "", 1000, { "", "", -1 } },
-            { "UNS_DCCR_GTS", "", 1000, { "", "", -1 } },
-			{ "UNS_DUCK_BDU", "", 1000, { "", "", -1 } },
-            { "UNS_NVA_CC", "", 1000, { "", "", -1 } },
-			{ "UNS_USMC_LERDL", "", 1000, { "", "", -1 } },
-            { "UNS_NVA_G", "", 1000, { "", "", -1 } },
-			{ "UNS_TIGER3_BDU", "", 1000, { "", "", -1 } },
-            { "UNS_TIGER2_BDU", "", 1000, { "", "", -1 } },
-			{ "UNS_USMC_BDU", "", 1000, { "", "", -1 } },
-            { "UNS_USMC_BDU_65", "", 1000, { "", "", -1 } },
-			{ "UNS_USMC_BDU_S", "", 1000, { "", "", -1 } },
-			{ "UNS_ARMY_BDU", "", 1000, { "", "", -1 } },
-            { "UNS_NZ_ARMY_BDU", "", 1000, { "", "", -1 } }
+			{ "U_I_C_Soldier_Para_5_F", "", 200, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -808,19 +793,7 @@ class Clothing {
 			{ "V_BandollierB_rgr", "", 190, { "", "", -1 } },
 			{ "V_BandollierB_khk", "", 190, { "", "", -1 } },
 			{ "V_BandollierB_oli", "", 190, { "", "", -1 } },
-			{ "V_BandollierB_blk", "", 190, { "", "", -1 } },
-            { "V_BandollierB_cbr", "", 450, { "", "", -1 } },
-            { "V_HarnessO_brn", "", 750, { "", "", -1 } },
-            { "V_TacVest_khk", "", 1250, { "", "", -1 } },
-            { "UNS_M1956_A3", "", 2000, { "", "", -1 } },
-			{ "UNS_M1956_A5", "", 2000, { "", "", -1 } },
-			{ "UNS_M1956_A6", "", 2000, { "", "", -1 } },
-			{ "UNS_M1956_A7", "", 2000, { "", "", -1 } },
-			{ "UNS_M1956_A8", "", 2000, { "", "", -1 } },
-			{ "UNS_M1956_A9", "", 2000, { "", "", -1 } },
-			{ "UNS_M1956_A10", "", 2000, { "", "", -1 } },
-			{ "UNS_M1956_A11", "", 2000, { "", "", -1 } },
-			{ "CUP_V_OI_TKI_Jacket3_01", "", 2000, { "", "", -1 } }
+			{ "V_BandollierB_blk", "", 190, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
@@ -896,8 +869,8 @@ class Clothing {
             { "U_I_OfficerUniform", "", 1000, { "", "", -1 } },  
             { "CUP_U_B_USMC_MARPAT_WDL_RollUpKneepad", "", 1000, { "", "", -1 } },              
             { "CUP_U_B_USMC_MARPAT_WDL_TwoKneepads", "", 1000, { "", "", -1 } },
-            //{ "U_O_CombatUniform_ocamo", "", 1000, { "", "", -1 } },
-            //{ "U_O_CombatUniform_oucamo", "", 1000, { "", "", -1 } },  
+            { "U_O_CombatUniform_ocamo", "", 1000, { "", "", -1 } },
+            { "U_O_CombatUniform_oucamo", "", 1000, { "", "", -1 } },  
             { "CUP_U_I_GUE_Flecktarn2", "", 1000, { "", "", -1 } },
             { "CUP_U_I_GUE_Flecktarn3", "", 1000, { "", "", -1 } },
             { "CUP_U_I_GUE_Flecktarn", "", 1000, { "", "", -1 } },
@@ -915,7 +888,7 @@ class Clothing {
             { "CUP_U_O_Partisan_TTsKO_Mixed", "", 1000, { "", "", -1 } },
             { "CUP_U_O_Partisan_VSR_Mixed1", "", 1000, { "", "", -1 } },  
             { "CUP_U_O_Partisan_VSR_Mixed2", "", 1000, { "", "", -1 } },
-            //{ "U_O_PilotCoveralls", "", 1000, { "", "", -1 } },
+            { "U_O_PilotCoveralls", "", 1000, { "", "", -1 } },
             { "CUP_U_I_RACS_Desert_2", "", 1000, { "", "", -1 } },
             { "CUP_U_I_RACS_Urban_2", "", 1000, { "", "", -1 } },  
             { "CUP_U_I_RACS_mech_2", "", 1000, { "", "", -1 } },
@@ -938,7 +911,7 @@ class Clothing {
             { "CUP_U_B_FR_Light", "", 1000, { "", "", -1 } },  
             { "U_I_C_Soldier_Camo_F", "", 1000, { "", "", -1 } },             
             { "CUP_U_O_TK_MixedCamo", "", 1000, { "", "", -1 } },  
-            //{ "U_O_T_Soldier_F", "", 1000, { "", "", -1 } },
+            { "U_O_T_Soldier_F", "", 1000, { "", "", -1 } },
             { "TFA_atac_au", "", 1000, { "", "", -1 } },
             { "TFA_aus_des", "", 1000, { "", "", -1 } },
             { "TFA_aus_wdl", "", 1000, { "", "", -1 } },
@@ -1073,9 +1046,6 @@ class Clothing {
             { "UNS_M1956_M1", "", 2000, { "", "", -1 } },
             { "UNS_M1956_M12", "", 2000, { "", "", -1 } },
             { "UNS_M1956_M15", "", 2000, { "", "", -1 } },
-			{ "CUP_V_OI_TKI_Jacket1_03", "", 2000, { "", "", -1 } },
-            { "CUP_V_OI_TKI_Jacket1_04", "", 2000, { "", "", -1 } }
-			/*
             { "CUP_V_I_Carrier_Belt", "", 2000, { "", "", -1 } },
             { "V_Chestrig_rgr", "", 2000, { "", "", -1 } },
             { "V_HarnessO_ghex_F", "", 2000, { "", "", -1 } },
@@ -1109,7 +1079,6 @@ class Clothing {
             { "TRYK_V_PlateCarrier_wood_L", "", 2000, { "", "", -1 } },
             { "TRYK_V_PlateCarrier_JSDF", "", 2000, { "", "", -1 } },                             
 			{ "UNS_M1956_M19", "", 2000, { "", "", -1 } }
-			*/
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
