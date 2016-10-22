@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=138;
+	toggles=10;
 	class ItemIDProvider
 	{
-		nextID=13826;
+		nextID=13866;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={9798.9863,760.30756,11797.579};
-		dir[]={-0.8730734,-0.47489306,-0.11099366};
-		up[]={-0.47114259,0.88001978,-0.059896871};
-		aside[]={-0.12611936,3.3465767e-007,0.99207222};
+		pos[]={11830.318,15.424835,2624.1123};
+		dir[]={0.73729265,-0.66844052,-0.098035358};
+		up[]={0.66261411,0.74376309,-0.088105179};
+		aside[]={-0.13180812,-9.9476893e-008,-0.99128872};
 	};
 };
 binarizationWanted=0;
@@ -131,7 +131,8 @@ addons[]=
 	"A3_Structures_F_Heli_Civ_Accessories",
 	"A3_Structures_F_EPB_Civ_Garbage",
 	"ace_logistics_wirecutter",
-	"A3_Structures_F_Exp_Walls_Hedges"
+	"A3_Structures_F_Exp_Walls_Hedges",
+	"A3_Structures_F_Naval_Piers"
 };
 class AddonsMetaData
 {
@@ -796,7 +797,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1803;
+		items=1835;
 		class Item0
 		{
 			dataType="Marker";
@@ -43179,7 +43180,6 @@ class Mission
 			};
 			id=11988;
 			type="Land_Atm_02_F";
-			atlOffset=0.13579655;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -67798,6 +67798,661 @@ class Mission
 			alpha=0;
 			id=13825;
 			atlOffset=27.681704;
+		};
+		class Item1803
+		{
+			dataType="Marker";
+			position[]={3265.6433,2.1802883,10999.514};
+			name="boat_4";
+			text="@STR_MAR_Boat_Shop";
+			type="c_ship";
+			colorName="ColorWhite";
+			id=13826;
+			atlOffset=0.60683823;
+		};
+		class Item1804
+		{
+			dataType="Marker";
+			position[]={3269.2747,12.888892,10985.981};
+			name="civ_ship_5";
+			text="@STR_MAR_Boat_Spawn";
+			type="loc_Quay";
+			colorName="ColorOrange";
+			angle=253.58453;
+			id=13827;
+			atlOffset=19.525293;
+		};
+		class Item1805
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3260.9551,2.2557826,11004.187};
+				angles[]={0,1.2806178,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_Boat_Shop"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""civ_ship_5"",""civ"",""Billy's Boat Rentals & Ownership""]];  this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""civ_ship_5""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide == civilian'];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+			};
+			id=13830;
+			type="A3L_Savepoint";
+			atlOffset=4.6350002;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item1806
+		{
+			dataType="Marker";
+			position[]={6261.2163,0.62347984,12898.313};
+			name="boat_5";
+			text="@STR_MAR_Boat_Shop";
+			type="c_ship";
+			colorName="ColorWhite";
+			id=13831;
+			atlOffset=6.3293638;
+		};
+		class Item1807
+		{
+			dataType="Marker";
+			position[]={6251.8408,11.332084,12915.381};
+			name="civ_ship_6";
+			text="@STR_MAR_Boat_Spawn";
+			type="loc_Quay";
+			colorName="ColorOrange";
+			angle=241.20511;
+			id=13832;
+			atlOffset=18.437035;
+		};
+		class Item1808
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6255.207,2.2817817,12898.55};
+				angles[]={0,0.98947954,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_Boat_Shop"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""civ_ship_6"",""civ"",""Billy's Boat Rentals & Ownership""]];  this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""civ_ship_6""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide == civilian'];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+			};
+			id=13833;
+			type="A3L_Savepoint";
+			atlOffset=0.011453629;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item1809
+		{
+			dataType="Marker";
+			position[]={9509.3848,0,13719.431};
+			name="boat_6";
+			text="@STR_MAR_Boat_Shop";
+			type="c_ship";
+			colorName="ColorWhite";
+			id=13834;
+			atlOffset=7.2259278;
+		};
+		class Item1810
+		{
+			dataType="Marker";
+			position[]={9526.8271,10.708604,13717.487};
+			name="civ_ship_7";
+			text="@STR_MAR_Boat_Spawn";
+			type="loc_Quay";
+			colorName="ColorOrange";
+			angle=353.27176;
+			id=13835;
+			atlOffset=19.109795;
+		};
+		class Item1811
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9513.6094,3.0439963,13711.866};
+				angles[]={0,4.5473075,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_Boat_Shop"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""civ_ship_7"",""civ"",""Billy's Boat Rentals & Ownership""]];  this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""civ_ship_7""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide == civilian'];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+			};
+			id=13836;
+			type="A3L_Savepoint";
+			atlOffset=9.6234303;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item1812
+		{
+			dataType="Marker";
+			position[]={12973.401,0,7271.436};
+			name="boat_7";
+			text="@STR_MAR_Boat_Shop";
+			type="c_ship";
+			colorName="ColorWhite";
+			id=13837;
+			atlOffset=5.0210128;
+		};
+		class Item1813
+		{
+			dataType="Marker";
+			position[]={12984.922,10.708604,7254.8604};
+			name="civ_ship_8";
+			text="@STR_MAR_Boat_Spawn";
+			type="loc_Quay";
+			colorName="ColorOrange";
+			angle=234.69829;
+			id=13838;
+			atlOffset=16.827999;
+		};
+		class Item1814
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12975.77,2.7630563,7268.0288};
+				angles[]={0,5.7086401,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_Boat_Shop"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""civ_ship_8"",""civ"",""Billy's Boat Rentals & Ownership""]];  this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""civ_ship_8""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide == civilian'];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+			};
+			id=13839;
+			type="A3L_Savepoint";
+			atlOffset=7.3769999;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item1815
+		{
+			dataType="Marker";
+			position[]={11213.895,1.929336,5370.7036};
+			name="boat_8";
+			text="@STR_MAR_Boat_Shop";
+			type="c_ship";
+			colorName="ColorWhite";
+			id=13840;
+			atlOffset=-0.010664105;
+		};
+		class Item1816
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11214.064,2.5922847,5366.3418};
+				angles[]={0,0.68406433,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_Boat_Shop"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""civ_ship_9"",""civ"",""Billy's Boat Rentals & Ownership""]];  this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""civ_ship_9""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide == civilian'];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+			};
+			id=13841;
+			type="A3L_Savepoint";
+			atlOffset=-0.029999971;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item1817
+		{
+			dataType="Marker";
+			position[]={11212.456,0,5343.0176};
+			name="civ_ship_9";
+			text="@STR_MAR_Boat_Spawn";
+			type="loc_Quay";
+			colorName="ColorOrange";
+			angle=257.64078;
+			id=13842;
+			atlOffset=6.2184033;
+		};
+		class Item1818
+		{
+			dataType="Marker";
+			position[]={5975.2485,1.929336,7222.9414};
+			name="boat_9";
+			text="@STR_MAR_Boat_Shop";
+			type="c_ship";
+			colorName="ColorWhite";
+			id=13843;
+			atlOffset=4.7401562;
+		};
+		class Item1819
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5976.5381,1.363706,7220.9199};
+				angles[]={0,0.27122417,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_Boat_Shop"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""civ_ship_10"",""civ"",""Billy's Boat Rentals & Ownership""]];  this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""civ_ship_10""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide == civilian'];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+			};
+			id=13844;
+			type="A3L_Savepoint";
+			atlOffset=0.046315908;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item1820
+		{
+			dataType="Marker";
+			position[]={5972.6772,-0.4108887,7209.4775};
+			name="civ_ship_10";
+			text="@STR_MAR_Boat_Spawn";
+			type="loc_Quay";
+			colorName="ColorOrange";
+			angle=297.62012;
+			id=13845;
+			atlOffset=4.0735655;
+		};
+		class Item1821
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5983.8306,-18.754053,7258.2949};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=13848;
+			type="Land_PierWooden_03_F";
+			atlOffset=0.3404994;
+		};
+		class Item1822
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5982.3999,-18.768837,7242.8447};
+				angles[]={0,0.18987733,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=13849;
+			type="Land_PierWooden_03_F";
+			atlOffset=-0.22107561;
+		};
+		class Item1823
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5978.5542,-18.761028,7227.8003};
+				angles[]={0,3.4409573,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=13850;
+			type="Land_PierWooden_03_F";
+			atlOffset=1.5935996;
+		};
+		class Item1824
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5979.4058,-19.270592,7223.7959};
+				angles[]={0,0.31110659,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=13855;
+			type="Land_PierWooden_02_barrel_F";
+			atlOffset=0.67615116;
+		};
+		class Item1825
+		{
+			dataType="Marker";
+			position[]={5674.1226,2.3397996,3934.0366};
+			name="boat_10";
+			text="@STR_MAR_Boat_Shop";
+			type="c_ship";
+			colorName="ColorWhite";
+			id=13856;
+			atlOffset=0.96136546;
+		};
+		class Item1826
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5675.7729,2.1403909,3929.1189};
+				angles[]={0,5.9670887,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_Boat_Shop"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""civ_ship_11"",""civ"",""Billy's Boat Rentals & Ownership""]];  this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""civ_ship_11""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide == civilian'];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+			};
+			id=13857;
+			type="A3L_Savepoint";
+			atlOffset=0.062981606;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item1827
+		{
+			dataType="Marker";
+			position[]={5680.6328,-0.00042510033,3916.7495};
+			name="civ_ship_11";
+			text="@STR_MAR_Boat_Spawn";
+			type="loc_Quay";
+			colorName="ColorOrange";
+			angle=70.905174;
+			id=13858;
+			atlOffset=9.5345669;
+		};
+		class Item1828
+		{
+			dataType="Marker";
+			position[]={2914.9783,2.3402247,7364.0469};
+			name="boat_11";
+			text="@STR_MAR_Boat_Shop";
+			type="c_ship";
+			colorName="ColorWhite";
+			id=13859;
+			atlOffset=1.5824943;
+		};
+		class Item1829
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2913.635,1.5063063,7365.1792};
+				angles[]={0,1.7382606,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_Boat_Shop"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""civ_ship_12"",""civ"",""Billy's Boat Rentals & Ownership""]];  this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""civ_ship_12""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide == civilian'];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+			};
+			id=13860;
+			type="A3L_Savepoint";
+			atlOffset=0.022856712;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item1830
+		{
+			dataType="Marker";
+			position[]={2906.2913,0,7371.2275};
+			name="civ_ship_12";
+			text="@STR_MAR_Boat_Spawn";
+			type="loc_Quay";
+			colorName="ColorOrange";
+			angle=7.9194398;
+			id=13861;
+			atlOffset=4.043921;
+		};
+		class Item1831
+		{
+			dataType="Marker";
+			position[]={11839.562,2.3402247,2623.813};
+			name="boat_12";
+			text="@STR_MAR_Boat_Shop";
+			type="c_ship";
+			colorName="ColorWhite";
+			id=13862;
+			atlOffset=2.0757546;
+		};
+		class Item1832
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11842.12,1.3922282,2622.894};
+				angles[]={0,5.4171352,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_Boat_Shop"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""civ_ship_13"",""civ"",""Billy's Boat Rentals & Ownership""]];  this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""civ_ship_13""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide == civilian'];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+			};
+			id=13863;
+			type="A3L_Savepoint";
+			atlOffset=4.428;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item1833
+		{
+			dataType="Marker";
+			position[]={11830.438,0,2634.0845};
+			name="civ_ship_13";
+			text="@STR_MAR_Boat_Spawn";
+			type="loc_Quay";
+			colorName="ColorOrange";
+			angle=45.640862;
+			id=13864;
+			atlOffset=6.8943028;
+		};
+		class Item1834
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11839.973,-2.3353586,2624.2671};
+				angles[]={0,2.2630575,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=13865;
+			type="Land_PierLadder_F";
+			atlOffset=1.144263;
 		};
 	};
 };
