@@ -145,7 +145,7 @@ switch (_code) do {
 	
 	// Taste C
 	case 46: {
-        if((isNull (findDisplay 6000)) && (isNull (findDisplay 6025)) && (isNull (findDisplay 6050)) && (isNull (findDisplay 6075)) && (isNull (findDisplay 6100)) && playerSide == west ) then {
+        if((isNull (findDisplay 6000)) && (isNull (findDisplay 6025)) && (isNull (findDisplay 6050)) && (isNull (findDisplay 6075)) && (isNull (findDisplay 6100)) && playerSide == west && vehicle player != player) then {
             closedialog 0;
             createdialog "life_hauptmenu";
         };
