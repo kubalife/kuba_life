@@ -1295,21 +1295,276 @@ class LifeCfgVehicles {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 60000;
-        textures[] = {};
+        textures[] = {
+    {
+        "Schwarz","cop",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","cop",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Schwarz","civ",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","civ",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Rot","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0,1.0)"
+        }
+    },
+    {
+        "Blau","civ",
+        {
+            "#(argb,8,8,3)color(0,0,1,1.0)"
+        }
+    },
+    {
+        "Grün","civ",
+        {
+            "#(argb,8,8,3)color(0,1,0.392,1.0)"
+        }
+    },
+    {
+        "Orange","civ",
+        {
+            "#(argb,8,8,3)color(1,0.501,0,1.0)"
+        }
+    },
+    {
+        "Gelb","civ",
+        {
+            "#(argb,8,8,3)color(1,1,0,1.0)"
+        }
+    },
+    {
+        "Pink","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0.498,1.0)"
+        }
+    },
+    {
+        "Silber","civ",
+        {
+            "#(argb,8,8,3)color(0.752,0.752,0.752,1.0)"
+        }
+    },
+    {
+        "Gold","civ",
+        {
+            "#(argb,8,8,3)color(0.854,0.843,0.125,1.0)"
+        }
+    },
+    {
+        "Lila","civ",
+        {
+            "#(argb,8,8,3)color(0.368,0,1,1.0)"
+        }
+    },
+    {
+        "Auqua","civ",
+        {
+            "#(argb,8,8,3)color(0,1,1,1.0)"
+        }
+    }
+};
     };
 
 	class ADM_1969_Camaro {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 60000;
-        textures[] = {};
+        textures[] = {
+    {
+        "Schwarz","cop",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","cop",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Schwarz","civ",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","civ",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Rot","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0,1.0)"
+        }
+    },
+    {
+        "Blau","civ",
+        {
+            "#(argb,8,8,3)color(0,0,1,1.0)"
+        }
+    },
+    {
+        "Grün","civ",
+        {
+            "#(argb,8,8,3)color(0,1,0.392,1.0)"
+        }
+    },
+    {
+        "Orange","civ",
+        {
+            "#(argb,8,8,3)color(1,0.501,0,1.0)"
+        }
+    },
+    {
+        "Gelb","civ",
+        {
+            "#(argb,8,8,3)color(1,1,0,1.0)"
+        }
+    },
+    {
+        "Pink","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0.498,1.0)"
+        }
+    },
+    {
+        "Silber","civ",
+        {
+            "#(argb,8,8,3)color(0.752,0.752,0.752,1.0)"
+        }
+    },
+    {
+        "Gold","civ",
+        {
+            "#(argb,8,8,3)color(0.854,0.843,0.125,1.0)"
+        }
+    },
+    {
+        "Lila","civ",
+        {
+            "#(argb,8,8,3)color(0.368,0,1,1.0)"
+        }
+    },
+    {
+        "Auqua","civ",
+        {
+            "#(argb,8,8,3)color(0,1,1,1.0)"
+        }
+    }
+};
     };
 
 	class ADM_1969_Charger {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 60000;
-        textures[] = {};
+        textures[] = {
+    {
+        "Schwarz","cop",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","cop",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Schwarz","civ",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","civ",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Rot","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0,1.0)"
+        }
+    },
+    {
+        "Blau","civ",
+        {
+            "#(argb,8,8,3)color(0,0,1,1.0)"
+        }
+    },
+    {
+        "Grün","civ",
+        {
+            "#(argb,8,8,3)color(0,1,0.392,1.0)"
+        }
+    },
+    {
+        "Orange","civ",
+        {
+            "#(argb,8,8,3)color(1,0.501,0,1.0)"
+        }
+    },
+    {
+        "Gelb","civ",
+        {
+            "#(argb,8,8,3)color(1,1,0,1.0)"
+        }
+    },
+    {
+        "Pink","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0.498,1.0)"
+        }
+    },
+    {
+        "Silber","civ",
+        {
+            "#(argb,8,8,3)color(0.752,0.752,0.752,1.0)"
+        }
+    },
+    {
+        "Gold","civ",
+        {
+            "#(argb,8,8,3)color(0.854,0.843,0.125,1.0)"
+        }
+    },
+    {
+        "Lila","civ",
+        {
+            "#(argb,8,8,3)color(0.368,0,1,1.0)"
+        }
+    },
+    {
+        "Auqua","civ",
+        {
+            "#(argb,8,8,3)color(0,1,1,1.0)"
+        }
+    }
+};
     };
 
 	class SIG_SuperBeeB {
@@ -1400,19 +1655,274 @@ class LifeCfgVehicles {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 70000;
-        textures[] = {};
+        textures[] = {
+    {
+        "Schwarz","cop",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","cop",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Schwarz","civ",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","civ",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Rot","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0,1.0)"
+        }
+    },
+    {
+        "Blau","civ",
+        {
+            "#(argb,8,8,3)color(0,0,1,1.0)"
+        }
+    },
+    {
+        "Grün","civ",
+        {
+            "#(argb,8,8,3)color(0,1,0.392,1.0)"
+        }
+    },
+    {
+        "Orange","civ",
+        {
+            "#(argb,8,8,3)color(1,0.501,0,1.0)"
+        }
+    },
+    {
+        "Gelb","civ",
+        {
+            "#(argb,8,8,3)color(1,1,0,1.0)"
+        }
+    },
+    {
+        "Pink","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0.498,1.0)"
+        }
+    },
+    {
+        "Silber","civ",
+        {
+            "#(argb,8,8,3)color(0.752,0.752,0.752,1.0)"
+        }
+    },
+    {
+        "Gold","civ",
+        {
+            "#(argb,8,8,3)color(0.854,0.843,0.125,1.0)"
+        }
+    },
+    {
+        "Lila","civ",
+        {
+            "#(argb,8,8,3)color(0.368,0,1,1.0)"
+        }
+    },
+    {
+        "Auqua","civ",
+        {
+            "#(argb,8,8,3)color(0,1,1,1.0)"
+        }
+    }
+};
     };
 	class ivory_supra_tuned {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 70000;
-        textures[] = {};
+        textures[] = {
+    {
+        "Schwarz","cop",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","cop",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Schwarz","civ",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","civ",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Rot","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0,1.0)"
+        }
+    },
+    {
+        "Blau","civ",
+        {
+            "#(argb,8,8,3)color(0,0,1,1.0)"
+        }
+    },
+    {
+        "Grün","civ",
+        {
+            "#(argb,8,8,3)color(0,1,0.392,1.0)"
+        }
+    },
+    {
+        "Orange","civ",
+        {
+            "#(argb,8,8,3)color(1,0.501,0,1.0)"
+        }
+    },
+    {
+        "Gelb","civ",
+        {
+            "#(argb,8,8,3)color(1,1,0,1.0)"
+        }
+    },
+    {
+        "Pink","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0.498,1.0)"
+        }
+    },
+    {
+        "Silber","civ",
+        {
+            "#(argb,8,8,3)color(0.752,0.752,0.752,1.0)"
+        }
+    },
+    {
+        "Gold","civ",
+        {
+            "#(argb,8,8,3)color(0.854,0.843,0.125,1.0)"
+        }
+    },
+    {
+        "Lila","civ",
+        {
+            "#(argb,8,8,3)color(0.368,0,1,1.0)"
+        }
+    },
+    {
+        "Auqua","civ",
+        {
+            "#(argb,8,8,3)color(0,1,1,1.0)"
+        }
+    }
+};
     };
 	class shounka_gt {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 70000;
-        textures[] = {};
+        textures[] = {
+    {
+        "Schwarz","cop",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","cop",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Schwarz","civ",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","civ",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Rot","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0,1.0)"
+        }
+    },
+    {
+        "Blau","civ",
+        {
+            "#(argb,8,8,3)color(0,0,1,1.0)"
+        }
+    },
+    {
+        "Grün","civ",
+        {
+            "#(argb,8,8,3)color(0,1,0.392,1.0)"
+        }
+    },
+    {
+        "Orange","civ",
+        {
+            "#(argb,8,8,3)color(1,0.501,0,1.0)"
+        }
+    },
+    {
+        "Gelb","civ",
+        {
+            "#(argb,8,8,3)color(1,1,0,1.0)"
+        }
+    },
+    {
+        "Pink","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0.498,1.0)"
+        }
+    },
+    {
+        "Silber","civ",
+        {
+            "#(argb,8,8,3)color(0.752,0.752,0.752,1.0)"
+        }
+    },
+    {
+        "Gold","civ",
+        {
+            "#(argb,8,8,3)color(0.854,0.843,0.125,1.0)"
+        }
+    },
+    {
+        "Lila","civ",
+        {
+            "#(argb,8,8,3)color(0.368,0,1,1.0)"
+        }
+    },
+    {
+        "Auqua","civ",
+        {
+            "#(argb,8,8,3)color(0,1,1,1.0)"
+        }
+    }
+};
     };
 	class Mrshounka_mercedes_190_p_civ {
         vItemSpace = 80;
@@ -1472,13 +1982,183 @@ class LifeCfgVehicles {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 70000;
-        textures[] = {};
+        textures[] = {
+    {
+        "Schwarz","cop",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","cop",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Schwarz","civ",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","civ",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Rot","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0,1.0)"
+        }
+    },
+    {
+        "Blau","civ",
+        {
+            "#(argb,8,8,3)color(0,0,1,1.0)"
+        }
+    },
+    {
+        "Grün","civ",
+        {
+            "#(argb,8,8,3)color(0,1,0.392,1.0)"
+        }
+    },
+    {
+        "Orange","civ",
+        {
+            "#(argb,8,8,3)color(1,0.501,0,1.0)"
+        }
+    },
+    {
+        "Gelb","civ",
+        {
+            "#(argb,8,8,3)color(1,1,0,1.0)"
+        }
+    },
+    {
+        "Pink","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0.498,1.0)"
+        }
+    },
+    {
+        "Silber","civ",
+        {
+            "#(argb,8,8,3)color(0.752,0.752,0.752,1.0)"
+        }
+    },
+    {
+        "Gold","civ",
+        {
+            "#(argb,8,8,3)color(0.854,0.843,0.125,1.0)"
+        }
+    },
+    {
+        "Lila","civ",
+        {
+            "#(argb,8,8,3)color(0.368,0,1,1.0)"
+        }
+    },
+    {
+        "Auqua","civ",
+        {
+            "#(argb,8,8,3)color(0,1,1,1.0)"
+        }
+    }
+};
     };
 	class Jonzie_30CSL {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 70000;
-        textures[] = {};
+        textures[] = {
+    {
+        "Schwarz","cop",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","cop",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Schwarz","civ",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","civ",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Rot","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0,1.0)"
+        }
+    },
+    {
+        "Blau","civ",
+        {
+            "#(argb,8,8,3)color(0,0,1,1.0)"
+        }
+    },
+    {
+        "Grün","civ",
+        {
+            "#(argb,8,8,3)color(0,1,0.392,1.0)"
+        }
+    },
+    {
+        "Orange","civ",
+        {
+            "#(argb,8,8,3)color(1,0.501,0,1.0)"
+        }
+    },
+    {
+        "Gelb","civ",
+        {
+            "#(argb,8,8,3)color(1,1,0,1.0)"
+        }
+    },
+    {
+        "Pink","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0.498,1.0)"
+        }
+    },
+    {
+        "Silber","civ",
+        {
+            "#(argb,8,8,3)color(0.752,0.752,0.752,1.0)"
+        }
+    },
+    {
+        "Gold","civ",
+        {
+            "#(argb,8,8,3)color(0.854,0.843,0.125,1.0)"
+        }
+    },
+    {
+        "Lila","civ",
+        {
+            "#(argb,8,8,3)color(0.368,0,1,1.0)"
+        }
+    },
+    {
+        "Auqua","civ",
+        {
+            "#(argb,8,8,3)color(0,1,1,1.0)"
+        }
+    }
+};
     };
 	class shelbycobra_car_azul {
         vItemSpace = 80;
@@ -1496,13 +2176,183 @@ class LifeCfgVehicles {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 70000;
-        textures[] = {};
+        textures[] = {
+    {
+        "Schwarz","cop",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","cop",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Schwarz","civ",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","civ",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Rot","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0,1.0)"
+        }
+    },
+    {
+        "Blau","civ",
+        {
+            "#(argb,8,8,3)color(0,0,1,1.0)"
+        }
+    },
+    {
+        "Grün","civ",
+        {
+            "#(argb,8,8,3)color(0,1,0.392,1.0)"
+        }
+    },
+    {
+        "Orange","civ",
+        {
+            "#(argb,8,8,3)color(1,0.501,0,1.0)"
+        }
+    },
+    {
+        "Gelb","civ",
+        {
+            "#(argb,8,8,3)color(1,1,0,1.0)"
+        }
+    },
+    {
+        "Pink","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0.498,1.0)"
+        }
+    },
+    {
+        "Silber","civ",
+        {
+            "#(argb,8,8,3)color(0.752,0.752,0.752,1.0)"
+        }
+    },
+    {
+        "Gold","civ",
+        {
+            "#(argb,8,8,3)color(0.854,0.843,0.125,1.0)"
+        }
+    },
+    {
+        "Lila","civ",
+        {
+            "#(argb,8,8,3)color(0.368,0,1,1.0)"
+        }
+    },
+    {
+        "Auqua","civ",
+        {
+            "#(argb,8,8,3)color(0,1,1,1.0)"
+        }
+    }
+};
     };
 	class ivory_gt500 {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 70000;
-        textures[] = {};
+        textures[] = {
+    {
+        "Schwarz","cop",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","cop",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Schwarz","civ",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","civ",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Rot","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0,1.0)"
+        }
+    },
+    {
+        "Blau","civ",
+        {
+            "#(argb,8,8,3)color(0,0,1,1.0)"
+        }
+    },
+    {
+        "Grün","civ",
+        {
+            "#(argb,8,8,3)color(0,1,0.392,1.0)"
+        }
+    },
+    {
+        "Orange","civ",
+        {
+            "#(argb,8,8,3)color(1,0.501,0,1.0)"
+        }
+    },
+    {
+        "Gelb","civ",
+        {
+            "#(argb,8,8,3)color(1,1,0,1.0)"
+        }
+    },
+    {
+        "Pink","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0.498,1.0)"
+        }
+    },
+    {
+        "Silber","civ",
+        {
+            "#(argb,8,8,3)color(0.752,0.752,0.752,1.0)"
+        }
+    },
+    {
+        "Gold","civ",
+        {
+            "#(argb,8,8,3)color(0.854,0.843,0.125,1.0)"
+        }
+    },
+    {
+        "Lila","civ",
+        {
+            "#(argb,8,8,3)color(0.368,0,1,1.0)"
+        }
+    },
+    {
+        "Auqua","civ",
+        {
+            "#(argb,8,8,3)color(0,1,1,1.0)"
+        }
+    }
+};
     };
 	class VVV_Alfa_Romeo_Spider_Duetto_160 {
         vItemSpace = 80;
@@ -1520,7 +2370,92 @@ class LifeCfgVehicles {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 70000;
-        textures[] = {};
+        textures[] = {
+    {
+        "Schwarz","cop",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","cop",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Schwarz","civ",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","civ",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Rot","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0,1.0)"
+        }
+    },
+    {
+        "Blau","civ",
+        {
+            "#(argb,8,8,3)color(0,0,1,1.0)"
+        }
+    },
+    {
+        "Grün","civ",
+        {
+            "#(argb,8,8,3)color(0,1,0.392,1.0)"
+        }
+    },
+    {
+        "Orange","civ",
+        {
+            "#(argb,8,8,3)color(1,0.501,0,1.0)"
+        }
+    },
+    {
+        "Gelb","civ",
+        {
+            "#(argb,8,8,3)color(1,1,0,1.0)"
+        }
+    },
+    {
+        "Pink","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0.498,1.0)"
+        }
+    },
+    {
+        "Silber","civ",
+        {
+            "#(argb,8,8,3)color(0.752,0.752,0.752,1.0)"
+        }
+    },
+    {
+        "Gold","civ",
+        {
+            "#(argb,8,8,3)color(0.854,0.843,0.125,1.0)"
+        }
+    },
+    {
+        "Lila","civ",
+        {
+            "#(argb,8,8,3)color(0.368,0,1,1.0)"
+        }
+    },
+    {
+        "Auqua","civ",
+        {
+            "#(argb,8,8,3)color(0,1,1,1.0)"
+        }
+    }
+};
     };
 	class VVV_Chevrolet_Impala {
         vItemSpace = 80;
@@ -1538,7 +2473,92 @@ class LifeCfgVehicles {
         vItemSpace = 80;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 70000;
-        textures[] = {};
+        textures[] = {
+    {
+        "Schwarz","cop",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","cop",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Schwarz","civ",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","civ",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Rot","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0,1.0)"
+        }
+    },
+    {
+        "Blau","civ",
+        {
+            "#(argb,8,8,3)color(0,0,1,1.0)"
+        }
+    },
+    {
+        "Grün","civ",
+        {
+            "#(argb,8,8,3)color(0,1,0.392,1.0)"
+        }
+    },
+    {
+        "Orange","civ",
+        {
+            "#(argb,8,8,3)color(1,0.501,0,1.0)"
+        }
+    },
+    {
+        "Gelb","civ",
+        {
+            "#(argb,8,8,3)color(1,1,0,1.0)"
+        }
+    },
+    {
+        "Pink","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0.498,1.0)"
+        }
+    },
+    {
+        "Silber","civ",
+        {
+            "#(argb,8,8,3)color(0.752,0.752,0.752,1.0)"
+        }
+    },
+    {
+        "Gold","civ",
+        {
+            "#(argb,8,8,3)color(0.854,0.843,0.125,1.0)"
+        }
+    },
+    {
+        "Lila","civ",
+        {
+            "#(argb,8,8,3)color(0.368,0,1,1.0)"
+        }
+    },
+    {
+        "Auqua","civ",
+        {
+            "#(argb,8,8,3)color(0,1,1,1.0)"
+        }
+    }
+};
     };
 
     /*
@@ -1547,7 +2567,7 @@ class LifeCfgVehicles {
 
 	class ffaa_ar_lcm {
         vItemSpace = 100;
-        licenses[] = { {"boat","faehre"}, {""}, {""}, {""} };
+        licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 350000;
         textures[] = {};
     };
@@ -1722,7 +2742,92 @@ class LifeCfgVehicles {
         vItemSpace = 360;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
         price = 26000;
-        textures[] = { };
+        textures[] = {
+    {
+        "Schwarz","cop",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","cop",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Schwarz","civ",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","civ",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Rot","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0,1.0)"
+        }
+    },
+    {
+        "Blau","civ",
+        {
+            "#(argb,8,8,3)color(0,0,1,1.0)"
+        }
+    },
+    {
+        "Grün","civ",
+        {
+            "#(argb,8,8,3)color(0,1,0.392,1.0)"
+        }
+    },
+    {
+        "Orange","civ",
+        {
+            "#(argb,8,8,3)color(1,0.501,0,1.0)"
+        }
+    },
+    {
+        "Gelb","civ",
+        {
+            "#(argb,8,8,3)color(1,1,0,1.0)"
+        }
+    },
+    {
+        "Pink","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0.498,1.0)"
+        }
+    },
+    {
+        "Silber","civ",
+        {
+            "#(argb,8,8,3)color(0.752,0.752,0.752,1.0)"
+        }
+    },
+    {
+        "Gold","civ",
+        {
+            "#(argb,8,8,3)color(0.854,0.843,0.125,1.0)"
+        }
+    },
+    {
+        "Lila","civ",
+        {
+            "#(argb,8,8,3)color(0.368,0,1,1.0)"
+        }
+    },
+    {
+        "Auqua","civ",
+        {
+            "#(argb,8,8,3)color(0,1,1,1.0)"
+        }
+    }
+};
     };
 
     class uns_nvatruck_open {
@@ -2463,14 +3568,184 @@ class LifeCfgVehicles {
         vItemSpace = 360;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 13000;
-        textures[] = { };
+        textures[] = {
+    {
+        "Schwarz","cop",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","cop",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Schwarz","civ",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","civ",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Rot","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0,1.0)"
+        }
+    },
+    {
+        "Blau","civ",
+        {
+            "#(argb,8,8,3)color(0,0,1,1.0)"
+        }
+    },
+    {
+        "Grün","civ",
+        {
+            "#(argb,8,8,3)color(0,1,0.392,1.0)"
+        }
+    },
+    {
+        "Orange","civ",
+        {
+            "#(argb,8,8,3)color(1,0.501,0,1.0)"
+        }
+    },
+    {
+        "Gelb","civ",
+        {
+            "#(argb,8,8,3)color(1,1,0,1.0)"
+        }
+    },
+    {
+        "Pink","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0.498,1.0)"
+        }
+    },
+    {
+        "Silber","civ",
+        {
+            "#(argb,8,8,3)color(0.752,0.752,0.752,1.0)"
+        }
+    },
+    {
+        "Gold","civ",
+        {
+            "#(argb,8,8,3)color(0.854,0.843,0.125,1.0)"
+        }
+    },
+    {
+        "Lila","civ",
+        {
+            "#(argb,8,8,3)color(0.368,0,1,1.0)"
+        }
+    },
+    {
+        "Auqua","civ",
+        {
+            "#(argb,8,8,3)color(0,1,1,1.0)"
+        }
+    }
+};
     };
 
 	class ADM_GMC_Vandura {
         vItemSpace = 450;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 20000;
-        textures[] = { };
+        textures[] = {
+    {
+        "Schwarz","cop",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","cop",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Schwarz","civ",
+        {
+            "#(argb,8,8,3)color(0,0,0,1.0)"
+        }
+    },
+    {
+        "Weiß","civ",
+        {
+            "#(argb,8,8,3)color(1,1,1,1.0)"
+        }
+    },
+    {
+        "Rot","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0,1.0)"
+        }
+    },
+    {
+        "Blau","civ",
+        {
+            "#(argb,8,8,3)color(0,0,1,1.0)"
+        }
+    },
+    {
+        "Grün","civ",
+        {
+            "#(argb,8,8,3)color(0,1,0.392,1.0)"
+        }
+    },
+    {
+        "Orange","civ",
+        {
+            "#(argb,8,8,3)color(1,0.501,0,1.0)"
+        }
+    },
+    {
+        "Gelb","civ",
+        {
+            "#(argb,8,8,3)color(1,1,0,1.0)"
+        }
+    },
+    {
+        "Pink","civ",
+        {
+            "#(argb,8,8,3)color(1,0,0.498,1.0)"
+        }
+    },
+    {
+        "Silber","civ",
+        {
+            "#(argb,8,8,3)color(0.752,0.752,0.752,1.0)"
+        }
+    },
+    {
+        "Gold","civ",
+        {
+            "#(argb,8,8,3)color(0.854,0.843,0.125,1.0)"
+        }
+    },
+    {
+        "Lila","civ",
+        {
+            "#(argb,8,8,3)color(0.368,0,1,1.0)"
+        }
+    },
+    {
+        "Auqua","civ",
+        {
+            "#(argb,8,8,3)color(0,1,1,1.0)"
+        }
+    }
+};
     };
 
 	class A3L_F350Black {
