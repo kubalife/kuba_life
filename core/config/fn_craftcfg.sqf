@@ -148,7 +148,7 @@ switch(_craft) do
 		["shounkafordgt",["reifen",4,"engine",1,"karosserie",6,"autoglas",5,"elektroteile",15]],		//Autos
 		["suprasecret",["reifen",4,"engine",1,"karosserie",6,"autoglas",5,"elektroteile",15]],
 		["cadieldorado",["reifen",4,"engine",1,"karosserie",6,"autoglas",5,"elektroteile",15]],
-		["corvettec1",["reifen",4,"engine",1,"karosserie",6,"autoglas",5,"elektroteile",15]],
+		//["corvettec1",["reifen",4,"engine",1,"karosserie",6,"autoglas",5,"elektroteile",15]],//Servercrasher
 		["am1964",["reifen",4,"engine",1,"karosserie",6,"autoglas",5,"elektroteile",15]],
 		["belair",["reifen",4,"engine",1,"karosserie",6,"autoglas",5,"elektroteile",15]],
 		["NULL",[""]],
