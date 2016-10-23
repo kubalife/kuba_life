@@ -21,7 +21,7 @@ if((FETCH_CONST(life_adminlevel) < 1)) then {
 	ctrlShow[3020,false];
 	ctrlShow[3021,false];
 };
-if((FETCH_CONST(life_coplevel) < 5) || playerSide != west) then { //5 kann durch einen beliebigen Rang ersetzt werden, ab dem es verfügbar sein soll
+if((FETCH_CONST(life_coplevel) < 2) || playerSide != west) then { //5 kann durch einen beliebigen Rang ersetzt werden, ab dem es verfügbar sein soll
  ctrlShow[3023,false];
 };
 {
