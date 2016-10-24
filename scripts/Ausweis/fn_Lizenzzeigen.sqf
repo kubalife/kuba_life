@@ -7,21 +7,22 @@ if(!(_ziel isKindOf "Man")) then {_ziel = player;};
 if(!(alive _ziel)) then {_ziel = player;};
 
 // Mit welchem Item bin ich "anonym"?
-_headgear = ["A3L_gangster_hat","H_Shemag_olive","H_ShemagOpen_tan","TRYK_Kio_Balaclava"];
+_headgear = ["A3L_gangster_hat","H_Shemag_olive","H_ShemagOpen_tan","TRYK_Kio_Balaclava","casco_cnp_protec"];
 _goggles = ["UNS_Scarf_ARVN","UNS_Scarf_Blue","UNS_Scarf_Red","UNS_Scarf_OD","UNS_Towel","Masque_Solitaire","G_Balaclava_oli","G_Balaclava_lowprofile","G_Balaclava_combat","G_Balaclava_blk"];
 
 switch(playerSide)do{
  case west:{
   switch (call life_coplevel) do{
-   case 1: { _rang = "Policia"; };
-   case 2: { _rang = "Policia"; };
-   case 3: { _rang = "Policia"; };
-   case 4: { _rang = "Policia"; };
-   case 5: { _rang = "Policia"; };
-   case 6: { _rang = "Policia"; };
+   case 1: { _rang = "Policia"; };   
+   case 2: { _rang = "Policia"; };   
+   case 3: { _rang = "Policia"; };   
+   case 4: { _rang = "Policia"; };   
+   case 5: { _rang = "Policia"; };   
+   case 6: { _rang = "Policia"; };  
    case 7: { _rang = "Policia"; };
    case 8: { _rang = "Policia"; };
    case 9: { _rang = "Policia"; };
+   case 10: { _rang = "Policia"; };
    default { _rank =  "Error";};
   };
   _marke = "marke_cop";
