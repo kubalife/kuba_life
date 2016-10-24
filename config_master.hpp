@@ -412,6 +412,7 @@ class Life_Settings {
 
     /* Item-related Restrictions */
     restrict_medic_weapons = false; //Set to false to allow medics to use any weapon --true will remove ANY weapon they attempt to use (primary,secondary,launcher)
+	allow_adac_weapons = true; // true = wenn ihr wollt das eure ADACs ne Knarre halten können - false = wenn nicht
     restrict_clothingPickup = false; //Set to false to allow civilians to pickup/take any uniform (ground/crates/vehicles)
     restrict_weaponPickup = false; //Set to false to allow civilians to pickup/take any weapon (ground/crates/vehicles)
     restricted_uniforms[] = {
@@ -455,7 +456,7 @@ class Life_Settings {
     bank_cop = 5000; //Amount of cash in bank for new cops
     bank_civ = 5000; //Amount of cash in bank for new civillians
     bank_med = 5000; //Amount of cash in bank for new medics
-    bank_adac = 10000; //Amount of cash in bank for new medics
+	paycheck_adac = 3000; //Gehaltscheck für den ADAC
 
     // Gehaltsanpassung für Cops, da Tickets nicht mehr auf das Polizeikonto gehen
     paycheck_cop = 1000; //Payment for cops

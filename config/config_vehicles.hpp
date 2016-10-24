@@ -486,21 +486,22 @@ class CarShops {
     class cop_car {
         side = "cop";
         vehicles[] = {
+ 			{ "DAR_ImpalaPolice", { "life_coplevel", "SCALAR", 1 } },            // Impala
 			{ "A3L_CVPIFPBLBPD", { "life_coplevel", "SCALAR", 1 } },             // CVPI Copskin
             //{ "GeK_Renault_Trafic_Police", { "life_coplevel", "SCALAR", 1 } }, // Renault kleinbus Lightbar geht nicht
-            { "DAR_ImpalaPolice", { "life_coplevel", "SCALAR", 2 } },            // Impala
-            { "cnp_Iveco_GOIT", { "life_coplevel", "SCALAR", 2 } },				 // Iveco Truck
 			{ "A3L_SuburbanUM", { "life_coplevel", "SCALAR", 2 } },              // Suburban
-            { "cg_h2_sert", { "life_coplevel", "SCALAR", 3 } }, 		         // Hummer H2
-			{ "ivory_wrx_slicktop", { "life_coplevel", "SCALAR", 3 } },          // Impreza ohne Lightbar
-			{ "ivory_wrx_marked", { "life_coplevel", "SCALAR", 3 } },            // Impreza mit Lightbar
-            { "ivory_wrx_unmarked", { "life_coplevel", "SCALAR", 3 } },          // Impreza ohne Lightbar
-			{ "A3L_CVPIUCBlack", { "life_coplevel", "SCALAR", 4 } }, 	         // CVPI Undercover Black
-			{ "DAR_TahoePoliceDet", { "life_coplevel", "SCALAR", 4 } },          // Tahoe Undercover
-            { "Navara_Policia", { "life_coplevel", "SCALAR", 4 } },		         // Navara
-            { "GeK_Yukon_Police", { "life_coplevel", "SCALAR", 4 } },	         // GMC Yukon Lightbar geht nicht
-			//{ "GeK_TLC100_Police", { "life_coplevel", "SCALAR", 4 } },         // TLC100 kein Skin
-			{ "shounka_a3_suburbangign", { "life_coplevel", "SCALAR", 4 } }		 // Suburban Leiterwagen
+			//{ "A3L_Suburban", { "life_coplevel", "SCALAR", 2 } },      	     // Suburban Lightbar geht nicht
+			{ "ivory_wrx_slicktop", { "life_coplevel", "SCALAR", 2 } },          // Impreza ohne Lightbar
+			{ "ivory_wrx_marked", { "life_coplevel", "SCALAR", 2 } },            // Impreza mit Lightbar
+            { "ivory_wrx_unmarked", { "life_coplevel", "SCALAR", 2 } },          // Impreza ohne Lightbar
+			{ "A3L_CVPIUCBlack", { "life_coplevel", "SCALAR", 2 } }, 	         // CVPI Undercover Black
+			{ "DAR_TahoePoliceDet", { "life_coplevel", "SCALAR", 2 } },          // Tahoe Undercover
+			{ "cg_h2_sert", { "life_coplevel", "SCALAR", 2 } }, 		         // Hummer H2
+            { "Navara_Policia", { "life_coplevel", "SCALAR", 2 } },		         // Navara
+            { "GeK_Yukon_Police", { "life_coplevel", "SCALAR", 2 } },	         // GMC Yukon Lightbar geht nicht
+			//{ "GeK_TLC100_Police", { "life_coplevel", "SCALAR", 2 } },         // TLC100 kein Skin
+			{ "cnp_Iveco_GOIT", { "life_coplevel", "SCALAR", 2 } },				 // Iveco Truck
+			{ "shounka_a3_suburbangign", { "life_coplevel", "SCALAR", 2 } }		 // Suburban Leiterwagen
         };
     };
 
@@ -524,7 +525,7 @@ class CarShops {
     };
 
     class adac {
-        side = "med";
+        side = "adac";
         vehicles[] = {
 			{ "A3L_Towtruck", { "", "", -1 } },
 			{ "Jonzie_Tow_Truck", { "", "", -1 } },
@@ -541,7 +542,7 @@ class CarShops {
     };
 
     class adacAir {
-        side = "med";
+        side = "adac";
         vehicles[] = {
 			{ "B_Heli_Light_01_F", { "", "", -1 } },
 			{ "ASL_AS350_1", { "", "", -1 } }

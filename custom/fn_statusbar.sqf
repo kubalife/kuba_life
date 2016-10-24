@@ -98,15 +98,15 @@ disableSerialization;
 		if(_damage < 1) then{_colourDamage =  _colourDead;};
 
 
-	//Icons and position
+	//Icons and position <t color='%10'><img size='1.0' image='icons\health.paa' color='%19'/> %3%1</t>
 		((uiNamespace getVariable "osefStatusBarAdmin")displayCtrl 55554)ctrlSetStructuredText parseText
 			format["
-			<t color='%10'><img size='1.0' image='icons\jogadores.paa' color='%19'/> %2</t>
-			<t color='%10'><img size='1.0' image='icons\policia.paa' color='%19'/> %11</t>
-			<t color='%10'><img size='1.0' image='icons\resgate.paa' color='%19'/> %12</t>
+			<t color='%10'><img size='1.0' image='icons\civspawn.paa' color='%19'/> %2</t>
+			<t color='%10'><img size='1.0' image='icons\policespawn.paa' color='%19'/> %11</t>
+			<t color='%10'><img size='1.0' image='icons\medspawn.paa' color='%19'/> %12</t>
+			<t color='%10'><img size='1.0' image='icons\seatoff.paa' color='%19'/> %15</t>
 			<t color='%10'><img size='1.0' image='icons\desempenho.paa' color='%19'/> %4</t>
-			<t color='%10'><img size='1.0' image='icons\compass.paa' color='%19'/> %7</t>
-			<t color='%10'><img size='1.0' image='icons\health.paa' color='%19'/> %3%1</t>
+			<t color='%10'><img size='1.0' image='icons\ico_map.paa' color='%19'/> %7</t>
 			<t color='%10'><img size='1.0' image='icons\bank.paa' color='%19'/> %8</t>
 			<t color='%10'><img size='1.0' image='icons\money.paa' color='%19'/> %10</t>
 			<t color='%10'><img size='1.0' image='icons\uptime.paa' color='%19'/>%9 min.</t>",
@@ -126,7 +126,8 @@ disableSerialization;
 					west countSide playableUnits,
 					independent countSide playableUnits,
 					format["%1/%2",_xx,_yy],
-					_colourExtra
+					_colourExtra,
+					east countSide playableUnits
 				];
 
 		};

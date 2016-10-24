@@ -15,12 +15,7 @@ _side = param [0,civilian,[civilian]];
 switch (_side) do {
     case west: {_side = "Cop"};
     case independent: {_side = "Medic"};
-    case east: {
-     _return = [
-     ["adac_spawn_1","ADAC-Leitstelle","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
-     ];
-    };
-
+    case east: {_side = "adac"};
     default {_side = "Civilian"};
 };
 

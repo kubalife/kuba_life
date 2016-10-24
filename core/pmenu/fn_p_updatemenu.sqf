@@ -8,7 +8,7 @@
 */
 private["_inv","_lic","_licenses","_near","_near_units","_mstatus","_shrt","_side","_struct"];
 disableSerialization;
-/*
+
 if(FETCH_CONST(life_adminlevel) < 1) then {
 	ctrlShow[2020,false];
 	ctrlShow[2021,false];
@@ -24,4 +24,4 @@ _mstatus = CONTROL(2001,2015);
 
 _mstatus ctrlSetStructuredText parseText format["<img size='1.3' image='\eg_sndimg\icons\bank.paa'/> <t size='0.8px'>$%1</t><br/><img size='1.2' image='\eg_sndimg\icons\money.paa'/> <t size='0.8'>$%2</t>",[TTPBANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
 ctrlSetText[2009,format["Weight: %1 / %2", life_carryWeight, life_maxWeight]];
-*/
+

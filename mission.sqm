@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=13927;
+		nextID=13929;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1689.7583,238.15056,2949.196};
-		dir[]={-0.65383446,-0.6235773,0.42855662};
-		up[]={-0.52154112,0.78175211,0.34184533};
-		aside[]={0.54819268,-2.0070001e-007,0.83635753};
+		pos[]={9174.9775,51.234131,10122.226};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -797,14 +797,14 @@ class Mission
 	};
 	class Entities
 	{
-		items=1883;
+		items=1885;
 		class Item0
 		{
 			dataType="Marker";
 			position[]={3706.0005,86.495522,14451.462};
 			name="respawn_civilian";
 			type="Empty";
-			angle=13.296578;
+			angle=13.296577;
 			id=0;
 			atlOffset=75.929108;
 		};
@@ -1515,7 +1515,7 @@ class Mission
 			text="@STR_MAR_Boat_Spawn";
 			type="Empty";
 			colorName="ColorOrange";
-			angle=342.37094;
+			angle=342.37091;
 			id=113;
 			atlOffset=7.129642;
 		};
@@ -2305,7 +2305,7 @@ class Mission
 			position[]={3722.9553,109.89646,14450.165};
 			name="respawn_east";
 			type="Empty";
-			angle=13.296578;
+			angle=13.296577;
 			id=194;
 			atlOffset=96.342537;
 		};
@@ -13225,7 +13225,7 @@ class Mission
 			position[]={3709.6663,102.71162,14445.773};
 			name="respawn_guerrila";
 			type="Empty";
-			angle=13.296578;
+			angle=13.296577;
 			id=1110;
 			atlOffset=92.619263;
 		};
@@ -35186,7 +35186,7 @@ class Mission
 			position[]={3708.01,1.00458,14448.282};
 			name="respawn_west";
 			type="Empty";
-			angle=13.296578;
+			angle=13.296577;
 			id=11302;
 		};
 		class Item567
@@ -35467,7 +35467,7 @@ class Mission
 			text="@STR_MAR_Boat_Spawn";
 			type="Empty";
 			colorName="ColorOrange";
-			angle=253.58496;
+			angle=253.58495;
 			id=11315;
 			atlOffset=3.0662348;
 		};
@@ -41792,6 +41792,7 @@ class Mission
 			};
 			id=11988;
 			type="Land_Atm_02_F";
+			atlOffset=0.13579655;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -44642,7 +44643,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="this allowDamage false; " \n "this enableSimulation false; " \n "this addAction[localize""STR_MAR_EMS_Item_Shop"",life_fnc_weaponShopMenu,""med_basic""]; " \n "this addAction[localize""STR_Shops_Market"",life_fnc_virt_menu,""med_market"",1.5,false,false,"""",' isNull objectParent player && player distance _target < 5 && playerSide == independent '];this addAction[localize""STR_MAR_EMS_Clothing_Shop"",life_fnc_clothingMenu,""med_clothing""]; ";
+				init="this enableSimulation false; this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""adacAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""adacAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""adacAir"",0,false,false,"""",' !license_adac_adacAir && playerSide == east ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""adacCar"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""adacCar"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""adacCar"",0,false,false,"""",' !license_adac_adacCar && playerSide == east ']; this addAction[localize""STR_MAR_Adac_Item_Shop"",life_fnc_weaponShopMenu,""adac_basic""]; this addAction[localize""STR_MAR_Adac_Clothing_Shop"",life_fnc_clothingMenu,""adac_clothing""]; this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""adac"",east,""adac_car_1"",""adac"",""ADAC Kavala""]]; this addAction[localize""STR_MAR_Helicopter_Shop"", life_fnc_vehicleShopMenu,[""adac_air_hs"",east,""adac_air_1"",""adac"",""ADAC Kavala""]]; this addAction[localize""STR_MAR_W_Car_Garage"", { [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2]; createDialog ""Life_impound_menu""; disableSerialization; ctrlSetText[2802,""Fahrzeug einparken""]; life_garage_sp = ""adac_car_1""; life_garage_type = ""Car""; },"""",0,false,false,"""",'playerSide == east']; this addAction[localize""STR_MAR_Helicopter_Garage"", { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2]; createDialog ""Life_impound_menu""; disableSerialization; ctrlSetText[2802,""Fahrzeug einparken""]; life_garage_sp = ""adac_air_1""; life_garage_type = ""Air""; },"""",0,false,false,"""",'playerSide == east ']; this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 			};
 			id=12397;
 			type="Land_InfoStand_Shop";
@@ -44716,7 +44717,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={9174.9775,26.234131,10147.226};
-			name="adac_car";
+			name="adac_car_1";
 			type="Empty";
 			angle=252.67197;
 			id=12410;
@@ -66433,7 +66434,7 @@ class Mission
 			text="@STR_MAR_Boat_Spawn";
 			type="Empty";
 			colorName="ColorOrange";
-			angle=253.58496;
+			angle=253.58495;
 			id=13827;
 			atlOffset=6.6364121;
 		};
@@ -66496,7 +66497,7 @@ class Mission
 			text="@STR_MAR_Boat_Spawn";
 			type="Empty";
 			colorName="ColorOrange";
-			angle=241.20494;
+			angle=241.20493;
 			id=13832;
 			atlOffset=-1.2375096e+019;
 		};
@@ -66560,7 +66561,7 @@ class Mission
 			text="@STR_MAR_Boat_Spawn";
 			type="Empty";
 			colorName="ColorOrange";
-			angle=353.27194;
+			angle=353.27191;
 			id=13835;
 			atlOffset=8.4011917;
 		};
@@ -67049,7 +67050,7 @@ class Mission
 			text="@STR_MAR_Boat_Spawn";
 			type="Empty";
 			colorName="ColorOrange";
-			angle=45.640991;
+			angle=45.640987;
 			id=13864;
 			atlOffset=-1.2371577e+019;
 		};
@@ -69281,6 +69282,26 @@ class Mission
 			angle=70.904999;
 			id=13926;
 			atlOffset=10.804724;
+		};
+		class Item1883
+		{
+			dataType="Marker";
+			position[]={9192.8984,-1.5877632e+010,10151.271};
+			name="adac_spawn_1";
+			type="Empty";
+			angle=252.67198;
+			id=13927;
+			atlOffset=-1.5877632e+010;
+		};
+		class Item1884
+		{
+			dataType="Marker";
+			position[]={9123.5996,-1.5874339e+010,10170.88};
+			name="adac_air_1";
+			type="Empty";
+			angle=252.67198;
+			id=13928;
+			atlOffset=-1.5874339e+010;
 		};
 	};
 };

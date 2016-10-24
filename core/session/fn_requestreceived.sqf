@@ -54,6 +54,7 @@ switch(playerSide) do {
 	case west: {
 		CONST(life_coplevel, parseNumber(SEL(_this,7)));
 		CONST(life_medicLevel,0);
+		CONST(life_adaclevel, 0);
 		life_blacklisted = SEL(_this,9);
 		if(EQUAL(LIFE_SETTINGS(getNumber,"save_playerStats"),1)) then {
 			life_hunger = SEL(SEL(_this,10),0);
@@ -67,6 +68,7 @@ switch(playerSide) do {
 		life_wanted = SEL(_this,13);
 		CONST(life_coplevel, 0);
 		CONST(life_medicLevel, 0);
+		CONST(life_adaclevel, 0);
 		life_houses = SEL(_this,14);
 		if(EQUAL(LIFE_SETTINGS(getNumber,"save_playerStats"),1)) then {
 			life_hunger = SEL(SEL(_this,9),0);
@@ -99,12 +101,25 @@ switch(playerSide) do {
 	case independent: {
 		CONST(life_medicLevel, parseNumber(SEL(_this,7)));
 		CONST(life_coplevel,0);
+		CONST(life_adaclevel, 0);
 		if(EQUAL(LIFE_SETTINGS(getNumber,"save_playerStats"),1)) then {
 			life_hunger = SEL(SEL(_this,9),0);
 			life_thirst = SEL(SEL(_this,9),1);
 			player setDamage SEL(SEL(_this,9),2);
 		};
 	};
+	
+	case east: {
+		CONST(life_adaclevel, parseNumber(SEL(_this,7)));
+		CONST(life_coplevel,0);
+		CONST(life_medicLevel, 0);
+		if(EQUAL(LIFE_SETTINGS(getNumber,"save_playerStats"),1)) then {
+			life_hunger = SEL(SEL(_this,9),0);
+			life_thirst = SEL(SEL(_this,9),1);
+			player setDamage SEL(SEL(_this,9),2);
+		};
+	};
+	
 };
 
 if(count (SEL(_this,16)) > 0) then {

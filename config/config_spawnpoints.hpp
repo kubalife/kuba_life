@@ -159,4 +159,13 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
     };
+	class adac {
+        class Kavala {
+            displayName = "ADC Headquarter";
+            spawnMarker = "adac_spawn_1";
+            icon = "icons\medspawn.paa";
+            licenses[] = { { "", true } };
+            level[] = { "", "", -1 };
+        };
+    };
 };

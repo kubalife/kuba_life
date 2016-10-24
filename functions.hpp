@@ -382,6 +382,7 @@ class Ausweis
 		class seizeObjects {};
 		class masked {};
 		class markers {};
+		class emptyFuel {};
 	};
 
 	class Gangs	{

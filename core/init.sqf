@@ -46,8 +46,8 @@ switch (playerSide) do {
 		life_paycheck = LIFE_SETTINGS(getNumber,"paycheck_med");
 	};
 	case east: {
-	BANK = LIFE_SETTINGS(getNumber,"bank_adac");
-	life_paycheck = LIFE_SETTINGS(getNumber,"paycheck_adac");
+		BANK = LIFE_SETTINGS(getNumber,"bank_adac");
+		life_paycheck = LIFE_SETTINGS(getNumber,"paycheck_adac");
 	};
 };
 
