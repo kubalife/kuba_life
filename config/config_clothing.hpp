@@ -584,7 +584,7 @@ class Clothing {
             { "fireoff_uni", "", 0, { "", "", -1 } },
             { "emsoff_uni", "", 0, { "", "", -1 } },
             { "CUP_U_C_Labcoat_01", "Doktor Uniform", 0, { "", "", -1 } },
-            { "vvv_hazmat", "HAZMAT-Anzug", 0, { "", "", -1 } }
+            { "vvv_hazmat", "HAZMAT-Anzug", 0, { "life_medicLevel", "SCALAR", 4 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
