@@ -564,16 +564,38 @@ class WeaponShops {
 
     //Adac Shops
     class adac_basic {
-        name = "ADAC Fundgrube";
+        name = "ADC Generalstore";
         side = "adac";
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "ItemGPS", "", 0, 0,"" },
+          //{ "Binocular", "", 150, -1, { "life_medlevel", 4 } },  BEISPIEL FÜR LEVELABFRAGE WENN NÖTIG
             { "Binocular", "", 0, -1,"" },
-            { "ToolKit", "", 0, 0,"" },
-            { "FirstAidKit", "", 0, 0,"" },
-            { "NVGoggles", "", 0, 0,"" }
+            { "Rangefinder", "", 0, -1,"" },
+            { "NVGoggles", "", 0, 0,"" },
+            { "ItemGPS", "", 0, 0,"" },
+            { "ItemMap", "", 0, 0,"" },
+            { "ItemCompass", "", 0, 0,"" },
+            { "ItemWatch", "", 0, 0,"" },
+            {""},
+            { "pmc_earpiece", "", 0, 0,"" },
+            { "tf_anprc152", "", 0, 0,"" },
+            { "tf_fadak", "", 0, 0,"" },
+            { "ACE_EarPlugs", "", 0, 0,"" },
+            {""},
+            { "ACE_fieldDressing", "", 0, 0,"" },
+            { "ACE_elasticBandage", "", 0, 0,"" },
+            { "ACE_packingBandage", "", 0, 0,"" },
+            { "ACE_Wheel", "", 0, 0,"" },
+			{""},
+            { "Chemlight_red", "", 0, -1,"" },
+            { "Chemlight_yellow", "", 0, 0,"" },
+            { "Chemlight_green", "", 0, 0,"" },
+            { "Chemlight_blue", "", 0, 0,"" },
+            { "ACE_HandFlare_White", "", 0, 0,"" },
+            { "ACE_HandFlare_Red", "", 0, 0,"" },
+            { "ACE_HandFlare_Green", "", 0, 0,"" },
+            { "ACE_HandFlare_Yellow", "", 0, 0,"" }
         };
         mags[] = {};
     };

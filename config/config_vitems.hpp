@@ -165,7 +165,7 @@ class VirtualShops {
 		side = "adac";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "donuts", "coffee", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defibrillator" };
+		items[] = { "waterBottle", "rabbit", "apple", "peach", "redgull", "tbacon", "toolkit", "lockpick","fuelFull", "defibrillator", "lockpick" };
     };
 
 };

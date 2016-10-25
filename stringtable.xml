@@ -71,7 +71,7 @@
 			<Original>Policia Gegenstände</Original>
 		</Key>
 		<Key ID="STR_Shops_Adac">
-			<Original>TAC Item Shop</Original>
+			<Original>ADC Item Laden</Original>
 		</Key>
 		<Key ID="STR_Shops_Cement">
 			<Original>Juan's Cement Laying</Original>
@@ -1198,12 +1198,7 @@
 			<Polish>MEDYK</Polish>
 		</Key>
 		<Key ID="STR_CELL_AdacRequest">
-			<Original>TAC</Original>
-			<German>TAC Notruf</German>
-			<French>ADAC</French>
-			<Italian>ADAC</Italian>
-			<Portuguese>ADAC</Portuguese>
-			<Polish>ADAC</Polish>
+			<Original>ADC Notruf</Original>
 		</Key>
 
 	</Package>
@@ -3546,12 +3541,7 @@
 			<Polish>Nie jesteś policjantem</Polish>
 		</Key>
 		<Key ID="STR_Shop_NotaAdac">
-			<Original>You need to be a TAC to use this store!</Original>
-			<German>Du musst ein TAC sein, um diesen Shop nutzen zu können!</German>
-			<French>Vous devez être une voiture à utiliser ce magasin peut!</French>
-			<Italian>Si deve essere una cabina di utilizzare questo negozio può!</Italian>
-			<Portuguese>Você deve ser um carro para usar esta loja lata!</Portuguese>
-			<Polish>Musisz mieć samochód, aby skorzystać z tej sklepie można!</Polish>
+			<Original>Du musst Autoclub Mitarbeiter sein um diesen Shop nutzen zu können!</Original>
 		</Key>
 		<Key ID="STR_NOTF_NoRoom">
 			<Original>You don't have enough room for that item.</Original>
@@ -9941,10 +9931,7 @@
 			<Polish>Wyposażenie medyczne</Polish>
 		</Key>
 		<Key ID="STR_MAR_Adac_Item_Shop">
-			<Original>TAC Item Shop</Original>
-			<German>TAC Ausrüstung</German>
-			<Portuguese>Loja de Items ADAC</Portuguese>
-			<Polish>Wyposażenie ADAC</Polish>
+			<Original>ADC Ausrüstung</Original>
 		</Key>
 		<Key ID="STR_MAR_EMS_Clothing_Shop">
 			<Original>EMS Clothing Shop</Original>
@@ -9958,10 +9945,7 @@
 			<Polish>Sklep odzieżowy EMS</Polish>
 		</Key>
 		<Key ID="STR_MAR_Adac_Clothing_Shop">
-			<Original>TAC Clothing Shop</Original>
-			<German>TAC Kleidungsladen</German>
-			<Portuguese>ADAC Roupa Loja</Portuguese>
-			<Polish>Sklep odzieżowy ADAC</Polish>
+			<Original>ADC Klamottenladen</Original>
 		</Key>
 		<Key ID="STR_MAR_Helicopter_Garage">
 			<Original>Helicopter Garage</Original>
