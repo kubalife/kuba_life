@@ -156,10 +156,10 @@ life_oldClothes = uniform player;
 // Uniform Items speichern
 life_olduniformItems = [];
 {
-	if(!(_x in _acecheck)) then
-	{
+	//if(!(_x in _acecheck)) then
+	//{
 		life_olduniformItems pushBack _x;
-	};
+	//};
 }foreach uniformItems player;
 life_oldBackpack = backpack player;
 life_oldVest = vest player;
