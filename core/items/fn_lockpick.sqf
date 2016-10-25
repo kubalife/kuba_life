@@ -88,7 +88,7 @@ if(!_isVehicle) then {
 	_curTarget SVAR ["transporting",false,true];
 } else {
 	_dice = random(100);
-	if(playerSide==west || playerSide==independent || playerSide==east)then {_dice=1;};  //100% lockpicks für alle ausser civs :P
+	if!(playerSide==civilian)then {_dice=1;};  //100% lockpicks für alle ausser civs :P
 	if(_dice < 30) then {
 		titleText[localize "STR_ISTR_Lock_Success","PLAIN"];
 		life_vehicles pushBack _curTarget;
