@@ -167,18 +167,18 @@ life_oldVest = vest player;
 // Weste Items speichern
 life_oldVestItems = [];
 {
-	if(!(_x in _acecheck)) then
-	{
+//	if(!(_x in _acecheck)) then
+//	{
 		life_oldVestItems pushBack _x;
-	};
+//	};
 }foreach vestItems player;
 // Rucksack Items speichern
 life_oldBackpackItems = [];
 {
-	if(!(_x in _acecheck)) then
-	{
+//	if(!(_x in _acecheck)) then
+//	{
 		life_oldBackpackItems pushBack _x;
-	};
+//	};
 }foreach backpackItems player;
 life_oldGlasses = goggles player;
 life_oldHat = headgear player;
