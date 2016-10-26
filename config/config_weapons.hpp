@@ -557,8 +557,8 @@ class WeaponShops {
         };
     };
 
-    class adac_basic {                       /////           ADC              /////
-        name = "ADAC Fundgrube";
+/*    class adac_basic {                       /////           ADC              /////
+        name = "ADAC Fundgrube";*/
     //Adac Shops
     class adac_basic {
         name = "ADC Generalstore";
