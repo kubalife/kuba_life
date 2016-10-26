@@ -580,6 +580,9 @@ class Life_Settings {
     vehicle_infiniteRepair = false; //Set to true for unlimited repairs with 1 toolkit. False will remove toolkit upon use.
     vehicleShop_rentalOnly[] = {
         "DAR_ImpalaPolice",
+        "A3L_CVPIFPBLBPD",
+        "B_T_LSV_01_unarmed_F"
+        "Mrshounka_rs4_gend_p_noir"
         "GeK_Renault_Trafic_Police",
         "A3L_SuburbanUM",
         "A3L_Suburban",
@@ -595,6 +598,7 @@ class Life_Settings {
         "Navara_Policia",
         "GeK_Yukon_Police",
         "GeK_TLC100_Police",
+        "policia_helicopter1"
         "cnp_Iveco_GOIT",
         "shounka_a3_suburbangign",
         "B_Heli_Light_01_F",

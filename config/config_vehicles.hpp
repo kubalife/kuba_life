@@ -488,7 +488,7 @@ class CarShops {
         vehicles[] = {
  			{ "DAR_ImpalaPolice", { "life_coplevel", "SCALAR", 1 } },            // Impala
 			{ "A3L_CVPIFPBLBPD", { "life_coplevel", "SCALAR", 1 } },             // CVPI Copskin
-            //{ "GeK_Renault_Trafic_Police", { "life_coplevel", "SCALAR", 1 } }, // Renault kleinbus Lightbar geht nicht
+            { "GeK_Renault_Trafic_Police", { "life_coplevel", "SCALAR", 1 } },   // Renault kleinbus Lightbar geht nicht
 			{ "A3L_SuburbanUM", { "life_coplevel", "SCALAR", 2 } },              // Suburban
 			//{ "A3L_Suburban", { "life_coplevel", "SCALAR", 2 } },      	     // Suburban Lightbar geht nicht
 			{ "ivory_wrx_slicktop", { "life_coplevel", "SCALAR", 2 } },          // Impreza ohne Lightbar
@@ -503,16 +503,18 @@ class CarShops {
 			{ "cnp_Iveco_GOIT", { "life_coplevel", "SCALAR", 2 } },				 // Iveco Truck
 			{ "shounka_a3_suburbangign", { "life_coplevel", "SCALAR", 2 } },	 // Suburban Leiterwagen
     	    { "Mrshounka_rs4_gend_p_noir", { "life_coplevel", "SCALAR", 3 } },	 // Audi Undercover
-            { "B_T_LSV_01_unarmed_F", { "life_coplevel", "SCALAR", 8 } }		 // Prowler
+            { "B_T_LSV_01_unarmed_F", { "life_coplevel", "SCALAR", 5 } }		 // Prowler
         };
     };
 
     class cop_air {
         side = "cop";
         vehicles[] = {
-            { "B_Heli_Light_01_F", { "life_coplevel", "SCALAR", 2 } },
-            { "I_Heli_light_03_unarmed_F", { "life_coplevel", "SCALAR", 6 } },    // Helcat kein Skin
-            { "B_Heli_Transport_01_F", { "life_coplevel", "SCALAR", 7 } }	      // GhostHawk kein Skin
+            { "B_Heli_Light_01_F", { "life_coplevel", "SCALAR", 2 } },                  // Hummingbird
+            { "policia_helicopter1", { "life_coplevel", "SCALAR", 3 } },                // Orca
+            { "C_hh60j_unarmed_F", { "life_coplevel", "SCALAR", 4 } },                  // Küstenwache
+            { "I_Heli_light_03_unarmed_F", { "life_coplevel", "SCALAR", 5 } },          // Helcat kein Skin
+            { "B_CTRG_Heli_Transport_01_tropic_F", { "life_coplevel", "SCALAR", 6 } }	// GhostHawk kein Skin
         };
     };
 
@@ -4588,7 +4590,11 @@ class LifeCfgVehicles {
         vItemSpace = 100;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 5000;
-        textures[] = { };
+        textures[] = { 
+         { "Cop", "cop", {
+		   "\ivory_wrx\data\st.paa"
+			} }
+        };
     };
 	class ivory_wrx_marked {
         vItemSpace = 100;
@@ -4685,6 +4691,18 @@ class LifeCfgVehicles {
         textures[] = { };
     };
 	class cg_h2_sert {
+        vItemSpace = 100;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 5000;
+        textures[] = { };
+    };
+    	class Mrshounka_rs4_gend_p_noir {
+        vItemSpace = 100;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 5000;
+        textures[] = { };
+    };
+    	class B_T_LSV_01_unarmed_F {
         vItemSpace = 100;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 5000;

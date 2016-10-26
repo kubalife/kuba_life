@@ -381,9 +381,9 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-			{ "S_VHO_OV_BLK_2", "", 0, { "", "", -1 } },
+			//{ "S_VHO_OV_BLK_2", "", 0, { "", "", -1 } },                      // Umskinen 
 			{ "policia_sniper_vest", "", 0, { "", "", -1 } },
-			{ "S_VHO_OV_95_2", "", 0, { "", "", 3 } },
+			{ "S_VHO_OV_95_2", "", 0, { "life_coplevel", "SCALAR", 3 } },
 			{ "policia_geo_vest", "", 0, { "life_coplevel", "SCALAR", 5 } }
         };
         backpacks[] = {

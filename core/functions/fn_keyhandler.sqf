@@ -282,7 +282,8 @@ case 19: {
 			"C_Offroad_01_F","B_MRAP_01_F","C_SUV_01_F","C_Hatchback_01_sport_F",
 			"B_Heli_Light_01_F","B_Heli_Transport_01_F","DAR_ImpalaPolice","A3L_CVPIFPBLBPD",
 			"GeK_Renault_Trafic_Police","A3L_SuburbanUM","A3L_Suburban","ivory_wrx_slicktop",
-			"ivory_wrx_marked","ivory_wrx_unmarked","77FuryCop","cg_h2_sert","Navara_Policia",
+			"ivory_wrx_marked","ivory_wrx_unmarked","77FuryCop","GeK_Yukon_Police","cg_h2_sert",
+			"Navara_Policia",
 			//Medics
 			"A3L_CVPILBFD","Jonzie_Ambulance"]) 
 			then {
