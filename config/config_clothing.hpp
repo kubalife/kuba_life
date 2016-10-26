@@ -324,21 +324,26 @@ class Clothing {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
             { "Sheriff_rang1", "Cadet", 0, { "life_coplevel", "SCALAR", 1 } }, //Cadet
 			{ "Sheriff_rang2", "Officer", 0, { "life_coplevel", "SCALAR", 2 } }, //Officer
-			{ "Sheriff_rang3", "Detective", 0, { "life_coplevel", "SCALAR", 3 } }, //Detective
+			{ "Sheriff_rang3", "Detective", 0, { "life_coplevel", "SCALAR", 3 } }, //Senior Officer
 			{ "Sheriff_rang4", "Seargent", 0, { "life_coplevel", "SCALAR", 4 } }, //Seargent
 			{ "Sheriff_rang5", "Lieutenant", 0, { "life_coplevel", "SCALAR", 5 } }, //Lieutenent
 			{ "Sheriff_rang6", "Captain", 0, { "life_coplevel", "SCALAR", 6 } }, //Captain
 			{ "Sheriff_rang7", "Major", 0, { "life_coplevel", "SCALAR", 7 } }, //Major
-			{ "Sheriff_rang9", "Ass. Chief", 0, { "life_coplevel", "SCALAR", 8 } }, //Ass. Chief
-			{ "Sheriff_rang10", "Chief", 0, { "life_coplevel", "SCALAR", 9 } }, //Chief
+			{ "Sheriff_rang9", "Ass. Chief", 0, { "life_coplevel", "SCALAR", 9 } }, //Ass. Chief
+			{ "Sheriff_rang10", "Chief", 0, { "life_coplevel", "SCALAR", 10 } }, //Chief
 			{ "U_B_Wetsuit", "Taucheranzug", 0, { "life_coplevel", "SCALAR", 1 } },
-			{ "U_B_T_Soldier_SL_F", "Duschungel Policia", 0, { "life_coplevel", "SCALAR", 4 } },            
-			{ "policia_geo_man_uniform", "Stadt Policia", 0, { "life_coplevel", "SCALAR", 4 } }
+            { "CG_SO1", "Sheriff", 0, { "life_coplevel", "SCALAR", 3 } }, // Sheriff
+            { "Sheriff_rang11", "Sheriff", 0, { "life_coplevel", "SCALAR", 9 } }, // Sheriff
+            { "Sheriff_rang12", "Sheriff", 0, { "life_coplevel", "SCALAR", 10 } }, // Sheriff
+			{ "U_B_T_Soldier_SL_F", "Duschungel Policia", 0, { "life_coplevel", "SCALAR", 5 } },            
+			{ "policia_geo_man_uniform", "City Policia", 0, { "life_coplevel", "SCALAR", 5 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
-            { "H_Beret_gen_F", "", 0, { "", "", -1 } },
-            { "casco_cnp_protec", "", 0, { "", "", 4 } }
+            { "policia_uip_cap", "Cadet", 0, { "", "", -1 } },           
+            { "CUP_H_C_Policecap_01", "", 0, { "life_coplevel", "SCALAR", 2 } },
+            { "Campaign_Hat_Light", "", 0, { "life_coplevel", "SCALAR", 3 } },           
+            { "H_Beret_gen_F", "Cadet", 0, { "life_coplevel", "SCALAR", 5 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -369,19 +374,17 @@ class Clothing {
             { "G_Diving", "", 0, { "", "", -1 } },
             { "G_Spectacles", "", 0, { "", "", -1 } },
             { "G_Spectacles_Tinted", "", 0, { "", "", -1 } },
-			{ "Mask_M40", "", 0, { "life_coplevel", "SCALAR", -1 } },
-            { "G_Balaclava_TI_G_tna_F", "", 0, { "life_coplevel", "SCALAR", -1 } },
-            { "G_Balaclava_TI_blk_F", "", 0, { "life_coplevel", "SCALAR", -1 } },
+			{ "Mask_M40", "", 0, { "", "", -1 } },
+            { "G_Balaclava_TI_G_tna_F", "", 0, { "", "", -1 } },
+            { "G_Balaclava_TI_blk_F", "", 0, { "", "", -1 } },
             { "TRYK_US_ESS_Glasses_BLK", "", 0, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-			{ "policia_vest", "", 0, { "", "", -1 } },
+			{ "S_VHO_OV_BLK_2", "", 0, { "", "", -1 } },
 			{ "policia_sniper_vest", "", 0, { "", "", -1 } },
-			{ "cnp_vest_reflec", "", 0, { "", "", -1 } },
-			{ "uip_vest_pol", "", 0, { "", "", -1 } },
-			{ "V_RebreatherB", "", 0, { "", "", -1 } },
-			{ "policia_geo_vest", "", 0, { "", "", 4 } }
+			{ "S_VHO_OV_95_2", "", 0, { "", "", 3 } },
+			{ "policia_geo_vest", "", 0, { "life_coplevel", "SCALAR", 5 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },

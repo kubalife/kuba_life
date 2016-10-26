@@ -501,7 +501,9 @@ class CarShops {
             { "GeK_Yukon_Police", { "life_coplevel", "SCALAR", 2 } },	         // GMC Yukon Lightbar geht nicht
 			//{ "GeK_TLC100_Police", { "life_coplevel", "SCALAR", 2 } },         // TLC100 kein Skin
 			{ "cnp_Iveco_GOIT", { "life_coplevel", "SCALAR", 2 } },				 // Iveco Truck
-			{ "shounka_a3_suburbangign", { "life_coplevel", "SCALAR", 2 } }		 // Suburban Leiterwagen
+			{ "shounka_a3_suburbangign", { "life_coplevel", "SCALAR", 2 } },	 // Suburban Leiterwagen
+    	    { "Mrshounka_rs4_gend_p_noir", { "life_coplevel", "SCALAR", 3 } },	 // Audi Undercover
+            { "B_T_LSV_01_unarmed_F", { "life_coplevel", "SCALAR", 8 } }		 // Prowler
         };
     };
 
@@ -509,8 +511,8 @@ class CarShops {
         side = "cop";
         vehicles[] = {
             { "B_Heli_Light_01_F", { "life_coplevel", "SCALAR", 2 } }
-            //{ "I_Heli_light_03_unarmed_F", { "life_coplevel", "SCALAR", 6 } },  // Helcat kein Skin
-            //{ "B_Heli_Transport_01_F", { "life_coplevel", "SCALAR", 7 } }	      // GhostHawk kein Skin
+            { "I_Heli_light_03_unarmed_F", { "life_coplevel", "SCALAR", 6 } },    // Helcat kein Skin
+            { "B_Heli_Transport_01_F", { "life_coplevel", "SCALAR", 7 } }	      // GhostHawk kein Skin
         };
     };
 
@@ -4592,7 +4594,11 @@ class LifeCfgVehicles {
         vItemSpace = 100;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 5000;
-        textures[] = { };
+        textures[] = { 
+         { "Cop", "cop", {
+		   "\ivory_wrx\data\st.paa"
+			} }
+        };
     };
 	class A3L_jailBus {
         vItemSpace = 100;
@@ -5624,18 +5630,5 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 30000;
         textures[] = {};
     };
-
-
-	class ivory_wrx_marked {
-		vItemSpace = 50;
-		vFuelSpace = 999999;
-		licenses[] = { {""}, {""}, {""}, {""} };
-		price = 1;
-		textures[] = {
-			{ "Cop", "cop", {
-				"\ivory_wrx\data\st.paa"
-			} }
-		};
-	};
 };
 //ommsen

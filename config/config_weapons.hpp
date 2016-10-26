@@ -16,7 +16,7 @@
 */
 class WeaponShops {
     //Armory Shops
-    class gun {
+    class gun {                     /////           GUN             /////
         name = "Billy Joe's Firearms";
         side = "civ";
         license = "gun";
@@ -46,7 +46,7 @@ class WeaponShops {
         };
     };
 
-    class donator1 {
+    class donator1 {                     /////           Donator 1             /////
         name = "Nicht gewollt";
         side = "civ";
         license = "rebel";
@@ -60,7 +60,7 @@ class WeaponShops {
         };
     };
 
-    class donator2 {
+    class donator2 {                     /////           Donator 2              /////
         name = "Nicht gewollt";
         side = "civ";
         license = "rebel";
@@ -74,7 +74,7 @@ class WeaponShops {
         };
     };
 
-    class donator3 {
+    class donator3 {                     /////           Donator 3             /////
         name = "Nicht gewollt";
         side = "civ";
         license = "rebel";
@@ -88,7 +88,7 @@ class WeaponShops {
         };
     };
 
-    class rebel {
+    class rebel {                        /////           Rebel             /////
         name = "Almador's Waffenladen";
         side = "civ";
         license = "rebel";
@@ -140,7 +140,7 @@ class WeaponShops {
         };
     };
 
-    class gang {
+    class gang {                         /////           Gang             /////
         name = "Gangversteck Waffenladen";
         side = "civ";
         license = "";
@@ -171,7 +171,7 @@ class WeaponShops {
         };
     };
 
-    class bandit {
+    class bandit {                       /////           Bandit             /////
         name = "Banditen Waffenladen";
         side = "civ";
         license = "bandit";
@@ -203,7 +203,7 @@ class WeaponShops {
     };
 
     //Basic Shops
-    class genstore {
+    class genstore {                         /////           General Store             /////
         name = "Kubanische Werkzeuge";
         side = "civ";
         license = "";
@@ -240,7 +240,7 @@ class WeaponShops {
         accs[] = {};
     };
 
-    class f_station_store {
+    class f_station_store {                      /////           Tankstelle             /////
         name = "Kuba Fuel Shop";
         side = "";
         license = "";
@@ -274,37 +274,27 @@ class WeaponShops {
     };
 
     //Cop Shops
-    class cop_basic {
+    class cop_basic {                        /////           Polizei             /////
         name = "Policia Weapon Shop";
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "DDOPP_X26", "Tazer Gelb", 0, 0"" },
-            { "DDOPP_X26_b", "Tazer Schwarz", 0, 0,"" },
-			{ "Radar_Gun", "Radar Pistole", 0, 0,"" },
-            { "uns_m1911", "", 0, 0,"" },
-            { "SMG_05_F", "", 0, 0, { "life_coplevel", 1 } },           //Rekrut
-            {""},
-            { "uns_xm177e2_short", "", 0, 0, { "life_coplevel", 2 } },  //Officer
-            {""},
-            { "uns_xm177e1_dm", "", 0, 0, { "life_coplevel", 3 } },         //Detective
-            { "uns_xm177e2", "", 0, 0, { "life_coplevel", 3 } },            //Detective
-            { "uns_xm177e2_grip", "", 0, 0, { "life_coplevel", 3 } },   //Detective
-            {""},
-            { "uns_m16", "", 0, 0, { "life_coplevel", 4 } },                //Seargent
-            { "uns_m16_m203", "", 0, 0, { "life_coplevel", 4 } },       //Seargent
-            { "uns_m870", "", 0, 0, { "life_coplevel", 4 } },           //Seargent
-            {""},
-            { "uns_M16A1", "", 0, 0, { "life_coplevel", 5 } },          //Lieutenant
-            { "uns_M16A1_m203", "", 0, 0, { "life_coplevel", 5 } },     //Lieutenant
-            { "uns_M16A1", "", 0, 0, { "life_coplevel", 5 } },          //Lieutenant
-            {""},
-            { "uns_M63a_AR", "", 0, 0, { "life_coplevel", 6 } },            //Captain
-            { "uns_m14", "", 0, 0, { "life_coplevel", 6 } },                //Captain
-            {""},
-            { "uns_l1a1", "", 0, 0, { "life_coplevel", 7 } },           //Major
-            { "uns_l1a1gl", "", 0, 0, { "life_coplevel", 7 } },         //Major
+            { "DDOPP_X26", "Tazer Gelb", 0, 0"" },                          // Tazer Gelb
+            { "DDOPP_X26_b", "Tazer Schwarz", 0, 0,"" },                    // Tazer Schwarz
+			{ "Radar_Gun", "Radar Pistole", 0, 0,"" },                      // Radar Pistole
+            { "A3L_Glock17", "", 0, 0,"" },                                 // Glock17
+            {""},   // Cadet                
+            { "SMG_05_F", "", 0, 0, { "life_coplevel", 1 } },               // MP5           
+            {""},   // Officer
+            { "CUP_arifle_M4A1_black", "", 0, 0, { "life_coplevel", 2 } },  // M4A1  
+            {""},   // Senior Officer
+            { "arifle_SPAR_01_blk_F", "", 0, 0, { "life_coplevel", 3 } },   // HK 416        
+            {""},   // Sergeant
+            { "arifle_MX_Black_F", "", 0, 0, { "life_coplevel", 4 } },      // MX                           
+            {""},   // Lieutenant
+            { "CUP_arifle_Mk16_STD_SFG", "", 0, 0, { "life_coplevel", 5 } },// MK16           
+            { "benelli_pgs", "", 0, 0, { "life_coplevel", 5 } },            // Benelli             
             {""},
             { "pmc_earpiece", "", 0, 0,"" },
             { "tf_anprc152", "", 0, 0,"" },
@@ -336,15 +326,15 @@ class WeaponShops {
             { "Chemlight_blue", "", 0, 0,"" }
         };
         mags[] = {
-            { "uns_12gaugemag_6", "", 0 },
-			{ "30Rnd_9x21_Mag_SMG_02", "", 0 },
-            { "DDOPP_6Rnd_X26", "X26 6 Schuss", 0 },
-            { "DDOPP_1Rnd_X26", "x26 1 Schuss", 0 },
-            { "uns_30Rnd_556x45_Stanag", "", 0 },
-            { "uns_m14mag", "", 0 },
-            { "uns_l1a1mag", "", 0 },
-            { "uns_m870mag", "", 0 },
-            { "uns_m1911mag", "", 0 }
+            { "A3L_Glock17mag", "", 0 },                // Glock17 Muni
+			{ "30Rnd_9x21_Mag_SMG_02", "", 0 },         // MP5 Muni
+            { "DDOPP_6Rnd_X26", "X26 6 Schuss", 0 },    // Tazer 6 Schuss Muni
+            { "DDOPP_1Rnd_X26", "x26 1 Schuss", 0 },    // Tazer 1 Schuss Muni
+            { "CUP_30Rnd_556x45_Stanag", "", 0 },       // M4A1 Muni
+            { "30Rnd_556x45_Stanag", "", 0 },           // HK416 Muni
+            { "30Rnd_65x39_caseless_mag", "", 0 },      // MX Muni
+            { "CUP_30Rnd_556x45_Stanag", "", 0 },       // MK 16 Muni
+            { "8Rnd_12Gauge_Pellets", "", 0 }           // Benelli Muni
         };
         accs[] = {
             { "acc_flashlight", "", 0 }
@@ -459,11 +449,16 @@ class WeaponShops {
         license = "swat";
         level[] = { "life_coplevel", "SCALAR", 3, "You must be atleast Sergeant rank and SWAT!" };
         items[] = {
+            { "CUP_arifle_Mk17_STD_SFG", "", 0, 0, { "life_coplevel", 1 } },               // MK17           
+            { "arifle_SPAR_03_blk_F", "", 0, 0, { "life_coplevel", 2 } },                  // HK417  
+            { "srifle_DMR_06_camo_F", "", 0, 0, { "life_coplevel", 3 } },                  // M14              
             { "HandGrenade_Stone", "Flashbang", 170, -1 },
             { "1Rnd_SmokeGreen_Grenade_shell", "Tear Gas", 150 }
         };
         mags[] = {
-
+            { "CUP_20Rnd_762x51_B_SCAR", "", 0 },       // MK 17 Muni
+			{ "20Rnd_762x51_Mag", "", 0 },              // HK 417
+            { "20Rnd_762x51_Mag", "", 0 },              // M14
         };
         accs[] = {
 
@@ -503,7 +498,7 @@ class WeaponShops {
     };
 */
     //Medic Shops
-    class med_basic {
+    class med_basic {                        /////           Medic             /////
         name = "Medical Rescue Service";
         side = "med";
         license = "";
@@ -562,6 +557,8 @@ class WeaponShops {
         };
     };
 
+    class adac_basic {                       /////           ADC              /////
+        name = "ADAC Fundgrube";
     //Adac Shops
     class adac_basic {
         name = "ADC Generalstore";
