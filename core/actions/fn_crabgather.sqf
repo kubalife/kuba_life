@@ -5,8 +5,8 @@
 private ["_boje","_boat","_timeboje","_depthboje","_ownerboje","_rope1","_rope2","_pot","_timedif","_meter","_krabben","_krabbensorte","_meinebo"];
 _boje=cursorObject;
 _meinebo=_boje getVariable "_meins";
-if (isNil "_meinebo") exitWith {hint "Die gehoert dir nicht!";};
-if(typeOf _boje == "Land_BuoyBig_F" && (player distance2D _boje) < 15) then
+if (typeOf _boje == "Land_BuoyBig_F" && isNil "_meinebo") exitWith {hint "Die gehoert dir nicht!";};
+if(typeOf _boje == "Land_BuoyBig_F" && (player distance2D _boje) < 20) then
 {
 	life_net_dropped = true;
 	_boat = vehicle player;
