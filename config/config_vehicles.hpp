@@ -501,20 +501,20 @@ class CarShops {
             { "GeK_Yukon_Police", { "life_coplevel", "SCALAR", 2 } },	         // GMC Yukon Lightbar geht nicht
 			//{ "GeK_TLC100_Police", { "life_coplevel", "SCALAR", 2 } },         // TLC100 kein Skin
 			{ "cnp_Iveco_GOIT", { "life_coplevel", "SCALAR", 2 } },				 // Iveco Truck
-			{ "shounka_a3_suburbangign", { "life_coplevel", "SCALAR", 2 } },	 // Suburban Leiterwagen
-    	    { "Mrshounka_rs4_gend_p_noir", { "life_coplevel", "SCALAR", 3 } },	 // Audi Undercover
-            { "B_T_LSV_01_unarmed_F", { "life_coplevel", "SCALAR", 5 } }		 // Prowler
+			{ "shounka_a3_suburbangign", { "life_coplevel", "SCALAR", 2 } }	 	// Suburban Leiterwagen
+    	    //{ "Mrshounka_rs4_gend_p_noir", { "life_coplevel", "SCALAR", 3 } },// Audi Undercover
+            //{ "B_T_LSV_01_unarmed_F", { "life_coplevel", "SCALAR", 5 } }		 // Prowler
         };
     };
 
     class cop_air {
         side = "cop";
         vehicles[] = {
-            { "B_Heli_Light_01_F", { "life_coplevel", "SCALAR", 2 } },                  // Hummingbird
-            { "policia_helicopter1", { "life_coplevel", "SCALAR", 3 } },                // Orca
-            { "C_hh60j_unarmed_F", { "life_coplevel", "SCALAR", 4 } },                  // Küstenwache
-            { "I_Heli_light_03_unarmed_F", { "life_coplevel", "SCALAR", 5 } },          // Helcat kein Skin
-            { "B_CTRG_Heli_Transport_01_tropic_F", { "life_coplevel", "SCALAR", 6 } }	// GhostHawk kein Skin
+            { "B_Heli_Light_01_F", { "life_coplevel", "SCALAR", 2 } }                  // Hummingbird
+            //{ "policia_helicopter1", { "life_coplevel", "SCALAR", 3 } },                // Orca
+            //{ "C_hh60j_unarmed_F", { "life_coplevel", "SCALAR", 4 } },                  // Küstenwache
+            //{ "I_Heli_light_03_unarmed_F", { "life_coplevel", "SCALAR", 5 } },          // Helcat kein Skin
+            //{ "B_CTRG_Heli_Transport_01_tropic_F", { "life_coplevel", "SCALAR", 6 } }	// GhostHawk kein Skin
         };
     };
 
@@ -3206,25 +3206,25 @@ class LifeCfgVehicles {
 	class CUP_B_MTVR_USMC {
         vItemSpace = 750;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
-        price = 70000;
+        price = 90000;
         textures[] = { };
     };
 	class CUP_B_MTVR_Ammo_USMC {
         vItemSpace = 750;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
-        price = 70000;
+        price = 90000;
         textures[] = { };
     };
 	class CUP_B_MTVR_Refuel_USMC {
         vItemSpace = 750;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
-        price = 70000;
+        price = 90000;
         textures[] = { };
     };
 	class CUP_B_MTVR_Repair_USMC {
         vItemSpace = 750;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
-        price = 70000;
+        price = 90000;
         textures[] = { };
     };
     /*

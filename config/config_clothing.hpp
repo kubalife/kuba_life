@@ -334,9 +334,9 @@ class Clothing {
 			{ "U_B_Wetsuit", "Taucheranzug", 0, { "life_coplevel", "SCALAR", 1 } },
             { "CG_SO1", "Sheriff", 0, { "life_coplevel", "SCALAR", 3 } }, // Sheriff
             { "Sheriff_rang11", "Sheriff", 0, { "life_coplevel", "SCALAR", 9 } }, // Sheriff
-            { "Sheriff_rang12", "Sheriff", 0, { "life_coplevel", "SCALAR", 10 } }, // Sheriff
-			{ "U_B_T_Soldier_SL_F", "Duschungel Policia", 0, { "life_coplevel", "SCALAR", 5 } },            
-			{ "policia_geo_man_uniform", "City Policia", 0, { "life_coplevel", "SCALAR", 5 } }
+            { "Sheriff_rang12", "Sheriff", 0, { "life_coplevel", "SCALAR", 10 } } // Sheriff
+			//{ "U_B_T_Soldier_SL_F", "Duschungel Policia", 0, { "life_coplevel", "SCALAR", 5 } },            
+			//{ "policia_geo_man_uniform", "City Policia", 0, { "life_coplevel", "SCALAR", 5 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -383,7 +383,7 @@ class Clothing {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
 			//{ "S_VHO_OV_BLK_2", "", 0, { "", "", -1 } },                      // Umskinen 
 			{ "policia_sniper_vest", "", 0, { "", "", -1 } },
-			{ "S_VHO_OV_95_2", "", 0, { "life_coplevel", "SCALAR", 3 } },
+			//{ "S_VHO_OV_95_2", "", 0, { "life_coplevel", "SCALAR", 3 } },
 			{ "policia_geo_vest", "", 0, { "life_coplevel", "SCALAR", 5 } }
         };
         backpacks[] = {

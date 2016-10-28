@@ -289,11 +289,11 @@ class WeaponShops {
             {""},   // Officer
             { "CUP_arifle_M4A1_black", "", 0, 0, { "life_coplevel", 2 } },  // M4A1  
             {""},   // Senior Officer
-            { "arifle_SPAR_01_blk_F", "", 0, 0, { "life_coplevel", 3 } },   // HK 416        
+            //{ "arifle_SPAR_01_blk_F", "", 0, 0, { "life_coplevel", 3 } },   // HK 416        
             {""},   // Sergeant
-            { "arifle_MX_Black_F", "", 0, 0, { "life_coplevel", 4 } },      // MX                           
+            //{ "arifle_MX_Black_F", "", 0, 0, { "life_coplevel", 4 } },      // MX                           
             {""},   // Lieutenant
-            { "CUP_arifle_Mk16_STD_SFG", "", 0, 0, { "life_coplevel", 5 } },// MK16           
+            //{ "CUP_arifle_Mk16_STD_SFG", "", 0, 0, { "life_coplevel", 5 } },// MK16           
             { "benelli_pgs", "", 0, 0, { "life_coplevel", 5 } },            // Benelli             
             {""},
             { "pmc_earpiece", "", 0, 0,"" },
@@ -331,9 +331,9 @@ class WeaponShops {
             { "DDOPP_6Rnd_X26", "X26 6 Schuss", 0 },    // Tazer 6 Schuss Muni
             { "DDOPP_1Rnd_X26", "x26 1 Schuss", 0 },    // Tazer 1 Schuss Muni
             { "CUP_30Rnd_556x45_Stanag", "", 0 },       // M4A1 Muni
-            { "30Rnd_556x45_Stanag", "", 0 },           // HK416 Muni
-            { "30Rnd_65x39_caseless_mag", "", 0 },      // MX Muni
-            { "CUP_30Rnd_556x45_Stanag", "", 0 },       // MK 16 Muni
+            //{ "30Rnd_556x45_Stanag", "", 0 },           // HK416 Muni
+            //{ "30Rnd_65x39_caseless_mag", "", 0 },      // MX Muni
+            //{ "CUP_30Rnd_556x45_Stanag", "", 0 },       // MK 16 Muni
             { "8Rnd_12Gauge_Pellets", "", 0 }           // Benelli Muni
         };
         accs[] = {
