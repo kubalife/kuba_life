@@ -70,16 +70,11 @@ _unit spawn {
 */
 _unit spawn
 {
-	private["_maxTime","_RespawnBtn","_Timer","_medics"];
+	private["_maxTime","_RespawnBtn","_Timer"];
 	disableSerialization;
-	_medics = (independent countSide playableUnits);
 	_RespawnBtn = ((findDisplay 7300) displayCtrl 7302);
 	_Timer = ((findDisplay 7300) displayCtrl 7301);
-	if(_medics > 0) then { 			//-- Medic anwesend
-		_maxTime = time + (life_respawn_timer * 60);
-	} else { //-- Kein Medic anwesend
-		_maxTime = time + (3 * 60);
-	};
+	_maxTime = time + (life_respawn_timer * 60);
 	_RespawnBtn ctrlEnable false;
 	waitUntil {_Timer ctrlSetText format["Start your new life in: %1",[(_maxTime - time),"MM:SS"] call BIS_fnc_secondsToString];
 	round(_maxTime - time) <= 0 || isNull _this || life_request_timer};
