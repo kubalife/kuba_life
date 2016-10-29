@@ -332,9 +332,9 @@ class Clothing {
 			{ "Sheriff_rang9", "Ass. Chief", 0, { "life_coplevel", "SCALAR", 9 } }, //Ass. Chief
 			{ "Sheriff_rang10", "Chief", 0, { "life_coplevel", "SCALAR", 10 } }, //Chief
 			{ "U_B_Wetsuit", "Taucheranzug", 0, { "life_coplevel", "SCALAR", 1 } },
-            { "CG_SO1", "Sheriff", 0, { "life_coplevel", "SCALAR", 3 } }, // Sheriff
-            { "Sheriff_rang11", "Sheriff", 0, { "life_coplevel", "SCALAR", 9 } }, // Sheriff
-            { "Sheriff_rang12", "Sheriff", 0, { "life_coplevel", "SCALAR", 10 } } // Sheriff
+            //{ "CG_SO1", "Sheriff", 0, { "life_coplevel", "SCALAR", 3 } }, // Sheriff
+            //{ "Sheriff_rang11", "Sheriff", 0, { "life_coplevel", "SCALAR", 9 } }, // Sheriff
+            //{ "Sheriff_rang12", "Sheriff", 0, { "life_coplevel", "SCALAR", 10 } } // Sheriff
 			//{ "U_B_T_Soldier_SL_F", "Duschungel Policia", 0, { "life_coplevel", "SCALAR", 5 } },            
 			//{ "policia_geo_man_uniform", "City Policia", 0, { "life_coplevel", "SCALAR", 5 } }
         };
