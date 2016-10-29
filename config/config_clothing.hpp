@@ -331,7 +331,7 @@ class Clothing {
 			{ "Sheriff_rang7", "Major", 0, { "life_coplevel", "SCALAR", 7 } }, //Major
 			{ "Sheriff_rang9", "Ass. Chief", 0, { "life_coplevel", "SCALAR", 9 } }, //Ass. Chief
 			{ "Sheriff_rang10", "Chief", 0, { "life_coplevel", "SCALAR", 10 } }, //Chief
-			{ "U_B_Wetsuit", "Taucheranzug", 0, { "life_coplevel", "SCALAR", 1 } },
+			{ "U_B_Wetsuit", "Taucheranzug", 0, { "life_coplevel", "SCALAR", 1 } }
             //{ "CG_SO1", "Sheriff", 0, { "life_coplevel", "SCALAR", 3 } }, // Sheriff
             //{ "Sheriff_rang11", "Sheriff", 0, { "life_coplevel", "SCALAR", 9 } }, // Sheriff
             //{ "Sheriff_rang12", "Sheriff", 0, { "life_coplevel", "SCALAR", 10 } } // Sheriff
