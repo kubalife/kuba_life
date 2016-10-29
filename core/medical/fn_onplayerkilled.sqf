@@ -68,6 +68,11 @@ _unit spawn {
 	_Timer ctrlSetText localize "STR_Medic_Respawn_2";
 };
 */
+if(_medics > 0) then { //-- Medic anwesend
+    life_respawn_timer = 8; //Scaled in minutes
+} else { //-- Kein Medic anwesend
+    life_respawn_timer = 3;
+};
 _unit spawn
 {
 	private["_maxTime","_RespawnBtn","_Timer"];
