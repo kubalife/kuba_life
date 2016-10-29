@@ -68,6 +68,8 @@ _unit spawn {
 	_Timer ctrlSetText localize "STR_Medic_Respawn_2";
 };
 */
+private "_medics";
+_medics = (independent countSide playableUnits);
 if(_medics > 0) then { //-- Medic anwesend
     life_respawn_timer = 8; //Scaled in minutes
 } else { //-- Kein Medic anwesend
