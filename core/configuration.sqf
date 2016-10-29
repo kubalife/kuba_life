@@ -11,7 +11,7 @@
 ****** Backend Variables *****
 *****************************
 */
-_medics = (independent countSide playableUnits);
+//_medics = (independent countSide playableUnits);
 
 life_wanted =false;
 life_query_time = time;
@@ -62,11 +62,11 @@ life_request_timer = false;
 gagged = false;
 
 
-if(_medics > 0) then { //-- Medic anwesend
+//if(_medics > 0) then { //-- Medic anwesend
     life_respawn_timer = 8; //Scaled in minutes
-} else { //-- Kein Medic anwesend
-    life_respawn_timer = 3;
-};
+//} else { //-- Kein Medic anwesend
+//    life_respawn_timer = 3;
+//};
 /*
 CHVD_allowNoGrass = false;
 CHVD_maxView = 4000;
