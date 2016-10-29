@@ -274,27 +274,37 @@ class WeaponShops {
     };
 
     //Cop Shops
-    class cop_basic {                        /////           Polizei             /////
+    class cop_basic {
         name = "Policia Weapon Shop";
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "DDOPP_X26", "Tazer Gelb", 0, 0"" },                          // Tazer Gelb
-            { "DDOPP_X26_b", "Tazer Schwarz", 0, 0,"" },                    // Tazer Schwarz
-			{ "Radar_Gun", "Radar Pistole", 0, 0,"" },                      // Radar Pistole
-            { "A3L_Glock17", "", 0, 0,"" },                                 // Glock17
-            {""},   // Cadet                
-            { "SMG_05_F", "", 0, 0, { "life_coplevel", 1 } },               // MP5           
-            {""},   // Officer
-            { "CUP_arifle_M4A1_black", "", 0, 0, { "life_coplevel", 2 } },  // M4A1  
-            {""},   // Senior Officer
-            //{ "arifle_SPAR_01_blk_F", "", 0, 0, { "life_coplevel", 3 } },   // HK 416        
-            {""},   // Sergeant
-            //{ "arifle_MX_Black_F", "", 0, 0, { "life_coplevel", 4 } },      // MX                           
-            {""},   // Lieutenant
-            //{ "CUP_arifle_Mk16_STD_SFG", "", 0, 0, { "life_coplevel", 5 } },// MK16           
-            { "benelli_pgs", "", 0, 0, { "life_coplevel", 5 } },            // Benelli             
+            { "DDOPP_X26", "Tazer Gelb", 0, 0"" },
+            { "DDOPP_X26_b", "Tazer Schwarz", 0, 0,"" },
+            { "uns_m1911", "", 0, 0,"" },
+            { "SMG_05_F", "", 0, 0, { "life_coplevel", 1 } },           //Rekrut
+            {""},
+            { "uns_xm177e2_short", "", 0, 0, { "life_coplevel", 2 } },  //Officer
+			{ "arifle_sdar_F", "", 0, 0, { "life_coplevel", 2 } },
+            {""},
+            { "uns_xm177e1_dm", "", 0, 0, { "life_coplevel", 3 } },         //Detective
+            { "uns_xm177e2", "", 0, 0, { "life_coplevel", 3 } },            //Detective
+            { "uns_xm177e2_grip", "", 0, 0, { "life_coplevel", 3 } },   //Detective
+            {""},
+            { "uns_m16", "", 0, 0, { "life_coplevel", 4 } },                //Seargent
+            { "uns_m16_m203", "", 0, 0, { "life_coplevel", 4 } },       //Seargent
+            { "uns_m870", "", 0, 0, { "life_coplevel", 4 } },           //Seargent
+            {""},
+            { "uns_M16A1", "", 0, 0, { "life_coplevel", 5 } },          //Lieutenant
+            { "uns_M16A1_m203", "", 0, 0, { "life_coplevel", 5 } },     //Lieutenant
+            { "uns_M16A1", "", 0, 0, { "life_coplevel", 5 } },          //Lieutenant
+            {""},
+            { "uns_M63a_AR", "", 0, 0, { "life_coplevel", 6 } },            //Captain
+            { "uns_m14", "", 0, 0, { "life_coplevel", 6 } },                //Captain
+            {""},
+            { "uns_l1a1", "", 0, 0, { "life_coplevel", 7 } },           //Major
+            { "uns_l1a1gl", "", 0, 0, { "life_coplevel", 7 } },         //Major
             {""},
             { "pmc_earpiece", "", 0, 0,"" },
             { "tf_anprc152", "", 0, 0,"" },
@@ -315,7 +325,6 @@ class WeaponShops {
             { "ACE_elasticBandage", "", 0, 0,"" },
             { "ACE_packingBandage", "", 0, 0,"" },
             {""},
-            { "SmokeShell", "", 0, 0,"" },
             { "ACE_HandFlare_White", "", 0, 0,"" },
             { "ACE_HandFlare_Red", "", 0, 0,"" },
             { "ACE_HandFlare_Green", "", 0, 0,"" },
@@ -326,15 +335,16 @@ class WeaponShops {
             { "Chemlight_blue", "", 0, 0,"" }
         };
         mags[] = {
-            { "A3L_Glock17mag", "", 0 },                // Glock17 Muni
-			{ "30Rnd_9x21_Mag_SMG_02", "", 0 },         // MP5 Muni
-            { "DDOPP_6Rnd_X26", "X26 6 Schuss", 0 },    // Tazer 6 Schuss Muni
-            { "DDOPP_1Rnd_X26", "x26 1 Schuss", 0 },    // Tazer 1 Schuss Muni
-            { "CUP_30Rnd_556x45_Stanag", "", 0 },       // M4A1 Muni
-            //{ "30Rnd_556x45_Stanag", "", 0 },           // HK416 Muni
-            //{ "30Rnd_65x39_caseless_mag", "", 0 },      // MX Muni
-            //{ "CUP_30Rnd_556x45_Stanag", "", 0 },       // MK 16 Muni
-            { "8Rnd_12Gauge_Pellets", "", 0 }           // Benelli Muni
+            { "uns_12gaugemag_6", "", 0 },
+			{ "30Rnd_9x21_Mag_SMG_02", "", 0 },
+            { "DDOPP_6Rnd_X26", "X26 6 Schuss", 0 },
+            { "DDOPP_1Rnd_X26", "x26 1 Schuss", 0 },
+            { "uns_30Rnd_556x45_Stanag", "", 0 },
+			{ "20Rnd_556x45_UW_mag", "", 450 },
+            { "uns_m14mag", "", 0 },
+            { "uns_l1a1mag", "", 0 },
+            { "uns_m870mag", "", 0 },
+            { "uns_m1911mag", "", 0 }
         };
         accs[] = {
             { "acc_flashlight", "", 0 }
