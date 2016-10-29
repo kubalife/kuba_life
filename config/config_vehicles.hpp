@@ -3116,25 +3116,25 @@ class LifeCfgVehicles {
 	class CUP_O_V3S_Open_TKA {
         vItemSpace = 450;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
-        price = 36000;
+        price = 26000;
         textures[] = { };
     };
 	class CUP_O_V3S_Covered_TKA {
         vItemSpace = 450;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
-        price = 36000;
+        price = 26000;
         textures[] = { };
     };
 	class CUP_O_V3S_Repair_TKA {
         vItemSpace = 450;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
-        price = 36000;
+        price = 26000;
         textures[] = { };
     };
 	class CUP_O_V3S_Refuel_TKA {
         vItemSpace = 450;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
-        price = 36000;
+        price = 26000;
         textures[] = { };
     };
 	class CUP_C_Ural_Open_Civ_01 {
@@ -3206,25 +3206,25 @@ class LifeCfgVehicles {
 	class CUP_B_MTVR_USMC {
         vItemSpace = 750;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
-        price = 90000;
+        price = 105000;
         textures[] = { };
     };
 	class CUP_B_MTVR_Ammo_USMC {
         vItemSpace = 750;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
-        price = 90000;
+        price = 105000;
         textures[] = { };
     };
 	class CUP_B_MTVR_Refuel_USMC {
         vItemSpace = 750;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
-        price = 90000;
+        price = 105000;
         textures[] = { };
     };
 	class CUP_B_MTVR_Repair_USMC {
         vItemSpace = 750;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
-        price = 90000;
+        price = 105000;
         textures[] = { };
     };
     /*
