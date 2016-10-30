@@ -290,7 +290,7 @@ class VirtualItems {
 		displayName = "STR_Item_GoldBar";
 		weight = 10;
 		buyPrice = -1;
-		sellPrice = 90000;
+		sellPrice = 15000;
 		illegal = true;
 		edible = -1;
 		icon = "icons\ico_goldBar.paa";
