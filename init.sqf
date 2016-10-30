@@ -6,9 +6,9 @@ StartProgress = false;
 //[] execVM "Custom\gas\gasmask.sqf";
 //[] execVM "Custom\gas\teargasGL.sqf";
 //[] execVM "Custom\lift\init.sqf";
-[] execVM "effect.sqf";
+[] execVM "effect.sqf"; //Colourcorrections
 //[] execVM "playerMarker.sqf";
-[] execVM "custom\acd_TB\run.sqf";
+//[] execVM "custom\acd_TB\run.sqf"; //Brücken
 disableRemoteSensors true;
 
 
