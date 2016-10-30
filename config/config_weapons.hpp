@@ -324,14 +324,22 @@ class WeaponShops {
             { "ACE_elasticBandage", "", 0, 0,"" },
             { "ACE_packingBandage", "", 0, 0,"" },
             {""},
-            { "ACE_HandFlare_White", "", 0, 0,"" },
+     /*       { "ACE_HandFlare_White", "", 0, 0,"" },
             { "ACE_HandFlare_Red", "", 0, 0,"" },
             { "ACE_HandFlare_Green", "", 0, 0,"" },
-            { "ACE_HandFlare_Yellow", "", 0, 0,"" },
+            { "ACE_HandFlare_Yellow", "", 0, 0,"" },*/
             { "Chemlight_red", "", 0, -1,"" },
             { "Chemlight_yellow", "", 0, 0,"" },
             { "Chemlight_green", "", 0, 0,"" },
-            { "Chemlight_blue", "", 0, 0,"" }
+            { "Chemlight_blue", "", 0, 0,"" },
+	    { "uns_1Rnd_Smoke_MKV", "", 0 },
+	    { "uns_1Rnd_SmokeRed_MKV", "", 0 },
+	    { "uns_1Rnd_SmokeGreen_MKV", "", 0 },
+	    { "uns_1Rnd_SmokeYellow_MKV", "", 0 },
+	    { "uns_40mm_mkv_White", "", 0 },
+	    { "uns_40mm_mkv_Red", "", 0 },
+	    { "uns_40mm_mkv_Green", "", 0 },
+	    { "uns_40mm_mkv_Yellow", "", 0 }
         };
         mags[] = {
             { "uns_12gaugemag_6", "", 0 },
@@ -343,23 +351,7 @@ class WeaponShops {
             { "uns_m14mag", "", 0 },
             { "uns_l1a1mag", "", 0 },
             { "uns_m870mag", "", 0 },
-            { "uns_m1911mag", "", 0 },
-	    { "uns_1Rnd_Smoke_40mm", "", 0 },
-	    { "uns_1Rnd_SmokeRed_40mm", "", 0 },
-	    { "uns_1Rnd_SmokeGreen_40mm", "", 0 },
-	    { "uns_1Rnd_SmokeYellow_40mm", "", 0 },
-	    { "uns_40mm_white", "", 0 },
-	    { "uns_40mm_green", "", 0 },
-	    { "uns_40mm_red", "", 0 },
-	    { "uns_40mm_yellow", "", 0 },
-	    { "uns_1Rnd_Smoke_MKV", "", 0 },
-	    { "uns_1Rnd_SmokeRed_MKV", "", 0 },
-	    { "uns_1Rnd_SmokeGreen_MKV", "", 0 },
-	    { "uns_1Rnd_SmokeYellow_MKV", "", 0 },
-	    { "uns_40mm_mkv_White", "", 0 },
-	    { "uns_40mm_mkv_Red", "", 0 },
-	    { "uns_40mm_mkv_Green", "", 0 },
-	    { "uns_40mm_mkv_Yellow", "", 0 }
+            { "uns_m1911mag", "", 0 }  
         };
         accs[] = {
             { "acc_flashlight", "", 0 }
