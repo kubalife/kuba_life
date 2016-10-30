@@ -13,7 +13,7 @@ class VirtualShops {
 		side = "civ";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "waterBottle", "rabbit", "apple","peach", "redgull", "beer", "whiskey", "moonshine", "zigarre", "tbacon", "pickaxe", "woodaxe", "toolkit", "fuelFull", "wool","cloth","papier","schrott","zucker","rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
+		items[] = { "waterBottle", "rabbit", "apple","peach", "redgull", "zigarre", "tbacon", "pickaxe", "woodaxe", "toolkit", "fuelFull", "wool", "cloth", "papier", "schrott", "zucker", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
 	};
 
 	class plank {
@@ -165,7 +165,7 @@ class VirtualShops {
 		side = "adac";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "waterBottle", "rabbit", "apple", "peach", "redgull", "tbacon", "toolkit", "lockpick","fuelFull", "defibrillator", "lockpick" };
+		items[] = { "toolkit", "fuelFull", "lockpick", "waterBottle", "redgull", "donuts", "coffee", "apple", "rabbit" };
     };
 
 };
