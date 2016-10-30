@@ -2572,7 +2572,7 @@ class LifeCfgVehicles {
 	class ffaa_ar_lcm {
         vItemSpace = 100;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
-        price = 350000;
+        price = 35000;
         textures[] = {};
     };
 
