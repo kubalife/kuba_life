@@ -9,9 +9,11 @@
 private["_vehicle","_type","_time","_value","_vehicleData","_upp","_ui","_progress","_pgText","_cP","_filters","_impoundValue","_price","_impoundMultiplier"];
 _vehicle = param [0,ObjNull,[ObjNull]];
 _filters = ["Car","Air","Ship"];
+_adc = (east countSide playableUnits);
 if(!((KINDOF_ARRAY(_vehicle,_filters)))) exitWith {};
 if(player distance cursorObject > 10) exitWith {};
 if(_vehicle getVariable "NPC") exitWith {hint localize "STR_NPC_Protected"};
+if(_adc >= 1) exitWith { hint "Es sind leute vom ADC im Dienst, bitte beauftrage sie mit dem Abschleppen! :)"};
 
 _vehicleData = _vehicle GVAR ["vehicle_info_owners",[]];
 if(EQUAL((count _vehicleData),0)) exitWith {deleteVehicle _vehicle}; //Bad vehicle.
