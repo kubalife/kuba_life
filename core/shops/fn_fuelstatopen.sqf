@@ -16,7 +16,7 @@ if (life_is_processing) exitWith {};
 life_action_inUse = true;
 _fuelstations = nearestobjects [player, ["Land_FuelStation_01_pump_F","Land_FuelStation_02_pump_F"],10]; 
 if (_fuelstations isEqualTo []) exitWith {life_action_inUse = false;};
-_vehicleList = nearestObjects [player, ["Car","air"], 10];
+_vehicleList = nearestObjects [player, ["Car","air","ship"], 10];
 if (count _vehicleList < 1) exitWith {hint localize "STR_NOTF_VehicleNear";life_action_inUse = false;};
 if (!createDialog "Life_FuelStat") exitWith {};
 _fuelCost = LIFE_SETTINGS(getNumber,"fuel_cost");
