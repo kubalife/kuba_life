@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=10;
+	toggles=138;
 	class ItemIDProvider
 	{
 		nextID=14206;
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2657.2664,25,7411.0483};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={5944.0566,28.967983,10523.074};
+		dir[]={0.19722031,-0.72459006,0.66036534};
+		up[]={0.20735195,0.68917847,0.69428885};
+		aside[]={0.95818543,3.6001438e-008,-0.28616545};
 	};
 };
 binarizationWanted=0;
@@ -827,7 +827,7 @@ class Mission
 			position[]={3706.0005,86.495522,14451.462};
 			name="respawn_civilian";
 			type="Empty";
-			angle=13.296573;
+			angle=13.296572;
 			id=0;
 			atlOffset=75.929108;
 		};
@@ -2328,7 +2328,7 @@ class Mission
 			position[]={3722.9553,109.89646,14450.165};
 			name="respawn_east";
 			type="Empty";
-			angle=13.296573;
+			angle=13.296572;
 			id=194;
 			atlOffset=96.342537;
 		};
@@ -2424,7 +2424,7 @@ class Mission
 			position[]={8473.4072,167.22449,12503.055};
 			name="kart_shop_1";
 			type="Empty";
-			angle=280.43506;
+			angle=280.43503;
 			id=203;
 			atlOffset=0.14634705;
 		};
@@ -13249,7 +13249,7 @@ class Mission
 			position[]={3709.6663,102.71162,14445.773};
 			name="respawn_guerrila";
 			type="Empty";
-			angle=13.296573;
+			angle=13.296572;
 			id=1110;
 			atlOffset=92.619263;
 		};
@@ -34677,7 +34677,7 @@ class Mission
 			position[]={3708.01,1.00458,14448.282};
 			name="respawn_west";
 			type="Empty";
-			angle=13.296573;
+			angle=13.296572;
 			id=11302;
 		};
 		class Item564
@@ -68346,7 +68346,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this enableSimulation false;  " \n "this allowDamage false;  " \n "this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""adacAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""adacAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""adacAir"",0,false,false,"""",' !license_adac_adacAir && playerSide == east '];  " \n "this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""adacCar"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""adacCar"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""adacCar"",0,false,false,"""",' !license_adac_adacCar && playerSide == east '];  " \n "this addAction[localize""STR_Shops_Adac"",life_fnc_virt_menu,""adac""];  " \n "this addAction[localize""STR_MAR_Adac_Item_Shop"",life_fnc_weaponShopMenu,""adac_basic""];  " \n "this addAction[localize""STR_MAR_Adac_Clothing_Shop"",life_fnc_clothingMenu,""adac_clothing""];  " \n "this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
+				init="this enableSimulation false;  " \n "this allowDamage false; " \n "this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""adacAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""adacAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""adacAir"",0,false,false,"""",' !license_adac_adacAir && playerSide == east '];   " \n "" \n "this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""adacCar"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""adacCar"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""adacCar"",0,false,false,"""",' !license_adac_adacCar && playerSide == east '];   " \n "this addAction[localize""STR_Shops_Adac"",life_fnc_virt_menu,""adac"",1.5,false,false,"""",' isNull objectParent player && player distance _target < 5 && playerSide == east']; " \n "this addAction[localize""STR_MAR_Adac_Item_Shop"",life_fnc_weaponShopMenu,""adac_basic""]; " \n "this addAction[localize""STR_MAR_Adac_Clothing_Shop"",life_fnc_clothingMenu,""adac_clothing""]; " \n "this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 			};
 			id=13934;
 			type="A3L_Savepoint";
@@ -71219,7 +71219,7 @@ class Mission
 			};
 			id=14140;
 			type="Land_PierWooden_02_barrel_F";
-			atlOffset=5.9390483;
+			atlOffset=5.9390492;
 		};
 		class Item1978
 		{
@@ -71236,7 +71236,7 @@ class Mission
 			};
 			id=14141;
 			type="Land_PierWooden_02_hut_F";
-			atlOffset=6.3911285;
+			atlOffset=6.3911281;
 		};
 		class Item1979
 		{
@@ -71253,7 +71253,7 @@ class Mission
 			};
 			id=14143;
 			type="Land_FuelStation_02_pump_F";
-			atlOffset=0.2288065;
+			atlOffset=0.22880661;
 		};
 		class Item1980
 		{
@@ -71296,7 +71296,7 @@ class Mission
 			};
 			id=14147;
 			type="Land_PierWooden_02_barrel_F";
-			atlOffset=2.0660887;
+			atlOffset=2.0660892;
 		};
 		class Item1983
 		{
@@ -71313,7 +71313,7 @@ class Mission
 			};
 			id=14148;
 			type="Land_PierWooden_02_hut_F";
-			atlOffset=2.4912992;
+			atlOffset=2.4912982;
 		};
 		class Item1984
 		{
@@ -71372,7 +71372,7 @@ class Mission
 			};
 			id=14176;
 			type="Land_PierWooden_02_barrel_F";
-			atlOffset=-0.18347454;
+			atlOffset=-0.18347383;
 		};
 		class Item1988
 		{
@@ -71389,7 +71389,7 @@ class Mission
 			};
 			id=14177;
 			type="Land_PierWooden_02_hut_F";
-			atlOffset=-0.47338927;
+			atlOffset=-0.47338963;
 		};
 		class Item1989
 		{
@@ -71438,7 +71438,7 @@ class Mission
 			};
 			id=14180;
 			type="Land_PierWooden_02_barrel_F";
-			atlOffset=4.0293827;
+			atlOffset=4.0293832;
 		};
 		class Item1992
 		{
@@ -71455,7 +71455,7 @@ class Mission
 			};
 			id=14181;
 			type="Land_PierWooden_02_hut_F";
-			atlOffset=3.7900925;
+			atlOffset=3.7900929;
 		};
 		class Item1993
 		{
@@ -71639,7 +71639,7 @@ class Mission
 			};
 			id=14192;
 			type="Land_PierWooden_02_barrel_F";
-			atlOffset=7.5388732;
+			atlOffset=7.5388737;
 		};
 		class Item2004
 		{
@@ -71656,7 +71656,7 @@ class Mission
 			};
 			id=14193;
 			type="Land_PierWooden_02_hut_F";
-			atlOffset=6.764358;
+			atlOffset=6.7643585;
 		};
 		class Item2005
 		{
@@ -71719,7 +71719,7 @@ class Mission
 			type="loc_Fuelstation";
 			colorName="ColorWEST";
 			id=14198;
-			atlOffset=7.9220557;
+			atlOffset=7.92208;
 		};
 		class Item2010
 		{
@@ -71756,7 +71756,7 @@ class Mission
 			};
 			id=14201;
 			type="Land_PierWooden_02_barrel_F";
-			atlOffset=7.6122804;
+			atlOffset=7.6122799;
 		};
 		class Item2013
 		{
@@ -71773,7 +71773,7 @@ class Mission
 			};
 			id=14202;
 			type="Land_PierWooden_02_hut_F";
-			atlOffset=7.2058492;
+			atlOffset=7.2058487;
 		};
 		class Item2014
 		{
@@ -71790,6 +71790,7 @@ class Mission
 			};
 			id=14203;
 			type="Land_FuelStation_02_pump_F";
+			atlOffset=1.1920929e-007;
 		};
 		class Item2015
 		{

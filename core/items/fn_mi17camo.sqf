@@ -27,7 +27,7 @@ life_action_inUse = false;
 titleText["Dein Fahrzeug steht dir nun zur Verfügung :)","PLAIN"];
 
 //######################## Stellt das Fahrzeug bereit ######################
-_vehicle = createVehicle ["CUP_O_Mi17_TK", position player, [], 0, "NONE"];
+_vehicle = createVehicle ["CUP_O_Mi17_VIV_TK", position player, [], 0, "NONE"];
 waitUntil {!isNil "_vehicle" && {!isNull _vehicle}}; //Wait?
 _vehicle allowDamage false; //Temp disable damage handling..
 _vehicle setVectorUp (surfaceNormal position player);
