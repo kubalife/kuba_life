@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=138;
+	toggles=10;
 	class ItemIDProvider
 	{
 		nextID=14206;
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5944.0566,28.967983,10523.074};
-		dir[]={0.19722031,-0.72459006,0.66036534};
-		up[]={0.20735195,0.68917847,0.69428885};
-		aside[]={0.95818543,3.6001438e-008,-0.28616545};
+		pos[]={9169.1914,81.983795,10107.477};
+		dir[]={-0.068264954,-0.84565276,0.52945292};
+		up[]={-0.10814397,0.53369749,0.83872557};
+		aside[]={0.9918381,4.6018977e-007,0.12788427};
 	};
 };
 binarizationWanted=0;
@@ -827,7 +827,7 @@ class Mission
 			position[]={3706.0005,86.495522,14451.462};
 			name="respawn_civilian";
 			type="Empty";
-			angle=13.296572;
+			angle=13.296571;
 			id=0;
 			atlOffset=75.929108;
 		};
@@ -2328,7 +2328,7 @@ class Mission
 			position[]={3722.9553,109.89646,14450.165};
 			name="respawn_east";
 			type="Empty";
-			angle=13.296572;
+			angle=13.296571;
 			id=194;
 			atlOffset=96.342537;
 		};
@@ -2424,7 +2424,7 @@ class Mission
 			position[]={8473.4072,167.22449,12503.055};
 			name="kart_shop_1";
 			type="Empty";
-			angle=280.43503;
+			angle=280.435;
 			id=203;
 			atlOffset=0.14634705;
 		};
@@ -13249,7 +13249,7 @@ class Mission
 			position[]={3709.6663,102.71162,14445.773};
 			name="respawn_guerrila";
 			type="Empty";
-			angle=13.296572;
+			angle=13.296571;
 			id=1110;
 			atlOffset=92.619263;
 		};
@@ -34677,7 +34677,7 @@ class Mission
 			position[]={3708.01,1.00458,14448.282};
 			name="respawn_west";
 			type="Empty";
-			angle=13.296572;
+			angle=13.296571;
 			id=11302;
 		};
 		class Item564
@@ -68561,17 +68561,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9174.2285,26.932034,10150.757};
-				angles[]={0,4.1916924,0.013327583};
+				position[]={9174.2285,26.932035,10150.757};
+				angles[]={0,4.1916876,0.013334315};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="this enableSimulation false;  " \n "this allowDamage false;  " \n "this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""adac_shop"",east,""adac_car_1"",""adac"",""ADAC Kavala""]];  " \n "this addAction[localize""STR_MAR_Helicopter_Shop"", life_fnc_vehicleShopMenu,[""adac_air_hs"",east,""adac_air_1"",""adac"",""ADAC Kavala""]];  " \n "this addAction[localize""STR_MAR_W_Car_Garage"", { [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2]; createDialog ""Life_impound_menu""; disableSerialization; ctrlSetText[2802,""Fahrzeug einparken""]; life_garage_sp = ""adac_car_1""; life_garage_type = ""Car""; },"""",0,false,false,"""",'playerSide == east'];  " \n "this addAction[localize""STR_MAR_Helicopter_Garage"", { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2]; createDialog ""Life_impound_menu""; disableSerialization; ctrlSetText[2802,""Fahrzeug einparken""]; life_garage_sp = ""adac_air_1""; life_garage_type = ""Air""; },"""",0,false,false,"""",'playerSide == east '];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; ";
+				init="this enableSimulation false;  " \n "this allowDamage false;  " \n "this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""adacAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""adacAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""adacAir"",0,false,false,"""",' !license_adac_adacAir && playerSide == east '];   " \n "" \n "this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""adacCar"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""adacCar"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""adacCar"",0,false,false,"""",' !license_adac_adacCar && playerSide == east '];  " \n "this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""adac_shop"",east,""adac_car_1"",""adac"",""ADAC Kavala""]];  " \n "this addAction[localize""STR_MAR_Helicopter_Shop"", life_fnc_vehicleShopMenu,[""adac_air_hs"",east,""adac_air_1"",""adac"",""ADAC Kavala""]];  " \n "this addAction[localize""STR_MAR_W_Car_Garage"", { [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2]; createDialog ""Life_impound_menu""; disableSerialization; ctrlSetText[2802,""Fahrzeug einparken""]; life_garage_sp = ""adac_car_1""; life_garage_type = ""Car""; },"""",0,false,false,"""",'playerSide == east'];  " \n "this addAction[localize""STR_MAR_Helicopter_Garage"", { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2]; createDialog ""Life_impound_menu""; disableSerialization; ctrlSetText[2802,""Fahrzeug einparken""]; life_garage_sp = ""adac_air_1""; life_garage_type = ""Air""; },"""",0,false,false,"""",'playerSide == east '];  " \n "this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 			};
 			id=13953;
 			type="A3L_Savepoint";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -68660,7 +68661,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9170.1445,30.019356,10117.149};
+				position[]={9171.2979,30.016182,10119.839};
 				angles[]={0,3.4894073,0};
 			};
 			side="Empty";
@@ -68671,7 +68672,7 @@ class Mission
 			};
 			id=13988;
 			type="Land_BarGate_F";
-			atlOffset=-1.9073486e-006;
+			atlOffset=0.018377304;
 			class CustomAttributes
 			{
 				class Attribute0

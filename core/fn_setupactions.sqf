@@ -47,6 +47,12 @@ switch (playerSide) do {
 			//Ausweis
 			life_actions = life_actions + [player addAction["Dienstausweis zeigen",life_fnc_Lizenzzeigen,"",1,false,true,"",'!isNull cursorTarget && cursorTarget isKindOf "Man" && player distance cursorObject < 3']];
 		};
+	case east:
+		{
+			life_actions = life_actions + [player addAction ["<t color='#81DAF5'>Absperrungen Menü</t>",life_fnc_barriers]];
+			//Ausweis
+			life_actions = life_actions + [player addAction["Dienstausweis zeigen",life_fnc_Lizenzzeigen,"",1,false,true,"",'!isNull cursorTarget && cursorTarget isKindOf "Man" && player distance cursorObject < 3']];
+		};
 };
 
 
