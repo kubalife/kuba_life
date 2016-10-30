@@ -637,7 +637,8 @@ class Life_Settings {
         "A3PL_Engine",
         "RR_Firetruck",
         "cg_merc_atego_firetruck_reg",
-        "daf_firetruck"
+        "daf_firetruck",
+		"ffaa_ar_lcm"
     }; //Vehicles that can only be rented and not purchased. (Last only for the session)
 
 
