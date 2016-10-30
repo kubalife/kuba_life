@@ -298,7 +298,6 @@ class WeaponShops {
             {""},
             { "uns_M16A1", "", 0, 0, { "life_coplevel", 5 } },          //Lieutenant
             { "uns_M16A1_m203", "", 0, 0, { "life_coplevel", 5 } },     //Lieutenant
-            { "uns_M16A1", "", 0, 0, { "life_coplevel", 5 } },          //Lieutenant
             {""},
             { "uns_M63a_AR", "", 0, 0, { "life_coplevel", 6 } },            //Captain
             { "uns_m14", "", 0, 0, { "life_coplevel", 6 } },                //Captain
