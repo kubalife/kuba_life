@@ -120,10 +120,9 @@ _dice = random(100);
 		_building setVariable["locked",false,true];
 	}else{
 		if(playerSide == civilian) then {
-		exitWith {hint localize "Du kannst momentan in keine Häuser einbrechen!";};
+		exitWith {hint localize "Das hat leider nicht geklappt!";};
 	;}
 	
-/*
 		if(_dice < 20) then {
 			titleText[localize "STR_ISTR_Lock_Success","PLAIN"];
 			_building SVAR [format["bis_disabled_Door_%1",_door],0,true]; //Unlock the door.
@@ -132,7 +131,7 @@ _dice = random(100);
 			titleText[localize "STR_ISTR_Lock_Failed","PLAIN"];
 		};
 	};
-*/
+
 if(life_HC_isActive) then {
 	[getPlayerUID player,profileName,"459"] remoteExecCall ["HC_fnc_wantedAdd",HC_Life];
 } else {
