@@ -528,7 +528,7 @@ class CarShops {
 
     };
 
-    class adac {
+    class adac_shop {
         side = "adac";
         vehicles[] = {
 			{ "A3L_Towtruck", { "", "", -1 } },
@@ -545,7 +545,7 @@ class CarShops {
         };
     };
 
-    class adacAir {
+    class adac_air_hs {
         side = "adac";
         vehicles[] = {
 			{ "B_Heli_Light_01_F", { "", "", -1 } },
