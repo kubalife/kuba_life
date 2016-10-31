@@ -25,6 +25,7 @@ titleText["Du hast den GPS-Tracker platziert.","PLAIN"];
 	_marker setMarkerPosLocal getPos _veh;
 	while {true} do {
 	if(not alive _veh) exitWith {deleteMarkerLocal _markerName;};
+	if((underwater _veh)) exitWith {deleteMarkerLocal _markerName;};
 	_marker setMarkerPosLocal getPos _veh;
 	uiSleep 2;
 	};
