@@ -332,14 +332,14 @@ class WeaponShops {
             { "Chemlight_yellow", "", 0, 0,"" },
             { "Chemlight_green", "", 0, 0,"" },
             { "Chemlight_blue", "", 0, 0,"" },
-	    { "uns_1Rnd_Smoke_MKV", "", 0 },
-	    { "uns_1Rnd_SmokeRed_MKV", "", 0 },
-	    { "uns_1Rnd_SmokeGreen_MKV", "", 0 },
-	    { "uns_1Rnd_SmokeYellow_MKV", "", 0 },
-	    { "uns_40mm_mkv_White", "", 0 },
-	    { "uns_40mm_mkv_Red", "", 0 },
-	    { "uns_40mm_mkv_Green", "", 0 },
-	    { "uns_40mm_mkv_Yellow", "", 0 }
+	    { "uns_1Rnd_Smoke_MKV", "", 0, 0,"" },
+	    { "uns_1Rnd_SmokeRed_MKV","", 0, 0,"" },
+	    { "uns_1Rnd_SmokeGreen_MKV", "", 0, 0,"" },
+	    { "uns_1Rnd_SmokeYellow_MKV", "", 0, 0,"" },
+	    { "uns_40mm_mkv_White","", 0, 0,"" },
+	    { "uns_40mm_mkv_Red", "", 0, 0,"" },
+	    { "uns_40mm_mkv_Green", "", 0, 0,"" },
+	    { "uns_40mm_mkv_Yellow", "", 0, 0,"" }
         };
         mags[] = {
             { "uns_12gaugemag_6", "", 0 },
