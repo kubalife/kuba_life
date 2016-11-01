@@ -343,7 +343,7 @@ class Clothing {
             { "policia_uip_cap", "Cadet", 0, { "", "", -1 } },           
             { "CUP_H_C_Policecap_01", "", 0, { "life_coplevel", "SCALAR", 2 } },
             { "Campaign_Hat_Light", "", 0, { "life_coplevel", "SCALAR", 3 } },           
-            { "H_Beret_gen_F", "Cadet", 0, { "life_coplevel", "SCALAR", 5 } }
+            { "H_Beret_gen_F", "Cadet", 0, { "life_coplevel", "SCALAR", 1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
