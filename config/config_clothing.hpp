@@ -340,9 +340,9 @@ class Clothing {
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
-            { "policia_uip_cap", "Cadet", 0, { "", "", -1 } },           
+            { "policia_uip_cap", "Cadet", 0, { "life_coplevel", "SCALAR", 4 } },           
             { "CUP_H_C_Policecap_01", "", 0, { "life_coplevel", "SCALAR", 2 } },
-            { "Campaign_Hat_Light", "", 0, { "life_coplevel", "SCALAR", 3 } },           
+    //        { "Campaign_Hat_Light", "", 0, { "life_coplevel", "SCALAR", 3 } },           
             { "H_Beret_gen_F", "Cadet", 0, { "life_coplevel", "SCALAR", 1 } }
         };
         goggles[] = {
