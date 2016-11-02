@@ -9,7 +9,8 @@ class Maverick_ConvoySidemission
 	{
 		ConfigPool[] 							= {"GoldBarTransport"};
 		ForceConfigAtIndex 						= -1;
-		SleepTime								= 10;
+		SleepTime								= 10
+		//SleepTime								= ((90*60) + (floor( random (60*60))));
 		MakePlayersHostileFor					= 180;
 		SidesNotAttackable[]					= {};
 		AIDifficulty[] = {
@@ -39,13 +40,13 @@ class Maverick_ConvoySidemission
 			class AIUnits
 			{
 				gear[] = {
-												"UNS_M1_1V1N", // Headgear
+												"H_MilCap_gen_F", // Headgear
 												"", // Glasses
-												"UNS_ARMY_BDU", // Uniform
-												"UNS_M1956_M15", // Vest
+												"U_B_GEN_Soldier_F", // Uniform
+												"V_TacVest_gen_F", // Vest
 												"", // Backpack
-												{"und_ak47_52_bayo", "uns_ak47mag", 5}, // Primary weapon, ammo and how many magazines
-												{"uns_m1911", "uns_m1911mag", 5}, // Secondary weapon, ammo and how many magazines
+												{"arifle_SPAR_01_blk_F", "30Rnd_556x45_Stanag", 5}, // Primary weapon, ammo and how many magazines
+												{"", "", 5}, // Secondary weapon, ammo and how many magazines
 				};
 			};
 
@@ -70,13 +71,13 @@ class Maverick_ConvoySidemission
 			class Vehicles
 			{
 				// Vehicle configuration
-				vehiclesInOrder[]				= {"CUP_B_LR_MG_GB_W","DAR_MK23A","CUP_B_LR_MG_GB_W"};
+				vehiclesInOrder[]				= {"CUP_I_Datsun_PK_Random","CUP_O_Ural_Reammo_TKA","CUP_I_Datsun_PK_Random"};
 				vehiclesSpawnMarkersInOrder[]	= {"mav_convoy_spawn1","mav_convoy_spawn2","mav_convoy_spawn3"};
 				vehiclesInheritDirection		= 1;
 				mainVehicleAtIndex				= 1;
-				maxSpeed						= 50;
+				maxSpeed						= 100;
 				removeVehiclesAfterSeconds		= 600;
-				additionalUnitsAmount			= 10;
+				additionalUnitsAmount			= 6;
 			};
 
 			class Route {
@@ -97,7 +98,7 @@ class Maverick_ConvoySidemission
 			class Loot
 			{
 				type 							= "virtual";
-				container						= "Land_CargoBox_V1_F";
+				container						= "";
 				data[] = {
 												{"goldbar", 30}
 				};

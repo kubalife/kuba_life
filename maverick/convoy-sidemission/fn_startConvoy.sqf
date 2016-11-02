@@ -75,7 +75,7 @@ _unitCount = getNumber(missionConfigFile >> "Maverick_ConvoySidemission" >> "Con
 mav_convoy_maxSpeed = getNumber(missionConfigFile >> "Maverick_ConvoySidemission" >> "ConvoyConfigurationsPool" >> _class >> "Vehicles" >> "maxSpeed");
 
 // Fetch max overall distance
-mav_convoy_maxLeadingAndMainVehDistance = if (mav_convoy_mainVehicleIndex > 0) then {mav_convoy_mainVehicleIndex * 100} else {100};
+mav_convoy_maxLeadingAndMainVehDistance = if (mav_convoy_mainVehicleIndex > 0) then {mav_convoy_mainVehicleIndex * 50} else {50};
 
 // Give all units their skill level
 _skillArray = getArray(missionConfigFile >> "Maverick_ConvoySidemission" >> "Config" >> "AIDifficulty");
