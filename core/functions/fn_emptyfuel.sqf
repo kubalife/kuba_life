@@ -24,7 +24,7 @@ do {
         }
         else {
             if (fuel _vehicleToFuel < 0.03) then {
-                hint "IIch hoffe du kannst laufen, denn dein Tank ist gerade leer gegangen!";
+                hint "Ich hoffe du kannst laufen, denn dein Tank ist gerade leer gegangen!";
             };
         };
     };
