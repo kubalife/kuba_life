@@ -119,8 +119,7 @@ _dice = random(100);
 		_building SVAR [format["bis_disabled_Door_%1",_door],0,true]; //Unlock the door.
 		_building setVariable["locked",false,true];
 	}else{
-		if(playerSide == civilian) then {
-		exitWith {hint localize "Das hat leider nicht geklappt!"};
+		if(playerSide == civilian)exitWith {hint localize "Das hat leider nicht geklappt!";};
 	;}
 	
 		if(_dice < 20) then {
