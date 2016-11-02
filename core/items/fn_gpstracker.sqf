@@ -25,7 +25,7 @@ titleText["Du hast den GPS-Tracker platziert.","PLAIN"];
 	_marker setMarkerPosLocal getPos _veh;
 	while {true} do {
 	if(not alive _veh) exitWith {deleteMarkerLocal _markerName;};
-	if((underwater _veh)) exitWith {deleteMarkerLocal _markerName;if(isPlayer _veh)then{["Da schwimmt ein GPS Tracker davon.","Gott",0] remoteExecCall [""TON_fnc_clientMessage"",_veh];};};
+	if((underwater _veh)) exitWith {deleteMarkerLocal _markerName;if(isPlayer _veh)then{["Da schwimmt ein GPS Tracker davon.","Gott",0] remoteExecCall ["TON_fnc_clientMessage",_veh];};};
 	_marker setMarkerPosLocal getPos _veh;
 	uiSleep 2;
 	};
