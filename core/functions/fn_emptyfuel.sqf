@@ -12,7 +12,7 @@ do {
     if (isEngineOn _vehicleToFuel && ((driver _vehicleToFuel) == player) && !(_vehicleToFuel isKindOf "Air") && (_vehicleToFuel != player)) then {
         _velocityOfVehicle = sqrt(((velocity _vehicleToFuel select 0) ^ 2) + ((velocity _vehicleToFuel select 1) ^ 2)) * 3.6;
 
-        _fuelConsumption = _velocityOfVehicle / 50000 + 0.0001;
+        _fuelConsumption = _velocityOfVehicle / 75000 + 0.0001;
         if (_fuelConsumption > 0.002) then {
             _fuelConsumption = 0.002;
         };
@@ -20,11 +20,11 @@ do {
 
         //hint format["Benzinverbrauch: %1L/km",_fuelConsumption*10000/2];
         if (fuel _vehicleToFuel < 0.2 && fuel _vehicleToFuel > 0.18) then {
-            hint "Your gas tank is empty. Hurry to the next gas station!";
+            hint "Dein Tank ist fast leer, suche die nächste Tankstelle auf!!";
         }
         else {
             if (fuel _vehicleToFuel < 0.03) then {
-                hint "I hope you can run - because you just ran out of gas!";
+                hint "IIch hoffe du kannst laufen, denn dein Tank ist gerade leer gegangen!";
             };
         };
     };
