@@ -4496,7 +4496,7 @@ class LifeCfgVehicles {
         price = 1500000;
         textures[] = { };
     };
-	class CUP_C_Mi17_Civilian_RU { CUP_O_Mi17_VIV_TK
+	class CUP_C_Mi17_Civilian_RU {
         vItemSpace = 475;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 700000;
