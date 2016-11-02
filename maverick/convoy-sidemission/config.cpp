@@ -7,7 +7,7 @@ class Maverick_ConvoySidemission
 {
 	class Config
 	{
-		ConfigPool[] 							= {"GoldBarTransport","WeaponTransport"};
+		ConfigPool[] 							= {"GoldBarTransport"};
 		ForceConfigAtIndex 						= -1;
 		SleepTime								= 10;
 		MakePlayersHostileFor					= 180;

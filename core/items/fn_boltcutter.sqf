@@ -114,19 +114,18 @@ if(life_boltcutter_uses >= 1) then {
 	life_boltcutter_uses = 0;
 };
 
-_dice = random(100);
 if (playerSide == west) then {
     _building SVAR[format["bis_disabled_Door_%1", _door], 0, true]; //Unlock the door.
     _building setVariable["locked", false, true];
 ;}
-if (playerSide == civilian) then {
-    if (_dice < 30) then {
+
+_dice = random(100);
+if (playerSide == civilian && _dice < 30) then {
         titleText[localize "STR_ISTR_Lock_Success", "PLAIN"];
         _building SVAR[format["bis_disabled_Door_%1", _door], 0, true]; //Unlock the door.
         _building setVariable["locked", false, true];
     } else {
         titleText[localize "STR_ISTR_Lock_Failed", "PLAIN"];
-    };
 };
 
 if(life_HC_isActive) then {

@@ -37844,7 +37844,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=500;
+							value=5;
 						};
 					};
 				};
