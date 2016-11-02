@@ -39,13 +39,13 @@ class Maverick_ConvoySidemission
 			class AIUnits
 			{
 				gear[] = {
-												"H_MilCap_gen_F", // Headgear
+												"UNS_M1_1V1N", // Headgear
 												"", // Glasses
-												"U_B_GEN_Soldier_F", // Uniform
-												"V_TacVest_gen_F", // Vest
+												"UNS_ARMY_BDU", // Uniform
+												"UNS_M1956_M15", // Vest
 												"", // Backpack
-												{"arifle_SPAR_01_blk_F", "30Rnd_556x45_Stanag", 5}, // Primary weapon, ammo and how many magazines
-												{"", "", 5}, // Secondary weapon, ammo and how many magazines
+												{"und_ak47_52_bayo", "uns_ak47mag", 5}, // Primary weapon, ammo and how many magazines
+												{"uns_m1911", "uns_m1911mag", 5}, // Secondary weapon, ammo and how many magazines
 				};
 			};
 
@@ -70,7 +70,7 @@ class Maverick_ConvoySidemission
 			class Vehicles
 			{
 				// Vehicle configuration
-				vehiclesInOrder[]				= {"O_T_LSV_02_armed_F","O_T_Truck_03_ammo_ghex_F","O_T_LSV_02_unarmed_F"};
+				vehiclesInOrder[]				= {"CUP_B_LR_MG_GB_W","DAR_MK23A","CUP_B_LR_MG_GB_W"};
 				vehiclesSpawnMarkersInOrder[]	= {"mav_convoy_spawn1","mav_convoy_spawn2","mav_convoy_spawn3"};
 				vehiclesInheritDirection		= 1;
 				mainVehicleAtIndex				= 1;
@@ -79,10 +79,19 @@ class Maverick_ConvoySidemission
 				additionalUnitsAmount			= 10;
 			};
 
-			class Route
-			{
-				// Route configuration
-				markers[] 						= {"mav_convoy_waypoint1","mav_convoy_waypoint2","mav_convoy_waypoint3","mav_convoy_waypoint4","mav_convoy_waypoint5","mav_convoy_waypoint6","mav_convoy_waypoint7","mav_convoy_waypoint8","mav_convoy_waypoint10","mav_convoy_waypoint11","mav_convoy_waypoint12","mav_convoy_waypoint13"};
+			class Route {
+			    // Route configuration
+			    markers[] = {
+			        "mav_gold_waypoint_1",
+			        "mav_gold_waypoint_2",
+			        "mav_gold_waypoint_3",
+			        "mav_gold_waypoint_4",
+			        "mav_gold_waypoint_5",
+			        "mav_gold_waypoint_6",
+			        "mav_gold_waypoint_7",
+			        "mav_gold_waypoint_8",
+			        "mav_gold_waypoint_10"
+			    };
 			};
 
 			class Loot
@@ -90,7 +99,7 @@ class Maverick_ConvoySidemission
 				type 							= "virtual";
 				container						= "Land_CargoBox_V1_F";
 				data[] = {
-												{"goldbar", 10}
+												{"goldbar", 30}
 				};
 			};
 		};
@@ -108,13 +117,13 @@ class Maverick_ConvoySidemission
 			class AIUnits
 			{
 				gear[] = {
-												"H_MilCap_gen_F", // Headgear
+												"UNS_M1_1V1N", // Headgear
 												"", // Glasses
-												"U_B_GEN_Soldier_F", // Uniform
-												"V_TacVest_gen_F", // Vest
+												"UNS_ARMY_BDU", // Uniform
+												"UNS_M1956_M15", // Vest
 												"", // Backpack
-												{"arifle_SPAR_01_blk_F", "30Rnd_556x45_Stanag", 5}, // Primary weapon, ammo and how many magazines
-												{"", "", 5}, // Secondary weapon, ammo and how many magazines
+												{"und_ak47_52_bayo", "uns_ak47mag", 5}, // Primary weapon, ammo and how many magazines
+												{"uns_m1911", "uns_m1911mag", 5}, // Secondary weapon, ammo and how many magazines
 				};
 			};
 

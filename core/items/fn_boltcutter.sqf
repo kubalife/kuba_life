@@ -120,7 +120,7 @@ _dice = random(100);
 		_building setVariable["locked",false,true];
 	}else{
 		if(playerSide == civilian) then {
-		exitWith {hint localize "Das hat leider nicht geklappt!";};
+		exitWith {hint localize "Das hat leider nicht geklappt!"};
 	;}
 	
 		if(_dice < 20) then {
