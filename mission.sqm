@@ -71834,7 +71834,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={13409.361,12.020996,11604.262};
-			name="mav_convoy_spawn1_1";
+			name="mav_convoy_spawn2";
 			type="Empty";
 			angle=185.407;
 			id=14207;
@@ -71844,7 +71844,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={13418.158,11.79,11632.711};
-			name="mav_convoy_spawn1_2";
+			name="mav_convoy_spawn3";
 			type="Empty";
 			angle=185.407;
 			id=14208;
