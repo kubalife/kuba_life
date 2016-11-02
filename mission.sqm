@@ -8,7 +8,7 @@ class EditorData
 	toggles=10;
 	class ItemIDProvider
 	{
-		nextID=14206;
+		nextID=14222;
 	};
 	class MarkerIDProvider
 	{
@@ -17,9 +17,9 @@ class EditorData
 	class Camera
 	{
 		pos[]={9169.1914,81.983795,10107.477};
-		dir[]={-0.068264954,-0.84565276,0.52945292};
-		up[]={-0.10814397,0.53369749,0.83872557};
-		aside[]={0.9918381,4.6018977e-007,0.12788427};
+		dir[]={-0.44994533,-0.83789712,0.30917352};
+		up[]={-0.69059604,0.54579115,0.47452977};
+		aside[]={0.56635123,4.3213367e-007,0.82422388};
 	};
 };
 binarizationWanted=0;
@@ -820,14 +820,14 @@ class Mission
 	};
 	class Entities
 	{
-		items=2017;
+		items=2030;
 		class Item0
 		{
 			dataType="Marker";
 			position[]={3706.0005,86.495522,14451.462};
 			name="respawn_civilian";
 			type="Empty";
-			angle=13.296571;
+			angle=13.29657;
 			id=0;
 			atlOffset=75.929108;
 		};
@@ -2328,7 +2328,7 @@ class Mission
 			position[]={3722.9553,109.89646,14450.165};
 			name="respawn_east";
 			type="Empty";
-			angle=13.296571;
+			angle=13.29657;
 			id=194;
 			atlOffset=96.342537;
 		};
@@ -13249,7 +13249,7 @@ class Mission
 			position[]={3709.6663,102.71162,14445.773};
 			name="respawn_guerrila";
 			type="Empty";
-			angle=13.296571;
+			angle=13.29657;
 			id=1110;
 			atlOffset=92.619263;
 		};
@@ -34677,7 +34677,7 @@ class Mission
 			position[]={3708.01,1.00458,14448.282};
 			name="respawn_west";
 			type="Empty";
-			angle=13.296571;
+			angle=13.29657;
 			id=11302;
 		};
 		class Item564
@@ -68672,7 +68672,7 @@ class Mission
 			};
 			id=13988;
 			type="Land_BarGate_F";
-			atlOffset=0.018377304;
+			atlOffset=0.018375397;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -71819,6 +71819,126 @@ class Mission
 			colorName="ColorWEST";
 			id=14205;
 			atlOffset=9.7218494;
+		};
+		class Item2017
+		{
+			dataType="Marker";
+			position[]={13398.901,0,11571.995};
+			name="mav_convoy_spawn1";
+			type="Empty";
+			angle=185.407;
+			id=14206;
+			atlOffset=-13.338655;
+		};
+		class Item2018
+		{
+			dataType="Marker";
+			position[]={13409.361,12.020996,11604.262};
+			name="mav_convoy_spawn1_1";
+			type="Empty";
+			angle=185.407;
+			id=14207;
+			atlOffset=-0.32313251;
+		};
+		class Item2019
+		{
+			dataType="Marker";
+			position[]={13418.158,11.79,11632.711};
+			name="mav_convoy_spawn1_2";
+			type="Empty";
+			angle=185.407;
+			id=14208;
+		};
+		class Item2020
+		{
+			dataType="Marker";
+			position[]={13052.923,-0.00038793532,10647.441};
+			name="mav_gold_waypoint_1";
+			type="Empty";
+			angle=232.461;
+			id=14209;
+			atlOffset=-95.333984;
+		};
+		class Item2021
+		{
+			dataType="Marker";
+			position[]={11914.556,146.25334,10183.119};
+			name="mav_gold_waypoint_2";
+			type="Empty";
+			angle=232.461;
+			id=14213;
+		};
+		class Item2022
+		{
+			dataType="Marker";
+			position[]={10453.092,115.26939,9538.7061};
+			name="mav_gold_waypoint_3";
+			type="Empty";
+			angle=232.461;
+			id=14214;
+		};
+		class Item2023
+		{
+			dataType="Marker";
+			position[]={9985.9111,233.41234,8787.7676};
+			name="mav_gold_waypoint_4";
+			type="Empty";
+			angle=232.461;
+			id=14215;
+		};
+		class Item2024
+		{
+			dataType="Marker";
+			position[]={9068.7637,97.032532,7911.3794};
+			name="mav_gold_waypoint_5";
+			type="Empty";
+			angle=232.461;
+			id=14216;
+		};
+		class Item2025
+		{
+			dataType="Marker";
+			position[]={7920.498,6.5301952,7912.4194};
+			name="mav_gold_waypoint_6";
+			type="Empty";
+			angle=232.461;
+			id=14217;
+		};
+		class Item2026
+		{
+			dataType="Marker";
+			position[]={7332.6948,2.6984766,7977.6802};
+			name="mav_gold_waypoint_7";
+			type="Empty";
+			angle=232.461;
+			id=14218;
+		};
+		class Item2027
+		{
+			dataType="Marker";
+			position[]={6289.5728,5.0281811,7404.8564};
+			name="mav_gold_waypoint_8";
+			type="Empty";
+			angle=232.461;
+			id=14219;
+		};
+		class Item2028
+		{
+			dataType="Marker";
+			position[]={5617.5923,6.2596412,7862.1733};
+			name="mav_gold_waypoint_9";
+			type="Empty";
+			angle=232.461;
+			id=14220;
+		};
+		class Item2029
+		{
+			dataType="Marker";
+			position[]={5537.4326,3.5211804,7816.0098};
+			name="mav_gold_waypoint_10";
+			type="Empty";
+			angle=232.461;
+			id=14221;
 		};
 	};
 };
