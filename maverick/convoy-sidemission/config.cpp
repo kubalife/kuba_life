@@ -56,15 +56,15 @@ class Maverick_ConvoySidemission
 
 				// Mission started announcement
 				startAnnouncementHeader			= "Gold Transport";
-				startAnnouncementDescription	= "The Federal Reserve's guarded transporter is currently moving larger amounts of gold.";
+				startAnnouncementDescription	= "Ein Goldtransport ist auf dem Weg zum Golddepot de Cuba.";
 
 				// Mission objective completed
-				stoppedAnnouncementHeader		= "Gold Transporter disabled";
-				stoppedAnnouncementDescription	= "The gold transporter has been disabled.";
+				stoppedAnnouncementHeader		= "Gold Transporter gestoppt!";
+				stoppedAnnouncementDescription	= "Der Goldtransport wurde gestoppt!";
 
 				// Mission completed announcement
-				endAnnouncementHeader			= "Gold Transport ended";
-				endAnnouncementDescription  	= "The mission has ended.";
+				endAnnouncementHeader			= "Gold Transport beendet";
+				endAnnouncementDescription  	= "Die Goldtransport Mission wurde beendet";
 			};
 
 			class Vehicles
