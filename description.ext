@@ -7,6 +7,8 @@ disableChannels[]={0,1,2};
 #include "infiSTAR_AdminMenu.hpp"
 //#include "Custom\CHVD\dialog.hpp"
 #include "dialog\statusBar.hpp"
+#include "maverick\maverick_master.cpp"
+
 
 enableDebugConsole = 1;
 
@@ -46,6 +48,7 @@ class RscTitles {
 
 class CfgFunctions {
 	#include "Functions.hpp"
+	#include "maverick\maverick_functions_master.cpp"
 };
 
 class CfgSounds {
