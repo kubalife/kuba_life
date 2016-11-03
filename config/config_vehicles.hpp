@@ -274,12 +274,10 @@ class CarShops {
 			{ "ADM_GMC_Vandura", { "", "", -1 } },
             //{ "uns_nvatruck_open", { "", "", -1 } },
             //{ "uns_nvatruck", { "", "", -1 } },
-            { "C_Truck_02_transport_F", { "", "", -1 } },
-            { "C_Truck_02_covered_F", { "", "", -1 } },
-            { "I_Truck_02_transport_F", { "", "", -1 } },
-            { "I_Truck_02_covered_F", { "", "", -1 } },
-            { "I_Truck_02_ammo_F", { "", "", -1 } },
-            { "I_Truck_02_fuel_F", { "", "", -1 } },
+            //{ "I_Truck_02_transport_F", { "", "", -1 } },
+            //{ "I_Truck_02_covered_F", { "", "", -1 } },
+            //{ "I_Truck_02_ammo_F", { "", "", -1 } },
+            //{ "I_Truck_02_fuel_F", { "", "", -1 } },
 			{ "CUP_O_V3S_Open_TKA", { "", "", -1 } },
 			{ "CUP_O_V3S_Covered_TKA", { "", "", -1 } },
 			{ "CUP_O_V3S_Repair_TKA", { "", "", -1 } },
@@ -295,6 +293,8 @@ class CarShops {
 			{ "CUP_B_Ural_CDF", { "", "", -1 } },
 			{ "CUP_B_Ural_Refuel_CDF", { "", "", -1 } },
 			{ "CUP_B_Ural_Repair_CDF", { "", "", -1 } },
+            { "C_Truck_02_transport_F", { "", "", -1 } },
+            { "C_Truck_02_covered_F", { "", "", -1 } },
 			{ "CUP_B_MTVR_USMC", { "", "", -1 } },
 			{ "CUP_B_MTVR_Ammo_USMC", { "", "", -1 } },
 			{ "CUP_B_MTVR_Refuel_USMC", { "", "", -1 } },
@@ -2851,14 +2851,14 @@ class LifeCfgVehicles {
     class C_Truck_02_transport_F {
         vItemSpace = 600;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
-        price = 50000;
+        price = 95000;
         textures[] = { };
     };
 
     class C_Truck_02_covered_F {
         vItemSpace = 600;
         licenses[] = { {"trucking"}, {"driver"}, {""}, {""} };
-        price = 50000;
+        price = 95000;
         textures[] = { };
     };
 
