@@ -10,7 +10,7 @@ scriptName "fn_attackMe";
 #define __filename "fn_attackMe.sqf"
 
 _time = getNumber(missionConfigFile >> "Maverick_ConvoySidemission" >> "Config" >> "MakePlayersHostileFor");
-hint format["Attention: You have engaged a convoy. You are hostile towards all players for %1 minutes. You cannot enter vehicles of friends, only drive them alone.",_time / 60];
+hint format["ACHTUNG: Du hast den Konvoi angegriffen. Du bist jetzt feindlich für %1 Minuten.",_time / 60];
 mav_convoy_attackme_scriptthread = _time spawn {
 	while {rating player > -100000} do {
 		player addRating -50000000000;
@@ -19,7 +19,7 @@ mav_convoy_attackme_scriptthread = _time spawn {
 	while {rating player < 1000000} do {
 		player addRating 50000000000;
 	};
-	hint "You are not not hostile anymore.";
+	hint "Du bist nicht mehr feindlich gesinnt";
 	mav_convoy_attackme_scriptthread = nil;
 };
 

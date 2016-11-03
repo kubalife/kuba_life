@@ -99,7 +99,7 @@ class Maverick_ConvoySidemission
 				type 							= "virtual";
 				container						= "";
 				data[] = {
-												{"goldbar", 30}
+												{"goldbar", 15}
 				};
 			};
 		};

@@ -25,7 +25,7 @@ _marker setMarkerText _text;
 // Create loop until the vehicle does not exist anymore to update the marker position
 _object spawn {
 	while {(!isNull _this)} do {
-		sleep 0.1;
+		sleep 1;
 		"mav_convoy_marker" setMarkerPos (getPos _this);
 	};
 };
