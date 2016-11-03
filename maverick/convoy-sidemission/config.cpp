@@ -76,7 +76,7 @@ class Maverick_ConvoySidemission
 				mainVehicleAtIndex				= 1;
 				maxSpeed						= 100;
 				removeVehiclesAfterSeconds		= 600;
-				additionalUnitsAmount			= 6;
+				additionalUnitsAmount			= 8;
 			};
 
 			class Route {

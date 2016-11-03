@@ -85,7 +85,6 @@ class CfgRemoteExec {
 		F(TON_fnc_generateAirdrop,CLIENT)
 		F(life_fnc_lizenzzeigen,CLIENT)
 		F(life_fnc_lizenzsehen,CLIENT)
-		F(life_fnc_automessages,CLIENT) //Automessage
         F(life_fnc_kontoCheckDefines,CLIENT)
         F(life_fnc_kontoCheckFeedback,CLIENT)
         F(life_fnc_kontoCheck,CLIENT)
@@ -139,7 +138,6 @@ class CfgRemoteExec {
         F(TON_fnc_insureCar,SERVER)
 		F(TON_fnc_playerLogged,SERVER) //DynMarket
 		F(TON_fnc_getUpdate,SERVER) //DynMarket
-		F(life_fnc_automessages,SERVER) //Automessage
 		F(TON_fnc_insertbericht,SERVER) //Computer
 		F(TON_fnc_deleteb,SERVER)		
 		F(life_fnc_update,SERVER)
