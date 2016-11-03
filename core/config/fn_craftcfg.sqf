@@ -165,7 +165,7 @@ switch(_craft) do
 		["sa330",["reifen",8,"engine",6,"karosserie",30,"autoglas",15,"elektroteile",50]],
 		["as532red",["reifen",8,"engine",6,"karosserie",30,"autoglas",15,"elektroteile",60]], 		
 		["as532blue",["reifen",8,"engine",6,"karosserie",30,"autoglas",15,"elektroteile",60]],
-		["mi17camo",["reifen",8,"engine",10,"karosserie",40,"autoglas",18,"elektroteile",70]],
+		//["mi17camo",["reifen",8,"engine",10,"karosserie",40,"autoglas",18,"elektroteile",70]], Hat ne Minigun, ziemlich sehr wichtig, dass er rauskommt
 		["chinook",["reifen",8,"engine",12,"karosserie",60,"autoglas",20,"elektroteile",90]],
 		["mi6camo",["reifen",8,"engine",15,"karosserie",70,"autoglas",30,"elektroteile",110]],
 		["NULL",[""]],
