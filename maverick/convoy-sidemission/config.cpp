@@ -41,10 +41,10 @@ class Maverick_ConvoySidemission
 				gear[] = {
 												"H_MilCap_gen_F", // Headgear
 												"", // Glasses
-												"U_B_GEN_Soldier_F", // Uniform
+												"CUP_U_B_BAF_DPM_S2_UnRolled", // Uniform
 												"V_TacVest_gen_F", // Vest
 												"", // Backpack
-												{"arifle_SPAR_01_blk_F", "30Rnd_556x45_Stanag", 5}, // Primary weapon, ammo and how many magazines
+												{"Skyline_M4A1_02_F", "30Rnd_556x45_Stanag", 5}, // Primary weapon, ammo and how many magazines
 												{"", "", 5}, // Secondary weapon, ammo and how many magazines
 				};
 			};
@@ -70,11 +70,11 @@ class Maverick_ConvoySidemission
 			class Vehicles
 			{
 				// Vehicle configuration
-				vehiclesInOrder[]				= {"CUP_I_Datsun_PK_Random","CUP_O_Ural_Reammo_TKA","CUP_I_Datsun_PK_Random"};
+				vehiclesInOrder[]				= {"CUP_O_UAZ_MG_TKA","CUP_O_UAZ_Open_TKA","CUP_O_Ural_Reammo_TKA","CUP_O_UAZ_Open_TKA"};
 				vehiclesSpawnMarkersInOrder[]	= {"mav_convoy_spawn1","mav_convoy_spawn2","mav_convoy_spawn3"};
 				vehiclesInheritDirection		= 1;
 				mainVehicleAtIndex				= 1;
-				maxSpeed						= 100;
+				maxSpeed						= 80;
 				removeVehiclesAfterSeconds		= 600;
 				additionalUnitsAmount			= 8;
 			};

@@ -5564,5 +5564,12 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 30000;
         textures[] = {};
     };
+	
+	class CUP_O_Ural_Reammo_TKA {
+        vItemSpace = 500;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 30000;
+        textures[] = {};
+    };
 };
 //ommsen
