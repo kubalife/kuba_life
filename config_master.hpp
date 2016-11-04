@@ -495,6 +495,13 @@ class Life_Settings {
         "dp_24",
         "dp_25"
     };
+	air_points[] = {
+        "ap_1",
+        "ap_2",
+        "ap_3",
+        "ap_4",
+        "ap_5"
+    };
     fuelTank_winMultiplier = 1; //Win Multiplier in FuelTank Missions. Increase for greater payout. Default = 1
 
     /* Search & Seizure System Configurations */
