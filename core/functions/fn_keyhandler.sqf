@@ -211,10 +211,12 @@ switch (_code) do {
 		};
 	};
 
-	case 15:
+/*	case 15:
 	{
 		player playActionNow "gestureHi";
 	};
+	//Nervt insgesamt nur mit TFAR, man kann das besser über den Gesten-Mod machen
+*/
 /*
 	//Restraining (Shift + R)
 case 19: {
