@@ -70,7 +70,7 @@ class Maverick_ConvoySidemission
 			class Vehicles
 			{
 				// Vehicle configuration
-				vehiclesInOrder[]				= {"CUP_O_UAZ_MG_TKA","CUP_O_UAZ_Open_TKA","CUP_O_Ural_Reammo_TKA","CUP_O_UAZ_Open_TKA"};
+				vehiclesInOrder[]				= {"CUP_O_UAZ_Open_TKA","CUP_O_Ural_Reammo_TKA","CUP_O_UAZ_Open_TKA"};
 				vehiclesSpawnMarkersInOrder[]	= {"mav_convoy_spawn1","mav_convoy_spawn2","mav_convoy_spawn3"};
 				vehiclesInheritDirection		= 1;
 				mainVehicleAtIndex				= 1;
