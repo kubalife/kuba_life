@@ -26,7 +26,7 @@ life_isknocked = true;
 [] call SOCK_fnc_updateRequest;
 player attachTo [_obj,[0,0,0]];
 [player, true, 15] call ace_medical_fnc_setUnconscious;
-[player, 0.8, "head", "punch"] call ace_medical_fnc_addDamageToUnit;
+[player, 0.3, "head", "punch"] call ace_medical_fnc_addDamageToUnit;
 sleep 15;
 detach player;
 deleteVehicle _obj;
