@@ -12,7 +12,7 @@ switch (playerSide) do {
 			(surfaceisWater (getPos vehicle player)) && (vehicle player isKindOf "Ship") && life_carryWeight < life_maxWeight && speed (vehicle player) < 10 && speed (vehicle player) > -1 && player distance getMarkerPos "fisch_1" < 500 && !life_net_dropped ']];
 		//Rob person
 			life_actions = life_actions + [player addAction[localize "STR_pAct_RobPerson",life_fnc_robAction,"",0,false,false,"",'
-			!isNull cursorObject && player distance cursorTarget < 3.5 && isPlayer cursorObject && animationState cursorObject == "AmovPpneMstpSrasWrflDnon" && !(cursorObject getVariable["robbed",FALSE]) ']];
+			!isNull cursorObject && player distance cursorTarget < 3.5 && isPlayer cursorObject && cursorObject getVariable "ACE_isUnconscious" && !(cursorObject getVariable["robbed",FALSE]) ']];
 		// Suicide Bomb
 			life_actions = life_actions + [player addAction["<t color='#FF0000'>Sprengweste zünden!</t>",life_fnc_suicideBomb,"",0,false,false,"",
 			'vest player == "V_HarnessOGL_brn" && alive player && playerSide == civilian && !life_istazed && !life_isSuicide && !(player getVariable "restrained") && !(player getVariable "Escorting") && !(player getVariable "transporting")']];

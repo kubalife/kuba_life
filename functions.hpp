@@ -109,6 +109,8 @@ class Ausweis
 		class crabgather {};
 		class crabsonar {};
 		class wreckgather {};
+		class getAPMission {};
+		class apfinish {};
 	};
 
 	class computer //Polizeicomputer
