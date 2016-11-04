@@ -54,7 +54,7 @@ class CfgSpawnPoints {
 
         class RebelS {
             displayName = "Southwest Rebel Base";
-            spawnMarker = "Rebelop";
+            spawnMarker = "Rebelop_1";
             icon = "icons\civspawn.paa";
             licenses[] = { { "rebel", true } };
             level[] = { "", "", -1 };
@@ -62,7 +62,7 @@ class CfgSpawnPoints {
 
         class RebelN {
             displayName = "Northwest Rebel Base";
-            spawnMarker = "Rebelop_1";
+            spawnMarker = "Rebelop";
             icon = "icons\civspawn.paa";
             licenses[] = { { "rebel", true } };
             level[] = { "", "", -1 };
@@ -79,8 +79,16 @@ class CfgSpawnPoints {
 
     class Cop {
         class Georgetown {
-            displayName = "Georgetown HQ";
+            displayName = "Main HQ";
             spawnMarker = "cop_spawn_1";
+            icon = "icons\policespawn.paa";
+            licenses[] = { { "", true } };
+            level[] = { "", "", -1 };
+        };
+
+        class Bridge {
+            displayName = "Georgetown HQ";
+            spawnMarker = "cop_spawn_2";
             icon = "icons\policespawn.paa";
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
@@ -89,14 +97,6 @@ class CfgSpawnPoints {
         class LaRochelle {
             displayName = "La Rochelle HQ";
             spawnMarker = "cop_spawn_3";
-            icon = "icons\policespawn.paa";
-            licenses[] = { { "", true } };
-            level[] = { "", "", -1 };
-        };
-
-        class Bridge {
-            displayName = "Bridge HQ";
-            spawnMarker = "cop_spawn_2";
             icon = "icons\policespawn.paa";
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
@@ -128,6 +128,14 @@ class CfgSpawnPoints {
     };
 
     class Medic {
+		class Main {
+            displayName = "MRS Main HQ";
+            spawnMarker = "medic_spawn_5";
+            icon = "icons\medspawn.paa";
+            licenses[] = { { "", true } };
+            level[] = { "", "", -1 };
+        };
+		
         class Kavala {
             displayName = "Georgetown Hospital";
             spawnMarker = "medic_spawn_1";
@@ -137,7 +145,7 @@ class CfgSpawnPoints {
         };
 
         class Athira {
-            displayName = "Athira Regional";
+            displayName = "Lijnhaven HQ";
             spawnMarker = "medic_spawn_2";
             icon = "icons\medspawn.paa";
             licenses[] = { { "", true } };
@@ -145,17 +153,10 @@ class CfgSpawnPoints {
         };
 
         class Pyrgos {
-            displayName = "Pyrgos Hospital";
+            displayName = "Katkoula HQ";
             spawnMarker = "medic_spawn_3";
             icon = "icons\medspawn.paa";
             licenses[] = { { "", true } };
-            level[] = { "", "", -1 };
-        };
-        class adac {
-            displayName = "Autoclub Headquarter";
-            spawnMarker = "medic_spawn_4";
-            icon = "icons\medspawn.paa";
-            licenses[] = { { "adac", true } };
             level[] = { "", "", -1 };
         };
     };
