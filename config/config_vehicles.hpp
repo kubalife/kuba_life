@@ -408,7 +408,7 @@ class CarShops {
 			{ "A3L_SpeedYacht", { "", "", -1 } },
 			{ "cl3_phoenixyacht", { "", "", -1 } },
 			{ "POP_Speed_yatch", { "", "", -1 } },
-			{ "A3L_CarCarrier", { "", "", -1 } }
+			{ "ffaa_ar_lcm", { "", "", -1 } }
 			//{ "A3PL_Yacht", { "", "", -1 } },
 			//{ "A3PL_Yacht_Pirate", { "", "", -1 } }
         };
@@ -2570,7 +2570,7 @@ class LifeCfgVehicles {
     */
 
 	class ffaa_ar_lcm {
-        vItemSpace = 100;
+        vItemSpace = 50;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 35000;
         textures[] = {};
@@ -4131,300 +4131,368 @@ class LifeCfgVehicles {
     };
 
 	class UH1Y_FFV {
-        vItemSpace = 250;
+        vItemSpace = 230;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 260000;
         textures[] = { };
     };
 
 	class I_mas_MI8 {
-        vItemSpace = 300;
+        vItemSpace = 275;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 320000;
         textures[] = { };
     };
 
 	class I_Heli_Transport_02_F {
-        vItemSpace = 350;
+        vItemSpace = 325;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 420000;
         textures[] = { };
     };
 
 	class SCmod_cougar_civ {
-        vItemSpace = 400;
+        vItemSpace = 350;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 500000;
         textures[] = { };
     };
 
 	class SCmod_cougar_civ1 {
-        vItemSpace = 400;
+        vItemSpace = 350;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 500000;
         textures[] = { };
     };
 
 	class SCmod_cougar_civ2 {
-        vItemSpace = 400;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 500000;
-        textures[] = { };
-    };
-    /*
-    ################################## Luftfahrzeuge Flug ####################################
-    */
-	class sab_camel_pro {
-        vItemSpace = 40;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 25000;
-        textures[] = { };
-    };
-
-	class sab_FAAllegro_4 {
-        vItemSpace = 60;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 60000;
-        textures[] = { };
-    };
-
-	class sab_FAAllegro {
-        vItemSpace = 60;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 60000;
-        textures[] = { };
-    };
-
-	class sab_FAAllegro_3 {
-        vItemSpace = 60;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 60000;
-        textures[] = { };
-    };
-
-	class sab_FAAllegro_5 {
-        vItemSpace = 60;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 60000;
-        textures[] = { };
-    };
-
-	class sab_RobinDR400 {
-        vItemSpace = 80;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 80000;
-        textures[] = { };
-    };
-
-	class sab_RobinDR400_4 {
-        vItemSpace = 80;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 80000;
-        textures[] = { };
-    };
-
-	class sab_RobinDR400_2 {
-        vItemSpace = 80;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 80000;
-        textures[] = { };
-    };
-
-	class sab_RobinDR400_3 {
-        vItemSpace = 80;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 80000;
-        textures[] = { };
-    };
-
-	class sab_RobinDR400_5 {
-        vItemSpace = 80;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 80000;
-        textures[] = { };
-    };
-
-	class sab_piper5 {
-        vItemSpace = 100;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 100000;
-        textures[] = { };
-    };
-
-	class sab_piper4 {
-        vItemSpace = 100;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 100000;
-        textures[] = { };
-    };
-
-	class sab_piper2 {
-        vItemSpace = 100;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 100000;
-        textures[] = { };
-    };
-
-	class sab_piper {
-        vItemSpace = 100;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 100000;
-        textures[] = { };
-    };
-
-	class sab_piper3 {
-        vItemSpace = 100;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 100000;
-        textures[] = { };
-    };
-
-	class uns_skymaster_civ_yellow {
-        vItemSpace = 130;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 130000;
-        textures[] = { };
-    };
-
-	class uns_skymaster_civ_red {
-        vItemSpace = 130;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 130000;
-        textures[] = { };
-    };
-
-	class uns_skymaster_civ_gold {
-        vItemSpace = 130;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 130000;
-        textures[] = { };
-    };
-
-	class uns_skymaster_civ {
-        vItemSpace = 130;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 130000;
-        textures[] = { };
-    };
-
-	class uns_skymaster_civ_blue {
-        vItemSpace = 130;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 130000;
-        textures[] = { };
-    };
-
-	class IVORY_T6A_1 {
-        vItemSpace = 130;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 130000;
-        textures[] = { };
-    };
-
-	class GNT_C185 {
-        vItemSpace = 150;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 155000;
-        textures[] = { };
-    };
-
-	class GNT_C185F {
-        vItemSpace = 150;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 155000;
-        textures[] = { };
-    };
-
-	class sab_curtissjn4_9 {
-        vItemSpace = 180;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 180000;
-        textures[] = { };
-    };
-
-	class sab_do228_3 {
-        vItemSpace = 220;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 220000;
-        textures[] = { };
-    };
-
-	class sab_do228_3_1 {
-        vItemSpace = 220;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 220000;
-        textures[] = { };
-    };
-
-	class sab_do228_3_2 {
-        vItemSpace = 220;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 220000;
-        textures[] = { };
-    };
-
-	class Sab_Sikorsky38_3 {
         vItemSpace = 350;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 350000;
-        textures[] = { };
-    };
-
-	class Sab_Sikorsky38_2 {
-        vItemSpace = 350;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 350000;
-        textures[] = { };
-    };
-
-	class uns_c1a2cargo {
-        vItemSpace = 500;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 500000;
-        textures[] = { };
-    };
-
-	class CUP_C_C47_CIV {
-        vItemSpace = 600;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 600000;
-        textures[] = { };
-    };
-
-	class IVORY_ERJ135_1 {
-        vItemSpace = 1000;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 1000000;
-        textures[] = { };
-    };
-
-	class ivory_yak42d_1 {
-        vItemSpace = 1500;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 1500000;
         textures[] = { };
     };
 	class CUP_C_Mi17_Civilian_RU {
-        vItemSpace = 475;
+        vItemSpace = 400;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 700000;
         textures[] = { };
     };
 	
 	class CUP_O_Mi17_VIV_TK { 
-        vItemSpace = 475;
+        vItemSpace = 400;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 700000;
         textures[] = { };
     };
 	
 	class CUP_C_MI6T_RU {
-        vItemSpace = 800;
+        vItemSpace = 600;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 1300000;
         textures[] = { };
     };
+	class CUP_B_C47_USA {
+        vItemSpace = 700;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 50000;
+        textures[] = { };
+    };
+	class DEGA_BAF_CH47F_Unarmed {
+        vItemSpace = 600;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 5000;
+        textures[] = { };
+    };
+	class CUP_B_Merlin_HC3_GB {
+        vItemSpace = 350;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 50000;
+        textures[] = { };
+    };
+	class CUP_B_AW159_Unarmed_GB {
+        vItemSpace = 170;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 50000;
+        textures[] = { };
+    };
+	class CUP_B_SA330_Puma_HC1_BAF {
+        vItemSpace = 250;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 50000;
+        textures[] = { };
+    };
+    /*
+    ################################## Luftfahrzeuge Flug ####################################
+    */
+	class sab_camel_pro {
+        vItemSpace = 80;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 25000;
+        textures[] = { };
+    };
 
+	class sab_FAAllegro_4 {
+        vItemSpace = 120;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 60000;
+        textures[] = { };
+    };
+
+	class sab_FAAllegro {
+        vItemSpace = 120;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 60000;
+        textures[] = { };
+    };
+
+	class sab_FAAllegro_3 {
+        vItemSpace = 120;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 60000;
+        textures[] = { };
+    };
+
+	class sab_FAAllegro_5 {
+        vItemSpace = 120;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 60000;
+        textures[] = { };
+    };
+
+	class sab_RobinDR400 {
+        vItemSpace = 160;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 80000;
+        textures[] = { };
+    };
+
+	class sab_RobinDR400_4 {
+        vItemSpace = 160;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 80000;
+        textures[] = { };
+    };
+
+	class sab_RobinDR400_2 {
+        vItemSpace = 160;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 80000;
+        textures[] = { };
+    };
+
+	class sab_RobinDR400_3 {
+        vItemSpace = 160;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 80000;
+        textures[] = { };
+    };
+
+	class sab_RobinDR400_5 {
+        vItemSpace = 160;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 80000;
+        textures[] = { };
+    };
+
+	class sab_piper5 {
+        vItemSpace = 200;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 100000;
+        textures[] = { };
+    };
+
+	class sab_piper4 {
+        vItemSpace = 200;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 100000;
+        textures[] = { };
+    };
+
+	class sab_piper2 {
+        vItemSpace = 200;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 100000;
+        textures[] = { };
+    };
+
+	class sab_piper {
+        vItemSpace = 200;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 100000;
+        textures[] = { };
+    };
+
+	class sab_piper3 {
+        vItemSpace = 200;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 100000;
+        textures[] = { };
+    };
+
+	class uns_skymaster_civ_yellow {
+        vItemSpace = 260;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 130000;
+        textures[] = { };
+    };
+
+	class uns_skymaster_civ_red {
+        vItemSpace = 260;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 130000;
+        textures[] = { };
+    };
+
+	class uns_skymaster_civ_gold {
+        vItemSpace = 260;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 130000;
+        textures[] = { };
+    };
+
+	class uns_skymaster_civ {
+        vItemSpace = 260;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 130000;
+        textures[] = { };
+    };
+
+	class uns_skymaster_civ_blue {
+        vItemSpace = 260;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 130000;
+        textures[] = { };
+    };
+
+	class IVORY_T6A_1 {
+        vItemSpace = 260;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 130000;
+        textures[] = { };
+    };
+
+	class GNT_C185 {
+        vItemSpace = 300;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 155000;
+        textures[] = { };
+    };
+
+	class GNT_C185F {
+        vItemSpace = 300;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 155000;
+        textures[] = { };
+    };
+
+	class sab_curtissjn4_9 {
+        vItemSpace = 360;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 180000;
+        textures[] = { };
+    };
+
+	class sab_do228_3 {
+        vItemSpace = 440;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 220000;
+        textures[] = { };
+    };
+
+	class sab_do228_3_1 {
+        vItemSpace = 440;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 220000;
+        textures[] = { };
+    };
+
+	class sab_do228_3_2 {
+        vItemSpace = 440;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 220000;
+        textures[] = { };
+    };
+
+	class Sab_Sikorsky38_3 {
+        vItemSpace = 700;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 350000;
+        textures[] = { };
+    };
+
+	class Sab_Sikorsky38_2 {
+        vItemSpace = 700;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 350000;
+        textures[] = { };
+    };
+
+	class uns_c1a2cargo {
+        vItemSpace = 1000;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 500000;
+        textures[] = { };
+    };
+
+	class CUP_C_C47_CIV {
+        vItemSpace = 1200;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 600000;
+        textures[] = { };
+    };
+
+	class IVORY_ERJ135_1 {
+        vItemSpace = 1500;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 1000000;
+        textures[] = { };
+    };
+
+	class ivory_yak42d_1 {
+        vItemSpace = 200;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 1500000;
+        textures[] = { };
+    };
+	class CUP_B_MV22_USMC {
+        vItemSpace = 750;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 5000;
+        textures[] = { };
+    };
+	class CUP_B_MV22_VIV_USMC {
+        vItemSpace = 750;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 5000;
+        textures[] = { };
+    };
+	
+	class CUP_B_C130J_Cargo_GB {
+        vItemSpace = 2000;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 200000;
+        textures[] = { };
+    };
+	class CUP_I_C130J_AAF {
+        vItemSpace = 2000;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 200000;
+        textures[] = { };
+    };
+	class CUP_I_C130J_Cargo_AAF {
+        vItemSpace = 2000;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 50000;
+        textures[] = { };
+    };
+	
+	class CUP_B_HMMWV_Unarmed_USMC {
+        vItemSpace = 150;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 50000;
+        textures[] = { };
+    };
+	
 
 
     /*
@@ -4762,72 +4830,7 @@ class LifeCfgVehicles {
         price = 5000;
         textures[] = { };
     };
-	class CUP_B_MV22_USMC {
-        vItemSpace = 550;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 5000;
-        textures[] = { };
-    };
-	class CUP_B_MV22_VIV_USMC {
-        vItemSpace = 550;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 5000;
-        textures[] = { };
-    };
-	class DEGA_BAF_CH47F_Unarmed {
-        vItemSpace = 700;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 5000;
-        textures[] = { };
-    };
-	class CUP_B_C130J_Cargo_GB {
-        vItemSpace = 2000;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 200000;
-        textures[] = { };
-    };
-	class CUP_I_C130J_AAF {
-        vItemSpace = 2000;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 200000;
-        textures[] = { };
-    };
-	class CUP_I_C130J_Cargo_AAF {
-        vItemSpace = 2000;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 50000;
-        textures[] = { };
-    };
-	class CUP_B_AW159_Unarmed_GB {
-        vItemSpace = 170;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 50000;
-        textures[] = { };
-    };
-	class CUP_B_SA330_Puma_HC1_BAF {
-        vItemSpace = 250;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 50000;
-        textures[] = { };
-    };
-	class CUP_B_HMMWV_Unarmed_USMC {
-        vItemSpace = 150;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 50000;
-        textures[] = { };
-    };
-	class CUP_B_Merlin_HC3_GB {
-        vItemSpace = 350;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 50000;
-        textures[] = { };
-    };
-	class CUP_B_C47_USA {
-        vItemSpace = 700;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 50000;
-        textures[] = { };
-    };
+	
 
 //####################################################
 
@@ -5049,14 +5052,14 @@ class LifeCfgVehicles {
     };
 
     class Box_IND_Grenades_F {
-        vItemSpace = 1500;
+        vItemSpace = 2000;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = -1;
         textures[] = {};
     };
 
     class B_supplyCrate_F {
-        vItemSpace = 2500;
+        vItemSpace = 3000;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = -1;
         textures[] = {};
