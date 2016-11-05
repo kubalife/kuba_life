@@ -7,47 +7,8 @@
 	Selects a random AP point for a air delivery mission.
 	Needs to be revised.
 */
-private["_ap","_target"];
+private["_ap", "_target"];
 _target = param [0,ObjNull,[ObjNull]];
-
-_flugzeug = nearestObjects[player, [
-    "sab_camel_pro",
-    "sab_FAAllegro_4",
-    "sab_FAAllegro",
-    "sab_FAAllegro_3",
-    "sab_FAAllegro_5",
-    "sab_RobinDR400",
-    "sab_RobinDR400_4",
-    "sab_RobinDR400_2",
-    "sab_RobinDR400_3",
-    "sab_RobinDR400_5",
-    "sab_piper5",
-    "sab_piper4",
-    "sab_piper2",
-    "sab_piper",
-    "sab_piper3",
-    "uns_skymaster_civ_yellow",
-    "uns_skymaster_civ_red",
-    "uns_skymaster_civ_gold",
-    "uns_skymaster_civ",
-    "uns_skymaster_civ_blue",
-    "IVORY_T6A_1",
-    "GNT_C185",
-    "GNT_C185F",
-    "sab_curtissjn4_9",
-    "sab_do228_3",
-    "sab_do228_3_1",
-    "sab_do228_3_2",
-    "Sab_Sikorsky38_3",
-    "Sab_Sikorsky38_2",
-    "uns_c1a2cargo",
-    "CUP_C_C47_CIV",
-    "IVORY_ERJ135_1",
-    "ivory_yak42d_1"
-], 20];
-if !(nearestObjects == _flugzeug) exitWith {
-    hint "Wo ist dein Flugzeug? Parke es mindestens 20m zum Terminal.";
-};
 
 if(str(_target) in LIFE_SETTINGS(getArray,"air_points")) then {
 	private "_point";
