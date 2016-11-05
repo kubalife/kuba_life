@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=9;
+	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=15016;
+		nextID=15024;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2106.8008,20.232607,3453.198};
-		dir[]={-0.015006012,-0.78767836,-0.61591268};
-		up[]={-0.019185055,0.61608511,-0.78744584};
-		aside[]={-0.99970889,-2.8556678e-007,0.024355821};
+		pos[]={11789.884,35.933495,3055.4866};
+		dir[]={-0.21686269,-0.5289923,0.82047015};
+		up[]={-0.13519111,0.84859389,0.51147318};
+		aside[]={0.96681398,1.3685931e-006,0.25554436};
 	};
 };
 binarizationWanted=0;
@@ -818,8 +818,8 @@ class Mission
 		year=2011;
 		month=1;
 		day=6;
-		hour=11;
-		minute=-26;
+		hour=6;
+		minute=7;
 		startFogBase=-1000;
 		forecastFogBase=-1000;
 		startFogDecay=0;
@@ -827,7 +827,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2357;
+		items=2365;
 		class Item0
 		{
 			dataType="Marker";
@@ -1022,6 +1022,7 @@ class Mission
 			type="c_car";
 			colorName="ColorBlue";
 			id=21;
+			atlOffset=0.094920158;
 		};
 		class Item18
 		{
@@ -1446,7 +1447,7 @@ class Mission
 			position[]={7499.6841,8.1829815,8554.5469};
 			name="cop_car_1";
 			type="Empty";
-			angle=223.0965;
+			angle=223.09648;
 			id=99;
 			atlOffset=0.69298172;
 		};
@@ -3946,13 +3947,13 @@ class Mission
 				angles[]={0,5.2899976,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
 			};
 			id=752;
 			type="Land_CashDesk_F";
-			atlOffset=0.52993774;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -26443,7 +26444,7 @@ class Mission
 			type="loc_Fuelstation";
 			colorName="ColorWhite";
 			id=10475;
-			atlOffset=1986.4336;
+			atlOffset=1992.6598;
 		};
 		class Item501
 		{
@@ -27110,6 +27111,7 @@ class Mission
 					};
 					id=1073;
 					type="C_Nikos_aged";
+					atlOffset=-4.7683716e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -37529,12 +37531,12 @@ class Mission
 				angles[]={0,2.6856074,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=12748;
 			type="Land_HelipadCircle_F";
-			atlOffset=6.1525326;
 		};
 		class Item923
 		{
@@ -71395,7 +71397,7 @@ class Mission
 			position[]={7503.7241,7.4899902,8550.5459};
 			name="cop_car_7";
 			type="Empty";
-			angle=223.09648;
+			angle=223.09647;
 			id=14856;
 			atlOffset=-9.5367432e-006;
 		};
@@ -73223,7 +73225,7 @@ class Mission
 			position[]={5609.7554,3.074585,4151.5215};
 			name="car_g_6";
 			type="Empty";
-			angle=3.0511019;
+			angle=3.0511017;
 			id=14926;
 			atlOffset=-0.20961905;
 		};
@@ -73329,14 +73331,13 @@ class Mission
 				angles[]={0,1.119367,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_Process_Salt"",life_fnc_processAction,""salt"",0,false,false,"""",' life_inv_saltUnrefined > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""salt"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""salt"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""salt"",0,false,false,"""",' !license_civ_salt && playerSide == civilian '];";
 			};
 			id=14936;
 			type="A3L_Savepoint";
-			atlOffset=0.00042533875;
+			atlOffset=0.32500267;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -76062,7 +76063,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2105.688,13.648974,3447.8169};
+				position[]={2103.3079,13.648926,3446.8401};
 				angles[]={0,6.011682,0};
 			};
 			side="Empty";
@@ -76074,6 +76075,7 @@ class Mission
 			};
 			id=15012;
 			type="A3L_Savepoint";
+			atlOffset=-4.863739e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -76103,8 +76105,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2107.416,13.648974,3448.082};
-				angles[]={0,6.011682,0};
+				position[]={6902.291,3.3589745,7456.7642};
+				angles[]={0,1.3751686,0};
 			};
 			side="Empty";
 			flags=4;
@@ -76138,6 +76140,193 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item2357
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11718.064,7.6489739,13096.532};
+				angles[]={0,4.991302,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Deliver_Package"",life_fnc_apFinish,""ap_3"",0,false,false,"""",'!isNil ""life_ap_point"" && life_delivery_in_progress && life_ap_point == _target '];  this addAction[localize""STR_MAR_Get_Delivery_Mission"",life_fnc_getAPMission,""ap_3"",0,false,false,"""",' isNil ""life_ap_point"" && !life_delivery_in_progress '];";
+				name="ap_3";
+			};
+			id=15016;
+			type="A3L_Savepoint";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item2358
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2177.957,14.148974,13389.166};
+				angles[]={0,2.4533648,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Deliver_Package"",life_fnc_apFinish,""ap_4"",0,false,false,"""",'!isNil ""life_ap_point"" && life_delivery_in_progress && life_ap_point == _target '];  this addAction[localize""STR_MAR_Get_Delivery_Mission"",life_fnc_getAPMission,""ap_4"",0,false,false,"""",' isNil ""life_ap_point"" && !life_delivery_in_progress '];";
+				name="ap_4";
+			};
+			id=15017;
+			type="A3L_Savepoint";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item2359
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11786.299,5.560811,3113.1394};
+				angles[]={6.2805333,3.7637973,0.0026520467};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Deliver_Package"",life_fnc_apFinish,""ap_5"",0,false,false,"""",'!isNil ""life_ap_point"" && life_delivery_in_progress && life_ap_point == _target '];  this addAction[localize""STR_MAR_Get_Delivery_Mission"",life_fnc_getAPMission,""ap_5"",0,false,false,"""",' isNil ""life_ap_point"" && !life_delivery_in_progress '];";
+				name="ap_5";
+			};
+			id=15018;
+			type="A3L_Savepoint";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item2360
+		{
+			dataType="Marker";
+			position[]={2104.3098,13.267445,3445.4326};
+			name="ap_1";
+			text="Air Delivery 1";
+			type="A3L_Car_Icon";
+			colorName="ColorYellow";
+			a=0.60000002;
+			b=0.60000002;
+			id=15019;
+		};
+		class Item2361
+		{
+			dataType="Marker";
+			position[]={6901.8882,23.928345,7457.2534};
+			name="ap_2";
+			text="Air Delivery 2";
+			type="A3L_Car_Icon";
+			colorName="ColorYellow";
+			a=0.60000002;
+			b=0.60000002;
+			id=15020;
+			atlOffset=21.268345;
+		};
+		class Item2362
+		{
+			dataType="Marker";
+			position[]={11717.887,305.83374,13096.911};
+			name="ap_3";
+			text="Air Delivery 3";
+			type="A3L_Car_Icon";
+			colorName="ColorYellow";
+			a=0.60000002;
+			b=0.60000002;
+			id=15021;
+			atlOffset=298.88373;
+		};
+		class Item2363
+		{
+			dataType="Marker";
+			position[]={2186.4155,363.69067,13384.228};
+			name="ap_4";
+			text="Air Delivery 4";
+			type="A3L_Car_Icon";
+			colorName="ColorYellow";
+			a=0.60000002;
+			b=0.60000002;
+			id=15022;
+			atlOffset=350.24066;
+		};
+		class Item2364
+		{
+			dataType="Marker";
+			position[]={11785.411,230.40642,3110.3682};
+			name="ap_5";
+			text="Air Delivery 5";
+			type="A3L_Car_Icon";
+			colorName="ColorYellow";
+			a=0.60000002;
+			b=0.60000002;
+			id=15023;
+			atlOffset=225.54642;
 		};
 	};
 };
