@@ -301,7 +301,7 @@ class WeaponShops {
             { "uns_M16A1_m203", "", 0, 0, { "life_coplevel", 5 } },     //Lieutenant
             {""},
             { "uns_M63a_AR", "", 0, 0, { "life_coplevel", 6 } },            //Captain
-            { "uns_m14", "", 0, 0, { "life_coplevel", 6 } },                //Captain
+            { "CUP_srifle_M14", "", 0, 0, { "life_coplevel", 6 } },                //Captain
             {""},
             { "uns_l1a1", "", 0, 0, { "life_coplevel", 7 } },           //Major
             { "uns_l1a1gl", "", 0, 0, { "life_coplevel", 7 } },         //Major
@@ -349,7 +349,7 @@ class WeaponShops {
             { "DDOPP_1Rnd_X26", "x26 1 Schuss", 0 },
             { "uns_30Rnd_556x45_Stanag", "", 0 },
 			{ "20Rnd_556x45_UW_mag", "", 450 },
-            { "uns_m14mag", "", 0 },
+            { "CUP_20Rnd_762x51_DMR", "", 0 },
             { "uns_l1a1mag", "", 0 },
             { "uns_m870mag", "", 0 },
             { "uns_m1911mag", "", 0 }  
