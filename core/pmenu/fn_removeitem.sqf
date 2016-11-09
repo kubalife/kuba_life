@@ -18,7 +18,7 @@ if(parseNumber(_value) <= 0) exitWith {hint localize "STR_NOTF_enterAmountRemove
 if(EQUAL(ITEM_ILLEGAL(_data),1) && ([west,visiblePosition player,100] call life_fnc_nearUnits)) exitWith {titleText[localize "STR_NOTF_illegalItemCannotDispose","PLAIN"]};
 if(player != vehicle player) exitWith {titleText[localize "STR_NOTF_cannotRemoveInVeh","PLAIN"]};
 if(!([false,_data,(parseNumber _value)] call life_fnc_handleInv)) exitWith {hint localize "STR_NOTF_couldNotRemoveThatMuch";};
-[_data,_value] spawn life_fnc_dropItem;
+[_data,(parseNumber _value)] spawn life_fnc_dropItem;
 
 hint format [localize "STR_NOTF_removedFromInventory",(parseNumber _value),(localize ITEM_NAME(_data))];
 
