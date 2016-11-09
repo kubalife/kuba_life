@@ -8,7 +8,7 @@ _itemName = ITEM_VARNAME(_item);
 switch(_item) do {
 	case "waterBottle": {
 		if(_value > 0) then {
-			_pos = _unit modelToWorld[0,3,0];
+			_pos = _unit modelToWorld[0,1,0];
 			_pos = [SEL(_pos,0), SEL(_pos,1), 0];
 			_obj = "Land_BottlePlastic_V1_F" createVehicle _pos;
 			//_obj SVAR ["water",_value,true];
@@ -21,7 +21,7 @@ switch(_item) do {
 
 	case "tbacon": {
 		if(_value > 0) then {
-			_pos = _unit modelToWorld[0,3,0];
+			_pos = _unit modelToWorld[0,1,0];
 			_pos = [SEL(_pos,0), SEL(_pos,1), 0];
 			_obj = "Land_TacticalBacon_F" createVehicle _pos;
 			[_obj] remoteExecCall ["life_fnc_simDisable",RANY];
@@ -33,7 +33,7 @@ switch(_item) do {
 
 	case "redgull": {
 		if(_value > 0) then {
-			_pos = _unit modelToWorld[0,3,0];
+			_pos = _unit modelToWorld[0,1,0];
 			_pos = [SEL(_pos,0), SEL(_pos,1), 0];
 			_obj = "Land_Can_V3_F" createVehicle _pos;
 			[_obj] remoteExecCall ["life_fnc_simDisable",RANY];
@@ -45,7 +45,7 @@ switch(_item) do {
 
 	case "fuelEmpty": {
 		if(_value > 0) then {
-			_pos = _unit modelToWorld[0,3,0];
+			_pos = _unit modelToWorld[0,1,0];
 			_pos = [SEL(_pos,0), SEL(_pos,1), 0];
 			_obj = "Land_CanisterFuel_F" createVehicle _pos;
 			[_obj] remoteExecCall ["life_fnc_simDisable",RANY];
@@ -57,7 +57,7 @@ switch(_item) do {
 
 	case "fuelFull": {
 		if(_value > 0) then {
-			_pos = _unit modelToWorld[0,3,0];
+			_pos = _unit modelToWorld[0,1,0];
 			_pos = [SEL(_pos,0), SEL(_pos,1), 0];
 			_obj = "Land_CanisterFuel_F" createVehicle _pos;
 			[_obj] remoteExecCall ["life_fnc_simDisable",RANY];
@@ -69,7 +69,7 @@ switch(_item) do {
 
 	case "coffee": {
 		if (_value > 0) then {
-			_pos = _unit modelToWorld[0,3,0];
+			_pos = _unit modelToWorld[0,1,0];
 			_pos = [SEL(_pos,0), SEL(_pos,1), 0];
 			_obj = "Land_Can_V3_F" createVehicle _pos;
 			[_obj] remoteExecCall ["life_fnc_simDisable",RANY];
@@ -81,7 +81,7 @@ switch(_item) do {
 
 	case "TTP_cash": {
 		if(CASH > 0) then {
-			_pos = _unit modelToWorld[0,3,0];
+			_pos = _unit modelToWorld[0,1,0];
 			_pos = [SEL(_pos,0), SEL(_pos,1), 0];
 			_obj = "Land_Money_F" createVehicle _pos;
 			_obj SVAR ["item",["money",GVAR_MNS [_item,0]],true];
@@ -93,7 +93,7 @@ switch(_item) do {
 
 	default {
 		if(_value > 0) then {
-			_pos = _unit modelToWorld[0,3,0];
+			_pos = _unit modelToWorld[0,1,0];
 			_pos = [SEL(_pos,0), SEL(_pos,1), 0];
 			_obj = "Land_Suitcase_F" createVehicle _pos;
 			[_obj] remoteExecCall ["life_fnc_simDisable",RANY];
