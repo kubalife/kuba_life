@@ -104,7 +104,7 @@ disableSerialization;
 			<t color='%10'><img size='1.0' image='icons\civspawn.paa' color='%19'/> %2</t>
 			<t color='%10'><img size='1.0' image='icons\policespawn.paa' color='%19'/> %11</t>
 			<t color='%10'><img size='1.0' image='icons\medspawn.paa' color='%19'/> %12</t>
-			<t color='%10'><img size='1.0' image='icons\seatoff.paa' color='%19'/> %15</t>
+			<t color='%10'><img size='1.0' image='icons\adc.paa' color='%19'/> %15</t>
 			<t color='%10'><img size='1.0' image='icons\desempenho.paa' color='%19'/> %4</t>
 			<t color='%10'><img size='1.0' image='icons\ico_map.paa' color='%19'/> %7</t>
 			<t color='%10'><img size='1.0' image='icons\bank.paa' color='%19'/> %8</t>

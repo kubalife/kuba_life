@@ -368,7 +368,7 @@ class CarShops {
             { "uns_skymaster_civ_gold", { "", "", -1 } },
             { "uns_skymaster_civ", { "", "", -1 } },
             { "uns_skymaster_civ_blue", { "", "", -1 } },
-            { "IVORY_T6A_1", { "", "", -1 } },
+            //{ "IVORY_T6A_1", { "", "", -1 } },
             { "GNT_C185", { "", "", -1 } },
             { "GNT_C185F", { "", "", -1 } },
             { "sab_curtissjn4_9", { "", "", -1 } },
@@ -532,7 +532,7 @@ class CarShops {
         side = "adac";
         vehicles[] = {
 			{ "A3L_Towtruck", { "", "", -1 } },
-			{ "Jonzie_Tow_Truck", { "", "", -1 } },
+			//{ "Jonzie_Tow_Truck", { "", "", -1 } },
 			{ "shouka_a3_spr_civ_orange", { "", "", -1 } },
 			{ "B_Truck_01_mover_F", { "", "", -1 } },
 			{ "B_Truck_01_ammo_F", { "", "", -1 } },
@@ -4729,72 +4729,72 @@ class LifeCfgVehicles {
 	class A3L_Towtruck {
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {"adac"}, {""} };
-        price = 5000;
+        price = 0;
         textures[] = { };
     };
 
 	class max_towtruck {
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {"adac"}, {""} };
-        price = 5000;
+        price = 0;
         textures[] = { };
     };
 
 	class Jonzie_Tow_Truck {
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {"adac"}, {""} };
-        price = 5000;
+        price = 0;
         textures[] = { };
     };
 
 	class shouka_a3_spr_civ_orange {
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {"adac"}, {""} };
-        price = 5000;
+        price = 0;
         textures[] = { };
     };
 
 	class GeK_TLC100 {
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {"adac"}, {""} };
-        price = 5000;
+        price = 0;
         textures[] = { };
     };
 
 	class B_Truck_01_mover_F {
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {"adac"}, {""} };
-        price = 5000;
+        price = 0;
         textures[] = { };
     };
 	class B_Truck_01_ammo_F {
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {"adac"}, {""} };
-        price = 5000;
+        price = 0;
         textures[] = { };
     };
 	class O_Truck_03_repair_F {
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {"adac"}, {""} };
-        price = 5000;
+        price = 0;
         textures[] = { };
     };
 	class O_Truck_03_fuel_F {
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {"adac"}, {""} };
-        price = 5000;
+        price = 0;
         textures[] = { };
     };
 	class A3L_GMC_Van_Yellow {
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {"adac"}, {""} };
-        price = 5000;
+        price = 0;
         textures[] = { };
     };
 	class A3L_EvoX {
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {"adac"}, {""} };
-        price = 5000;
+        price = 0;
         textures[] = { };
     };
 

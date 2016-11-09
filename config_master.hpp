@@ -644,7 +644,9 @@ class Life_Settings {
         "RR_Firetruck",
         "cg_merc_atego_firetruck_reg",
         "daf_firetruck",
-		"ffaa_ar_lcm"
+		"ffaa_ar_lcm",
+		"A3L_Towtruck",
+		"shouka_a3_spr_civ_orange"
     }; //Vehicles that can only be rented and not purchased. (Last only for the session)
 
 
@@ -652,19 +654,19 @@ class Life_Settings {
     vehicle_purchase_multiplier_CIVILIAN = 1; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
     vehicle_purchase_multiplier_COP = 0; //Cop Vehicle Buy Price = Config_Vehicle price * multiplier
     vehicle_purchase_multiplier_MEDIC = 0; //Medic Vehicle Buy Price = Config_Vehicle price * multiplier
-    vehicle_purchase_multiplier_OPFOR = .35; // -- NOT IN USE -- Simply left in for east support.
+    vehicle_purchase_multiplier_OPFOR = 0; // -- NOT IN USE -- Simply left in for east support.
 
     /* Vehicle Rental Prices */
     vehicle_rental_multiplier_CIVILIAN = .50; //Civilian Vehicle Rental Price = Config_Vehicle price * multiplier
     vehicle_rental_multiplier_COP = 0; //Cop Vehicle Rental Price = Config_Vehicle price * multiplier
     vehicle_rental_multiplier_MEDIC = 0; //Medic Vehicle Rental Price = Config_Vehicle price * multiplier
-    vehicle_rental_multiplier_OPFOR = .25; // -- NOT IN USE -- Simply left in for east support.
+    vehicle_rental_multiplier_OPFOR = 0; // -- NOT IN USE -- Simply left in for east support.
 
     /* Vehicle Sell Prices */
     vehicle_sell_multiplier_CIVILIAN = .5; //Civilian Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
     vehicle_sell_multiplier_COP = 0; //Cop Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
     vehicle_sell_multiplier_MEDIC = 0; //Medic Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
-    vehicle_sell_multiplier_OPFOR = .5; // -- NOT IN USE -- Simply left in for east support.
+    vehicle_sell_multiplier_OPFOR = 0; // -- NOT IN USE -- Simply left in for east support.
 
     /* "Other" Vehicle Prices */
     vehicle_chopShop_multiplier = .20; //Chop Shop price for vehicles. TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
