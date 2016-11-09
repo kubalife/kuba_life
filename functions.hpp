@@ -336,6 +336,7 @@ class Ausweis
 		class calWeightDiff {};
 		class clearVehicleAmmo {};
 		class dropItems {};
+		class dropItem {};
 		class escInterupt {};
 		class fetchCfgDetails {};
 		class fetchDeadGear {};
